@@ -1,0 +1,51 @@
+{
+  "name": "covalent-storybook",
+  "version": "1.0.0",
+  "description": "a catalog of material components for covalent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "storybook": "start-storybook -p 6006 -s stories/assets,dist",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/html": "^6.3.6",
+    "@webpack-cli/serve": "^1.5.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "storybook-addon-designs": "^6.0.1",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.11"
+  },
+  "dependencies": {
+    "@material/mwc-button": "^0.22.1",
+    "@material/mwc-checkbox": "^0.22.1",
+    "@material/mwc-circular-progress": "^0.22.1",
+    "@material/mwc-formfield": "^0.22.1",
+    "@material/mwc-linear-progress": "^0.22.1",
+    "@material/mwc-list": "^0.22.1",
+    "@material/mwc-select": "^0.22.1",
+    "@material/mwc-switch": "^0.22.1",
+    "@material/mwc-tab": "^0.22.1",
+    "@material/mwc-tab-bar": "^0.22.1",
+    "@material/mwc-textarea": "^0.22.1",
+    "@material/mwc-textfield": "^0.22.1",
+    "@storybook/addons": "^6.3.6",
+    "@storybook/theming": "^6.3.6",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "material-components-web": "^12.0.0",
+    "sass": "^1.37.5",
+    "storybook-dark-mode": "^1.0.8"
+  }
+}

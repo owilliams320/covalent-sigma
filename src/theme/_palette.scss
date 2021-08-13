@@ -1,0 +1,352 @@
+
+@use 'material-palette';
+
+/**
+* Teradata Colors
+*/
+
+// Custom orange contrast
+$td-orange: (
+  100: #facdbc,
+  200: #f8b79d,
+  300: #f7a17d,
+  400: #f58b5e,
+  500: #f3753f,
+  600: #e46732,
+  700: #d45925,
+  800: #c54b17,
+  900: #b53d0a,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: rgba(0, 0, 0, 0.87),
+    600: rgba(0, 0, 0, 0.87),
+    700: rgba(0, 0, 0, 0.87),
+    800: rgba(0, 0, 0, 0.87),
+    900: rgba(255, 255, 255, 0.87),
+  ),
+);
+$td-slate: (
+  50: #e3e7e8,
+  100: #c9cfd1,
+  200: #afb6b9,
+  300: #959ea2,
+  400: #7b858a,
+  500: #616d73,
+  600: #57646b,
+  700: #4d5b62,
+  800: #43515a,
+  900: #394851,
+  1000: #2e3d42,
+  1100: #28353b,
+  1200: #222e33,
+  1300: #1f282e,
+  1400: #1a2126,
+  1500: #161c1f,
+  1600: #14171a,
+  1700: #101314,
+  1800: #0c0e0f,
+  1900: #060708,
+  2000: #020203,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: rgba(255, 255, 255, 0.87),
+    600: rgba(255, 255, 255, 0.87),
+    700: rgba(255, 255, 255, 0.87),
+    800: rgba(255, 255, 255, 0.87),
+    900: rgba(255, 255, 255, 0.87),
+    1000: rgba(255, 255, 255, 0.87),
+    1100: rgba(255, 255, 255, 0.87),
+    1200: rgba(255, 255, 255, 0.87),
+    1300: rgba(255, 255, 255, 0.87),
+    1400: rgba(255, 255, 255, 0.87),
+    1500: rgba(255, 255, 255, 0.87),
+    1600: rgba(255, 255, 255, 0.87),
+    1700: rgba(255, 255, 255, 0.87),
+    1800: rgba(255, 255, 255, 0.87),
+    1900: rgba(255, 255, 255, 0.87),
+    2000: rgba(255, 255, 255, 0.87),
+  ),
+);
+$td-slate-dark: $td-slate;
+$td-yellow: (
+  50: #fff4df,
+  100: #ffebc2,
+  200: #ffe2a5,
+  300: #fed887,
+  400: #fecf6a,
+  500: #fec64d,
+  600: #f5bb3c,
+  700: #ecaf2b,
+  800: #e3a419,
+  900: #da9808,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: rgba(0, 0, 0, 0.87),
+    600: rgba(0, 0, 0, 0.87),
+    700: rgba(0, 0, 0, 0.87),
+    800: rgba(0, 0, 0, 0.87),
+    900: rgba(0, 0, 0, 0.87),
+  ),
+);
+$td-teal: (
+  50: #def9f8,
+  100: #b2ebea,
+  200: #85dddc,
+  300: #59cecd,
+  400: #2cc0bf,
+  500: #00b2b1,
+  600: #00a2a2,
+  700: #009392,
+  800: #008383,
+  900: #007373,
+  1000: #016b6b,
+  1100: #036464,
+  1200: #045c5c,
+  1300: #055454,
+  1400: #074d4d,
+  1500: #084545,
+  1600: #0a3e3e,
+  1700: #0b3636,
+  1800: #0c2e2e,
+  1900: #0e2727,
+  2000: #0f1f1f,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: rgba(0, 0, 0, 0.87),
+    600: rgba(0, 0, 0, 0.87),
+    700: rgba(0, 0, 0, 0.87),
+    800: rgba(0, 0, 0, 0.87),
+    900: rgba(255, 255, 255, 0.87),
+    1000: rgba(255, 255, 255, 0.87),
+    1100: rgba(255, 255, 255, 0.87),
+    1200: rgba(255, 255, 255, 0.87),
+    1300: rgba(255, 255, 255, 0.87),
+    1400: rgba(255, 255, 255, 0.87),
+    1500: rgba(255, 255, 255, 0.87),
+    1600: rgba(255, 255, 255, 0.87),
+    1700: rgba(255, 255, 255, 0.87),
+    1800: rgba(255, 255, 255, 0.87),
+    1900: rgba(255, 255, 255, 0.87),
+    2000: rgba(255, 255, 255, 0.87),
+  ),
+);
+$td-blue: (
+  50: #dceef5,
+  100: #b0ddec,
+  200: #84cce3,
+  300: #58badb,
+  400: #2ca9d2,
+  500: #0098c9,
+  600: #008ab6,
+  700: #007ba3,
+  800: #006d90,
+  900: #005e7d,
+  contrast: (
+    50: rgba(0, 0, 0, 0.87),
+    100: rgba(0, 0, 0, 0.87),
+    200: rgba(0, 0, 0, 0.87),
+    300: rgba(0, 0, 0, 0.87),
+    400: rgba(0, 0, 0, 0.87),
+    500: rgba(0, 0, 0, 0.87),
+    600: rgba(0, 0, 0, 0.87),
+    700: rgba(0, 0, 0, 0.87),
+    800: rgba(255, 255, 255, 0.87),
+    900: rgba(255, 255, 255, 0.87),
+  ),
+);
+
+/**
+* DEFAULT VARIABLES FOR VANTAGE UIs
+*/
+
+// Light theme
+$td-accent: map-get($td-teal, 900);
+$td-primary: map-get($td-slate, 500);
+$td-warn: material-palette.$red-900;
+
+// Dark theme
+$td-dark-accent: map-get($td-teal, 300);
+$td-dark-primary: map-get($td-slate, 300);
+$td-dark-warn: material-palette.$red-900;
+
+/**
+* FONTS
+*/
+
+// Teradata Font
+$td-font-default: 'Arial, Helvetica, sans-serif';
+$td-font-display-regular: '"RidleyGrotesk", "RidleyGrotesk-Regular", Arial, Helvetica, sans-serif';
+$td-font-display-medium: '"RidleyGrotesk", "RidleyGrotesk-Medium", Arial, Helvetica, sans-serif';
+$td-font-display-semibold: '"RidleyGrotesk","RidleyGrotesk-Semibold", Arial, Helvetica, sans-serif';
+$td-font-display-bold: '"RidleyGrotesk","RidleyGrotesk-Bold", Arial, Helvetica, sans-serif';
+
+// $fontConfig: (
+//   font-family: $td-font-default,
+//   display-4: mat-typography-level(96px, 120px, 500, $td-font-display-medium, -1.5px),
+//   display-3: mat-typography-level(60px, 84px, 600, $td-font-display-semibold, -0.5px),
+//   display-2: mat-typography-level(48px, 64px, 600, $td-font-display-semibold, 0),
+//   display-1: mat-typography-level(34px, 48px, 700, $td-font-display-bold, 0.25px),
+//   headline: mat-typography-level(24px, 36px, 700, $td-font-display-bold, 0),
+//   title: mat-typography-level(20px, 28px, 600, $td-font-display-semibold, 0.15px),
+//   subheading-2: mat-typography-level(16px, 24px, 600, $td-font-display-semibold, 0.15px),
+//   subheading-1: mat-typography-level(14px, 20px, 600, $td-font-display-semibold, 0.1px),
+//   body-1: mat-typography-level(14px, 20px, 400, $td-font-default, 0.25px),
+//   body-2: mat-typography-level(14px, 20px, 700, $td-font-default, 0.25px),
+//   button: mat-typography-level(14px, 16px, 600, $td-font-display-semibold, 0.5px),
+//   caption: mat-typography-level(12px, 16px, 400, $td-font-default, 0.4px),
+//   input: mat-typography-level(inherit, 1.125, 400, $td-font-default, 0.4px),
+//   overline: mat-typography-level(10px, 12px, 400, $td-font-default, 1.5px),
+// );
+
+
+// Background palette for light themes.
+$td-light-theme-background: (
+  status-bar: material-palette.$grey-300,
+  app-bar: material-palette.$grey-50,
+  background: material-palette.$grey-100,
+  canvas: material-palette.$grey-200,
+  card: white /*** card color = surface color ***/,
+  dialog: white,
+  hover: rgba(0, 0, 0, 0.04),
+  disabled-button: rgba(material-palette.$grey-400, 0.1),
+  raised-button: white,
+  focused-button: rgba(0, 0, 0, 0.12),
+  selected-button: #e0e0e0,
+  selected-disabled-button: #bdbdbd,
+  disabled-button-toggle: #eeeeee,
+  unselected-chip: material-palette.$grey-400,
+  disabled-list-option: #eeeeee,
+  tooltip: #616161,
+  overlay: rgba(#000000, 0.4),
+  accent: map-get($td-teal, 200),
+  accent-highlight: rgba(map-get($td-teal, 200), 0.1),
+  accent-highlight-hover: rgba(map-get($td-teal, 200), 0.2),
+  emphasis: material-palette.$blue-grey-200,
+  emphasis-highlight: rgba(material-palette.$blue-grey-200, 0.1),
+  emphasis-highlight-hover: rgba(material-palette.$blue-grey-200, 0.2),
+  caution: material-palette.$orange-300,
+  caution-highlight: rgba(material-palette.$orange-300, 0.1),
+  caution-highlight-hover: rgba(material-palette.$orange-300, 0.2),
+  negative: material-palette.$red-300,
+  negative-highlight: rgba(material-palette.$red-300, 0.1),
+  negative-highlight-hover: rgba(material-palette.$red-300, 0.2),
+  neutral: material-palette.$grey-400,
+  neutral-highlight: rgba(material-palette.$grey-400, 0.04),
+  neutral-highlight-hover: rgba(material-palette.$grey-400, 0.08),
+  positive: material-palette.$green-200,
+  positive-highlight: rgba(material-palette.$green-200, 0.1),
+  positive-highlight-hover: rgba(material-palette.$green-200, 0.2),
+  primary: map-get($td-slate, 200),
+  primary-highlight: rgba(map-get($td-slate, 500), 0.04),
+  primary-highlight-hover: rgba(map-get($td-slate, 500), 0.08),
+);
+
+// Foreground palette for light themes.
+$td-light-theme-foreground: (
+  base: black,
+  divider: rgba(black, 0.12),
+  dividers: rgba(black, 0.12),
+  disabled: rgba(black, 0.38),
+  disabled-button: rgba(black, 0.26),
+  disabled-text: rgba(black, 0.38),
+  elevation: black,
+  hint-text: rgba(black, 0.38),
+  secondary-text: rgba(black, 0.54),
+  icon: rgba(black, 0.54),
+  icons: rgba(black, 0.54),
+  text: rgba(black, 0.87),
+  slider-min: rgba(black, 0.87),
+  slider-off: rgba(black, 0.26),
+  slider-off-active: rgba(black, 0.38),
+  accent: map-get($td-teal, 900),
+  emphasis: material-palette.$blue-grey-600,
+  caution: material-palette.$amber-800,
+  negative: material-palette.$red-900,
+  neutral: material-palette.$grey-400,
+  positive: material-palette.$green-700,
+  primary: map-get($td-slate, 800),
+);
+
+// Background palette for dark themes.
+$td-dark-theme-background: (
+  status-bar: black,
+  app-bar: map-get($td-slate, 1300),
+  background: map-get($td-slate, 1500),
+  canvas: map-get($td-slate, 1700),
+  card: map-get($td-slate, 1100) /*** card color = surface color ***/,
+  dialog: map-get($td-slate, 1100),
+  hover: rgba(255, 255, 255, 0.04),
+  disabled-button: rgba(map-get($td-slate, 800), 0.4),
+  raised-button: map-get($td-slate, 800),
+  focused-button: rgba(255, 255, 255, 0.12),
+  selected-button: #212121,
+  selected-disabled-button: map-get($td-slate, 800),
+  disabled-button-toggle: black,
+  unselected-chip: map-get($td-slate, 800),
+  disabled-list-option: black,
+  tooltip: #616161,
+  overlay: rgba(0, 0, 0, 0.4),
+  accent: map-get($td-teal, 1200),
+  accent-highlight: rgba(map-get($td-teal, 1200), 0.4),
+  accent-highlight-hover: rgba(map-get($td-teal, 1200), 0.6),
+  emphasis: #4f5558,
+  emphasis-highlight: rgba(map-get($td-slate, 200), 0.4),
+  emphasis-highlight-hover: rgba(map-get($td-slate, 200), 0.6),
+  caution: #704c16,
+  caution-highlight: rgba(#704c16, 0.4),
+  caution-highlight-hover: rgba(#704c16, 0.6),
+  negative: #883e32,
+  negative-highlight: rgba(#883e32, 0.4),
+  negative-highlight-hover: rgba(#883e32, 0.6),
+  neutral: map-get($td-slate, 800),
+  neutral-highlight: rgba(map-get($td-slate, 800), 0.4),
+  neutral-highlight-hover: rgba(map-get($td-slate, 800), 0.6),
+  positive: #336033,
+  positive-highlight: rgba(#336033, 0.4),
+  positive-highlight-hover: rgba(#336033, 0.6),
+  primary: map-get($td-slate, 900),
+  primary-highlight: rgba(map-get($td-slate, 900), 0.4),
+  primary-highlight-hover: rgba(map-get($td-slate, 900), 0.6),
+);
+
+// Foreground palette for dark themes.
+$td-dark-theme-foreground: (
+  base: white,
+  divider: rgba(white, 0.12),
+  dividers: rgba(white, 0.12),
+  disabled: rgba(white, 0.5),
+  disabled-button: rgba(white, 0.3),
+  disabled-text: rgba(white, 0.5),
+  elevation: black,
+  hint-text: rgba(white, 0.5),
+  secondary-text: rgba(white, 0.7),
+  icon: white,
+  icons: white,
+  text: white,
+  slider-min: white,
+  slider-off: rgba(white, 0.3),
+  slider-off-active: rgba(white, 0.3),
+  accent: map-get($td-teal, 300),
+  emphasis: material-palette.$blue-grey-200,
+  caution: material-palette.$orange-300,
+  negative: material-palette.$red-900,
+  neutral: rgba(white, 0.87),
+  positive: material-palette.$green-300,
+  primary: map-get($td-slate, 200),
+);

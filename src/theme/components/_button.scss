@@ -1,0 +1,10 @@
+@use "@material/button";
+
+
+@mixin button-theme($theme) {
+  // support for web component and 
+  --mdc-button-outline-color: map-get($theme,accent)
+  .mdc-button {
+    @include button.outline-color(map-get($theme,accent));
+  }
+}

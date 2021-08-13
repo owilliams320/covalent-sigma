@@ -1,0 +1,28 @@
+// Covalent themed components
+@use "./components/button" as button;
+
+@mixin covalent-theme($theme) {
+  $foreground: map-get($theme, foreground);
+  $background: map-get($theme, background);
+
+  --mdc-theme-primary: #{map-get($theme, primary)};
+  --mdc-theme-secondary: #{map-get($theme, accent)};
+  --mdc-theme-error: #{map-get($theme, error)};
+
+  --mdc-theme-background: #{map-get($background, background)};
+  --mdc-theme-surface: #{map-get($background, surface)};
+  --mdc-theme-on-primary: #{map-get($foreground, text)};
+  --mdc-theme-on-secondary: #{map-get($foreground, secondary-text)};
+  --mdc-theme-on-surface: #{map-get($foreground, text)};
+
+  // Shape
+  --mdc-shape-small: 8px;
+  
+  // text 
+  --mdc-theme-text-primary-on-background: #{map-get($foreground, text)};
+  --mdc-theme-text-secondary-on-background: #{map-get($foreground, secondary-text)};
+
+
+  @include button.button-theme($theme)
+}
+

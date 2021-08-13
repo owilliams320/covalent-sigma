@@ -1,0 +1,28 @@
+@use "palette";
+@use "material-components-web";
+
+@use "./covalent.theme.scss" as theme;
+
+$light-theme: (
+  primary: palette.$td-accent,
+  accent: palette.$td-primary,
+  error: palette.$td-warn,
+  foreground: palette.$td-light-theme-foreground,
+  background: palette.$td-light-theme-background,
+);
+
+$dark-theme: (
+  primary: palette.$td-dark-accent,
+  accent: palette.$td-dark-primary,
+  error: palette.$td-dark-warn,
+  foreground: palette.$td-dark-theme-foreground,
+  background: palette.$td-dark-theme-background,
+);
+
+.light {
+    @include theme.covalent-theme($light-theme);
+}
+  
+.dark {
+    @include theme.covalent-theme($dark-theme);
+}
