@@ -1,10 +1,10 @@
 module.exports = {
-  "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+  'stories': [
+    '../src/stories/**/*.stories.mdx',
+    '../src/stories/**/*.stories.@(js|jsx|ts|tsx)'
   ],
-  "addons": [
-    "@storybook/addon-links",
+  'addons': [
+    '@storybook/addon-links',
     {
       name: '@storybook/addon-essentials',
       options: {
@@ -13,7 +13,7 @@ module.exports = {
         outline: false,
       }
     },
-    "storybook-dark-mode",
-    "storybook-addon-designs",
+    'storybook-dark-mode',
+    'storybook-addon-designs',
   ]
 }

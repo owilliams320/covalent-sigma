@@ -1,6 +1,6 @@
 import { create } from '@storybook/theming';
 
-import brandImage from '../stories/assets/teradata.svg';
+import brandImage from '../src/assets/teradata.svg';
 import { themes } from '@storybook/theming';
 
 export default create({

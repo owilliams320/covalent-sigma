@@ -2,7 +2,6 @@ import '@material/mwc-list/mwc-list';
 import '@material/mwc-list/mwc-list-item';
 import '@material/mwc-list/mwc-check-list-item.js';
 import '@material/mwc-list/mwc-radio-list-item.js';
-
 import '@material/mwc-icon';
 
 export default {
