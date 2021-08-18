@@ -17,8 +17,9 @@ export default {
       defaultValue: false,
     },
     showContent: {
-      control: "boolean",
-      defaultValue: false,
+        options: ['table', 'tableWithSelection', 'loremIpsum'],
+        control: { type: 'radio' },
+        defaultValue: 'table',
     },
     showActionItems: {
         options: ['buttons', 'icons'],

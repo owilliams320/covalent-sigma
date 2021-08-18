@@ -21,8 +21,18 @@ $dark-theme: (
 
 .light {
     @include theme.covalent-theme($light-theme);
+
+    :root {
+      color-scheme: light;
+    }
 }
-  
+:root {
+  color-scheme: light;
+}
+
 .dark {
     @include theme.covalent-theme($dark-theme);
+    :root {
+      color-scheme: dark;
+    }
 }

@@ -36,6 +36,7 @@ const Template = ({ label, leading, stacked, }) => {
     return `
     <mwc-button class="show-snackbar-button">Toggle Snackbar</mwc-button>
     <mwc-snackbar
+       class="my-snackbar"
        labelText="${label}"
        ${leading ? 'leading' : null }
        ${stacked ? 'stacked' : null }>
