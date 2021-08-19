@@ -42,6 +42,7 @@ export default ({ title = "App Bar Title", centerTitle, dense, prominent, showCo
         <mwc-icon-button slot="navigationIcon" icon="menu_open"></mwc-icon-button>
         <div slot="title">${title}</div>
         ${actionItems}
-        ${content}
-       </${AppBarComponentElem}>`;
+       </${AppBarComponentElem}>
+       ${content}
+       `;
 };
