@@ -47,12 +47,27 @@
   --mdc-tab-text-label-color-default: #{map-get($foreground, text)};
   --mdc-tab-color-default: #{map-get($foreground, icon)};
 
+  // Skeleton
+  .skeleton-text * {
+    font-family: "skeleton" !important;
+  }
+  .skeleton-text {
+    --mdc-typography-body2-font-family: "skeleton";
+    --mdc-typography-body2-letter-spacing: -0.03em;
+    --mdc-theme-text-primary-on-background: #ccc;
+    --skeleton-color: #ccc;
+  }
+  
   @include button.button-theme($theme);
   @include data-table.data-table-theme($theme);
   @include modal.modal-theme($theme);
   @include text-field.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
   @include snack-bar.snack-bar-theme($theme);
+
+  mdc-drawer {
+    border-color: map-get($foreground, divider);
+  }
 
   color: map-get($foreground, text);
 }
