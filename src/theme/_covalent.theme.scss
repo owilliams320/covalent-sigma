@@ -2,25 +2,40 @@
 @use "./components/button" as button;
 
 @mixin covalent-theme($theme) {
-  $foreground: map-get($theme, foreground);
-  $background: map-get($theme, background);
+  // $foreground: map-get($theme, foreground);
+  // $background: map-get($theme, background);
 
   --mdc-theme-primary: #{map-get($theme, primary)};
-  --mdc-theme-secondary: #{map-get($theme, accent)};
+  --mdc-theme-secondary: #{map-get($theme, secondary)};
   --mdc-theme-error: #{map-get($theme, error)};
 
-  --mdc-theme-background: #{map-get($background, background)};
-  --mdc-theme-surface: #{map-get($background, surface)};
-  --mdc-theme-on-primary: #{map-get($foreground, text)};
-  --mdc-theme-on-secondary: #{map-get($foreground, secondary-text)};
-  --mdc-theme-on-surface: #{map-get($foreground, text)};
+  --mdc-theme-background: #{map-get($theme, background)};
+  --mdc-theme-surface: #{map-get($theme, surface)};
+  --mdc-theme-on-primary: #{map-get($theme, on-primary)};
+  --mdc-theme-on-secondary: #{map-get($theme, on-secondary)};
+  --mdc-theme-on-surface: #{map-get($theme, on-surface)};
 
   // Shape
   --mdc-shape-small: 8px;
   
   // text 
-  --mdc-theme-text-primary-on-background: #{map-get($foreground, text)};
-  --mdc-theme-text-secondary-on-background: #{map-get($foreground, secondary-text)};
+  --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
+  --mdc-theme-text-secondary-on-background: #{map-get($theme, text-secondary-on-background)};
+  --mdc-theme-text-hint-on-background: #{map-get($theme, text-hint-on-background)};
+  --mdc-theme-text-disabled-background-light: #{map-get($theme, text-disabled-on-background)};
+  --mdc-theme-text-icon-on-background: #{map-get($theme, text-icon-on-background)};
+  
+  --mdc-theme-text-primary-on-light: #{map-get($theme, text-primary-on-light)};
+  --mdc-theme-text-secondary-on-light: #{map-get($theme, text-secondary-on-light)};
+  --mdc-theme-text-hint-on-light: #{map-get($theme, text-hint-on-light)};
+  --mdc-theme-text-disabled-on-light: #{map-get($theme, text-disabled-on-light)};
+  --mdc-theme-text-icon-on-light: #{map-get($theme, text-icon-on-light)};
+  
+  --mdc-theme-text-primary-on-dark: #{map-get($theme, text-primary-on-dark)};
+  --mdc-theme-text-secondary-on-dark: #{map-get($theme, text-secondary-on-dark)};
+  --mdc-theme-text-hint-on-dark: #{map-get($theme, text-hint-on-dark)};
+  --mdc-theme-text-disabled-on-dark: #{map-get($theme, text-disabled-on-dark)};
+  --mdc-theme-text-icon-on-dark: #{map-get($theme, text-icon-on-dark)};
 
 
   @include button.button-theme($theme)
