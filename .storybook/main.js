@@ -1,3 +1,5 @@
+const covalentWebpack = require('../webpack.config.js');
+
 module.exports = {
   'stories': [
     '../src/stories/**/*.stories.mdx',
@@ -5,6 +7,7 @@ module.exports = {
   ],
   'addons': [
     '@storybook/addon-links',
+    '@storybook/addon-a11y',
     {
       name: '@storybook/addon-essentials',
       options: {
@@ -15,5 +18,8 @@ module.exports = {
     },
     'storybook-dark-mode',
     'storybook-addon-designs',
-  ]
+  ],
+  // webpackFinal: (config) => {
+  //   return { ...config, module: { ...config.module,} };
+  // },
 }

@@ -1,0 +1,9 @@
+@use "@material/snackbar" as snackbar;
+
+
+@mixin snack-bar-theme($theme) {
+  $foreground: map-get($theme, foreground);
+  $accent: map-get($foreground, accent);
+
+  --mdc-snackbar-action-color: #{$accent};
+}

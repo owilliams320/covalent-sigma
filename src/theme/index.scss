@@ -1,7 +1,7 @@
 @use 'material-palette';
 @use "covalent-palette";
 @use "material-components-web";
-
+@use "skeleton-elements/skeleton-elements";
 @use "./covalent.theme.scss" as theme;
 
 $light-theme: (
@@ -71,7 +71,10 @@ $dark-theme: (
 .light {
     @include theme.covalent-theme($light-theme);
 }
-  
+
 .dark {
     @include theme.covalent-theme($dark-theme);
+    :root {
+      color-scheme: dark;
+    }
 }

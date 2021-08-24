@@ -1,0 +1,13 @@
+
+
+@mixin text-field-theme($theme) {
+    $foreground: map-get($theme, foreground);
+    $background: map-get($theme, background);
+    $secondary-text: map-get($foreground, secondary-text);
+    $divider: map-get($foreground, divider);
+    $emphasis-highlight-hover: map-get($background, emphasis-highlight-hover);
+    
+    --mdc-text-field-label-ink-color: #{$secondary-text};
+    --mdc-text-field-outlined-idle-border-color: #{$divider};
+    --mdc-text-field-outlined-hover-border-color: #{$emphasis-highlight-hover};
+}
