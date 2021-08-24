@@ -1,11 +1,6 @@
-
-
 @mixin modal-theme($theme) {
-  $foreground: map-get($theme, foreground);
-  $text: map-get($foreground, text);
-
+  $text: map-get($theme, text-primary-on-background);
 
   --mdc-dialog-heading-ink-color: #{$text};
   --mdc-dialog-content-ink-color: #{$text};
-
 }

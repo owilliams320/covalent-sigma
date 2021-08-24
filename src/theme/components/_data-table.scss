@@ -2,17 +2,15 @@
 @use "@material/data-table" as data-table;
 
 @mixin data-table-theme($theme) {
-    $foreground: map-get($theme, foreground);
-    $background: map-get($theme, background);
-    $surface: map-get($background, card);
-    $primary-highlight: map-get($background, primary-highlight);
-    $primary-highlight-hover: map-get($background, primary-highlight-hover);
-    $accent-highlight: map-get($background, accent-highlight);
-    $accent-highlight-hover: map-get($background, accent-highlight-hover);
-    $text: map-get($foreground, text);
-    $hint-text: map-get($foreground, divider);
-    $icon: map-get($foreground, icon);
-    $divider: map-get($foreground, divider);
+    $surface: map-get($theme, surface);
+    $primary-highlight: map-get($theme, primary);
+    $primary-highlight-hover: map-get($theme, primary-hover);
+    $accent-highlight: map-get($theme, accent);
+    $accent-highlight-hover: map-get($theme, accent-hover);
+    $text: map-get($theme, text-primary-on-background);
+    $hint-text: map-get($theme, text-hint-on-background);
+    $icon: map-get($theme, text-icon-on-background);
+    $divider: map-get($theme, divider);
 
     @include data-table.sort-icon-color($hint-text);
     @include data-table.sort-icon-active-color($icon);

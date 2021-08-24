@@ -1,9 +1,7 @@
 @use "@material/top-app-bar";
 
-
 @mixin top-app-bar-theme($theme) {
-  $background: map-get($theme, background);
-  $surface: map-get($background, card);
+  $surface: map-get($theme, surface);
 
   mwc-top-app-bar, mwc-top-app-bar-fixed {
     --mdc-theme-primary: #{$surface};
