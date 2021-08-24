@@ -41,7 +41,7 @@
   --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
   --mdc-theme-text-secondary-on-background: #{map-get($theme, text-secondary-on-background)};
   --mdc-theme-text-hint-on-background: #{map-get($theme, text-hint-on-background)};
-  --mdc-theme-text-disabled-background-light: #{map-get($theme, text-disabled-on-background)};
+  --mdc-theme-text-disabled-background: #{map-get($theme, text-disabled-on-background)};
   --mdc-theme-text-icon-on-background: #{map-get($theme, text-icon-on-background)};
   
   --mdc-theme-text-primary-on-light: #{map-get($theme, text-primary-on-light)};
@@ -55,6 +55,12 @@
   --mdc-theme-text-hint-on-dark: #{map-get($theme, text-hint-on-dark)};
   --mdc-theme-text-disabled-on-dark: #{map-get($theme, text-disabled-on-dark)};
   --mdc-theme-text-icon-on-dark: #{map-get($theme, text-icon-on-dark)};
+
+  // Checkboxes
+  --mdc-checkbox-checked-color: #{map-get($theme, primary)};
+  --mdc-checkbox-disabled-color: #{map-get($theme, text-disabled-on-background)};
+  --mdc-checkbox-ink-color: #{map-get($theme, on-primary)};
+  --mdc-checkbox-unchecked-color: #{map-get($theme, primary)};
 
   // Tabs
   --mdc-tab-text-label-color-default: --mdc-theme-text-primary-on-background;
@@ -82,5 +88,5 @@
     border-color: map-get($theme, divider);
   }
 
-  color: --mdc-theme-text-primary-on-dark;
+  color: --mdc-theme-text-primary-on-background;
 }

@@ -3,8 +3,9 @@
 
 @mixin button-theme($theme) {
   // support for web component and 
-  --mdc-button-outline-color: map-get($theme,accent)
+  --mdc-button-outline-color: map-get($theme,primary)
+  
   .mdc-button {
-    @include button.outline-color(map-get($theme,accent));
+    @include button.outline-color(map-get($theme,primary));
   }
 }

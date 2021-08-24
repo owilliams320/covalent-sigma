@@ -3,10 +3,8 @@
 
 @mixin data-table-theme($theme) {
     $surface: map-get($theme, surface);
-    $primary-highlight: map-get($theme, primary);
-    $primary-highlight-hover: map-get($theme, primary-hover);
-    $accent-highlight: map-get($theme, accent);
-    $accent-highlight-hover: map-get($theme, accent-hover);
+    $primary-highlight: map-get($theme, surface-primary-highlight);
+    $primary-highlight-hover: map-get($theme, surface-primary-highlight-hover);
     $text: map-get($theme, text-primary-on-background);
     $hint-text: map-get($theme, text-hint-on-background);
     $icon: map-get($theme, text-icon-on-background);
@@ -16,11 +14,10 @@
     @include data-table.sort-icon-active-color($icon);
     // @include data-table.header-row-fill-color,
     //@include data-table.row-fill-color();
-    @include data-table.selected-row-fill-color($accent-highlight);
-    @include data-table.row-hover-fill-color($accent-highlight-hover);
+    @include data-table.selected-row-fill-color($primary-highlight);
+    @include data-table.row-hover-fill-color($primary-highlight-hover);
     @include data-table.header-row-text-color($text);
     @include data-table.row-text-color($text);
     @include data-table.divider-color($divider);
     //checked-icon-color, , divider-size, 
-  
   }

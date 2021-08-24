@@ -5,17 +5,19 @@
 @use "./covalent.theme.scss" as theme;
 
 $light-theme: (
+  // Foreground colors
   primary: covalent-palette.$td-teal-900,
   secondary: covalent-palette.$td-teal-900,
-  error: material-palette.$red-900,
-  background: material-palette.$grey-100,
-  surface: white,
+  error: #b11d00,
+  positive: material-palette.$green-700,
+  caution: material-palette.$amber-800,
+  negative: #b11d00,
 
   on-primary: white,
   on-secondary: white,
   on-background: rgba(black, 0.87),
   on-surface: rgba(black, 0.87),
-  on-error: rgba(black, 0.87),
+  on-error: white,
 
   text-primary-on-background: rgba(black, 0.87),
   text-secondary-on-background: rgba(black, 0.54),
@@ -34,22 +36,56 @@ $light-theme: (
   text-hint-on-dark: rgba(white, 0.5),
   text-disabled-on-dark: rgba(white, 0.5),
   text-icon-on-dark: white,
+  
+  // Surfaces
+  background: material-palette.$grey-100,
+  surface: white,
 
+  // EXPANDED COVALENT THEME
+
+  // Surfaces (expanded)
+  surface-primary: covalent-palette.$td-teal-200,
+  surface-primary-highlight: rgba(covalent-palette.$td-teal-200, 0.1),
+  surface-primary-highlight-hover: rgba(covalent-palette.$td-teal-200, 0.2),
+
+  surface-secondary: covalent-palette.$td-teal-200,
+  surface-secondary-highlight: rgba(covalent-palette.$td-teal-200, 0.1),
+  surface-secondary-highlight-hover: rgba(covalent-palette.$td-teal-200, 0.2),
+
+  surface-positive: material-palette.$green-200,
+  surface-positive-highlight: rgba(material-palette.$green-200, 0.1),
+  surface-positive-highlight-hover: rgba(material-palette.$green-200, 0.2),
+
+  surface-caution: material-palette.$orange-300,
+  surface-caution-highlight: rgba(material-palette.$orange-300, 0.1),
+  surface-caution-highlight-hover: rgba(material-palette.$orange-300, 0.2),
+
+  surface-negative: material-palette.$red-300,
+  surface-negative-highlight: rgba(material-palette.$red-300, 0.1),
+  surface-negative-highlight-hover: rgba(material-palette.$red-300, 0.2),
+
+  surface-neutral: material-palette.$grey-400,
+  surface-neutral-highlight: rgba(material-palette.$grey-400, 0.1),
+  surface-neutral-highlight-hover: rgba(material-palette.$grey-400, 0.2),
+
+  // Foreground colors (expanded)
   divider: rgba(black, 0.12)
 );
 
 $dark-theme: (
+  // Foreground colors
   primary: covalent-palette.$td-teal-300,
   secondary: covalent-palette.$td-teal-300,
-  error: material-palette.$red-900,
-  background: material-palette.$grey-100,
-  surface: covalent-palette.$td-slate-1100,
+  error: #f46f5a,
+  positive: material-palette.$green-300,
+  caution: material-palette.$orange-300,
+  negative: #f46f5a,
 
   on-primary: rgba(black, 0.87),
   on-secondary: rgba(black, 0.87),
   on-background: white,
   on-surface: white,
-  on-error: white,
+  on-error: rgba(black, 0.87),
 
   text-primary-on-background: white,
   text-secondary-on-background: rgba(white, 0.7),
@@ -68,7 +104,39 @@ $dark-theme: (
   text-hint-on-dark: rgba(white, 0.5),
   text-disabled-on-dark: rgba(white, 0.5),
   text-icon-on-dark: white,
+  
+  // Surfaces
+  background: material-palette.$grey-100,
+  surface: covalent-palette.$td-slate-1100,
 
+  // EXPANDED COVALENT THEME
+
+  // Surfaces (expanded)
+  surface-primary: covalent-palette.$td-teal-1200,
+  surface-primary-highlight: rgba(covalent-palette.$td-teal-1200, 0.4),
+  surface-primary-highlight-hover: rgba(covalent-palette.$td-teal-1200, 0.6),
+
+  surface-secondary: covalent-palette.$td-teal-1200,
+  surface-secondary-highlight: rgba(covalent-palette.$td-teal-1200, 0.4),
+  surface-secondary-highlight-hover: rgba(covalent-palette.$td-teal-1200, 0.6),
+
+  surface-positive: #336033,
+  surface-positive-highlight: rgba(#336033, 0.4),
+  surface-positive-highlight-hover: rgba(#336033, 0.6),
+
+  surface-caution: #704c16,
+  surface-caution-highlight: rgba(#704c16, 0.4),
+  surface-caution-highlight-hover: rgba(#704c16, 0.6),
+
+  surface-negative: #883e32,
+  surface-negative-highlight: rgba(#883e32, 0.4),
+  surface-negative-highlight-hover: rgba(#883e32, 0.6),
+
+  surface-neutral: covalent-palette.$td-slate-800,
+  surface-neutral-highlight: rgba(covalent-palette.$td-slate-800, 0.4),
+  surface-neutral-highlight-hover: rgba(covalent-palette.$td-slate-800, 0.6),
+
+  // Foreground colors (expanded)
   divider: rgba(white, 0.2)
 );
 

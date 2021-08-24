@@ -1,11 +1,9 @@
-
-
 @mixin text-field-theme($theme) {
-    $secondary-text: map-get($theme, text-secondary-on-background);
+    $text-secondary: map-get($theme, text-secondary-on-background);
     $divider: map-get($theme, divider);
-    $emphasis-highlight-hover: map-get($theme, primary);
+    $primary-highlight-hover: map-get($theme, primary);
     
-    --mdc-text-field-label-ink-color: #{$secondary-text};
+    --mdc-text-field-label-ink-color: #{$text-secondary};
     --mdc-text-field-outlined-idle-border-color: #{$divider};
-    --mdc-text-field-outlined-hover-border-color: #{$emphasis-highlight-hover};
+    --mdc-text-field-outlined-hover-border-color: #{$primary-highlight-hover};
 }
