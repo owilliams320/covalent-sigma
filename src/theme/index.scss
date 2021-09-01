@@ -44,6 +44,8 @@ $light-theme: (
   // EXPANDED COVALENT THEME
 
   // Surfaces (expanded)
+  surface-canvas: material-palette.$grey-200,
+
   surface-primary: covalent-palette.$td-teal-200,
   surface-primary-highlight: rgba(covalent-palette.$td-teal-200, 0.1),
   surface-primary-highlight-hover: rgba(covalent-palette.$td-teal-200, 0.2),
@@ -112,6 +114,8 @@ $dark-theme: (
   // EXPANDED COVALENT THEME
 
   // Surfaces (expanded)
+  surface-canvas: covalent-palette.$td-slate-1700,
+
   surface-primary: covalent-palette.$td-teal-1200,
   surface-primary-highlight: rgba(covalent-palette.$td-teal-1200, 0.4),
   surface-primary-highlight-hover: rgba(covalent-palette.$td-teal-1200, 0.6),

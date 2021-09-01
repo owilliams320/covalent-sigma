@@ -2,9 +2,10 @@
 @use "./components/button" as button;
 @use "./components/data-table" as data-table;
 @use "./components/modal" as modal;
+@use "./components/select" as select;
+@use "./components/snackbar" as snack-bar;
 @use "./components/text-field" as text-field;
 @use "./components/top-app-bar" as top-app-bar;
-@use "./components/snackbar" as snack-bar;
 
 
 @mixin covalent-theme($theme) {
@@ -80,6 +81,7 @@
   @include button.button-theme($theme);
   @include data-table.data-table-theme($theme);
   @include modal.modal-theme($theme);
+  @include select.select-theme($theme);
   @include text-field.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
   @include snack-bar.snack-bar-theme($theme);
