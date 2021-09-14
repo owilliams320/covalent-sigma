@@ -2,8 +2,10 @@
 
 @mixin top-app-bar-theme($theme) {
   $surface: map-get($theme, surface);
+  $text-primary-on-background: map-get($theme, text-primary-on-background);
 
   mwc-top-app-bar, mwc-top-app-bar-fixed {
     --mdc-theme-primary: #{$surface};
+    --mdc-theme-on-primary: #{$text-primary-on-background};
   }
 }

@@ -8,11 +8,19 @@
     $error: map-get($theme, error);
 
     @include select.ink-color(lime);
-    @include select.outline-color(cyan);
+    @include select.outline-color((default: $border));
 
-    // --mdc-select-ink-color: #{$text-primary};
-    // --mdc-select-label-ink-color: #{$text-secondary};
-    // --mdc-select-outlined-idle-border-color: #{$border};
-    // --mdc-select-outlined-hover-border-color: #{$icon};
-    // --mdc-select-dropdown-icon-color: #{$icon};
+    --mdc-select-ink-color: #{$text-primary};
+    --mdc-select-label-ink-color: #{$text-secondary};
+    --mdc-select-outlined-idle-border-color: #{$border};
+    --mdc-select-outlined-hover-border-color: #{$icon};
+    --mdc-select-dropdown-icon-color: #{$icon};
+
+    mwc-select {
+        --mdc-theme-primary: blue;
+        --mdc-icon-size: 60px;
+       .mdc-select__icon {color: #03a9f4;}
+  
+    }
+    
 }

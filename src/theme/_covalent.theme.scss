@@ -64,8 +64,12 @@
   --mdc-checkbox-unchecked-color: #{map-get($theme, primary)};
 
   // Tabs
-  --mdc-tab-text-label-color-default: --mdc-theme-text-primary-on-background;
-  --mdc-tab-color-default: --mdc-theme-text-icon-on-background;
+  --mdc-tab-text-label-color-default: var(--mdc-theme-text-primary-on-background);
+  --mdc-tab-color-default: var(--mdc-theme-text-icon-on-background);
+
+  .material-icons {
+    color: var(--mdc-theme-text-icon-on-background) !important;
+  }
 
   // Skeleton
   .skeleton-text * {
@@ -90,5 +94,5 @@
     border-color: map-get($theme, divider);
   }
 
-  color: --mdc-theme-text-primary-on-background;
+  color: var(--mdc-theme-text-primary-on-background);
 }

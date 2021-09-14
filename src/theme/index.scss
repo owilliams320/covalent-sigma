@@ -1,8 +1,9 @@
 @use 'material-palette';
-@use "covalent-palette";
-@use "material-components-web";
-@use "skeleton-elements/skeleton-elements";
-@use "./covalent.theme.scss" as theme;
+@use 'covalent-palette';
+@use 'material-components-web';
+@use 'skeleton-elements/skeleton-elements';
+@use './covalent.theme.scss' as theme;
+@use '@material/image-list';
 
 $light-theme: (
   // Foreground colors
@@ -153,4 +154,10 @@ $dark-theme: (
     :root {
       color-scheme: dark;
     }
+}
+
+
+// Image list
+.mdc-image-list {
+  @include image-list.masonry-columns(2);
 }
