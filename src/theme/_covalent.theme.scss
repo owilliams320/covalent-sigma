@@ -26,12 +26,24 @@
 
   // Typography
   --mdc-typography-font-family:  Arial, sans-serif;
-  --mdc-typography-headline1-family:  'Poppins', sans-serif;
-  --mdc-typography-headline2-family:  'Poppins', sans-serif;
-  --mdc-typography-headline3-family:  'Poppins', sans-serif;
-  --mdc-typography-headline4-family:  'Poppins', sans-serif;
-  --mdc-typography-headline5-family:  'Poppins', sans-serif;
-  --mdc-typography-headline6-family:  'Poppins', sans-serif;
+
+  --mdc-typography-headline1-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline1-font-weight: 500;
+
+  --mdc-typography-headline2-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline2-font-weight: 600;
+
+  --mdc-typography-headline3-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline3-font-weight: 600;
+
+  --mdc-typography-headline4-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline4-font-weight: 700;
+
+  --mdc-typography-headline5-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline5-font-weight: 700;
+
+  --mdc-typography-headline6-font-family: 'Poppins', sans-serif;
+  --mdc-typography-headline6-font-weight: 700;
 
   // Text 
   --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
