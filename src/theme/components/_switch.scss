@@ -1,0 +1,6 @@
+@mixin switch-theme($theme) {
+  mwc-switch,
+  .mdc-switch {
+    --mdc-theme-surface: #{map-get($theme, background)};
+  }
+}

@@ -36,7 +36,6 @@ const Template = ({ label, trailingIcon, icon, style, dense }) => {
 
   return `<mwc-button id="myButton"
                       label="${label}"
-                      trailingIcon
                       ${trailingIcon ? `trailingIcon` : null }
                       ${icon ? `icon="${icon}"` : null }
                       ${dense ? 'dense' : null }

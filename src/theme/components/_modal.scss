@@ -1,6 +1,11 @@
+@use '@material/dialog';
+
 @mixin modal-theme($theme) {
   $text: map-get($theme, text-primary-on-background);
 
   --mdc-dialog-heading-ink-color: #{$text};
   --mdc-dialog-content-ink-color: #{$text};
+
+  @include dialog.title-ink-color($text);
+  @include dialog.content-ink-color($text)
 }

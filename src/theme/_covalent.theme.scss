@@ -1,9 +1,13 @@
 // Covalent themed components
 @use "./components/button" as button;
+@use "./components/checkbox" as checkbox;
 @use "./components/data-table" as data-table;
 @use "./components/modal" as modal;
+@use "./components/radio" as radio;
 @use "./components/select" as select;
 @use "./components/snackbar" as snack-bar;
+@use "./components/switch" as switch;
+@use "./components/tabs" as tabs;
 @use "./components/text-field" as text-field;
 @use "./components/top-app-bar" as top-app-bar;
 
@@ -20,14 +24,28 @@
   --mdc-theme-on-secondary: #{map-get($theme, on-secondary)};
   --mdc-theme-on-surface: #{map-get($theme, on-surface)};
 
+  // Typography
+  --mdc-typography-font-family:  Arial, sans-serif;
+  --mdc-typography-headline1-family:  'Poppins', sans-serif;
+  --mdc-typography-headline2-family:  'Poppins', sans-serif;
+  --mdc-typography-headline3-family:  'Poppins', sans-serif;
+  --mdc-typography-headline4-family:  'Poppins', sans-serif;
+  --mdc-typography-headline5-family:  'Poppins', sans-serif;
+  --mdc-typography-headline6-family:  'Poppins', sans-serif;
+
+  // Text 
+  --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
+  --mdc-theme-text-secondary-on-background: #{map-get($theme, text-secondary-on-background)};
   --mdc-theme-text-hint-on-background: #{map-get($theme, text-hint-on-background)};
   --mdc-theme-text-disabled-on-background: #{map-get($theme, text-disabled-on-background)};
   --mdc-theme-text-icon-on-background: #{map-get($theme, text-icon-on-background)};
+
   --mdc-theme-text-primary-on-light: #{map-get($theme, text-primary-on-light)};
   --mdc-theme-text-secondary-on-light: #{map-get($theme, text-secondary-on-light)};
   --mdc-theme-text-hint-on-light: #{map-get($theme, text-hint-on-light)};
   --mdc-theme-text-disabled-on-light: #{map-get($theme, text-disabled-on-light)};
   --mdc-theme-text-icon-on-light: #{map-get($theme, text-icon-on-light)};
+
   --mdc-theme-text-primary-on-dark: #{map-get($theme, text-primary-on-dark)};
   --mdc-theme-text-secondary-on-dark: #{map-get($theme, text-secondary-on-dark)};
   --mdc-theme-text-hint-on-dark: #{map-get($theme, text-hint-on-dark)};
@@ -37,38 +55,10 @@
   // Shape
   --mdc-shape-small: 8px;
   --mdc-shape-medium: 8px;
-  
-  // text 
-  --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
-  --mdc-theme-text-secondary-on-background: #{map-get($theme, text-secondary-on-background)};
-  --mdc-theme-text-hint-on-background: #{map-get($theme, text-hint-on-background)};
-  --mdc-theme-text-disabled-background: #{map-get($theme, text-disabled-on-background)};
-  --mdc-theme-text-icon-on-background: #{map-get($theme, text-icon-on-background)};
-  
-  --mdc-theme-text-primary-on-light: #{map-get($theme, text-primary-on-light)};
-  --mdc-theme-text-secondary-on-light: #{map-get($theme, text-secondary-on-light)};
-  --mdc-theme-text-hint-on-light: #{map-get($theme, text-hint-on-light)};
-  --mdc-theme-text-disabled-on-light: #{map-get($theme, text-disabled-on-light)};
-  --mdc-theme-text-icon-on-light: #{map-get($theme, text-icon-on-light)};
-  
-  --mdc-theme-text-primary-on-dark: #{map-get($theme, text-primary-on-dark)};
-  --mdc-theme-text-secondary-on-dark: #{map-get($theme, text-secondary-on-dark)};
-  --mdc-theme-text-hint-on-dark: #{map-get($theme, text-hint-on-dark)};
-  --mdc-theme-text-disabled-on-dark: #{map-get($theme, text-disabled-on-dark)};
-  --mdc-theme-text-icon-on-dark: #{map-get($theme, text-icon-on-dark)};
 
-  // Checkboxes
-  --mdc-checkbox-checked-color: #{map-get($theme, primary)};
-  --mdc-checkbox-disabled-color: #{map-get($theme, text-disabled-on-background)};
-  --mdc-checkbox-ink-color: #{map-get($theme, on-primary)};
-  --mdc-checkbox-unchecked-color: #{map-get($theme, primary)};
-
-  // Tabs
-  --mdc-tab-text-label-color-default: var(--mdc-theme-text-primary-on-background);
-  --mdc-tab-color-default: var(--mdc-theme-text-icon-on-background);
-
-  .material-icons {
-    color: var(--mdc-theme-text-icon-on-background) !important;
+  // Drawer
+  mdc-drawer {
+    border-color: map-get($theme, divider);
   }
 
   // Skeleton
@@ -81,18 +71,28 @@
     --mdc-theme-text-primary-on-background: #ccc;
     --skeleton-color: #ccc;
   }
-  
+
   @include button.button-theme($theme);
+  @include checkbox.checkbox-theme($theme);
   @include data-table.data-table-theme($theme);
   @include modal.modal-theme($theme);
+  @include radio.radio-theme($theme);
   @include select.select-theme($theme);
+  @include snack-bar.snack-bar-theme($theme);
+  @include switch.switch-theme($theme);
+  @include tabs.tabs-theme($theme);
   @include text-field.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
-  @include snack-bar.snack-bar-theme($theme);
-
-  mdc-drawer {
-    border-color: map-get($theme, divider);
-  }
 
   color: var(--mdc-theme-text-primary-on-background);
+
+  .material-icons {
+    color: var(--mdc-theme-text-icon-on-background) !important;
+  }
+
+  // Links
+  a[href] {
+    color: var(--mdc-theme-text-primary-on-background);
+    &:hover { text-decoration: underline; }
+  }
 }

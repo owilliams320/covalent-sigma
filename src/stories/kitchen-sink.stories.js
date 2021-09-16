@@ -38,7 +38,7 @@ export const Basic = ({}) => {
     // Instantiate all components in the main content
     //
     
-    const mainEl = document.querySelector('.main-content');
+    const mainEl = document;
     
     // Button
     const buttonEls = Array.from(mainEl.querySelectorAll('.mdc-button'));
@@ -189,7 +189,7 @@ export const Basic = ({}) => {
     // window.addEventListener('resize', layoutForScreenSize);
     // layoutForScreenSize();
     
-  });
+  }, { once : true });
 
   return kitchenSinkContent;
 };

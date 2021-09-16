@@ -8,15 +8,13 @@ export default create({
   colorPrimary: '#43515a',
   colorSecondary: '#007373',
   brandTitle: 'Teradata Design System',
-  brandUrl: 'https://github.com/storybookjs/storybook-addon-console',
+  brandUrl: 'https://github.com/owilliams320/covalent-sigma',
   brandImage,
   appContentBg: '#ffffff',
   appBg: '#f5f5f5',
   barBg: '#fafafa',
   barSelectedColor: '#007373',
-  background: { content: 'red' },
   inputBg: 'transparent',
-
 
   // Text colors
   textColor: 'rgba(0,0,0,0.87)',
