@@ -13,9 +13,8 @@ const iconButtons = `
         <mwc-icon-button icon="search" slot="actionItems"></mwc-icon-button>
         <mwc-icon-button icon="add" slot="actionItems"></mwc-icon-button>`;
 
-const buttons = `<mwc-button style=" --mdc-theme-primary: white; color: white;" label="Buttons" slot="actionItems" ></mwc-button>
-<mwc-button style=" --mdc-theme-primary: white; --mdc-button-outline-color: white;
-color: white;"  outlined label="Buttons" slot="actionItems" ></mwc-button>`;
+const buttons = `<mwc-button label="Buttons" slot="actionItems" ></mwc-button>
+    <mwc-button outlined label="Buttons" slot="actionItems" ></mwc-button>`;
       
 export default ({ title = "App Bar Title", centerTitle, dense, prominent, showContent, showActionItems } = {}, { parameters } = {}) => {
     const AppBarComponentElem = parameters?.fixed ? 'mwc-top-app-bar-fixed' : 'mwc-top-app-bar';

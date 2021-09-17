@@ -54,7 +54,7 @@ export const Basic = ({}) => {
     cardPrimaryActionEls.forEach((el) => new MDCRipple(el));
     
     // Chips
-    const chipSetEls = Array.from(mainEl.querySelectorAll('.mdc-chip-set'));
+    const chipSetEls = Array.from(mainEl.querySelectorAll('.mdc-chip-set, .mdc-evolution-chip-set'));
     chipSetEls.forEach((el) => new MDCChipSet(el));
     
     // Text field

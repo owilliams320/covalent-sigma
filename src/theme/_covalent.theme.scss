@@ -1,8 +1,10 @@
 // Covalent themed components
 @use "./components/button" as button;
 @use "./components/checkbox" as checkbox;
+@use "./components/chips" as chips;
 @use "./components/data-table" as data-table;
 @use "./components/drawer" as drawer;
+@use "./components/icon-button" as icon-button;
 @use "./components/lists" as lists;
 @use "./components/modal" as modal;
 @use "./components/radio" as radio;
@@ -69,7 +71,6 @@
   --mdc-shape-small: 8px;
   --mdc-shape-medium: 8px;
 
-
   // Skeleton
   .skeleton-text * {
     font-family: "skeleton" !important;
@@ -83,8 +84,10 @@
 
   @include button.button-theme($theme);
   @include checkbox.checkbox-theme($theme);
+  @include chips.chips-theme($theme);
   @include data-table.data-table-theme($theme);
   @include drawer.drawer-theme($theme);
+  @include icon-button.icon-button-theme($theme);
   @include lists.lists-theme($theme);
   @include modal.modal-theme($theme);
   @include radio.radio-theme($theme);
@@ -96,10 +99,6 @@
   @include top-app-bar.top-app-bar-theme($theme);
 
   color: var(--mdc-theme-text-primary-on-background);
-
-  .material-icons {
-    color: var(--mdc-theme-text-icon-on-background) !important;
-  }
 
   // Links
   a[href] {

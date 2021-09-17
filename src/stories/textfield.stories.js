@@ -12,13 +12,13 @@ export default {
   }
 };
 
-const Template = ({ icon, label, style, required, helper }) => {
+const Template = ({ icon, iconTrailing, label, style, required, helper }) => {
 
     return `
         <mwc-textfield 
             label="${label ?? style}"
             ${style}
-            ${icon ? `icon="${icon}"` : null}
+            ${iconTrailing && icon ? `iconTrailing="${icon}"` : icon ? `icon="${icon}"` : null}
             ${helper ? `helper="${helper}"` : null}
             ${required ? `required` : null }>
         </mwc-textfield>`;
@@ -34,6 +34,7 @@ Required.args = {
 export const Icon = Template.bind({});
 Icon.args = {
     icon: 'houseboat',
+    iconTrailing: false,
 }
 
 export const HelperText = Template.bind({});

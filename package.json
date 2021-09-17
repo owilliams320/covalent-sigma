@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
+    "@material/chips": "^12.0.0",
     "@material/drawer": "^12.0.0",
     "@material/mwc-button": "^0.22.1",
     "@material/mwc-checkbox": "^0.22.1",

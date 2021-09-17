@@ -6,6 +6,9 @@
 @use '@material/image-list';
 @use '@material/list/evolution-mixins' as list;
 
+@use "@material/chips/styles";
+
+
 $light-theme: (
   // Foreground colors
   primary: covalent-palette.$td-teal-900,
