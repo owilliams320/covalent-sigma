@@ -7,5 +7,7 @@
   // support for web component 
   --mdc-radio-unchecked-color: #{$text-icon-on-background};
 
-  @include radio.unchecked-stroke-color($text-icon-on-background);
+  .mdc-radio {
+    @include radio.unchecked-stroke-color($text-icon-on-background);
+  }
 }

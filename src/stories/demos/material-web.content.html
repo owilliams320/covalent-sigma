@@ -9,10 +9,10 @@
           An HTML rendering of MDC styled Components themed with Covalent
         </div>
 
-        <button onclick=" window.open('https://glitch.com/edit/#!/remix/material-theme-builder','_blank')" class="mdc-fab mdc-fab--extended remix-fab" >
+        <!-- <button onclick=" window.open('https://glitch.com/edit/#!/remix/material-theme-builder','_blank')" class="mdc-fab mdc-fab--extended remix-fab" >
                 <span class="material-icons mdc-fab__icon">photo_filter</span>
                 <span class="mdc-fab__label">Create a new Theme</span>
-        </button>
+        </button> -->
         <div class="column">
           <!-- Button -->
           <section class="component-section">
@@ -74,27 +74,27 @@
                   <h3 class="mdc-drawer__title">Headline 6</h3>
                   <h6 class="mdc-drawer__subtitle">Body 2</h6>
                 </div>
-                <hr class="mdc-list-divider">
+                <div class="mdc-list-divider"></div>
                 <div class="mdc-drawer__content">
                   <nav class="mdc-list" role="listbox">
                     <a class="mdc-list-item mdc-list-item--activated" aria-selected="true" >
-                      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
+                      <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">inbox</i>
                       <span class="mdc-list-item__text">Body 2</span>
                     </a>
                     <a class="mdc-list-item">
-                      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star</i>
+                      <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">star</i>
                       <span class="mdc-list-item__text">Body 2</span>
                     </a>
                     <a class="mdc-list-item">
-                      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">bookmark</i>
+                      <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">bookmark</i>
                       <span class="mdc-list-item__text">Body 2</span>
                     </a>
                     <a class="mdc-list-item">
-                      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+                      <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">send</i>
                       <span class="mdc-list-item__text">Body 2</span>
                     </a>
                     <a class="mdc-list-item">
-                      <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                      <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">drafts</i>
                       <span class="mdc-list-item__text">Body 2</span>
                     </a>
                   </nav>
@@ -135,23 +135,22 @@
                 </a>
               </div>
               <div class="component-wrapper">
+                
+                
                 <div class="mdc-menu-surface--anchor">
-                  <div class="mdc-menu mdc-menu-surface mdc-menu-surface--open" tabindex="-1">
-                    <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+                  <div class="mdc-menu mdc-menu-surface mdc-menu-surface--open">
+                    <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
                       <li class="mdc-list-item" role="menuitem">
-                        <span class="mdc-list-item__text">Body 2</span>
+                        <span class="mdc-list-item__ripple"></span>
+                        <span class="mdc-list-item__text">A Menu Item</span>
                       </li>
                       <li class="mdc-list-item" role="menuitem">
-                        <span class="mdc-list-item__text">Body 2</span>
-                      </li>
-                      <li class="mdc-list-item" role="menuitem">
-                        <span class="mdc-list-item__text">Body 2</span>
-                      </li>
-                      <li class="mdc-list-item" role="menuitem">
-                        <span class="mdc-list-item__text">Body 2</span>
+                        <span class="mdc-list-item__ripple"></span>
+                        <span class="mdc-list-item__text">Another Menu Item</span>
                       </li>
                     </ul>
                   </div>
+
                 </div>
               </div>
             </section>
@@ -189,20 +188,21 @@
                 </a>
               </div>
               <div class="component-wrapper switch-component-wrapper">
+
                 <div class="mdc-switch">
                   <div class="mdc-switch__track"></div>
-                  <div class="mdc-switch__thumb-underlay">
+                  <div class="mdc-switch__thumb-underlay mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" >
                     <div class="mdc-switch__thumb">
-                        <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+                      <input type="checkbox" id="hero-switch" class="mdc-switch__native-control" role="switch" aria-checked="true" checked="">
                     </div>
                   </div>
                 </div>
-                <div class="mdc-switch">
-                  <div class="mdc-switch__track"></div>
-                  <div class="mdc-switch__thumb-underlay">
-                    <div class="mdc-switch__thumb">
-                        <input type="checkbox" id="basic-switch-2" class="mdc-switch__native-control" role="switch" checked>
-                    </div>
+
+              <div class="mdc-switch mdc-switch--checked">
+                <div class="mdc-switch__track"></div>
+                <div class="mdc-switch__thumb-underlay mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" >
+                  <div class="mdc-switch__thumb">
+                    <input type="checkbox" id="hero-switch" class="mdc-switch__native-control" role="switch" aria-checked="true" checked="">
                   </div>
                 </div>
               </div>
@@ -502,31 +502,107 @@
               </a>
             </div>
             <div class="component-wrapper">
+
+              <ul class="mdc-list">
+                <li class="mdc-list-item" tabindex="0">
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-list-item__text">Single-line item</span>
+                </li>
+                <li class="mdc-list-item">
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-list-item__text">Single-line item</span>
+                </li>
+                <li class="mdc-list-item">
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-list-item__text">Single-line item</span>
+                </li>
+              </ul>
+  
               <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list">
                 <li class="mdc-list-item" tabindex="0">
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
                   <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Subtitle 1</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
+                    <span class="mdc-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-list-item__secondary-text">Secondary text</span>
                   </span>
                 </li>
-                <hr class="mdc-list-divider">
+                <li role="separator" class="mdc-list-divider"></li>
                 <li class="mdc-list-item">
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
                   <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Subtitle 1</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
+                    <span class="mdc-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-list-item__secondary-text">Secondary text</span>
                   </span>
                 </li>
-                <hr class="mdc-list-divider">
+                <li role="separator" class="mdc-list-divider"></li>
                 <li class="mdc-list-item">
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
                   <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Subtitle 1</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
+                    <span class="mdc-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-list-item__secondary-text">Secondary text</span>
                   </span>
                 </li>
               </ul>
+            </div>
+          </section>
+
+          <!-- Deprecated List -->
+          <section class="component-section list-section">
+            <div class="section-header">
+              <a href="https://material.io/design/components/lists.html" class="mdc-typography--button" target="_blank">
+                List (Deprecated)
+                <i class="material-icons">open_in_new</i>
+              </a>
+            </div>
+            <div class="component-wrapper">
+
+              <ul class="mdc-deprecated-list">
+                <li class="mdc-deprecated-list-item" tabindex="0">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__text">Single-line item</span>
+                </li>
+                <li class="mdc-deprecated-list-item">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__text">Single-line item</span>
+                </li>
+                <li class="mdc-deprecated-list-item">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__text">Single-line item</span>
+                </li>
+              </ul>
+
+              <ul class="mdc-deprecated-list mdc-deprecated-list--two-line mdc-deprecated-list--avatar-list">
+                <li class="mdc-deprecated-list-item" tabindex="0">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-deprecated-list-item__text">
+                    <span class="mdc-deprecated-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-deprecated-list-item__secondary-text">Secondary text</span>
+                  </span>
+                </li>
+                <li role="separator" class="mdc-deprecated-list-divider"></li>
+                <li class="mdc-deprecated-list-item">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-deprecated-list-item__text">
+                    <span class="mdc-deprecated-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-deprecated-list-item__secondary-text">Secondary text</span>
+                  </span>
+                </li>
+                <li role="separator" class="mdc-deprecated-list-divider"></li>
+                <li class="mdc-deprecated-list-item">
+                  <span class="mdc-deprecated-list-item__ripple"></span>
+                  <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">child_care</span>
+                  <span class="mdc-deprecated-list-item__text">
+                    <span class="mdc-deprecated-list-item__primary-text">Two-line item</span>
+                    <span class="mdc-deprecated-list-item__secondary-text">Secondary text</span>
+                  </span>
+                </li>
+              </ul>
+              
             </div>
           </section>
           
@@ -659,27 +735,30 @@
               </a>
             </div>
             <div class="component-wrapper text-field-component-wrapper text-field-component-wrapper-1">
-              <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
+              <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trialing-icon">
+                <span class="mdc-notched-outline">
+                  <span class="mdc-notched-outline__leading"></span>
+                  <span class="mdc-notched-outline__notch">
+                    <span class="mdc-floating-label" id="my-label-id">Your Name</span>
+                  </span>
+                  <span class="mdc-notched-outline__trailing"></span>
+                </span>
+                <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id">
                 <i class="material-icons mdc-text-field__icon">visibility</i>
-                <input class="mdc-text-field__input">
-                <div class="mdc-notched-outline">
-                  <div class="mdc-notched-outline__leading"></div>
-                  <div class="mdc-notched-outline__notch">
-                    <label class="mdc-floating-label">Label</label>
-                  </div>
-                  <div class="mdc-notched-outline__trailing"></div>
-                </div>
-              </div>
+
+              </label>
               <div class="mdc-text-field-helper-line">
                 <div class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">Assistive text</div>
               </div>
             </div>
             <div class="component-wrapper text-field-component-wrapper text-field-component-wrapper-2">
-              <div class="mdc-text-field text-field-with-input">
-                <input class="mdc-text-field__input">
-                <div class="mdc-line-ripple"></div>
-                <label class="mdc-floating-label mdc-floating-label--float-above">Label</label>
-              </div>
+              <label class="mdc-text-field mdc-text-field--filled mdc-text-field--with-leading-icon">
+                <span class="mdc-text-field__ripple"></span>
+                <span class="mdc-floating-label" id="my-label-id">Hint text</span>
+                <i class="material-icons mdc-text-field__icon mdc-text-field__icon--leading">visibility</i>
+                <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                <span class="mdc-line-ripple"></span>
+              </label>
               <div class="mdc-text-field-helper-line">
                 <div class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">Assistive text</div>
               </div>
@@ -742,21 +821,16 @@
               </a>
             </div>
             <div class="component-wrapper">
-              <div class="mdc-slider mdc-slider--discrete mdc-slider--display-markers" tabindex="0" role="slider"
-                aria-valuemin="1" aria-valuemax="10"
-                aria-label="Select Value">
-                <div class="mdc-slider__track-container">
-                  <div class="mdc-slider__track"></div>
-                  <div class="mdc-slider__track-marker-container"></div>
-                </div>
-                <div class="mdc-slider__thumb-container">
-                  <div class="mdc-slider__pin">
-                    <span class="mdc-slider__pin-value-marker"></span>
+              <div class="mdc-slider">
+                <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" aria-label="Continuous slider demo">
+                <div class="mdc-slider__track">
+                  <div class="mdc-slider__track--inactive"></div>
+                  <div class="mdc-slider__track--active">
+                    <div class="mdc-slider__track--active_fill"></div>
                   </div>
-                  <svg class="mdc-slider__thumb" width="21" height="21">
-                    <circle cx="10.5" cy="10.5" r="7.875"></circle>
-                  </svg>
-                  <div class="mdc-slider__focus-ring"></div>
+                </div>
+                <div class="mdc-slider__thumb">
+                  <div class="mdc-slider__thumb-knob"></div>
                 </div>
               </div>
             </div>

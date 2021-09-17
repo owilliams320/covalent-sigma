@@ -108,7 +108,7 @@ export const Basic = ({}) => {
     
     // Select
     const selectEls = Array.from(mainEl.querySelectorAll('.mdc-select'));
-    //selectEls.forEach((el) => new MDCSelect(el));
+    selectEls.forEach((el) => new MDCSelect(el));
     
     // Snackbar
     const snackbarEl = mainEl.querySelector('.mdc-snackbar');
@@ -120,8 +120,8 @@ export const Basic = ({}) => {
     
     // Slider
     const sliderEl = mainEl.querySelector('.mdc-slider');
-    //const slider = new MDCSlider(sliderEl);
-    //slider.value = 5;
+    const slider = new MDCSlider(sliderEl);
+    slider.value = 5;
     
     // Menu
     const menuEl = mainEl.querySelector('.mdc-menu');

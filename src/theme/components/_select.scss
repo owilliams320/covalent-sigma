@@ -19,6 +19,8 @@
     --mdc-select-outlined-hover-border-color: #{$icon};
     --mdc-select-dropdown-icon-color: #{$icon};
 
+    @include select.label-floating-color((default: $text-secondary, hover: $text-secondary));
+
     .mdc-select {
         @include select.ink-color($text-primary);
         @include select.label-color($text-secondary);

@@ -4,6 +4,7 @@
 @use 'skeleton-elements/skeleton-elements';
 @use './covalent.theme.scss' as theme;
 @use '@material/image-list';
+@use '@material/list/evolution-mixins' as list;
 
 $light-theme: (
   // Foreground colors
@@ -151,11 +152,7 @@ $dark-theme: (
 
 .dark {
     @include theme.covalent-theme($dark-theme);
-    :root {
-      color-scheme: dark;
-    }
 }
-
 
 // Image list
 .mdc-image-list {

@@ -1,0 +1,33 @@
+@use '@material/list' as list;
+@use '@material/list/evolution-mixins' as evolution-mixins;
+
+@mixin lists-theme($theme) {
+  $border: map-get($theme, divider);
+
+  --mdc-list-single-line-height: 48px;
+  --mdc-list-two-line-height: 72px;
+
+  @include list.deprecated-divider-color($border);  
+  @include evolution-mixins.divider-color($border);
+
+  // List
+  .mdc-list {
+    
+    @include evolution-mixins.one-line-item-height(var(--mdc-list-single-line-height, 48px));
+    @include evolution-mixins.two-line-item-height(var(--mdc-list-two-line-height, 72px));
+    .mdc-list-item {
+        height: var(--mdc-list-single-line-height, 48px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &.mdc-list--two-line .mdc-list-item {
+        height: var(--mdc-list-two-line-height, 72px);
+
+        .mdc-list-item__primary-text {
+            display: block;
+            margin-bottom: -8px;
+        }
+    }
+  }
+}

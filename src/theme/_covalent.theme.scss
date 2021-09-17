@@ -2,6 +2,8 @@
 @use "./components/button" as button;
 @use "./components/checkbox" as checkbox;
 @use "./components/data-table" as data-table;
+@use "./components/drawer" as drawer;
+@use "./components/lists" as lists;
 @use "./components/modal" as modal;
 @use "./components/radio" as radio;
 @use "./components/select" as select;
@@ -10,7 +12,6 @@
 @use "./components/tabs" as tabs;
 @use "./components/text-field" as text-field;
 @use "./components/top-app-bar" as top-app-bar;
-
 
 @mixin covalent-theme($theme) {
 
@@ -68,10 +69,6 @@
   --mdc-shape-small: 8px;
   --mdc-shape-medium: 8px;
 
-  // Drawer
-  mdc-drawer {
-    border-color: map-get($theme, divider);
-  }
 
   // Skeleton
   .skeleton-text * {
@@ -87,6 +84,8 @@
   @include button.button-theme($theme);
   @include checkbox.checkbox-theme($theme);
   @include data-table.data-table-theme($theme);
+  @include drawer.drawer-theme($theme);
+  @include lists.lists-theme($theme);
   @include modal.modal-theme($theme);
   @include radio.radio-theme($theme);
   @include select.select-theme($theme);

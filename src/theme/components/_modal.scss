@@ -6,6 +6,8 @@
   --mdc-dialog-heading-ink-color: #{$text};
   --mdc-dialog-content-ink-color: #{$text};
 
-  @include dialog.title-ink-color($text);
-  @include dialog.content-ink-color($text)
+  .mdc-dialog {
+    @include dialog.title-ink-color($text);
+    @include dialog.content-ink-color($text);
+  }
 }
