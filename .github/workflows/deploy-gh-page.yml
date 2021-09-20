@@ -1,0 +1,21 @@
+name: Deploy GitHub Page
+on:
+  push:
+    branches:
+      - main
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Build story book artifacts
+        run: npm run storybook:build
+      - name: Commit report
+        run: |
+          mv ./storybook-static/ ./docs
+          git config --global user.name 'GitHub Page Bot'
+          git config --global user.email 'gh-page-bot@users.noreply.github.com'
+          git commit -am "docs(gh-page): update storybook [skip ci]"
+          git push
