@@ -1,14 +1,12 @@
 import { create } from '@storybook/theming';
-
 import brandImage from '../src/assets/teradata-dark.svg';
-import { themes } from '@storybook/theming';
 
 export default create({
   base: 'light',
   colorPrimary: '#43515a',
   colorSecondary: '#007373',
   brandTitle: 'Teradata Design System',
-  brandUrl: 'https://github.com/owilliams320/covalent-sigma',
+ // brandUrl: 'https://github.com/owilliams320/covalent-sigma',
   brandImage,
   appContentBg: '#ffffff',
   appBg: '#f5f5f5',

@@ -2,7 +2,6 @@
 import darkTheme from './covalent.dark.theme';
 import lightTheme from './covalent.light.theme';
 
-
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {

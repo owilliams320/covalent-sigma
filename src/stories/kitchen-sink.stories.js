@@ -92,7 +92,7 @@ export const Basic = ({}) => {
     
     // Switch
     const switchEls = Array.from(mainEl.querySelectorAll('.mdc-switch'));
-    //switchEls.forEach((el) => new MDCSwitch(el));
+    switchEls.forEach((el) => new MDCSwitch(el));
     
     // Top app bar
     const topAppBarEls = Array.from(mainEl.querySelectorAll('.mdc-top-app-bar'));

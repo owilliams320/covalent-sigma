@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p",
+    "lib:build": "webpack -p",
     "storybook": "start-storybook -p 6006 -s src/assets,dist",
-    "sass:kitchen-sink": "sass src/assets/kitchen-sink.scss src/assets/kitchen-sink.css",
-    "build-storybook": "build-storybook"
+    "storybook:build": "build-storybook",
+    "sass:kitchen-sink": "sass src/assets/kitchen-sink.scss src/assets/kitchen-sink.css"
   },
   "author": "",
   "license": "ISC",
