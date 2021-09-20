@@ -1,6 +1,5 @@
 @use "@material/button";
 
-
 @mixin button-theme($theme) {
   // support for web component
   --mdc-button-outline-color: #{map-get($theme,primary)};

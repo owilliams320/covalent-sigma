@@ -8,9 +8,10 @@ export default create({
   brandTitle: 'Teradata Design System',
   //brandUrl: 'https://github.com/owilliams320/covalent-sigma',
   brandImage,
-  appContentBg: '#28353b',
-  appBg: '#161c1f',
-  barBg: '#1f282e',
+  appContentBg: '#161c1f',
+  // appBorderColor: 'pink',
+  appBg: '#000',
+  barBg: '#161c1f',
   barSelectedColor: '#59cecd',
   inputBg: 'transparent',
 

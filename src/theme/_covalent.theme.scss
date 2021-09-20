@@ -5,6 +5,7 @@
 @use "./components/data-table" as data-table;
 @use "./components/drawer" as drawer;
 @use "./components/icon-button" as icon-button;
+@use "./components/linear-progress" as linear-progress;
 @use "./components/lists" as lists;
 @use "./components/modal" as modal;
 @use "./components/radio" as radio;
@@ -48,6 +49,9 @@
   --mdc-typography-headline6-font-family: 'Poppins', sans-serif;
   --mdc-typography-headline6-font-weight: 700;
 
+  --mdc-typography-button-font-family: 'Poppins', sans-serif;
+  --mdc-typography-button-font-weight: 600;
+
   // Text 
   --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
   --mdc-theme-text-secondary-on-background: #{map-get($theme, text-secondary-on-background)};
@@ -88,6 +92,7 @@
   @include data-table.data-table-theme($theme);
   @include drawer.drawer-theme($theme);
   @include icon-button.icon-button-theme($theme);
+  @include linear-progress.linear-progress-theme($theme);
   @include lists.lists-theme($theme);
   @include modal.modal-theme($theme);
   @include radio.radio-theme($theme);
