@@ -1,5 +1,4 @@
 module.exports = [{
-    watch: true,
     entry: ['./src/theme/index.scss'],
     output: {
       filename: 'covalent.css',

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lib:build": "webpack -p",
+    "lib:serve": "webpack -p --watch",
     "storybook": "start-storybook -p 6006 -s src/assets,dist",
     "storybook:build": "build-storybook",
     "sass:kitchen-sink": "sass src/assets/kitchen-sink.scss src/assets/kitchen-sink.css"
