@@ -3,25 +3,35 @@ import brandImage from '../src/assets/teradata.svg';
 
 export default create({
   base: 'dark',
+
   colorPrimary: '#afb6b9',
   colorSecondary: '#59cecd',
-  brandTitle: 'Teradata Design System',
-  //brandUrl: 'https://github.com/owilliams320/covalent-sigma',
-  brandImage,
-  appContentBg: '#161c1f',
-  // appBorderColor: 'pink',
+
+  // UI
   appBg: '#000',
-  barBg: '#161c1f',
-  barSelectedColor: '#59cecd',
-  inputBg: 'transparent',
+  appContentBg: '#161c1f',
+  appBorderRadius: '8px',
 
   // Text colors
   textColor: 'rgba(255,255,255,0.87)',
-  textInverseColor: 'red',
+  textInverseColor: 'rgba(0,0,0,0.87)',
 
+  // Toolbar default and active colors
+  barSelectedColor: '#59cecd',
+  barBg: '#161c1f',
+
+  // Form colors
+  inputBg: 'transparent',
+
+  // Branding
+  brandTitle: 'Teradata Design System',
+  //brandUrl: 'https://teradata.lol',
+  brandImage,
+
+  // Addon themes
   addonActionsTheme: {
     // ...chromeLight,
     // BASE_FONT_FAMILY: typography.fonts.mono,
-    BASE_BACKGROUND_COLOR: 'black',
+    BASE_BACKGROUND_COLOR: '#161c1f',
   },
 });
