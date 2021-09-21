@@ -3,12 +3,12 @@
 @use 'material-components-web';
 @use 'skeleton-elements/skeleton-elements';
 @use './covalent.theme.scss' as theme;
+
 @use '@material/image-list';
 @use '@material/list/evolution-mixins' as list;
 
 @use '@material/chips/styles' as chipStyles;
 @use '@material/switch/styles' as switchStyles;
-
 
 $light-theme: (
   // Foreground colors
