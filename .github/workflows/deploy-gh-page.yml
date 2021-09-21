@@ -31,7 +31,7 @@ jobs:
         run: |
           mv ./storybook-static/ ./docs
           mv ./dist/**.css* ./docs
-          cp ./src/assets/ ./docs/
+          cp -r ./src/assets/* ./docs/
           git add docs
           git config --global user.name 'GitHub Page Bot'
           git config --global user.email 'gh-page-bot@users.noreply.github.com'
