@@ -9,6 +9,9 @@ export default {
         control: { type: 'radio' },
         defaultValue: 'outlined',
     },
+    required: {
+        control: 'boolean',
+    },
     onSelect: { action: 'onClick'}
   }
 };

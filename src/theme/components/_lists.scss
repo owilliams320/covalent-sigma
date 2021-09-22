@@ -3,12 +3,18 @@
 
 @mixin lists-theme($theme) {
   $border: map-get($theme, divider);
+  $text: map-get($theme, text-primary-on-background);
 
   --mdc-list-single-line-height: 48px;
   --mdc-list-two-line-height: 72px;
 
   @include list.deprecated-divider-color($border);  
   @include evolution-mixins.divider-color($border);
+
+  // Menu
+  .mdc-menu .mdc-deprecated-list {
+    @include list.deprecated-item-primary-text-ink-color($text);
+  }
 
   // List
   .mdc-list {
@@ -29,5 +35,10 @@
             margin-bottom: -8px;
         }
     }
+  }
+
+  // Divider
+  [divider] {
+    border-bottom-color: $border;
   }
 }
