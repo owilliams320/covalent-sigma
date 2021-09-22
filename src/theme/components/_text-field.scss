@@ -1,5 +1,6 @@
 @use '@material/textfield';
 @use '@material/textfield/helper-text';
+@use '@material/textfield/icon';
 
 @mixin text-field-theme($theme) {
     $surface-canvas: map-get($theme, surface-canvas);
@@ -8,8 +9,6 @@
     $primary-highlight-hover: map-get($theme, primary);
     $border: map-get($theme, divider);
     $icon: map-get($theme, text-icon-on-background);
-
-
 
     --mdc-text-field-label-ink-color: #{$text-secondary};
     --mdc-text-field-ink-color: #{$text-secondary};
@@ -30,6 +29,8 @@
         @include textfield.focused-outline-color($primary-highlight-hover);
         @include textfield.hover-outline-color($icon);
         @include helper-text.helper-text-color($text-secondary);
+        @include icon.leading-icon-color($icon);
+        @include icon.trailing-icon-color($icon);
     }
 
     .mdc-text-field--outlined {
