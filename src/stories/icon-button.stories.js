@@ -4,7 +4,7 @@ import iconList from '../assets/codepoints.json';
 
 
 export default {
-  title: 'Example/IconButton',
+  title: 'Example/Icon Button',
   argTypes: {
     icon:  {
       control: 'select',

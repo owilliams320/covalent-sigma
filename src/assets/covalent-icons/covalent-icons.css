@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "teradata-icons";
-  src: url("./teradata-icons.eot?aaz32e");
-  src: url("./teradata-icons.eot?aaz32e#iefix")
+  font-family: "covalent-icons";
+  src: url("./covalent-icons.eot?aaz32e");
+  src: url("./covalent-icons.eot?aaz32e#iefix")
       format("embedded-opentype"),
-    url("./teradata-icons.ttf?aaz32e") format("truetype"),
-    url("./teradata-icons.woff?aaz32e") format("woff"),
-    url("./teradata-icons.svg?aaz32e#teradata-icons") format("svg");
+    url("./covalent-icons.ttf?aaz32e") format("truetype"),
+    url("./covalent-icons.woff?aaz32e") format("woff"),
+    url("./covalent-icons.svg?aaz32e#covalent-icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +14,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "teradata-icons";
+  font-family: "covalent-icons";
   speak: never;
   font-style: normal;
   font-weight: normal;

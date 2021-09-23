@@ -4,7 +4,7 @@ import iconList from '../assets/codepoints.json';
 
 const MAT_ICON_LIST = Object.keys(iconList);
 
-const TD_ICON_LIST = [
+const COV_ICON_LIST = [
   'alias_arrow',
   'api',
   'api_ondark',
@@ -114,7 +114,7 @@ export default {
   title: 'Example/Icon',
   argTypes: {
     // icon:  {
-    //     options: TD_ICON_LIST,
+    //     options: COV_ICON_LIST,
     //     control: { type: 'select' },
     // },
     onClick: { action: 'onClick'}
@@ -128,17 +128,17 @@ export default {
   }
 };
 
-const Template = ({ showTdIcons = false }) => {
+const Template = ({ showCovIcons = false }) => {
   const container = document.createElement('div');
-  const iconList = showTdIcons ? TD_ICON_LIST : MAT_ICON_LIST;
+  const iconList = showCovIcons ? COV_ICON_LIST : MAT_ICON_LIST;
 
   iconList.forEach((icon) => {
       const icoElem = document.createElement('mwc-icon');
       icoElem.innerText = icon;
       icoElem.style.padding = `8px`;
       
-      if (showTdIcons) {
-        icoElem.className = 'teradata-icon';
+      if (showCovIcons) {
+        icoElem.className = 'covalent-icon';
       }
       
       container.appendChild(icoElem);
@@ -149,7 +149,7 @@ const Template = ({ showTdIcons = false }) => {
 
 export const MaterialIcons = Template.bind({});
 
-export const TeradataIcons = Template.bind({});
-TeradataIcons.args = { 
-  showTdIcons: true
+export const CovalentIcons = Template.bind({});
+CovalentIcons.args = { 
+  showCovIcons: true
 };
