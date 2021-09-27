@@ -150,12 +150,23 @@ $dark-theme: (
   divider: rgba(white, 0.2)
 );
 
-.light {
-    @include theme.covalent-theme($light-theme);
+:root {
+  @include theme.covalent-theme($light-theme);
 }
 
 .dark {
     @include theme.covalent-theme($dark-theme);
+}
+
+// TD Tiger stripe
+body:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 2px;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f3753f;
 }
 
 // Image list

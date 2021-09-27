@@ -115,4 +115,8 @@
     color: var(--mdc-theme-text-primary-on-background);
     &:hover { text-decoration: underline; }
   }
+
+  .beta-list-item {
+    --mdc-theme-primary: #{map-get($theme, surface-caution)};
+  }
 }
