@@ -1,11 +1,11 @@
 @font-face {
   font-family: "covalent-icons";
-  src: url("./covalent-icons.eot?aaz32e");
-  src: url("./covalent-icons.eot?aaz32e#iefix")
+  src: url("./covalent-icons.eot?t9ee7m");
+  src: url("./covalent-icons.eot?t9ee7m#iefix")
       format("embedded-opentype"),
-    url("./covalent-icons.ttf?aaz32e") format("truetype"),
-    url("./covalent-icons.woff?aaz32e") format("woff"),
-    url("./covalent-icons.svg?aaz32e#covalent-icons") format("svg");
+    url("./covalent-icons.ttf?t9ee7m") format("truetype"),
+    url("./covalent-icons.woff?t9ee7m") format("woff"),
+    url("./covalent-icons.svg?t9ee7m#covalent-icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -314,6 +314,9 @@
 }
 .icon-teradata:before {
   content: "\e964";
+}
+.icon-teradata_nocircle:before {
+  content: "\e902";
 }
 .icon-text_analysis:before {
   content: "\e965";
