@@ -101,6 +101,7 @@ const COV_ICON_LIST = [
   'table_search',
   'table_synced',
   'teradata',
+  'teradata_nocircle',
   'text_analysis',
   'undock',
   'variable',
