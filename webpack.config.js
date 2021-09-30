@@ -1,10 +1,22 @@
 module.exports = [{
-    entry: ['./src/theme/index.scss'],
+    entry: [
+      './src/theme/index.scss',
+      './src/components/index.ts',
+    ],
     output: {
-      filename: 'covalent.css',
+      filename: 'covalent.js',
+    },
+    resolve: {
+      // Add `.ts` and `.tsx` as a resolvable extension.
+      extensions: [".ts", ".tsx", ".js"]
     },
     module: {
       rules: [
+        {
+          test: /\.tsx?$/,
+          use: 'ts-loader',
+          exclude: /node_modules/,
+        },
         {
           test: /\.scss$/,
           use: [

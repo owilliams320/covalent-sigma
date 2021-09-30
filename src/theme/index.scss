@@ -30,6 +30,7 @@ $light-theme: (
   text-hint-on-background: rgba(black, 0.38),
   text-disabled-on-background: rgba(black, 0.38),
   text-icon-on-background: rgba(black, 0.54),
+  text-logo-on-background: #354145,
 
   text-primary-on-light: rgba(black, 0.87),
   text-secondary-on-light: rgba(black, 0.54),
@@ -100,6 +101,7 @@ $dark-theme: (
   text-hint-on-background: rgba(white, 0.5),
   text-disabled-on-background: rgba(white, 0.5),
   text-icon-on-background: white,
+  text-logo-on-background: white,
 
   text-primary-on-light: rgba(black, 0.87),
   text-secondary-on-light: rgba(black, 0.54),
@@ -114,7 +116,7 @@ $dark-theme: (
   text-icon-on-dark: white,
   
   // Surfaces
-  background: material-palette.$grey-100,
+  background: covalent-palette.$td-slate-1500,
   surface: covalent-palette.$td-slate-1100,
 
   // EXPANDED COVALENT THEME

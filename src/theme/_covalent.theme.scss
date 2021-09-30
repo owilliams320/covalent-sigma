@@ -28,6 +28,11 @@
   --mdc-theme-on-secondary: #{map-get($theme, on-secondary)};
   --mdc-theme-on-surface: #{map-get($theme, on-surface)};
 
+  --mdc-theme-border: #{map-get($theme, divider)};
+
+
+  --mdc-ripple-color: #{map-get($theme, on-surface)};
+
   // Typography
   --mdc-typography-font-family:  Arial, sans-serif;
 
@@ -48,6 +53,9 @@
 
   --mdc-typography-headline6-font-family: 'Poppins', sans-serif;
   --mdc-typography-headline6-font-weight: 700;
+
+  --mdc-typography-subtitle2-font-size: 14px;
+  --mdc-typography-caption-font-size: 12px;
 
   --mdc-typography-button-font-family: 'Poppins', sans-serif;
   --mdc-typography-button-font-weight: 600;
@@ -70,6 +78,10 @@
   --mdc-theme-text-hint-on-dark: #{map-get($theme, text-hint-on-dark)};
   --mdc-theme-text-disabled-on-dark: #{map-get($theme, text-disabled-on-dark)};
   --mdc-theme-text-icon-on-dark: #{map-get($theme, text-icon-on-dark)};
+
+  // Covalent Specific variables
+  --covalent-theme-text-logo-on-background: #{map-get($theme, text-logo-on-background)};
+
 
   //Icon
   .covalent-icon {
