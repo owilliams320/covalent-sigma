@@ -18,19 +18,18 @@
 
 @mixin covalent-theme($theme) {
 
+  // Foreground colors
   --mdc-theme-primary: #{map-get($theme, primary)};
   --mdc-theme-secondary: #{map-get($theme, secondary)};
   --mdc-theme-error: #{map-get($theme, error)};
-
-  --mdc-theme-background: #{map-get($theme, background)};
-  --mdc-theme-surface: #{map-get($theme, surface)};
   --mdc-theme-on-primary: #{map-get($theme, on-primary)};
   --mdc-theme-on-secondary: #{map-get($theme, on-secondary)};
   --mdc-theme-on-surface: #{map-get($theme, on-surface)};
-
   --mdc-theme-border: #{map-get($theme, divider)};
 
-
+  // Surfaces
+  --mdc-theme-background: #{map-get($theme, background)};
+  --mdc-theme-surface: #{map-get($theme, surface)};
   --mdc-ripple-color: #{map-get($theme, on-surface)};
 
   // Typography
@@ -82,8 +81,7 @@
   // Covalent Specific variables
   --covalent-theme-text-logo-on-background: #{map-get($theme, text-logo-on-background)};
 
-
-  //Icon
+  // Icon
   .covalent-icon {
     --mdc-icon-font: 'covalent-icons';
   }
