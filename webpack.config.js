@@ -18,16 +18,44 @@ module.exports = [{
           exclude: /node_modules/,
         },
         {
-          test: /\.scss$/,
+          test: /\.css|\.s(c|a)ss$/,
+          include: /src\/components/,
+          exclude: /node_modules/,
           use: [
             {
-              loader: 'file-loader',
+              loader: 'lit-scss-loader',
               options: {
-                name: 'bundle.css',
+                minify: true, // defaults to false
               },
             },
             { loader: 'extract-loader' },
             { loader: 'css-loader' },
+            {
+              loader: 'sass-loader',
+              options: {
+                includePaths: ['./node_modules'],
+                // Prefer Dart Sass
+                implementation: require('sass'),
+
+                // See https://github.com/webpack-contrib/sass-loader/issues/804
+                webpackImporter: false,
+              }
+            }
+          ]
+        },
+        {
+          test: /\.s(c|a)ss$/,
+          include: /src\/theme/,
+          exclude: /node_modules/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: 'covalent-theme.css',
+              },
+            },
+            'extract-loader',
+            'css-loader',
             {
               loader: 'sass-loader',
               options: {

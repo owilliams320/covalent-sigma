@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
       "target": "es2015",
-      "module": "es2020",
-      "lib": ["es2020", "DOM", "DOM.Iterable"],
+      "module": "esnext",
+      "typeRoots": ["node_modules/@types"],
+      "lib": ["es2017", "dom"],
+      "types": [],
       "declaration": true,
       "declarationMap": true,
       "sourceMap": true,
@@ -10,6 +12,7 @@
       "outDir": "./dist/out-tsc",
       "rootDir": "./src",
       "strict": true,
+      "allowJs": true,
       "noImplicitReturns": true,
       "noImplicitThis": true,
       "moduleResolution": "node",
@@ -24,6 +27,9 @@
         }
       ]
     },
-    "include": ["src/**/*.ts"],
+    "include": [
+      "src/**/*.ts",
+      "node_modules/lit-scss-loader/types.d.ts"
+    ],
     "exclude": []
   }

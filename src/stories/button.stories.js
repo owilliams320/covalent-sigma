@@ -17,6 +17,10 @@ export default {
         disable: true
       }
     },
+    disabled:  {
+      control: 'boolean',
+      defaultValue: false,
+    },
     dense:  {
       control: 'boolean',
       defaultValue: false,
@@ -32,13 +36,14 @@ export default {
   }
 };
 
-const Template = ({ label, trailingIcon, icon, style, dense }) => {
+const Template = ({ label, trailingIcon, icon, style, disabled, dense }) => {
 
   return `<mwc-button id="myButton"
                       label="${label}"
                       ${trailingIcon ? `trailingIcon` : null }
                       ${icon ? `icon="${icon}"` : null }
                       ${dense ? 'dense' : null }
+                      ${disabled ? 'disabled' : null }
                       ${style}>
          </mwc-button>`;
 };

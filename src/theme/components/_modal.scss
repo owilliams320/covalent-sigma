@@ -1,4 +1,4 @@
-@use '@material/dialog';
+// @use '@material/dialog';
 
 @mixin modal-theme($theme) {
   $text: map-get($theme, text-primary-on-background);
@@ -9,8 +9,8 @@
   --mdc-dialog-scroll-divider-color: #{$border};
 
   
-  .mdc-dialog {
-    @include dialog.title-ink-color($text);
-    @include dialog.content-ink-color($text);
-  }
+  // .mdc-dialog {
+  //   @include dialog.title-ink-color($text);
+  //   @include dialog.content-ink-color($text);
+  // }
 }
