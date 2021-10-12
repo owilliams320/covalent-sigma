@@ -3,6 +3,16 @@ import { withDesign } from 'storybook-addon-designs'
 import * as tableRowSelectionContent from "./demos/table-row-selection.content.html";
 
 // import { Fixed } from './top-app-bar.stories';
+import '@material/mwc-button';
+import '@material/mwc-drawer';
+import '@material/mwc-top-app-bar';
+import "@material/mwc-top-app-bar-fixed";
+import '@material/mwc-icon-button';
+import '@material/mwc-list/mwc-list';
+import '@material/mwc-list/mwc-list-item';
+import '@material/mwc-icon';
+
+import { MDCDataTable, events } from '@material/data-table';
 
 export default {
   title: 'Pattern/AppShell',
@@ -19,7 +29,34 @@ export default {
   }
 };
 
+let banner;
+let dataTable;
+
+const updateActionRibbon = () => {
+    const selectedRowNum = dataTable.getSelectedRowIds().length;
+    const totalRows = dataTable.rowCheckboxList.length;
+  
+    if (selectedRowNum) {
+        banner.labelText = `(${selectedRowNum}/${totalRows}) items selected`;
+        banner.show();
+    } else  {
+        banner.close();
+    }
+}
+
 const Template = ({ navClick }) => {
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const dataTableEl = document.querySelector('.mdc-data-table');
+        banner = document.querySelector('td-action-ribbon');
+        dataTable = new MDCDataTable(dataTableEl);
+
+        setTimeout(updateActionRibbon, 150);
+    }, { once : true });
+
+    document.addEventListener(events.SELECTED_ALL, updateActionRibbon);
+    document.addEventListener(events.UNSELECTED_ALL, updateActionRibbon);
+    document.addEventListener(events.ROW_SELECTION_CHANGED, updateActionRibbon);
     
   return `
     <style>
@@ -201,13 +238,14 @@ const Template = ({ navClick }) => {
         <mwc-tab label="Network" ></mwc-tab>
         <mwc-tab label="Settings" ></mwc-tab>
     </mwc-tab-bar>
+
+    <div divider role="separator"></div>
+
+    <td-action-ribbon labelText="this is my label" state="active" >
+      <mwc-button slot="action-items" class="mdc-banner__secondary-action" outlined>Bulk action</mwc-button>
+    </td-action-ribbon>
     
     ${tableRowSelectionContent}  
-
-
-    
-
-        
 
     </td-app-shell>
     `;

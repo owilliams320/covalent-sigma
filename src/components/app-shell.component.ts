@@ -1,23 +1,17 @@
-/**
- * @license
- * Copyright 2019 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
 import {LitElement, html, css} from 'lit';
 import {customElement, property, query } from 'lit/decorators.js';
 
-import '@material/mwc-button';
-import '@material/mwc-drawer';
-import '@material/mwc-top-app-bar';
-import "@material/mwc-top-app-bar-fixed";
-import '@material/mwc-icon-button';
-import '@material/mwc-list/mwc-list';
-import '@material/mwc-list/mwc-list-item';
-import '@material/mwc-icon';
+// import '@material/mwc-button';
+// import '@material/mwc-drawer';
+// import '@material/mwc-top-app-bar';
+// import "@material/mwc-top-app-bar-fixed";
+// import '@material/mwc-icon-button';
+// import '@material/mwc-list/mwc-list';
+// import '@material/mwc-list/mwc-list-item';
+// import '@material/mwc-icon';
 
  /**
-  * AppShell element.
+  * App Shell element.
   *
   * @slot - This element has a slot
   */
@@ -180,7 +174,6 @@ import '@material/mwc-icon';
     }
    `;
 
-
    /**
     * The name of the application to show in the small app bar
     */
@@ -310,8 +303,6 @@ import '@material/mwc-icon';
         <div id="drawer-content" style="height:100%; overflow-x:auto; flex:1;">
             <mwc-top-app-bar-fixed centerTitle>
                 <mwc-icon-button @click=${this._onClick} slot="navigationIcon" icon="menu"></mwc-icon-button>
-
-
                 <span slot="title">${this.appName}</span>
             </mwc-top-app-bar-fixed>
             <div style="overflow:hidden;">
