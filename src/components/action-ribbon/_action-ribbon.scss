@@ -26,7 +26,7 @@
     }
 
     &.caution {
-      --mdc-theme-surface: var(--mdc-theme-surface-caution);
+      --mdc-theme-surface: var(--mdc-theme-surface-caution-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-caution-highlight-hover);
@@ -34,7 +34,7 @@
       }
     }
     &.negative {
-      --mdc-theme-surface: var(--mdc-theme-surface-negative);
+      --mdc-theme-surface: var(--mdc-theme-surface-negative-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text  {
         --mdc-theme-primary: var(--mdc-theme-surface-negative-highlight-hover);
@@ -43,7 +43,7 @@
     }
 
     &.active {
-      --mdc-theme-surface: var(--mdc-theme-surface-secondary);
+      --mdc-theme-surface: var(--mdc-theme-surface-secondary-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-secondary-highlight-hover);
@@ -51,7 +51,7 @@
       }
     }
     &.positive {
-      --mdc-theme-surface: var(--mdc-theme-surface-positive);
+      --mdc-theme-surface: var(--mdc-theme-surface-positive-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-positive-highlight-hover);
