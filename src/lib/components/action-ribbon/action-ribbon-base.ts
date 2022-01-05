@@ -7,6 +7,7 @@ import { CloseReason } from '@material/banner/constants';
 //TODO REMOVE ONCE default export is fixed
 import MDCBannerFoundation from './foundation';
 
+
 import {html, property, query, TemplateResult} from 'lit-element';
 import {classMap} from 'lit-html/directives/class-map';
 

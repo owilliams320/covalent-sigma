@@ -1,5 +1,6 @@
-import {LitElement, html, css} from 'lit';
-import {customElement, property, query } from 'lit/decorators.js';
+import { LitElement, html} from 'lit';
+import { customElement, property, query } from 'lit/decorators.js';
+import styles from './app-shell.scss';
 
 // import '@material/mwc-button';
 // import '@material/mwc-drawer';
@@ -17,162 +18,8 @@ import {customElement, property, query } from 'lit/decorators.js';
   */
  @customElement('td-app-shell')
  export class CovalentAppShell extends LitElement {
-  
-   static override styles = css`
-   :host {
-      --mdc-typography-subtitle1-font-weight: 700;
-      --mdc-typography-subtitle2-font-weight: 700;
-   }
 
-   .logo-text {
-     fill: var(--covalent-theme-text-logo-on-background);
-   }
-
-
-   .covalent-icon {
-        --mdc-icon-font: "covalent-icons";
-    }
-   mwc-drawer {
-        --mdc-theme-surface: var(--mdc-theme-background);
-        --mdc-typography-subtitle1-font-weight: 700;
-        --mdc-typography-subtitle2-font-weight: 700;
-        --mdc-list-vertical-padding: 0;
-    }
-
-    mwc-top-app-bar-fixed {
-      /* Default width of drawer is 256px. See CSS Custom Properties below */
-      --mdc-top-app-bar-width: calc(100vw);
-    }
-
-    .drawer-content {
-      display:flex;
-      flex-direction:column;
-      height:100%;
-    }
-
-    #drawer-app-bar {
-      --mdc-top-app-bar-width: 255px;
-
-    }
-
-    mwc-top-app-bar-fixed {
-      --mdc-theme-primary: var(--mdc-theme-surface);
-      --mdc-theme-on-primary: var(--mdc-theme-on-surface);
-    }
-
-    mwc-list-item {
-        border-radius: 0 28px 28px 0;
-        margin-right:16px;
-        height: 48px;
-    }
-
-    mwc-list-item[activated] mwc-icon {
-        --mdc-theme-text-icon-on-background: --mdc-theme-text-icon-on-primary;
-    }
-
-    .mdc-top-app-bar__title {
-      padding-left:0;
-    }
-
-    #drawer-content mwc-top-app-bar-fixed {
-        display:none;
-    }
-
-    .home-item {
-        background-color: #f3753f;
-        --mdc-ripple-color: #fff;
-    }
-    .home-item .covalent-icon {
-        --mdc-list-item-graphic-size: 40px; 
-        --mdc-icon-size: 40px;
-        --mdc-theme-text-icon-on-background: #f3753f;
-        --mdc-theme-text-icon-on-background: #fff;
-
-        height: 40px;
-    }
-
-    .home-item .covalent-icon::after  {
-        background: #fff;
-        --mdc-theme-text-icon-on-background: #fff;
-    }
-
-    .home-item .home-icon {
-        --mdc-theme-text-icon-on-background: #fff;
-        --mdc-list-item-graphic-size: 35px;
-        margin-left: 8px;
-        margin-top: 4px;
-
-    }
-    .home-item mwc-icon {
-        position: relative;
-        border-radius: 100px;
-    }
-
-    .home-item .home-icon, .home-item:hover .covalent-icon {
-        display:none;
-    }
-
-    .home-item:hover .home-icon {
-        display:block;
-    }
-
-    html.dark .logo-light, .logo-dark { display:none; }
-    html.dark .logo-dark { display:block; }
-
-    navigation-rail {
-        display:flex;
-        overflow:auto;
-        flex-direction: column;
-        max-width: 71px;
-        min-width: 71px;
-        border-left: 1px solid transparent;
-        text-align:center;
-        height:100%;
-        margin-left:0;
-
-    }
-    mwc-drawer:not([type="modal"]) navigation-rail.drawer-open {
-        display:none;
-    }
-    navigation-rail mwc-list-item {
-        border-radius: 100%;
-        margin: 0 auto 8px;
-        padding: 0;
-        width: 48px;
-    }
-
-    navigation-rail .toggle-drawer {
-      margin-top: 8px;
-      margin-bottom: 8px;
-    }
-
-    navigation-rail mwc-list-item mwc-icon {
-        margin-left: 8px
-    }
-
-    #mini-menu-content {
-      width: 320px;
-      height: 100%;
-      margin-left: -1px;
-      border-left: 1px solid;
-      border-right: 1px solid;
-      border-color: var(--mdc-theme-border, rgba(black, 0.12));
-    }
-
-    #mini-menu-content mwc-icon {
-        background-color: gray;
-        color: white;
-    }
-
-    @media only screen and (max-width: 800px) {
-        #drawer-content mwc-top-app-bar-fixed {
-            display:block;
-        }
-        navigation-rail, #mini-menu-content {
-            display: none;
-        }
-    }
-   `;
+   static override styles = [styles];
 
    /**
     * The name of the application to show in the small app bar
@@ -263,7 +110,6 @@ import {customElement, property, query } from 'lit/decorators.js';
 
     return html`
        <mwc-drawer id="drawer" type="${this.type}" @MDCDrawer:closed="${this._drawerClosed}">
-     
         <div class="drawer-content">
             <mwc-top-app-bar-fixed id="drawer-app-bar" >
             <mwc-icon-button slot="navigationIcon" @click=${this._onClick} class="toggle-drawer" onClick="" icon="menu"></mwc-icon-button>
@@ -273,11 +119,8 @@ import {customElement, property, query } from 'lit/decorators.js';
                 <path class="logo-dot" fill="#e46c42" d="M695.029 116.028c0 8.825-6.772 15.596-16.212 15.596s-16.212-6.771-16.212-15.596c0-8.413 6.772-15.801 16.212-15.801s16.212 7.388 16.212 15.801"></path>
             </svg> 
             </mwc-top-app-bar-fixed>
-            <mwc-list activatable>
-              ${this.navItems.map( item => 
-                this.renderNavItem(item, false)
-              )}
-            </mwc-list>
+
+            <slot name="navigation"></slot>
 
             <div style="display:flex; flex:1;"></div>
             <div divider></div>
@@ -288,24 +131,18 @@ import {customElement, property, query } from 'lit/decorators.js';
         <div slot="appContent" style="display: flex; flex-direction: row; height: 100%;">
         <navigation-rail>
             <mwc-icon-button @click=${this._onClick} class="toggle-drawer" onClick="" icon="menu"></mwc-icon-button>
-            <mwc-list activatable>
-            ${this.navItems.map( item => 
-              this.renderNavItem(item, (item.icon === 'teradata'))
-            )}
-            </mwc-list>
+
+            <slot name="navigation-rail"></slot>
             <div style="display:flex; flex:1;"></div>
 
             <slot name="user-menu-rail"></slot>
         </navigation-rail>
-        <div id="mini-menu-content" style="height:100%; overflow:auto">
-           <slot name="mini-menu"></slot>
-        </div>
-        <div id="drawer-content" style="height:100%; overflow-x:auto; flex:1;">
+        <div class="app-content">
             <mwc-top-app-bar-fixed centerTitle>
                 <mwc-icon-button @click=${this._onClick} slot="navigationIcon" icon="menu"></mwc-icon-button>
                 <span slot="title">${this.appName}</span>
             </mwc-top-app-bar-fixed>
-            <div style="overflow:hidden;">
+            <div class="app-inner-content">
               <slot></slot>  
             </div>
             </div>

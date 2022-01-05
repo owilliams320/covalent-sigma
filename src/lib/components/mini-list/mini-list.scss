@@ -1,0 +1,21 @@
+:host {
+    display: block;
+    width: 320px;
+    height: 100%;
+    overflow: auto;
+    margin-left: -1px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
+}
+
+::slotted(mwc-icon) {
+    background-color: gray;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+     :host {
+        display: none;
+    }
+}

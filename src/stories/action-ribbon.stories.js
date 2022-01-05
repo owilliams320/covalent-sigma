@@ -1,35 +1,34 @@
-import '@material/mwc-icon/mwc-icon';
 
 export default {
-  title: 'Example/Action ribbon',
-  parameters: {
-    layout: "fullscreen",
-  },
-  argTypes: {
-    label: { control: 'text', defaultValue: 'No changes' },
-    icon:  {
-      control: 'text',
+    title: 'Example/Action ribbon',
+    parameters: {
+        layout: "fullscreen",
     },
-    onClick: { action: 'onClick'}
-  }
+    argTypes: {
+        label: { control: 'text', },
+        icon: {
+            control: 'text',
+        },
+        onClick: { action: 'onClick' }
+    }
 };
 
 export const Basic = ({ label, color, icon, saveDisabled = true }) => {
-  document.addEventListener('DOMContentLoaded', () => {
-    const banner = document.querySelector('td-action-ribbon');
-    const bannerTarget = document.querySelectorAll('mwc-button');
+        document.addEventListener('DOMContentLoaded', () => {
+            const banner = document.querySelector('td-action-ribbon');
+            const bannerTarget = document.querySelectorAll('mwc-button');
 
-    banner.show()
+            banner.show()
 
-    bannerTarget.forEach((el)=>{
-      el.addEventListener('click', ( ) => {
-        return banner.open ? banner.close() : banner.show();
-      });
+            bannerTarget.forEach((el) => {
+                el.addEventListener('click', () => {
+                    return banner.open ? banner.close() : banner.show();
+                });
 
-    });
-  }, { once : true });
+            });
+        }, { once: true });
 
-  return `
+        return `
     <style>
     .show-banner-button {
       margin: 16px;

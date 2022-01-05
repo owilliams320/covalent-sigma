@@ -9,7 +9,7 @@
       "declarationMap": true,
       "sourceMap": true,
       "inlineSources": true,
-      "outDir": "./dist/out-tsc",
+      "outDir": "./dist",
       "rootDir": "./src",
       "strict": true,
       "allowJs": true,

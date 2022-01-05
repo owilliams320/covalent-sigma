@@ -202,7 +202,7 @@ $dark-theme: (
 }
 
 // TD Tiger stripe
-body:after {
+body.tiger-stripe:after {
   content: "";
   position: absolute;
   top: 0;

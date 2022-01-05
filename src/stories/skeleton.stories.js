@@ -16,9 +16,8 @@ export const DataTable = ({}) => {
 
   const container = document.createElement('div');
   container.innerHTML = tableProgressContent;
-
   const tableCell = container.getElementsByClassName('mdc-data-table__cell');
-  tableCell.forEach((cell) => {
+  Array.from(tableCell).forEach((cell) => {
     cell.classList.add(skeletonClsName);
     cell.classList.add(skeletonEffect);
   });
@@ -72,11 +71,10 @@ export const Checkbox = ({ label = 'Bananas', indeterminate }) => {
       </mwc-formfield>`;
 
   const labels = container.getElementsByTagName('mwc-formfield');
-  labels.forEach((label) => {
+  Array.from(labels).forEach((label) => {
     label.classList.add(skeletonClsName);
     label.classList.add(skeletonEffect);
   });  
 
   return container;
-    
 };

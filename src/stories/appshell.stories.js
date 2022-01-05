@@ -15,18 +15,18 @@ import '@material/mwc-icon';
 import { MDCDataTable, events } from '@material/data-table';
 
 export default {
-  title: 'Pattern/AppShell',
-  argTypes: {
-    navClick: { action: 'clicked' }
-  },
-  decorators: [withDesign],
-  parameters: {
-    layout: 'fullscreen',
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/aDX2Rc1OIJ9tWgMcAvKRXv/Section?node-id=22%3A1453',
+    title: 'Pattern/AppShell',
+    argTypes: {
+        navClick: { action: 'clicked' }
     },
-  }
+    decorators: [withDesign],
+    parameters: {
+        layout: 'fullscreen',
+        design: {
+            type: 'figma',
+            url: 'https://www.figma.com/file/aDX2Rc1OIJ9tWgMcAvKRXv/Section?node-id=22%3A1453',
+        },
+    }
 };
 
 let banner;
@@ -35,31 +35,48 @@ let dataTable;
 const updateActionRibbon = () => {
     const selectedRowNum = dataTable.getSelectedRowIds().length;
     const totalRows = dataTable.rowCheckboxList.length;
-  
+
     if (selectedRowNum) {
         banner.labelText = `(${selectedRowNum}/${totalRows}) items selected`;
         banner.show();
-    } else  {
+    } else {
         banner.close();
     }
 }
 
 const Template = ({ navClick }) => {
-    
+
+    // Add TD tiger stripe
+   // setTimeout(function () { document.body.classList.add("tiger-stripe"); }, 0);
+
+
     document.addEventListener('DOMContentLoaded', () => {
         const dataTableEl = document.querySelector('.mdc-data-table');
         banner = document.querySelector('td-action-ribbon');
         dataTable = new MDCDataTable(dataTableEl);
 
-        setTimeout(updateActionRibbon, 150);
-    }, { once : true });
+        setTimeout(updateActionRibbon, 150);        
+    }, { once: true });
+
+
 
     document.addEventListener(events.SELECTED_ALL, updateActionRibbon);
     document.addEventListener(events.UNSELECTED_ALL, updateActionRibbon);
     document.addEventListener(events.ROW_SELECTION_CHANGED, updateActionRibbon);
-    
-  return `
+
+
+    return `
     <style>
+    /* TD Tiger Stripe */
+    #root:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 2px;
+        width: 100%;
+        z-index: 1000;
+        background-color: #f3753f;
+    }
 
     html, body, #root {
         height: 100%;
@@ -90,6 +107,7 @@ const Template = ({ navClick }) => {
         border-radius: 0;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 8px;
         padding: 0 16px;
         max-width: inherit;
         height: 72px;
@@ -122,6 +140,29 @@ const Template = ({ navClick }) => {
 
     .hidden-large {
         display: none;
+    }
+
+    [slot="user-menu-rail"] mwc-list-item:not(.beta-list-item) {
+        border-radius: 100%;
+        margin: 0 auto 8px;
+        padding: 0;
+        width: 48px;
+        height: 48px;
+
+    }
+
+    [slot="user-menu"] mwc-list-item:not(.beta-list-item) {
+        border-radius: 0 28px 28px 0;
+        margin-right:16px;
+    }
+
+    .toggle-drawer {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    mwc-list-item mwc-icon {
+        margin-left: 8px
     }
 
     @media only screen and (max-width: 800px) {
@@ -160,7 +201,6 @@ const Template = ({ navClick }) => {
            </mwc-list-item>
     </mwc-list>
 
-
     <mwc-list slot="user-menu-rail" activatable>
             <mwc-list-item class="beta-list-item" graphic="icon" twoline activated>
                 <span class="beta-icon" slot="graphic"><svg  style="fill:orange; height:20px;" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
@@ -186,42 +226,43 @@ const Template = ({ navClick }) => {
            </mwc-list-item>
     </mwc-list>
 
-    <div slot="mini-menu">
-    <div class="td-toolbar">
-        <span class="mdc-typography--headline6">[Page name]</span>
-        <div class="spacer"></div>
-        <mwc-icon-button slot="actionItems" icon="filter_list"></mwc-icon-button>
-        <mwc-icon-button slot="actionItems" icon="add"></mwc-icon-button>
-    </div>
-    <div divider></div>
-    <mwc-list slot="user-menu-rail" activatable>
-           <mwc-list-item graphic="avatar" twoline >
-               <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
-               <span>[Object name]</span>
-               <span slot="secondary">Secondary info</span>
-           </mwc-list-item>
-           <li divider role="separator"></li>
-           <mwc-list-item graphic="avatar" twoline>
-               <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
-               <span>[Object name]</span>
-               <span slot="secondary">Secondary info</span>
-           </mwc-list-item>
-           <li divider role="separator"></li>
-           <mwc-list-item graphic="avatar" twoline activated>
-               <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
-               <span>[Object name]</span>
-               <span slot="secondary">Secondary info</span>
-           </mwc-list-item>
-           <li divider role="separator"></li>
-           <mwc-list-item graphic="avatar" twoline>
-               <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
-               <span>[Object name]</span>
-               <span slot="secondary">Secondary info</span>
-           </mwc-list-item>
-           <li divider role="separator"></li>
-    </mwc-list>
-    </div>
+    <td-mini-list>
+        <div class="td-toolbar">
+            <span class="mdc-typography--headline6">[Page name]</span>
+            <div class="spacer"></div>
+            <mwc-icon-button slot="actionItems" icon="filter_list"></mwc-icon-button>
+            <mwc-icon-button slot="actionItems" icon="add"></mwc-icon-button>
+        </div>
+        <div divider></div>
+        <mwc-list activatable>
+            <mwc-list-item graphic="avatar" twoline >
+                <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
+                <span>[Object name]</span>
+                <span slot="secondary">Secondary info</span>
+            </mwc-list-item>
+            <li divider role="separator"></li>
+            <mwc-list-item graphic="avatar" twoline>
+                <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
+                <span>[Object name]</span>
+                <span slot="secondary">Secondary info</span>
+            </mwc-list-item>
+            <li divider role="separator"></li>
+            <mwc-list-item graphic="avatar" twoline activated>
+                <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
+                <span>[Object name]</span>
+                <span slot="secondary">Secondary info</span>
+            </mwc-list-item>
+            <li divider role="separator"></li>
+            <mwc-list-item graphic="avatar" twoline>
+                <mwc-icon class="covalent-icon" slot="graphic">server</mwc-icon>
+                <span>[Object name]</span>
+                <span slot="secondary">Secondary info</span>
+            </mwc-list-item>
+            <li divider role="separator"></li>
+        </mwc-list>
+    </td-mini-list>
 
+    <div style="flex:1; overflow:hidden;">
     <div class="td-toolbar">
         <span class="mdc-typography--headline6">[Section name]</span>
         <div class="spacer"></div>
@@ -247,6 +288,7 @@ const Template = ({ navClick }) => {
     
     ${tableRowSelectionContent}  
 
+    </div>
     </td-app-shell>
     `;
 };

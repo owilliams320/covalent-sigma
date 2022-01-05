@@ -1,0 +1,156 @@
+:host {
+    --mdc-typography-subtitle1-font-weight: 700;
+    --mdc-typography-subtitle2-font-weight: 700;
+}
+
+.logo-text {
+    fill: var(--covalent-theme-text-logo-on-background);
+}
+
+.covalent-icon {
+    --mdc-icon-font: "covalent-icons";
+}
+
+mwc-drawer {
+    --mdc-theme-surface: var(--mdc-theme-background);
+    --mdc-typography-subtitle1-font-weight: 700;
+    --mdc-typography-subtitle2-font-weight: 700;
+    --mdc-list-vertical-padding: 0;
+}
+
+mwc-top-app-bar-fixed {
+    /* Default width of drawer is 256px. See CSS Custom Properties below */
+    --mdc-top-app-bar-width: calc(100vw);
+}
+
+.drawer-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content {
+    height: 100%;
+    overflow-x: auto;
+    flex: 1;
+}
+
+.app-inner-content {
+    display: flex;
+    height: 100%;
+}
+
+#drawer-app-bar {
+    --mdc-top-app-bar-width: 255px;
+}
+
+mwc-top-app-bar-fixed {
+    --mdc-theme-primary: var(--mdc-theme-surface);
+    --mdc-theme-on-primary: var(--mdc-theme-on-surface);
+}
+
+mwc-list-item,
+ ::slotted(mwc-list-item) {
+    border-radius: 0 28px 28px 0;
+    margin-right: 16px;
+    height: 48px;
+}
+
+mwc-list-item[activated] mwc-icon {
+    --mdc-theme-text-icon-on-background: --mdc-theme-text-icon-on-primary;
+}
+
+.mdc-top-app-bar__title {
+    padding-left: 0;
+}
+
+.app-content mwc-top-app-bar-fixed {
+    display: none;
+}
+
+.home-item,
+ ::slotted(.home-item) {
+    background-color: #f3753f;
+    --mdc-ripple-color: #fff;
+    .covalent-icon {
+        --mdc-list-item-graphic-size: 40px;
+        --mdc-icon-size: 40px;
+        --mdc-theme-text-icon-on-background: #f3753f;
+        --mdc-theme-text-icon-on-background: #fff;
+        height: 40px;
+        &::after {
+            background: #fff;
+            --mdc-theme-text-icon-on-background: #fff;
+        }
+        .home-item .home-icon {
+            --mdc-theme-text-icon-on-background: #fff;
+            --mdc-list-item-graphic-size: 35px;
+            margin-left: 8px;
+            margin-top: 4px;
+            display: none;
+        }
+        .home-item mwc-icon {
+            position: relative;
+            border-radius: 100px;
+        }
+    }
+    &:hover {
+        .home-icon {
+            display: block;
+        }
+        .covalent-icon {
+            display: none;
+        }
+    }
+}
+
+html.dark .logo-light,
+.logo-dark {
+    display: none;
+}
+
+html.dark .logo-dark {
+    display: block;
+}
+
+navigation-rail {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    max-width: 71px;
+    min-width: 71px;
+    border-right: 1px solid var(--mdc-theme-border);
+    text-align: center;
+    height: 100%;
+    margin-left: 0;
+}
+
+mwc-drawer:not([type="modal"]) navigation-rail.drawer-open {
+    display: none;
+}
+
+navigation-rail mwc-list-item,
+ ::slotted(mwc-list-item) {
+    border-radius: 100%;
+    margin: 0 auto 8px;
+    padding: 0;
+    width: 48px;
+}
+
+navigation-rail .toggle-drawer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+navigation-rail mwc-list-item mwc-icon {
+    margin-left: 8px
+}
+
+@media only screen and (max-width: 800px) {
+    .app-content mwc-top-app-bar-fixed {
+        display: block;
+    }
+    navigation-rail {
+        display: none;
+    }
+}

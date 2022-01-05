@@ -1,10 +1,13 @@
+const path = require('path');
+const CopyPlugin = require("copy-webpack-plugin");
+
 module.exports = [{
     entry: [
-      './src/theme/index.scss',
-      './src/components/index.ts',
+      './src/lib/theme/index.scss',
+      './src/lib/components/index.ts',
     ],
     output: {
-      filename: 'covalent.js',
+      filename: 'index.js',
     },
     resolve: {
       // Add `.ts` and `.tsx` as a resolvable extension.
@@ -19,7 +22,7 @@ module.exports = [{
         },
         {
           test: /\.css|\.s(c|a)ss$/,
-          include: /src\/components/,
+          include: /src\/lib\/components/,
           exclude: /node_modules/,
           use: [
             {
@@ -45,7 +48,7 @@ module.exports = [{
         },
         {
           test: /\.s(c|a)ss$/,
-          include: /src\/theme/,
+          include: /src\/lib\/theme/,
           exclude: /node_modules/,
           use: [
             {
@@ -71,4 +74,9 @@ module.exports = [{
         }
       ]
     },
+    plugins: [
+      new CopyPlugin([
+        { from: "./src/assets/covalent-icons", to: "./covalent-icons" },
+      ]),
+    ],  
   }];
