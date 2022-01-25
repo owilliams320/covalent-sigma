@@ -7,10 +7,53 @@ import Flow from '../assets/flow.svg';
 import Plugin from '../assets/plugin.svg';
 import Repo from '../assets/repo.svg';
 import StackAlt from '../assets/stackalt.svg';
+import HeroBG from '../assets/globe-ne.svg';
 
-<Meta title="Example/Introduction" />
+<Meta 
+    title="Example/Introduction"
+    parameters= {{
+        layout: 'fullscreen',
+    }}
+/>
 
 <style>{`
+  .sb-show-main.dark .sbdocs-wrapper {
+    background-color: transparent;
+    color: #fff;
+  }
+  .sbdocs-wrapper {
+    padding-top: 0;
+  }
+  .sbdocs-content {
+    padding-top: 2rem;
+    margin-top: 22rem;
+  }
+  .sbdocs-p {
+    color: #fff;
+  }
+  .hero {
+    background-color: #161C1F;
+    background-image: url(./static/media/src/assets/globe-ne.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 22rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .sb-show-main.dark .hero {
+    background-color: #1f282e;
+  }
+  .hero > h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    max-width: 1000px;
+    margin: 8rem auto 0 !important;
+  }
   .subheading {
     --mediumdark: '#999999';
     font-weight: 900;
@@ -114,7 +157,11 @@ import StackAlt from '../assets/stackalt.svg';
   
 `}</style>
 
-# Welcome to Storybook
+<div class="hero">
+  <h1>
+    Covalent Design System
+  </h1>
+</div>
 
 Storybook helps you build UI components in isolation from your app's business logic, data, and context.
 That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
