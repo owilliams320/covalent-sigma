@@ -1,0 +1,108 @@
+.sb-show-main .sbdocs-wrapper {
+  background-color: var(--mdc-theme-background);
+  background-image: url(./static/media/src/assets/globe.svg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto 24rem;
+  color: var(--mdc-theme-text-secondary-on-background);
+  padding: 4rem 1.5rem;
+}
+
+.sbdocs-wrapper {
+  padding-top: 0;
+}
+
+.sbdocs-content {
+  font-size: 16px;
+  margin-top: 12rem;
+  max-width: 64rem;
+}
+
+.sbdocs-p {
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-size: 18px;
+}
+
+h1.sbdocs-h1 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline1-font-family);
+  font-size: 4.5rem;
+  font-weight: var(--mdc-typography-headline1-font-weight);
+  margin-bottom: 4rem;
+}
+
+.subheading {
+  color: var(--mdc-theme-text-primary-on-background) !important;
+  font-weight: 900;
+  font-size: var(--mdc-typography-subtitle2-font-size);
+  color: var(--mdc-theme-text-primary-on-background);
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.link-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+}
+
+@media (min-width: 620px) {
+  .link-list {
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  .link-list {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+  }
+}
+.link-item {
+  display: block;
+  padding: 24px 32px 24px 16px;
+  border: 1px solid var(--mdc-theme-border);
+  border-radius: 8px;
+  transition: background 150ms ease-out, border 150ms ease-out, transform 150ms ease-out;
+  color: var(--mdc-theme-text-secondary-on-background);
+  display: flex;
+  align-items: flex-start;
+}
+
+.link-item:hover {
+  background-color: var(--mdc-theme-surface-neutral-highlight);
+}
+
+.link-item:hover a {
+  color: var(--mdc-theme-primary) !important;
+  text-decoration: none;
+}
+
+.link-item:active {
+  color: var(--mdc-theme-primary);
+}
+
+.link-item strong {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.link-item img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  flex: none;
+}
+
+.link-item span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=md-styles.css.map */
