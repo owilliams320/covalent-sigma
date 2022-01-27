@@ -1,13 +1,14 @@
-import { Meta } from '@storybook/addon-docs';
+import { Meta, DocsContainer } from '@storybook/addon-docs';
 
 <Meta 
     title="Example/Introduction"
     parameters= {{
         layout: 'fullscreen',
+        previewTabs: { 
+          canvas: { hidden: true } 
+        }
     }}
 />
-
-
 
 # Covalent Design System
 
@@ -17,16 +18,16 @@ the raw components. We'll layer in documenation over time.
 
 Ping us in the **#design-system** channel on Slack for help.
 
-<div className="subheading">Get started</div>
-
 <div className="link-list">
   <a
     className="link-item"
     href="/story/pattern-appshell--basic"
   >
     <span>
-      <strong>App Shell</strong>
-      Our standard starter app
+      <strong>App shell</strong>
+      Our standard starter app, great for multi-level UIs that need to 
+      show a dashboard, subsections with lists of items, and detail pages
+      to view those items.
     </span>
   </a>
 </div>

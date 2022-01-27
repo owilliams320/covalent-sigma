@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: auto 24rem;
   color: var(--mdc-theme-text-secondary-on-background);
-  padding: 4rem 1.5rem;
+  padding: 4rem 1.5rem 1.5rem;
 }
 
 .sbdocs-wrapper {
@@ -14,95 +14,147 @@
 
 .sbdocs-content {
   font-size: 16px;
-  margin-top: 12rem;
   max-width: 64rem;
 }
 
-.sbdocs-p {
-  color: var(--mdc-theme-text-secondary-on-background);
-  font-size: 18px;
-}
-
-h1.sbdocs-h1 {
-  color: var(--mdc-theme-text-primary-on-background);
-  font-family: var(--mdc-typography-headline1-font-family);
-  font-size: 4.5rem;
-  font-weight: var(--mdc-typography-headline1-font-weight);
-  margin-bottom: 4rem;
-}
-
-.subheading {
-  color: var(--mdc-theme-text-primary-on-background) !important;
-  font-weight: 900;
-  font-size: var(--mdc-typography-subtitle2-font-size);
-  color: var(--mdc-theme-text-primary-on-background);
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  margin-top: 4rem;
-}
-
-.link-list {
+.sbdocs .link-list {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 10px;
+  row-gap: 1.5rem;
+  margin-top: 4rem;
 }
-
 @media (min-width: 620px) {
-  .link-list {
+  .sbdocs .link-list {
     row-gap: 1.5rem;
     column-gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
   }
 }
 @media all and (-ms-high-contrast: none) {
-  .link-list {
+  .sbdocs .link-list {
     display: -ms-grid;
     -ms-grid-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr;
   }
 }
-.link-item {
+.sbdocs a.link-item {
   display: block;
-  padding: 24px 32px 24px 16px;
+  padding: 16px;
   border: 1px solid var(--mdc-theme-border);
   border-radius: 8px;
   transition: background 150ms ease-out, border 150ms ease-out, transform 150ms ease-out;
   color: var(--mdc-theme-text-secondary-on-background);
   display: flex;
   align-items: flex-start;
-}
-
-.link-item:hover {
-  background-color: var(--mdc-theme-surface-neutral-highlight);
-}
-
-.link-item:hover a {
-  color: var(--mdc-theme-primary) !important;
+  min-height: 4rem;
   text-decoration: none;
 }
-
-.link-item:active {
+.sbdocs a.link-item:hover {
+  background-color: var(--mdc-theme-surface-neutral-highlight);
+  text-decoration: none;
+}
+.sbdocs a.link-item:active {
+  color: var(--mdc-theme-primary);
+  background-color: var(--mdc-theme-surface-primary-highlight-hover);
+}
+.sbdocs a.link-item:active strong {
   color: var(--mdc-theme-primary);
 }
-
-.link-item strong {
-  font-weight: 700;
-  display: block;
-  margin-bottom: 2px;
-}
-
-.link-item img {
+.sbdocs a.link-item img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
   flex: none;
 }
-
-.link-item span {
-  font-size: 14px;
-  line-height: 20px;
+.sbdocs a.link-item span {
+  font-family: var(--mdc-typography-body1-font-family);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
+}
+.sbdocs a.link-item strong {
+  font-family: var(--mdc-typography-headline6-font-family);
+  font-size: var(--mdc-typography-headline6-font-size);
+  font-weight: var(--mdc-typography-headline6-font-weight);
+  line-height: var(--mdc-typography-headline6-line-height);
+  color: var(--mdc-theme-text-primary-on-background);
+  display: block;
+  margin-bottom: 8px;
+}
+.sbdocs .sbdocs-h1,
+.sbdocs .sbdocs-title {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline1-font-family);
+  font-size: var(--mdc-typography-headline1-font-size);
+  font-weight: var(--mdc-typography-headline1-font-weight);
+  line-height: var(--mdc-typography-headline1-line-height);
+  margin-bottom: 4rem;
+  margin-top: 10rem;
+}
+.sbdocs .sbdocs-h1#covalent-design-system,
+.sbdocs .sbdocs-title#covalent-design-system {
+  margin-top: none;
+  max-width: 40rem;
+}
+.sbdocs .sbdocs-h2 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline2-font-family);
+  font-size: var(--mdc-typography-headline2-font-size);
+  font-weight: var(--mdc-typography-headline2-font-weight);
+  line-height: var(--mdc-typography-headline2-line-height);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-h3 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline3-font-family);
+  font-size: var(--mdc-typography-headline3-font-size);
+  font-weight: var(--mdc-typography-headline3-font-weight);
+  line-height: var(--mdc-typography-headline3-line-height);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-h4 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline4-font-family);
+  font-size: var(--mdc-typography-headline4-font-size);
+  font-weight: var(--mdc-typography-headline4-font-weight);
+  line-height: var(--mdc-typography-headline4-line-height);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-h5 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline5-font-family);
+  font-size: var(--mdc-typography-headline5-font-size);
+  font-weight: var(--mdc-typography-headline5-font-weight);
+  line-height: var(--mdc-typography-headline5-line-height);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-h6 {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-headline6-font-family);
+  font-size: var(--mdc-typography-headline6-font-size);
+  font-weight: var(--mdc-typography-headline6-font-weight);
+  line-height: var(--mdc-typography-headline6-line-height);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-p {
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
+}
+.sbdocs .subheading {
+  color: var(--mdc-theme-text-primary-on-background);
+  font-size: var(--mdc-typography-headline4-font-size);
+  font-weight: var(--mdc-typography-headline4-font-weight);
+  line-height: var(--mdc-typography-headline4-line-height);
+  margin-bottom: 1rem;
+  margin-top: 4rem;
 }
 
 /*# sourceMappingURL=md-styles.css.map */
