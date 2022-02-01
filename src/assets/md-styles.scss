@@ -153,7 +153,8 @@
             max-width: 40rem;
         }
     }
-    .sbdocs-h2 {
+    .sbdocs-h2,
+    .sbdocs-h2:first-of-type {
         border: none;
         color: var(--mdc-theme-text-primary-on-background);
         font-family: var(--mdc-typography-headline2-font-family);
@@ -161,7 +162,7 @@
         font-weight: var(--mdc-typography-headline2-font-weight);
         line-height: var(--mdc-typography-headline2-line-height);
         margin-bottom: 1.5rem;
-        margin-top: 1.5rem;
+        margin-top: 6rem;
     }
     .sbdocs-h3 {
         color: var(--mdc-theme-text-primary-on-background);
