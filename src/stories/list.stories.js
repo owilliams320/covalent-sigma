@@ -22,13 +22,6 @@ const BasicTemplate = ({ selected }) => {
 const IconTemplate = ({ icon, iconStyle = 'avatar' }) => {
 
     return `
-    <style>
-    /* invert icon color */
-    mwc-icon {
-        background-color: gray;
-        color: white;
-    }
-    </style>
     <mwc-list>
         <mwc-list-item graphic="${iconStyle}">
             <span>${iconStyle} 0</span>
@@ -93,12 +86,12 @@ Basic.args = {
     selected: false
 }
 
-export const IconGraphic = IconTemplate.bind({});
-IconGraphic.args = {
+export const WithAvatar = IconTemplate.bind({});
+WithAvatar.args = {
     icon: 'folder',
     iconStyle: 'avatar'
 }
-IconGraphic.argTypes = {
+WithAvatar.argTypes = {
     iconStyle: {
         options: ['avatar', 'icon', 'medium', 'large'],
         control: { type: 'radio' },

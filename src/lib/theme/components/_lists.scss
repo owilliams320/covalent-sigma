@@ -21,12 +21,14 @@
     
     @include evolution-mixins.one-line-item-height(var(--mdc-list-single-line-height, 48px));
     @include evolution-mixins.two-line-item-height(var(--mdc-list-two-line-height, 72px));
+
     .mdc-list-item {
         height: var(--mdc-list-single-line-height, 48px);
         display: flex;
         align-items: center;
         justify-content: flex-start;
     }
+
     &.mdc-list--two-line .mdc-list-item {
         height: var(--mdc-list-two-line-height, 72px);
 
@@ -37,8 +39,13 @@
     }
   }
 
+  .mdc-deprecated-list.mdc-deprecated-list--avatar-list .mdc-deprecated-list-item__graphic,
+  mwc-list-item[graphic=avatar] mwc-icon[slot=graphic] {
+    background-color: var(--mdc-theme-surface-neutral-highlight);
+  }
+
   // Divider
   [divider] {
-    border-bottom-color: $border;
+    border-bottom-color: var(mdc-theme-border);
   }
 }
