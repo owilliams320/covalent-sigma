@@ -1,6 +1,6 @@
 .sb-show-main .sbdocs-wrapper {
     background-color: var(--mdc-theme-background);
-    background-image: url(./static/media/src/assets/globe.svg);
+    background-image: url(./globe.svg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: auto 24rem;
@@ -13,6 +13,59 @@
 .sbdocs-content {
     font-size: 16px;
     max-width: 64rem;
+
+    table.docblock-argstable {
+        border-collapse: unset;
+        border-radius: 0;
+        
+        tbody {
+            box-shadow: none;
+
+            tr {
+                height: 3rem;
+            }
+        
+            td {
+                background: transparent;
+                border-bottom: 1px solid var(--mdc-theme-border);
+                color: var(--mdc-theme-text-primary-on-background);
+                font-family: var(--mdc-typography-font-family);
+                font-size: var(--mdc-typography-body1-font-size);
+                font-weight: var(--mdc-typography-body1-font-weight);
+                line-height: var(--mdc-typography-body1-line-height);
+                min-height: 3rem;
+                padding: 0 1rem;
+                vertical-align: middle;
+
+                &:first-of-type {
+                    padding-left: 1rem !important;
+                }
+                &:last-of-type {
+                    padding-right: 1rem !important;
+                }
+            }
+        }
+
+        .docblock-argstable-head {
+
+            tr {
+                height: 3.5rem;
+            }
+            
+            th {
+                background: transparent;
+                border-bottom: 1px solid var(--mdc-theme-border);
+                color: var(--mdc-theme-text-primary-on-background);
+                font-family: var(--mdc-typography-subtitle2-font-family);
+                font-size: var(--mdc-typography-subtitle2-font-size);
+                font-weight: var(--mdc-typography-subtitle2-font-weight);
+                line-height: var(--mdc-typography-subtitle2-line-height);
+                min-height: 3.5rem;
+                padding: 0 1rem;
+                vertical-align: middle;
+            }
+        }
+    }
 }
 .sbdocs {
 
@@ -70,7 +123,7 @@
             flex: none;
         }
         span {
-            font-family: var(--mdc-typography-body1-font-family);
+            font-family: var(--mdc-typography-font-family);
             font-size: var(--mdc-typography-body1-font-size);
             font-weight: var(--mdc-typography-body1-font-weight);
             line-height: var(--mdc-typography-body1-line-height);
@@ -100,14 +153,16 @@
             max-width: 40rem;
         }
     }
-    .sbdocs-h2 {
+    .sbdocs-h2,
+    .sbdocs-h2:first-of-type {
+        border: none;
         color: var(--mdc-theme-text-primary-on-background);
         font-family: var(--mdc-typography-headline2-font-family);
         font-size: var(--mdc-typography-headline2-font-size);
         font-weight: var(--mdc-typography-headline2-font-weight);
         line-height: var(--mdc-typography-headline2-line-height);
         margin-bottom: 1.5rem;
-        margin-top: 0.5rem;
+        margin-top: 8rem;
     }
     .sbdocs-h3 {
         color: var(--mdc-theme-text-primary-on-background);
@@ -151,7 +206,6 @@
         font-weight: var(--mdc-typography-body1-font-weight);
         line-height: var(--mdc-typography-body1-line-height);
     }
-    
     .subheading {
         color: var(--mdc-theme-text-primary-on-background);
         font-size: var(--mdc-typography-headline4-font-size);
@@ -159,5 +213,17 @@
         line-height: var(--mdc-typography-headline4-line-height);
         margin-bottom: 1rem;
         margin-top: 4rem;
+    }
+    .docs-story {
+        background: var(--mdc-theme-surface);
+    }
+    .os-host {
+        background: var(--mdc-theme-surface);
+    }
+    .sbdocs-preview {
+        background: var(--mdc-theme-surface);
+        border-color: var(--mdc-theme-surface);
+        margin-top: 0;
+        margin-bottom: 4rem;
     }
 }
