@@ -148,7 +148,7 @@
   font-weight: var(--mdc-typography-headline2-font-weight);
   line-height: var(--mdc-typography-headline2-line-height);
   margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 .sbdocs .sbdocs-h3 {
   color: var(--mdc-theme-text-primary-on-background);
