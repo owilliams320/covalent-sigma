@@ -16,6 +16,49 @@
   font-size: 16px;
   max-width: 64rem;
 }
+.sbdocs-content table.docblock-argstable {
+  border-collapse: unset;
+  border-radius: 0;
+}
+.sbdocs-content table.docblock-argstable tbody {
+  box-shadow: none;
+}
+.sbdocs-content table.docblock-argstable tbody tr {
+  height: 3rem;
+}
+.sbdocs-content table.docblock-argstable tbody td {
+  background: transparent;
+  border-bottom: 1px solid var(--mdc-theme-border);
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-font-family);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
+  min-height: 3rem;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+.sbdocs-content table.docblock-argstable tbody td:first-of-type {
+  padding-left: 1rem !important;
+}
+.sbdocs-content table.docblock-argstable tbody td:last-of-type {
+  padding-right: 1rem !important;
+}
+.sbdocs-content table.docblock-argstable .docblock-argstable-head tr {
+  height: 3.5rem;
+}
+.sbdocs-content table.docblock-argstable .docblock-argstable-head th {
+  background: transparent;
+  border-bottom: 1px solid var(--mdc-theme-border);
+  color: var(--mdc-theme-text-primary-on-background);
+  font-family: var(--mdc-typography-subtitle2-font-family);
+  font-size: var(--mdc-typography-subtitle2-font-size);
+  font-weight: var(--mdc-typography-subtitle2-font-weight);
+  line-height: var(--mdc-typography-subtitle2-line-height);
+  min-height: 3.5rem;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
 
 .sbdocs .link-list {
   display: grid;
@@ -68,7 +111,7 @@
   flex: none;
 }
 .sbdocs a.link-item span {
-  font-family: var(--mdc-typography-body1-font-family);
+  font-family: var(--mdc-typography-font-family);
   font-size: var(--mdc-typography-body1-font-size);
   font-weight: var(--mdc-typography-body1-font-weight);
   line-height: var(--mdc-typography-body1-line-height);
@@ -98,6 +141,7 @@
   max-width: 40rem;
 }
 .sbdocs .sbdocs-h2 {
+  border: none;
   color: var(--mdc-theme-text-primary-on-background);
   font-family: var(--mdc-typography-headline2-font-family);
   font-size: var(--mdc-typography-headline2-font-size);
@@ -155,6 +199,18 @@
   line-height: var(--mdc-typography-headline4-line-height);
   margin-bottom: 1rem;
   margin-top: 4rem;
+}
+.sbdocs .docs-story {
+  background: var(--mdc-theme-surface);
+}
+.sbdocs .os-host {
+  background: var(--mdc-theme-surface);
+}
+.sbdocs .sbdocs-preview {
+  background: var(--mdc-theme-surface);
+  border-color: var(--mdc-theme-surface);
+  margin-top: 0;
+  margin-bottom: 4rem;
 }
 
 /*# sourceMappingURL=md-styles.css.map */

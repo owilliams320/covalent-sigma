@@ -28,6 +28,7 @@
 
   --mdc-theme-background: #{map-get($theme, background)};
   --mdc-theme-surface: #{map-get($theme, surface)};
+  --mdc-theme-surface-canvas: #{map-get($theme, surface-canvas)};
   --mdc-theme-surface-primary: #{map-get($theme, surface-primary)};
   --mdc-theme-surface-primary-highlight: #{map-get($theme, surface-primary-highlight)};
   --mdc-theme-surface-primary-highlight-hover: #{map-get($theme, surface-primary-highlight-hover)};
