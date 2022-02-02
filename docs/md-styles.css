@@ -60,6 +60,12 @@
   vertical-align: middle;
 }
 
+.sbdocs {
+  font-family: var(--mdc-typography-font-family);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
+}
 .sbdocs .link-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -133,7 +139,7 @@
   font-weight: var(--mdc-typography-headline1-font-weight);
   line-height: var(--mdc-typography-headline1-line-height);
   margin-bottom: 4rem;
-  margin-top: 10rem;
+  margin-top: 0;
 }
 .sbdocs .sbdocs-h1#covalent-design-system,
 .sbdocs .sbdocs-title#covalent-design-system {
@@ -189,6 +195,7 @@
 }
 .sbdocs .sbdocs-p {
   color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-font-family);
   font-size: var(--mdc-typography-body1-font-size);
   font-weight: var(--mdc-typography-body1-font-weight);
   line-height: var(--mdc-typography-body1-line-height);
