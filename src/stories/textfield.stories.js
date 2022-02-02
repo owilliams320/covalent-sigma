@@ -2,7 +2,7 @@ import '@material/mwc-textfield';
 
 
 export default {
-  title: 'Example/Text field',
+  title: 'Example/Text Field',
   argTypes: {
     style: {
       options: ['outlined', 'filled'],

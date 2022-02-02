@@ -1,7 +1,7 @@
 import '@material/mwc-circular-progress';
 
 export default {
-  title: 'Example/Circular progress',
+  title: 'Example/Circular Progress',
   argTypes: {
     progress: {
       control: { type: 'range', max: 1, min: 0, step: 0.1 },

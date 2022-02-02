@@ -1,6 +1,6 @@
 
 export default {
-    title: 'Example/Action ribbon',
+    title: 'Example/Action Ribbon',
     parameters: {
         layout: "fullscreen",
     },

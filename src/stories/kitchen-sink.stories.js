@@ -23,7 +23,7 @@ import { MDCDataTable } from '@material/data-table';
 import * as kitchenSinkContent from './demos/material-web.content.html';
 
 export default {
-  title: 'Pattern/KitchenSink',
+  title: 'Pattern/Kitchen Sink',
   parameters: {
     layout: 'fullscreen',
   }

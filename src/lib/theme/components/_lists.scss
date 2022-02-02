@@ -44,6 +44,16 @@
     background-color: var(--mdc-theme-surface-neutral-highlight);
   }
 
+  .mdc-list,
+  .mwc-list-item,
+  .mdc-deprecated-list,
+  .mdc-deprecated-list-item__text {
+    font-family: var(--mdc-typography-font-family);
+    font-size: var(--mdc-typography-body1-font-size);
+    font-weight: var(--mdc-typography-body1-font-weight);
+    line-height: var(--mdc-typography-body1-line-height);
+  }
+
   // Divider
   [divider] {
     border-bottom-color: var(mdc-theme-border);

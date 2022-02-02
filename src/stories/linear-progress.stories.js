@@ -1,7 +1,7 @@
 import '@material/mwc-linear-progress';
 
 export default {
-  title: 'Example/Linear progress',
+  title: 'Example/Linear Progress',
   argTypes: {
     progress: {
       control: { type: 'range', max: 1, min: 0, step: 0.1 },

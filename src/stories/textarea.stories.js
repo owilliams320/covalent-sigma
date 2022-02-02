@@ -1,7 +1,7 @@
 import '@material/mwc-textarea';
 
 export default {
-  title: 'Example/Text area',
+  title: 'Example/Textarea',
   argTypes: {
     style: {
       options: ['outlined', 'filled'],

@@ -15,7 +15,7 @@ import '@material/mwc-icon';
 import { MDCDataTable, events } from '@material/data-table';
 
 export default {
-    title: 'Pattern/AppShell',
+    title: 'Pattern/App Shell',
     argTypes: {
         navClick: { action: 'clicked' }
     },

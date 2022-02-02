@@ -68,6 +68,10 @@
     }
 }
 .sbdocs {
+    font-family: var(--mdc-typography-font-family);
+    font-size: var(--mdc-typography-body1-font-size);
+    font-weight: var(--mdc-typography-body1-font-weight);
+    line-height: var(--mdc-typography-body1-line-height);
 
     .link-list {
         display: grid;
@@ -146,7 +150,7 @@
         font-weight: var(--mdc-typography-headline1-font-weight);
         line-height: var(--mdc-typography-headline1-line-height);
         margin-bottom: 4rem;
-        margin-top: 10rem;
+        margin-top: 0;
 
         &#covalent-design-system {
             margin-top: none;
@@ -202,6 +206,7 @@
     }
     .sbdocs-p {
         color: var(--mdc-theme-text-secondary-on-background);
+        font-family: var(--mdc-typography-font-family);
         font-size: var(--mdc-typography-body1-font-size);
         font-weight: var(--mdc-typography-body1-font-weight);
         line-height: var(--mdc-typography-body1-line-height);
