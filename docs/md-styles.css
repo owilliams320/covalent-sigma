@@ -131,6 +131,10 @@
   display: block;
   margin-bottom: 8px;
 }
+.sbdocs .sbdocs-h1:first-of-type, .sbdocs .sbdocs-h2:first-of-type, .sbdocs .sbdocs-h3:first-of-type, .sbdocs .sbdocs-h4:first-of-type, .sbdocs .sbdocs-h5:first-of-type, .sbdocs .sbdocs-h6:first-of-type {
+  margin-top: 0;
+  padding-top: 2rem;
+}
 .sbdocs .sbdocs-h1,
 .sbdocs .sbdocs-title {
   color: var(--mdc-theme-text-primary-on-background);
@@ -138,12 +142,13 @@
   font-size: var(--mdc-typography-headline1-font-size);
   font-weight: var(--mdc-typography-headline1-font-weight);
   line-height: var(--mdc-typography-headline1-line-height);
-  margin-bottom: 4rem;
-  margin-top: 0;
+  margin: 0;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
 }
 .sbdocs .sbdocs-h1#covalent-design-system,
 .sbdocs .sbdocs-title#covalent-design-system {
-  margin-top: none;
+  padding-top: none;
   max-width: 40rem;
 }
 .sbdocs .sbdocs-h2,
@@ -154,8 +159,9 @@
   font-size: var(--mdc-typography-headline2-font-size);
   font-weight: var(--mdc-typography-headline2-font-weight);
   line-height: var(--mdc-typography-headline2-line-height);
-  margin-bottom: 1.5rem;
-  margin-top: 8rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 .sbdocs .sbdocs-h3 {
   color: var(--mdc-theme-text-primary-on-background);
@@ -163,8 +169,9 @@
   font-size: var(--mdc-typography-headline3-font-size);
   font-weight: var(--mdc-typography-headline3-font-weight);
   line-height: var(--mdc-typography-headline3-line-height);
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 .sbdocs .sbdocs-h4 {
   color: var(--mdc-theme-text-primary-on-background);
@@ -172,8 +179,9 @@
   font-size: var(--mdc-typography-headline4-font-size);
   font-weight: var(--mdc-typography-headline4-font-weight);
   line-height: var(--mdc-typography-headline4-line-height);
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 .sbdocs .sbdocs-h5 {
   color: var(--mdc-theme-text-primary-on-background);
@@ -181,8 +189,9 @@
   font-size: var(--mdc-typography-headline5-font-size);
   font-weight: var(--mdc-typography-headline5-font-weight);
   line-height: var(--mdc-typography-headline5-line-height);
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 .sbdocs .sbdocs-h6 {
   color: var(--mdc-theme-text-primary-on-background);
@@ -190,8 +199,24 @@
   font-size: var(--mdc-typography-headline6-font-size);
   font-weight: var(--mdc-typography-headline6-font-weight);
   line-height: var(--mdc-typography-headline6-line-height);
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.sbdocs .sbdocs-hr {
+  border-color: var(--mdc-theme-border);
+  height: 1px;
+  margin: 5rem 0 0;
+  padding: 0 0 3rem;
+}
+.sbdocs .sbdocs-li {
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-font-family);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
+  margin: 0;
+  padding-bottom: 0.75rem;
 }
 .sbdocs .sbdocs-p {
   color: var(--mdc-theme-text-secondary-on-background);
@@ -199,14 +224,24 @@
   font-size: var(--mdc-typography-body1-font-size);
   font-weight: var(--mdc-typography-body1-font-weight);
   line-height: var(--mdc-typography-body1-line-height);
+  margin: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0;
+}
+.sbdocs .sbdocs ul,
+.sbdocs .sbdocs ol {
+  margin: 0;
+  padding-bottom: 1.25rem;
+  padding-top: 0.5rem;
 }
 .sbdocs .subheading {
   color: var(--mdc-theme-text-primary-on-background);
   font-size: var(--mdc-typography-headline4-font-size);
   font-weight: var(--mdc-typography-headline4-font-weight);
   line-height: var(--mdc-typography-headline4-line-height);
-  margin-bottom: 1rem;
-  margin-top: 4rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
 }
 .sbdocs .docs-story {
   background: var(--mdc-theme-surface);
@@ -216,9 +251,13 @@
 }
 .sbdocs .sbdocs-preview {
   background: var(--mdc-theme-surface);
-  border-color: var(--mdc-theme-surface);
-  margin-top: 0;
-  margin-bottom: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  margin-top: 0.5rem;
+}
+.sbdocs .sbdocs-preview .prismjs {
+  background-color: var(--mdc-theme-surface-canvas);
 }
 
 /*# sourceMappingURL=md-styles.css.map */
