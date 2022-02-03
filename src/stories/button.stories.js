@@ -48,8 +48,6 @@ const Template = ({ label, trailingIcon, icon, style, disabled, dense }) => {
          </mwc-button>`;
 };
 
-export const Text = Template.bind({});
-
 export const Contained = Template.bind({});
 Contained.args = {
   style: 'raised',
@@ -59,6 +57,8 @@ export const Outlined = Template.bind({});
 Outlined.args = {
   style: 'outlined',
 };
+
+export const Text = Template.bind({});
 
 export const dense = Template.bind({});
 dense.args = {

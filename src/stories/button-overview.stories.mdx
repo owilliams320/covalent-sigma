@@ -1,0 +1,87 @@
+<!-- button-overview.mdx -->
+
+import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
+
+<Meta 
+    title="Example/Button/Overview"
+    parameters= {{
+        layout: 'fullscreen',
+        previewTabs: { 
+          canvas: { hidden: true } 
+        }
+    }}
+/>
+
+# Buttons
+
+## Basics
+
+- Each page can have only one primary action button
+- It is common and okay for some pages to have no primary action
+- Include an icon in your button only in specific circumstances
+
+***
+
+## Anatomy
+
+Buttons contain a text label and optional icon.
+
+<Canvas>
+  <Story id="example-button--text" />
+  <Story id="example-button--contained" />
+  <Story id="example-button--outlined" />
+</Canvas>
+
+<Canvas>
+<form>
+  <mwc-button id="no-icon" raised label="No icon"></mwc-button>
+  <mwc-button id="left-icon" raised label="Left icon" icon="sailing"></mwc-button>
+  <mwc-button id="right-icon" raised label="Right icon" icon="sailing" trailingIcon="true"></mwc-button>
+</form>
+</Canvas>
+
+
+### Spacing
+
+Separate all buttons with an 8px gap.
+
+***
+
+## Placement
+
+Place the primary action to the right, followed by secondary actions.
+
+#### Sequence
+
+1.  Primary action button (if any)
+
+    Many pages will not have primary actions. This is OK.
+
+2.  Secondary action buttons
+
+3.  Lesser functions as icon buttons
+
+### In footers
+
+In footers (such as card, dialog, page, or sheet footers) align all buttons to the right, but place destructive actions to the left to minimize accidental clicks.
+
+***
+
+
+## Styling
+
+Use “default” outline buttons for everything except the primary action (if any).
+
+### Primary action
+
+If the page has a primary action, use an “accent” contained button.
+
+### Destructive action
+
+#### When the primary action is destructive
+
+If the primary action is a destructive one (for example, it deletes some data), then it uses the negative color.
+
+#### When the destructive action is not the primary action
+
+If the destructive action is not the primary action, do not use the negative color. This calls extra attention to it, and we want the focus to remain on the primary action.

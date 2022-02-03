@@ -21,4 +21,14 @@
     @include data-table.divider-color($divider);
     @include data-table.stroke-size(0);
     //checked-icon-color, , divider-size, 
+
+    .mdc-data-table__header-cell {
+      font-family: var(--mdc-typography-font-family);
+      font-size: var(--mdc-typography-body2-font-size);
+      font-weight: 600;
+      line-height: var(--mdc-typography-body2-line-height);
+    }
+    .mdc-data-table__sort-icon-button {
+      font-size: 1rem;
+    }
   }
