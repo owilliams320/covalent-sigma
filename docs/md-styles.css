@@ -13,6 +13,8 @@
 }
 
 .sbdocs-content {
+  display: grid;
+  /* Prevent margin-collapse of child elements */
   font-size: 16px;
   max-width: 64rem;
 }
@@ -131,6 +133,20 @@
   display: block;
   margin-bottom: 8px;
 }
+.sbdocs .docs-story > div:last-of-type {
+  background-color: transparent;
+}
+.sbdocs .docblock-code-toggle {
+  background-color: var(--mdc-theme-surface-canvas);
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-font-family);
+  font-size: var(--mdc-typography-caption-font-size);
+  font-weight: var(--mdc-typography-caption-font-weight);
+  line-height: var(--mdc-typography-caption-line-height);
+}
+.sbdocs .docblock-code-toggle:hover {
+  color: var(--mdc-theme-text-primary-on-background);
+}
 .sbdocs .sbdocs-h1:first-of-type, .sbdocs .sbdocs-h2:first-of-type, .sbdocs .sbdocs-h3:first-of-type, .sbdocs .sbdocs-h4:first-of-type, .sbdocs .sbdocs-h5:first-of-type, .sbdocs .sbdocs-h6:first-of-type {
   margin-top: 0;
   padding-top: 2rem;
@@ -225,6 +241,7 @@
   font-weight: var(--mdc-typography-body1-font-weight);
   line-height: var(--mdc-typography-body1-line-height);
   margin: 0;
+  max-width: 35rem;
   padding-bottom: 0.75rem;
   padding-top: 0;
 }
