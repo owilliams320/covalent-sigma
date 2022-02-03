@@ -6,5 +6,19 @@
   
   .mdc-button {
     @include button.outline-color(map-get($theme,primary));
+
+    &.destructive {
+      &.mdc-button--outlined {
+        border-color: var(--mdc-theme-error);
+        color: var(--mdc-theme-error);
+      }
+      &.mdc-button--raised {
+        background-color: var(--mdc-theme-error);
+        color: var(--mdc-theme-text-primary-on-light);
+      }
+      &.mdc-button--text {
+        color: var(--mdc-theme-error);
+      }
+    }
   }
 }

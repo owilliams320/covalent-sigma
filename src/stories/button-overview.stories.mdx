@@ -12,6 +12,18 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
     }}
 />
 
+<style>{`
+  mwc-button + mwc-button {
+    margin-left: 8px;
+  }
+  .docs-story div:first-of-type {
+    text-align: center;
+  }
+  .negative button {
+    background-color: var(--mdc-theme-error);
+  }
+`}</style>
+
 # Buttons
 
 ## Basics
@@ -20,17 +32,17 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
 - It is common and okay for some pages to have no primary action
 - Include an icon in your button only in specific circumstances
 
-***
-
-## Anatomy
-
-Buttons contain a text label and optional icon.
-
 <Canvas>
   <Story id="example-button--text" />
   <Story id="example-button--contained" />
   <Story id="example-button--outlined" />
 </Canvas>
+
+***
+
+## Anatomy
+
+Buttons contain a text label and optional icon.
 
 <Canvas>
 <form>
@@ -44,6 +56,14 @@ Buttons contain a text label and optional icon.
 ### Spacing
 
 Separate all buttons with an 8px gap.
+
+<Canvas>
+<form>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+</form>
+</Canvas>
 
 ***
 
@@ -61,6 +81,14 @@ Place the primary action to the right, followed by secondary actions.
 
 3.  Lesser functions as icon buttons
 
+<Canvas>
+<form>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button raised label="Button"></mwc-button>
+</form>
+</Canvas>
+
 ### In footers
 
 In footers (such as card, dialog, page, or sheet footers) align all buttons to the right, but place destructive actions to the left to minimize accidental clicks.
@@ -72,9 +100,24 @@ In footers (such as card, dialog, page, or sheet footers) align all buttons to t
 
 Use “default” outline buttons for everything except the primary action (if any).
 
+<Canvas>
+<form>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+</form>
+</Canvas>
+
 ### Primary action
 
 If the page has a primary action, use an “accent” contained button.
+
+<Canvas>
+<form>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button raised label="Primary"></mwc-button>
+</form>
+</Canvas>
 
 ### Destructive action
 
@@ -82,6 +125,23 @@ If the page has a primary action, use an “accent” contained button.
 
 If the primary action is a destructive one (for example, it deletes some data), then it uses the negative color.
 
+<Canvas>
+<form>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button class="destructive" raised label="Delete"></mwc-button>
+</form>
+</Canvas>
+
 #### When the destructive action is not the primary action
 
 If the destructive action is not the primary action, do not use the negative color. This calls extra attention to it, and we want the focus to remain on the primary action.
+
+<Canvas>
+<form>
+  <mwc-button outlined label="Delete"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button raised label="Primary"></mwc-button>
+</form>
+</Canvas>
