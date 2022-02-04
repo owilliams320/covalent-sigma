@@ -147,15 +147,28 @@
         background-color: transparent;
     }
     .docblock-code-toggle {
-        background-color: var(--mdc-theme-surface-canvas);
+        background-color: transparent;
+        border-left: 1px solid var(--mdc-theme-border);
+        border-top: 1px solid var(--mdc-theme-border);
+        border-top-left-radius: .5rem;
         color: var(--mdc-theme-text-secondary-on-background);
         font-family: var(--mdc-typography-font-family);
         font-size: var(--mdc-typography-caption-font-size);
         font-weight: var(--mdc-typography-caption-font-weight);
         line-height: var(--mdc-typography-caption-line-height);
+        padding: .75rem 1rem;
 
         &:hover {
             color: var(--mdc-theme-text-primary-on-background);
+        }
+        &:focus {
+            box-shadow: none;
+            background-color: var(--mdc-theme-surface-neutral-highlight);
+        }
+
+        &.docblock-code-toggle--expanded {
+            background-color: var(--mdc-theme-surface-canvas);
+            border-color: var(--mdc-theme-surface-canvas);
         }
     }
     .sbdocs {
@@ -183,7 +196,7 @@
         padding-top: 2rem;
 
         &#covalent-design-system {
-            padding-top: none;
+            padding-top: 0;
             max-width: 40rem;
         }
     }
@@ -295,6 +308,36 @@
 
         .prismjs {
             background-color: var(--mdc-theme-surface-canvas);
+        }
+
+        & > div:last-of-type > div:last-of-type {
+            background-color: transparent;
+
+            button {
+                background-color: transparent;
+                border-left: 1px solid var(--mdc-theme-border);
+                border-top: 1px solid var(--mdc-theme-border);
+                border-top-left-radius: .5rem;
+                color: var(--mdc-theme-text-secondary-on-background);
+                font-family: var(--mdc-typography-font-family);
+                font-size: var(--mdc-typography-caption-font-size);
+                font-weight: var(--mdc-typography-caption-font-weight);
+                line-height: var(--mdc-typography-caption-line-height);
+                padding: .75rem 1rem;
+
+                &:hover {
+                    color: var(--mdc-theme-text-primary-on-background);
+                }
+                &:focus {
+                    box-shadow: none;
+                    background-color: var(--mdc-theme-surface-neutral-highlight);
+                }
+
+                &.docblock-code-toggle--expanded {
+                    background-color: var(--mdc-theme-surface-canvas);
+                    border-color: var(--mdc-theme-surface-canvas);
+                }
+            }
         }
     }
 }
