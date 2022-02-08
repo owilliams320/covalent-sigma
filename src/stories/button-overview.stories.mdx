@@ -22,12 +22,9 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
   .docs-story div:first-of-type .innerZoomElementWrapper > div {
       border: none !important;
   }
-  #story--example-button--contained,
+  #story--example-button--outlined,
   #story--example-button--text {
     margin-right: 8px;
-  }
-  mwc-button[raised].destructive {
-    --mdc-theme-primary: var(--mdc-theme-error);
   }
   mwc-button[outlined].destructive {
     margin-right: 4rem;
@@ -44,8 +41,8 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
 
 <Canvas>
   <Story id="example-button--text" />
-  <Story id="example-button--contained" />
   <Story id="example-button--outlined" />
+  <Story id="example-button--contained" />
 </Canvas>
 
 ***
@@ -95,7 +92,7 @@ Place the primary action to the right, followed by secondary actions.
 <form>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Button"></mwc-button>
+  <mwc-button raised label="Button" class="primary accent"></mwc-button>
 </form>
 </Canvas>
 
@@ -107,7 +104,7 @@ In footers (such as card, dialog, page, or sheet footers) align all buttons to t
 <form>
   <mwc-button outlined label="Delete" class="destructive"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Primary"></mwc-button>
+  <mwc-button raised label="Primary" class="primary accent"></mwc-button>
 </form>
 </Canvas>
 
@@ -133,7 +130,7 @@ If the page has a primary action, use an “accent” contained button.
 <form>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Primary"></mwc-button>
+  <mwc-button raised label="Primary" class="primary accent"></mwc-button>
 </form>
 </Canvas>
 
@@ -147,7 +144,7 @@ If the primary action is a destructive one (for example, it deletes some data), 
 <form>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Delete" class="destructive"></mwc-button>
+  <mwc-button raised label="Delete" class="destructive primary"></mwc-button>
 </form>
 </Canvas>
 
@@ -159,6 +156,6 @@ If the destructive action is not the primary action, do not use the negative col
 <form>
   <mwc-button outlined label="Delete" class="destructive"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Primary"></mwc-button>
+  <mwc-button raised label="Primary" class="primary accent"></mwc-button>
 </form>
 </Canvas>

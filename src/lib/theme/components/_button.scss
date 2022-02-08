@@ -1,24 +1,50 @@
 @use "@material/button";
 
 @mixin button-theme($theme) {
-  // support for web component
-  --mdc-button-outline-color: #{map-get($theme,primary)};
   
-  .mdc-button {
-    @include button.outline-color(map-get($theme,primary));
+  --mdc-theme-error: #{map-get($theme,error)};
 
-    &.destructive {
-      &.mdc-button--outlined {
-        border-color: var(--mdc-theme-error);
-        color: var(--mdc-theme-error);
-      }
-      &.mdc-button--raised {
-        background-color: var(--mdc-theme-error);
-        color: var(--mdc-theme-text-primary-on-light);
-      }
-      &.mdc-button--text {
-        color: var(--mdc-theme-error);
-      }
+  // --- web component --- //
+
+  // --- set default to neutral --- //
+  --mdc-button-outline-color: #{map-get($theme,text-icon-on-background)};
+  --mdc-theme-primary: #{map-get($theme,text-primary-on-background)};
+
+  
+  // --- apply accent color --- //
+  mwc-button[outlined].accent.primary,
+  mwc-button[raised].accent.primary,
+  mwc-button[text].accent.primary {
+    --mdc-theme-primary: #{map-get($theme,primary)};
+    --mdc-button-outline-color: var(--mdc-theme-primary);
+  }
+  
+  // --- apply error color --- //
+  mwc-button[outlined].destructive.primary,
+  mwc-button[raised].destructive.primary,
+  mwc-button[text].destructive.primary,
+  mwc-button[outlined].negative.primary, // Same thing, just using "negative" alias
+  mwc-button[raised].negative.primary,
+  mwc-button[text].negative.primary {
+    --mdc-theme-primary: var(--mdc-theme-error);
+    --mdc-button-outline-color: var(--mdc-theme-error);
+  }
+
+  // --- non-web component --- //
+
+  .mdc-button:not(:disabled) {
+    @include button.outline-color(map-get($theme,text-icon-on-background));
+    
+    &.accent {
+      --mdc-theme-primary: #{map-get($theme,primary)};
+      --mdc-button-outline-color: var(--mdc-theme-primary);
+      border-color: var(--mdc-button-outline-color);
+    }
+    &.destructive,
+    &.negative {
+      --mdc-theme-primary: #{map-get($theme,error)};
+      --mdc-button-outline-color: var(--mdc-theme-primary);
+      border-color: var(--mdc-button-outline-color);
     }
   }
 }
