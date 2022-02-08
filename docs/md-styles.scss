@@ -143,9 +143,6 @@
             margin-bottom: 8px;
         }
     }
-    .docs-story > div:last-of-type {
-        background-color: transparent;
-    }
     .docblock-code-toggle {
         background-color: transparent;
         border-left: 1px solid var(--mdc-theme-border);
@@ -295,6 +292,10 @@
     }
     .docs-story {
         background: var(--mdc-theme-surface);
+
+        & > div:last-of-type {
+            background-color: transparent;
+        }
     }
     .os-host {
         background: var(--mdc-theme-surface);

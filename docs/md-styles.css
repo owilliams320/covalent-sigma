@@ -133,9 +133,6 @@
   display: block;
   margin-bottom: 8px;
 }
-.sbdocs .docs-story > div:last-of-type {
-  background-color: transparent;
-}
 .sbdocs .docblock-code-toggle {
   background-color: transparent;
   border-left: 1px solid var(--mdc-theme-border);
@@ -274,6 +271,9 @@
 }
 .sbdocs .docs-story {
   background: var(--mdc-theme-surface);
+}
+.sbdocs .docs-story > div:last-of-type {
+  background-color: transparent;
 }
 .sbdocs .os-host {
   background: var(--mdc-theme-surface);
