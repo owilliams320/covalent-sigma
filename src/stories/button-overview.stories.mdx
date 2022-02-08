@@ -19,8 +19,18 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
   .docs-story div:first-of-type {
     text-align: center;
   }
-  .negative button {
-    background-color: var(--mdc-theme-error);
+  .docs-story div:first-of-type .innerZoomElementWrapper > div {
+      border: none !important;
+  }
+  #story--example-button--contained,
+  #story--example-button--text {
+    margin-right: 8px;
+  }
+  mwc-button[raised].destructive {
+    --mdc-theme-primary: var(--mdc-theme-error);
+  }
+  mwc-button[outlined].destructive {
+    margin-right: 4rem;
   }
 `}</style>
 
@@ -129,7 +139,7 @@ If the primary action is a destructive one (for example, it deletes some data), 
 <form>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button class="destructive" raised label="Delete"></mwc-button>
+  <mwc-button raised label="Delete" class="destructive"></mwc-button>
 </form>
 </Canvas>
 
@@ -139,8 +149,7 @@ If the destructive action is not the primary action, do not use the negative col
 
 <Canvas>
 <form>
-  <mwc-button outlined label="Delete"></mwc-button>
-  <mwc-button outlined label="Button"></mwc-button>
+  <mwc-button outlined label="Delete" class="destructive"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button raised label="Primary"></mwc-button>
 </form>
