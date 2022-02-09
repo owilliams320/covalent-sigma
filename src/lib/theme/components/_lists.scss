@@ -8,6 +8,8 @@
   --mdc-list-single-line-height: 48px;
   --mdc-list-two-line-height: 72px;
 
+  // --- web component --- //
+
   @include list.deprecated-divider-color($border);  
   @include evolution-mixins.divider-color($border);
 
@@ -16,9 +18,9 @@
     @include list.deprecated-item-primary-text-ink-color($text);
   }
 
-  // List
+  // --- non-web component --- //
+
   .mdc-list {
-    
     @include evolution-mixins.one-line-item-height(var(--mdc-list-single-line-height, 48px));
     @include evolution-mixins.two-line-item-height(var(--mdc-list-two-line-height, 72px));
 
@@ -44,6 +46,8 @@
     background-color: var(--mdc-theme-surface-neutral-highlight);
   }
 
+  mwc-list-item,
+  mwc-check-list-item,
   .mdc-list,
   .mwc-list-item,
   .mdc-deprecated-list,

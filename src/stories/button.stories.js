@@ -25,7 +25,15 @@ export default {
       control: 'boolean',
       defaultValue: false,
     },
-    onClick: { action: 'onClick'}
+    onClick: { action: 'onClick'},
+    isNegative:  {
+      control: 'boolean',
+      defaultValue: false,
+    },
+    isPrimary:  {
+      control: 'boolean',
+      defaultValue: false,
+    },
   },
   decorators: [withDesign],
   parameters: {
@@ -36,7 +44,7 @@ export default {
   }
 };
 
-const Template = ({ label, trailingIcon, icon, style, disabled, dense }) => {
+const Template = ({ label, trailingIcon, icon, style, disabled, dense, isNegative, isPrimary }) => {
 
   return `<mwc-button id="myButton"
                       label="${label}"
@@ -44,7 +52,8 @@ const Template = ({ label, trailingIcon, icon, style, disabled, dense }) => {
                       ${icon ? `icon="${icon}"` : null }
                       ${dense ? 'dense' : null }
                       ${disabled ? 'disabled' : null }
-                      ${style}>
+                      ${style}
+                      class="${isNegative ? `negative` : null } ${isPrimary ? `primary` : null }"
          </mwc-button>`;
 };
 
@@ -59,6 +68,9 @@ Outlined.args = {
 };
 
 export const Text = Template.bind({});
+Text.args = {
+  style: 'text',
+};
 
 export const dense = Template.bind({});
 dense.args = {

@@ -7,9 +7,10 @@
   // --- web component --- //
 
   // --- set default to neutral --- //
-  --mdc-button-outline-color: #{map-get($theme,text-icon-on-background)};
-  --mdc-theme-primary: #{map-get($theme,text-primary-on-background)};
-
+  mwc-button {
+    --mdc-button-outline-color: #{map-get($theme,text-icon-on-background)};
+    --mdc-theme-primary: #{map-get($theme,text-primary-on-background)};
+  }
   
   // --- apply accent color --- //
   mwc-button[outlined].accent.primary,
@@ -33,6 +34,8 @@
   // --- non-web component --- //
 
   .mdc-button:not(:disabled) {
+    --mdc-button-outline-color: #{map-get($theme,text-icon-on-background)};
+    --mdc-theme-primary: #{map-get($theme,text-primary-on-background)};
     @include button.outline-color(map-get($theme,text-icon-on-background));
     
     &.accent {
