@@ -59,6 +59,28 @@
     line-height: var(--mdc-typography-body1-line-height);
   }
 
+  mwc-list-item {
+    span[slot="secondary"] {
+
+      mwc-icon {
+        font-size: 1rem;
+        margin-right: .25rem;
+        position: relative;
+        top: 3px;
+      }
+
+      &.status-caution {
+        color: var(--mdc-theme-surface-caution);
+      }
+      &.status-negative {
+        color: var(--mdc-theme-surface-negative);
+      }
+      &.status-positive {
+        color: var(--mdc-theme-surface-positive);
+      }
+    }
+  }
+
   // Divider
   [divider] {
     border-bottom-color: var(mdc-theme-border);
