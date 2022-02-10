@@ -161,7 +161,7 @@
 }
 .sbdocs .sbdocs-h1:first-of-type, .sbdocs .sbdocs-h2:first-of-type, .sbdocs .sbdocs-h3:first-of-type, .sbdocs .sbdocs-h4:first-of-type, .sbdocs .sbdocs-h5:first-of-type, .sbdocs .sbdocs-h6:first-of-type {
   margin-top: 0;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .sbdocs .sbdocs-h1,
 .sbdocs .sbdocs-title {
