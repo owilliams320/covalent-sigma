@@ -13,8 +13,8 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
 />
 
 <style>{`
-  mwc-button + mwc-button {
-    margin-left: 8px;
+  mwc-button {
+    margin-right: 8px;
   }
   .docs-story div:first-of-type {
     text-align: center;
@@ -37,9 +37,9 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
 - Include an icon in your button only in specific circumstances
 
 <Canvas>
-  <Story id="example-button--text" />
-  <Story id="example-button--outlined" />
-  <Story id="example-button--contained" />
+  <mwc-button id="text-button" text label="Text button"></mwc-button>
+  <mwc-button id="outlined-button" outlined label="Outlined button"></mwc-button>
+  <mwc-button id="contained-button" raised label="Contained button"></mwc-button>
 </Canvas>
 
 ***
@@ -89,7 +89,7 @@ Place the primary action to the right, followed by secondary actions.
 <form>
   <mwc-button outlined label="Button"></mwc-button>
   <mwc-button outlined label="Button"></mwc-button>
-  <mwc-button raised label="Button" class="primary accent"></mwc-button>
+  <mwc-button raised label="Primary" class="primary accent"></mwc-button>
 </form>
 </Canvas>
 
