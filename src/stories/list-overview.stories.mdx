@@ -16,9 +16,32 @@ import { Canvas, DocsContainer, Meta, Story } from '@storybook/addon-docs';
   .docs-story > div:first-of-type .innerZoomElementWrapper > div {
       border: none !important;
   }
+  .docs-story mwc-list {
+    margin: 0 auto;
+    max-width: 30rem;
+  }
 `}</style>
 
 # Lists
+
+## Anatomy
+
+A list item may contain:
+
+- 1, 2 or 3 lines of text
+- A leading icon or avatar image
+- A trailing icon
+
+<Canvas>
+<mwc-list>
+  <mwc-list-item graphic="avatar" hasMeta twoline>
+    <span>Two-line list item</span>
+    <span slot="secondary">Secondary line</span>
+    <mwc-icon slot="graphic">folder</mwc-icon>
+    <mwc-icon slot="meta">info</mwc-icon>
+  </mwc-list-item>
+</mwc-list>
+</Canvas>
 
 ## Displaying status
 
@@ -26,7 +49,7 @@ Show as a byline in your list item. Do not use the main icon or avatar - this is
 
 <Canvas>
 <mwc-list>
-  <mwc-list-item twoline graphic="avatar" noninteractive>
+  <mwc-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-caution">
       <mwc-icon>warning</mwc-icon>
@@ -35,7 +58,7 @@ Show as a byline in your list item. Do not use the main icon or avatar - this is
     <mwc-icon slot="graphic" class="inverted">tag_faces</mwc-icon>
   </mwc-list-item>
   <li divider role="separator"></li>
-  <mwc-list-item twoline graphic="avatar" noninteractive>
+  <mwc-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-negative">
       <mwc-icon>error</mwc-icon>
@@ -44,7 +67,7 @@ Show as a byline in your list item. Do not use the main icon or avatar - this is
     <mwc-icon slot="graphic" class="inverted">tag_faces</mwc-icon>
   </mwc-list-item>
   <li divider role="separator"></li>
-  <mwc-list-item twoline graphic="avatar" noninteractive>
+  <mwc-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-positive">
       <mwc-icon>check</mwc-icon>
