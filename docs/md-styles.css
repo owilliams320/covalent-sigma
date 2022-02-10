@@ -18,6 +18,9 @@
   font-size: 16px;
   max-width: 64rem;
 }
+.sbdocs-content > .sbdocs-p + .sbdocs-preview {
+  margin-top: 2rem;
+}
 .sbdocs-content table.docblock-argstable {
   border-collapse: unset;
   border-radius: 0;
@@ -271,6 +274,9 @@
 }
 .sbdocs .docs-story {
   background: var(--mdc-theme-surface);
+}
+.sbdocs .docs-story > div:first-of-type .innerZoomElementWrapper > div {
+  border: none !important;
 }
 .sbdocs .docs-story > div:last-of-type {
   background-color: transparent;
