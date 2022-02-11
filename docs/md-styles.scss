@@ -19,6 +19,18 @@
         margin-top: 2rem;
     }
 
+    & > ul,
+    & > ol {
+        margin: 0;
+        padding-bottom: 1.250rem;
+        padding-top: .5rem;
+
+        ul,
+        ol {
+            margin-top: 1.250rem;
+        }
+    }
+
     table.docblock-argstable {
         border-collapse: unset;
         border-radius: 0;
@@ -279,11 +291,48 @@
         padding-bottom: .75rem;
         padding-top: 0;
     }
-    .sbdocs ul,
-    .sbdocs ol {
-        margin: 0;
-        padding-bottom: 1.250rem;
-        padding-top: .5rem;
+    .sbdocs-table {
+        font-family: var(--mdc-typography-subtitle2-font-family);
+
+        thead th {
+            height: 3.5rem;
+        }
+        tbody td {
+            height: 3rem;
+        }
+        tr {
+            border: none;
+            
+            &:nth-of-type(2n) {
+                background-color: transparent;
+            }
+        }
+        tr td {
+            border: none;
+            border-bottom: 1px solid var(--mdc-theme-border);
+            color: var(--mdc-theme-text-secondary-on-background);
+            font-family: var(--mdc-typography-font-family);
+            font-size: var(--mdc-typography-body1-font-size);
+            font-weight: var(--mdc-typography-body1-font-weight);
+            line-height: var(--mdc-typography-body1-line-height);
+        }
+        tr th {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--mdc-theme-border);
+            color: var(--mdc-theme-text-primary-on-background);
+            font-family: var(--mdc-typography-subtitle2-font-family);
+            font-size: var(--mdc-typography-body2-font-size);
+            font-weight: var(--mdc-typography-subtitle2-font-weight);
+            line-height: var(--mdc-typography-body2-line-height);
+            padding: 0 1rem;
+            text-align: left;
+            vertical-align: middle;
+
+            &[align="right"] {
+                text-align: right;
+            }
+        }
     }
     .subheading {
         color: var(--mdc-theme-text-primary-on-background);
