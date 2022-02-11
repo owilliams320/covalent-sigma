@@ -70,13 +70,13 @@
       }
 
       &.status-caution {
-        color: var(--mdc-theme-surface-caution);
+        color: var(--mdc-theme-caution);
       }
       &.status-negative {
-        color: var(--mdc-theme-surface-negative);
+        color: var(--mdc-theme-negative);
       }
       &.status-positive {
-        color: var(--mdc-theme-surface-positive);
+        color: var(--mdc-theme-positive);
       }
     }
   }

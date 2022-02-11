@@ -23,6 +23,7 @@
   --mdc-theme-primary: #{map-get($theme, primary)};
   --mdc-theme-secondary: #{map-get($theme, secondary)};
   --mdc-theme-error: #{map-get($theme, error)};
+  --mdc-theme-negative: #{map-get($theme, error)};
   --mdc-theme-positive: #{map-get($theme, positive)};
   --mdc-theme-caution: #{map-get($theme, caution)};
 

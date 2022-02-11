@@ -56,7 +56,7 @@ $light-theme: (
   primary: covalent-palette.$td-teal-900,
   secondary: covalent-palette.$td-teal-900,
   error: #b11d00,
-  positive: material-palette.$green-700,
+  positive: #0a7e07,
   caution: material-palette.$amber-800,
   negative: #b11d00,
 
@@ -102,21 +102,21 @@ $light-theme: (
   surface-secondary-highlight: rgba(covalent-palette.$td-teal-200, 0.1),
   surface-secondary-highlight-hover: rgba(covalent-palette.$td-teal-200, 0.2),
 
-  surface-positive: #336033,
-  surface-positive-highlight: rgba(#336033, 0.4),
-  surface-positive-highlight-hover: rgba(#336033, 0.6),
+  surface-positive: material-palette.$green-200,
+  surface-positive-highlight: rgba(material-palette.$green-200, 0.1),
+  surface-positive-highlight-hover: rgba(material-palette.$green-200, 0.2),
 
-  surface-caution: #704c16,
-  surface-caution-highlight: rgba(#704c16, 0.4),
-  surface-caution-highlight-hover: rgba(#704c16, 0.6),
+  surface-caution: material-palette.$orange-300,
+  surface-caution-highlight: rgba(material-palette.$orange-300, 0.1),
+  surface-caution-highlight-hover: rgba(material-palette.$orange-300, 0.2),
 
-  surface-negative: #883e32,
-  surface-negative-highlight: rgba(#883e32, 0.4),
-  surface-negative-highlight-hover: rgba(#883e32, 0.6),
+  surface-negative: material-palette.$red-300,
+  surface-negative-highlight: rgba(material-palette.$red-300, 0.1),
+  surface-negative-highlight-hover: rgba(material-palette.$red-300, 0.2),
 
   surface-neutral: material-palette.$grey-400,
-  surface-neutral-highlight: rgba(material-palette.$grey-400, 0.1),
-  surface-neutral-highlight-hover: rgba(material-palette.$grey-400, 0.2),
+  surface-neutral-highlight: rgba(material-palette.$grey-400, 0.04),
+  surface-neutral-highlight-hover: rgba(material-palette.$grey-400, 0.08),
 
   // Foreground colors (expanded)
   divider: rgba(black, 0.12)
@@ -127,7 +127,7 @@ $dark-theme: (
   primary: covalent-palette.$td-teal-300,
   secondary: covalent-palette.$td-teal-300,
   error: #f46f5a,
-  positive: material-palette.$green-300,
+  positive: #42bd41,
   caution: material-palette.$orange-300,
   negative: #f46f5a,
 
@@ -173,17 +173,17 @@ $dark-theme: (
   surface-secondary-highlight: rgba(covalent-palette.$td-teal-1200, 0.4),
   surface-secondary-highlight-hover: rgba(covalent-palette.$td-teal-1200, 0.6),
 
-  surface-positive: material-palette.$green-200,
-  surface-positive-highlight: rgba(material-palette.$green-200, 0.1),
-  surface-positive-highlight-hover: rgba(material-palette.$green-200, 0.2),
+  surface-positive: #336033,
+  surface-positive-highlight: rgba(#336033, 0.4),
+  surface-positive-highlight-hover: rgba(#336033, 0.6),
 
-  surface-caution: material-palette.$orange-300,
-  surface-caution-highlight: rgba(material-palette.$orange-300, 0.1),
-  surface-caution-highlight-hover: rgba(material-palette.$orange-300, 0.2),
+  surface-caution: #704C16,
+  surface-caution-highlight: rgba(#704C16, 0.4),
+  surface-caution-highlight-hover: rgba(#704C16, 0.6),
 
-  surface-negative: material-palette.$red-300,
-  surface-negative-highlight: rgba(material-palette.$red-300, 0.1),
-  surface-negative-highlight-hover: rgba(material-palette.$red-300, 0.2),
+  surface-negative: #883E32,
+  surface-negative-highlight: rgba(#883E32, 0.4),
+  surface-negative-highlight-hover: rgba(#883E32, 0.6),
 
   surface-neutral: covalent-palette.$td-slate-800,
   surface-neutral-highlight: rgba(covalent-palette.$td-slate-800, 0.4),
