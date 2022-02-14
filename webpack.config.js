@@ -7,7 +7,7 @@ module.exports = [{
       './src/lib/components/index.ts',
     ],
     output: {
-      filename: 'index.js',
+      filename: 'covalent.js',
     },
     resolve: {
       // Add `.ts` and `.tsx` as a resolvable extension.
