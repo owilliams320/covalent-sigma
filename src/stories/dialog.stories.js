@@ -7,10 +7,10 @@ export default {
 const Template = ({ isDark }) => {
 
   return `<div class="${isDark ? `dark` : null }">
-            <mwc-dialog id="dialog1" heading="Dialog header" open>
+            <mwc-dialog id="dialog1" heading="Dialog header" scrimClickAction="" open>
               Dialog body text
-              <mwc-button slot="primaryAction" dialogAction="ok">Action 2</mwc-button>
-              <mwc-button slot="secondaryAction" dialogAction="cancel">Action 1</mwc-button>
+              <mwc-button slot="primaryAction">Action 2</mwc-button>
+              <mwc-button slot="secondaryAction">Action 1</mwc-button>
             </mwc-dialog>
           </div>`;
 };
