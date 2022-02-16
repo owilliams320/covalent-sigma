@@ -36,5 +36,6 @@ export const parameters = {
 
     // Add dark and light class to preview
     stylePreview: true,
-  }
+  },
+  layout: 'centered'
 }

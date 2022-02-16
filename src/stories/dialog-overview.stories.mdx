@@ -1,0 +1,50 @@
+<!-- dialog-overview.stories.mdx -->
+
+import { Canvas, Meta, DocsContainer, Story } from '@storybook/addon-docs';
+import { Dialog } from '@storybook/components';
+
+<Meta 
+    title="Example/Dialog/Overview" 
+    parameters= {{
+        docs: {
+          inlineStories: false,
+        },
+        layout: 'fullscreen',
+        previewTabs: { 
+          canvas: { hidden: true } 
+        }
+    }}
+/>
+
+<style>{`
+  #story--example-dialog--anatomy > div {
+    height: 20rem !important;
+  }
+  .preview-dark {
+    display: none;
+  }
+  .dark .preview-light {
+    display: none;
+  }
+  .dark .preview-dark {
+    display: block;
+  }
+`}</style>
+
+# Dialogs
+
+## Basics
+
+- Use only when the user has to make a decision RIGHT NOW
+- It's always better to do the action and then allow an "undo" option rather than using an "Are you sure?" dialog
+- To notify the user less intrusively, consider using a [snackbar](?path=/story/example-snackbar--basic) instead
+
+***
+
+<Pre class="preview-light">
+  <Story id="example-dialog--anatomy" />
+</Pre>
+
+<Pre class="preview-dark">
+  <Story id="example-dialog--anatomy" isDark />
+</Pre>
