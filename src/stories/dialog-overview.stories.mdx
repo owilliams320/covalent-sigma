@@ -17,7 +17,9 @@ import { Dialog } from '@storybook/components';
 />
 
 <style>{`
-  #story--example-dialog--anatomy > div {
+  #story--example-dialog--anatomy > div,
+  #story--example-dialog--logout > div,
+  #story--example-dialog--udf > div {
     height: 20rem !important;
   }
   .preview-dark {
@@ -49,4 +51,13 @@ import { Dialog } from '@storybook/components';
 
 <Pre class="preview-dark">
   <Story id="example-dialog--anatomy" isDark />
+</Pre>
+
+## Examples
+
+<Pre>
+  <Story id="example-dialog--logout" />
+</Pre>
+<Pre>
+  <Story id="example-dialog--udf" />
 </Pre>
