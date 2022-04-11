@@ -2,6 +2,10 @@ import dialogComponent from './demos/dialog.component';
 
 export default {
   title: 'Example/Dialog',
+  properties: {
+    darkMode: {current: 'dark', stylePreview: true}
+
+  }
 };
 
 const Template = ({ isDark }) => {

@@ -1,10 +1,4 @@
-
-@use '@material/banner/banner' as banner-core;
-@use '@material/banner';
-
-@mixin core-styles() {
-  @include banner-core.core-styles();
-
+@mixin theme() {
   .mdc-banner {
     background-color: var(--mdc-theme-surface);
     border-bottom-color: var(--mdc-theme-border);
@@ -41,7 +35,6 @@
         --mdc-theme-on-surface: var(--mdc-theme-error);
       }
     }
-
     &.active {
       --mdc-theme-surface: var(--mdc-theme-surface-secondary-highlight);
 

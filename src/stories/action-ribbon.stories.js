@@ -24,7 +24,6 @@ export const Basic = ({ label, color, icon, saveDisabled = true }) => {
                 el.addEventListener('click', () => {
                     return banner.open ? banner.close() : banner.show();
                 });
-
             });
         }, { once: true });
 

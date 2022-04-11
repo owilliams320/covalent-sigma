@@ -1,4 +1,3 @@
-
 import { addHasRemoveClass, BaseElement } from '@material/mwc-base/base-element';
 import { observer } from '@material/mwc-base/observer';
 import { MDCBannerAdapter } from '@material/banner/adapter';
@@ -7,9 +6,9 @@ import { CloseReason } from '@material/banner/constants';
 //TODO REMOVE ONCE default export is fixed
 import MDCBannerFoundation from './foundation';
 
-
-import {html, property, query, TemplateResult} from 'lit-element';
-import {classMap} from 'lit-html/directives/class-map';
+import { html, TemplateResult } from 'lit';
+import { classMap } from 'lit/directives/class-map';
+import { property, query } from 'lit/decorators';
 
 export class ActionRibbonBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;
@@ -81,7 +80,7 @@ export class ActionRibbonBase extends BaseElement {
       <slot name="icon">
         <mwc-icon class="mdc-banner__icon">
         ${this.icon}
-        </mwc-icon>        
+        </mwc-icon>
       </slot>
     </div>`;
   }

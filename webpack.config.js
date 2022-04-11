@@ -1,7 +1,7 @@
 const path = require('path');
 const CopyPlugin = require("copy-webpack-plugin");
 
-module.exports = [{
+module.exports = {
     entry: [
       './src/lib/theme/index.scss',
       './src/lib/components/index.ts',
@@ -79,4 +79,4 @@ module.exports = [{
         { from: "./src/assets/covalent-icons", to: "./covalent-icons" },
       ]),
     ],  
-  }];
+  };

@@ -1,4 +1,4 @@
-import { html } from 'lit-html';
+import { html } from 'lit';
 import '@material/mwc-icon-button';
 import iconList from '../assets/codepoints.json';
 

@@ -19,7 +19,7 @@ module.exports = {
     'storybook-dark-mode',
     'storybook-addon-designs',
   ],
-  // webpackFinal: (config) => {
-  //   return { ...config, module: { ...config.module,} };
-  // },
+  webpackFinal: (config) => {
+    return Object.assign({}, config, {module:{rules: [...config.module.rules, ...covalentWebpack.module.rules] }});
+  },
 }
