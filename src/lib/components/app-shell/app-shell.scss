@@ -1,47 +1,81 @@
+@use '@material/drawer';
+@use '@material/feature-targeting/feature-targeting';
+@use '@material/rtl/rtl';
+
+@include drawer.core-styles();
+@include drawer.dismissible-core-styles();
+@include drawer.modal-core-styles();
+
 :host {
-    --mdc-typography-subtitle1-font-weight: 700;
-    --mdc-typography-subtitle2-font-weight: 700;
-}
-
-.logo-text {
-    fill: var(--covalent-theme-text-logo-on-background);
-}
-
-.covalent-icon {
-    --mdc-icon-font: "covalent-icons";
-}
-
-mwc-drawer {
     --mdc-theme-surface: var(--mdc-theme-background);
-    --mdc-typography-subtitle1-font-weight: 700;
-    --mdc-typography-subtitle2-font-weight: 700;
     --mdc-list-vertical-padding: 0;
 }
 
-mwc-top-app-bar-fixed {
-    /* Default width of drawer is 256px. See CSS Custom Properties below */
-    --mdc-top-app-bar-width: calc(100vw);
+.app-shell {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: min-content;
+    grid-template-areas: "nav mini-list main help";
+    min-height: 100vh;
 }
 
-.drawer-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.main {
+    grid-area: main;
+    overflow: auto;
+    height: 100vh;
+    border-left: 1px solid;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
 }
 
-.app-content {
-    height: 100%;
-    overflow-x: auto;
-    flex: 1;
+[name="help"]::slotted(*) {
+    grid-area: help;
+    width: 320px;
+    height: 100vh;
+    overflow-y: auto;
 }
 
-.app-inner-content {
-    display: flex;
-    height: 100%;
+[name="mini-list"]::slotted(*) {
+    display: block;
+    width: 320px;
+    height: 100vh;
+    overflow: auto;
+    border-left: 1px solid;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
+    
+    @media only screen and (max-width: 1000px) {
+         & {
+            display: none;
+        }
+    }
 }
 
-#drawer-app-bar {
-    --mdc-top-app-bar-width: 255px;
+nav.navigation {
+    grid-area: nav;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 0;
+    .toggle-drawer {
+        margin:8px auto;
+    }
+
+    .navigation-toolbar {
+        display: flex;  
+        align-items: center;
+    }
+
+    slot[name="logo"] {
+        display: none;
+    }
+
+    &.mdc-drawer--open {
+        .toggle-drawer {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        slot[name="logo"] {
+            display: block;
+        }
+    }
 }
 
 mwc-top-app-bar-fixed {
@@ -49,108 +83,56 @@ mwc-top-app-bar-fixed {
     --mdc-theme-on-primary: var(--mdc-theme-on-surface);
 }
 
-mwc-list-item,
- ::slotted(mwc-list-item) {
-    border-radius: 0 28px 28px 0;
-    margin-right: 16px;
-    height: 48px;
+[divider] {
+    border-bottom: 1px solid;
+    margin: 16px;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
 }
 
-mwc-list-item[activated] mwc-icon {
-    --mdc-theme-text-icon-on-background: --mdc-theme-text-icon-on-primary;
-}
-
-.mdc-top-app-bar__title {
-    padding-left: 0;
-}
-
-.app-content mwc-top-app-bar-fixed {
-    display: none;
-}
-
-.home-item,
- ::slotted(.home-item) {
-    background-color: #f3753f;
-    --mdc-ripple-color: #fff;
-    .covalent-icon {
-        --mdc-list-item-graphic-size: 40px;
-        --mdc-icon-size: 40px;
-        --mdc-theme-text-icon-on-background: #f3753f;
-        --mdc-theme-text-icon-on-background: #fff;
-        height: 40px;
-        &::after {
-            background: #fff;
-            --mdc-theme-text-icon-on-background: #fff;
-        }
-        .home-item .home-icon {
-            --mdc-theme-text-icon-on-background: #fff;
-            --mdc-list-item-graphic-size: 35px;
-            margin-left: 8px;
-            margin-top: 4px;
-            display: none;
-        }
-        .home-item mwc-icon {
-            position: relative;
-            border-radius: 100px;
-        }
+/* Open/Collapse Animation in Desktop */
+@media only screen and (min-width: 800px) {
+    nav.navigation {
+        display: flex;
+        flex-direction: column;
+        transition-property: width;
+        transition-duration: 200ms;
+        transform: none;
+        background-color: transparent;
     }
-    &:hover {
-        .home-icon {
-            display: block;
-        }
-        .covalent-icon {
-            display: none;
-        }
+
+    .mdc-drawer--dismissible {
+        display: block;
+        width: 72px;
+        position: static;
     }
-}
 
-html.dark .logo-light,
-.logo-dark {
-    display: none;
-}
+    .mdc-drawer--open {
+        width: 256px;
+    }
 
-html.dark .logo-dark {
-    display: block;
-}
+    .mdc-drawer--opening {
+        width: 256px;
+        transition-duration: 200ms;
+    }
+   
+    .mdc-drawer--closing {
+        width: 72px;
+        transition-duration: 200ms;
+    }
 
-navigation-rail {
-    display: flex;
-    overflow: auto;
-    flex-direction: column;
-    max-width: 71px;
-    min-width: 71px;
-    border-right: 1px solid var(--mdc-theme-border);
-    text-align: center;
-    height: 100%;
-    margin-left: 0;
-}
-
-mwc-drawer:not([type="modal"]) navigation-rail.drawer-open {
-    display: none;
-}
-
-navigation-rail mwc-list-item,
- ::slotted(mwc-list-item) {
-    border-radius: 100%;
-    margin: 0 auto 8px;
-    padding: 0;
-    width: 48px;
-}
-
-navigation-rail .toggle-drawer {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-navigation-rail mwc-list-item mwc-icon {
-    margin-left: 8px
+    .header {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-    .app-content mwc-top-app-bar-fixed {
-        display: block;
-    }
-    navigation-rail {
-        display: none;
-    }
+   .app-shell {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "main" "mini-list" "help";
+   }
+   [name="help"]::slotted(*), .main {
+       height: auto;
+       width: auto;
+       border: none;
+   }
 }

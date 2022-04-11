@@ -2,7 +2,6 @@ import { customElement } from 'lit/decorators.js';
 import { ActionRibbonBase } from './action-ribbon-base';
 import styles from './styles.scss';
 
-
 /**
   * Action ribbon
   *
@@ -10,10 +9,8 @@ import styles from './styles.scss';
   */
 @customElement('td-action-ribbon')
 export class CovalentActionRibbon extends ActionRibbonBase {
-  
   static override styles = [styles];
-
- }
+}
 
 declare global {
    interface HTMLElementTagNameMap {

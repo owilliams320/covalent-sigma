@@ -143,9 +143,14 @@
   // Covalent Specific variables
   --covalent-theme-text-logo-on-background: #{map-get($theme, text-logo-on-background)};
 
-  // Icon
+  // Icon 
+  // TODO move to its own imports
   .covalent-icon {
     --mdc-icon-font: 'covalent-icons';
+  }
+
+  .teradata-icon {
+    --mdc-icon-font: "teradata-icons";
   }
 
   // Shape
@@ -153,6 +158,7 @@
   --mdc-shape-medium: 8px;
 
   // Skeleton
+  // TODO move to its own imports
   .skeleton-text * {
     font-family: "skeleton" !important;
   }
@@ -184,12 +190,20 @@
   color: var(--mdc-theme-text-primary-on-background);
 
   // Links
+  // TODO move to its own imports
   a[href] {
     color: var(--mdc-theme-text-primary-on-background);
     &:hover { text-decoration: underline; }
   }
 
+  // TODO move to its own imports
   .beta-list-item {
     --mdc-theme-primary: #{map-get($theme, surface-caution)};
+  }
+
+  [divider] {
+    border-bottom: 1px solid;
+    list-style: none;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
   }
 }

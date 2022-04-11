@@ -7,12 +7,12 @@ import { Dialog } from '@storybook/components';
     title="Example/Dialog/Overview" 
     parameters= {{
         docs: {
-          inlineStories: false,
+          inlineStories: true,
         },
         layout: 'fullscreen',
         previewTabs: { 
           canvas: { hidden: true } 
-        }
+        },
     }}
 />
 
@@ -45,13 +45,7 @@ import { Dialog } from '@storybook/components';
 
 ## Anatomy
 
-<Pre class="preview-light">
-  <Story id="example-dialog--anatomy" />
-</Pre>
-
-<Pre class="preview-dark">
-  <Story id="example-dialog--anatomy" isDark />
-</Pre>
+<Story id="example-dialog--basic" parameters={{ docs: { disable: true }, darkMode: {current: 'dark', stylePreview: true} }} ></Story>
 
 ## Examples
 

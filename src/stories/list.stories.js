@@ -12,10 +12,10 @@ const BasicTemplate = ({ selected }) => {
 
     return `
     <mwc-list activatable>
-        <mwc-list-item>Item 0</mwc-list-item>
-        <mwc-list-item ${selected ? `selected activated` : null}>Item 1</mwc-list-item>
-        <mwc-list-item>Item 2</mwc-list-item>
-        <mwc-list-item>Item 3</mwc-list-item>
+        <li><td-list-item>Item 0</td-list-item></li>
+        <li><td-list-item ${selected ? `selected activated` : null}>Item 1</td-list-item></li>
+        <li><td-list-item>Item 2</td-list-item></li>
+        <li><td-list-item>Item 3</td-list-item></li>
     </mwc-list>`;
 };
 
@@ -23,26 +23,26 @@ const IconTemplate = ({ icon, iconStyle = 'avatar' }) => {
 
     return `
     <mwc-list>
-        <mwc-list-item graphic="${iconStyle}">
+        <li><td-list-item graphic="${iconStyle}">
             <span>${iconStyle} 0</span>
             <mwc-icon slot="graphic">${icon}</mwc-icon>
-        </mwc-list-item>
-        <mwc-list-item graphic="${iconStyle}">
+        </td-list-item></li>
+        <li><td-list-item graphic="${iconStyle}">
             <span>${iconStyle} 2</span>
             <mwc-icon slot="graphic">${icon}</mwc-icon>
-        </mwc-list-item>
-        <mwc-list-item graphic="${iconStyle}">
+        </td-list-item></li>
+        <li><td-list-item graphic="${iconStyle}">
             <span>${iconStyle} 3</span>
             <mwc-icon slot="graphic">${icon}</mwc-icon>
-        </mwc-list-item>
-        <mwc-list-item graphic="${iconStyle}">
+        </td-list-item></li>
+        <li><td-list-item graphic="${iconStyle}">
             <span>${iconStyle} 4</span>
             <mwc-icon slot="graphic">${icon}</mwc-icon>
-        </mwc-list-item>
-        <mwc-list-item graphic="${iconStyle}">
+        </td-list-item></li>
+        <li><td-list-item graphic="${iconStyle}">
             <span>${iconStyle} 5</span>
             <mwc-icon slot="graphic">${icon}</mwc-icon>
-        </mwc-list-item>
+        </td-list-item></li>
     </mwc-list>`;
 };
 
@@ -50,22 +50,22 @@ const TwoLineTemplate = ({ icon, style, required, helper }) => {
 
     return `
     <mwc-list>
-        <mwc-list-item twoline>
+        <li><td-list-item twoline>
             <span>Item 0</span>
             <span slot="secondary">Secondary line</span>
-        </mwc-list-item>
-        <mwc-list-item twoline>
+        </td-list-item></li>
+        <li><td-list-item twoline>
             <span>Item 1</span>
             <span slot="secondary">Secondary line</span>
-        </mwc-list-item>
-        <mwc-list-item twoline>
+        </td-list-item></li>
+        <li><td-list-item twoline>
             <span>Item 2</span>
             <span slot="secondary">Secondary line</span>
-        </mwc-list-item>
-        <mwc-list-item twoline>
+        </td-list-item></li>
+        <li><td-list-item twoline>
             <span>Item 3</span>
             <span slot="secondary">Secondary line</span>
-        </mwc-list-item>
+        </td-list-item></li>
     </mwc-list>`;
 };
 
@@ -73,13 +73,28 @@ const CheckRadioTemplate = ({ listType }) => {
 
     return `
     <mwc-list multi>
-        <mwc-${listType}-list-item selected>Item 0</mwc-${listType}-list-item>
-        <mwc-${listType}-list-item selected>Item 1</mwc-${listType}-list-item>
+        <li><mwc-${listType}-list-item selected>Item 0</mwc-${listType}-list-item></li>
+        <li><mwc-${listType}-list-item selected>Item 1</mwc-${listType}-list-item></li>
         <li divider role="separator" padded></li>
-        <mwc-${listType}-list-item left selected>Item 2 (left)</mwc-${listType}-list-item>
-        <mwc-${listType}-list-item left>Item 3 (left)</mwc-${listType}-list-item>
+        <li><mwc-${listType}-list-item left selected>Item 2 (left)</mwc-${listType}-list-item></li>
+        <li><mwc-${listType}-list-item left>Item 3 (left)</mwc-${listType}-list-item></li>
     </mwc-list>`;
 };
+
+const SubItemTemplate = ({ selected }) => {
+    return `
+    <mwc-list activatable>
+        <li><td-list-item>Item 0</td-list-item></li>
+        <li><td-list-item graphic="avatar" ${selected ? `selected activated` : null} hasChildren>
+          Item 1
+            <mwc-icon slot="graphic">settings</mwc-icon>
+        </td-list-item></li>
+        <li><td-list-item childItem> SubItems 0</td-list-item></li>
+        <li><td-list-item>Item 2</td-list-item></li>
+        <li><td-list-item>Item 3</td-list-item></li>
+    </mwc-list>`;
+};
+
 
 export const Basic = BasicTemplate.bind({});
 Basic.args = {
@@ -108,3 +123,5 @@ ChecksAndRadios.argTypes = {
         defaultValue: 'check',
     },
 }
+
+export const SubItems = SubItemTemplate.bind({});
