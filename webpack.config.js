@@ -36,11 +36,13 @@ module.exports = {
             {
               loader: 'sass-loader',
               options: {
-                includePaths: ['./node_modules'],
                 // Prefer Dart Sass
                 implementation: require('sass'),
                 // See https://github.com/webpack-contrib/sass-loader/issues/804
                 webpackImporter: false,
+                sassOptions: {
+                  includePaths: ['./node_modules']
+                }
               }
             }
           ]
@@ -61,11 +63,13 @@ module.exports = {
             {
               loader: 'sass-loader',
               options: {
-                includePaths: ['./node_modules'],
                 // Prefer Dart Sass
                 implementation: require('sass'),
                 // See https://github.com/webpack-contrib/sass-loader/issues/804
                 webpackImporter: false,
+                sassOptions: {
+                  includePaths: ['./node_modules']
+                }
               }
             }
           ]
@@ -74,8 +78,8 @@ module.exports = {
     },
     plugins: [
       new CopyPlugin([
-        { from: "./lib/icons/covalent-icons", to: "./covalent-icons" },
-        { from: "./lib/icons/teradata-icons", to: "./teradata-icons" },
+        { from: "./lib/icons/covalent-icons/*", to: "./covalent-icons" },
+        { from: "./lib/icons/teradata-icons/*", to: "./teradata-icons" },
       ]),
     ],  
   };

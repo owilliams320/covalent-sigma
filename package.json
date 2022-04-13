@@ -27,7 +27,7 @@
         "extract-loader": "^3.2.0",
         "file-loader": "^2.0.0",
         "lit-scss-loader": "^1.1.0",
-        "sass-loader": "^7.1.0",
+        "sass-loader": "^10.2.1",
         "storybook-addon-designs": "^6.2.1",
         "storybook-dark-mode": "^1.0.9",
         "ts-lit-plugin": "^1.2.1",
@@ -62,7 +62,7 @@
         "@webcomponents/webcomponentsjs": "^2.6.0",
         "lit": "^2.0.0",
         "material-components-web": "^13.0.0",
-        "sass": "^1.37.5",
+        "sass": "^1.50.0",
         "skeleton-elements": "^3.4.0"
     },
     "directories": {
