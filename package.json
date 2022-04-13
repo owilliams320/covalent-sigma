@@ -6,11 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lib:build": "webpack -p",
-        "lib:serve": "npm run lib:build -- --watch",
-        "storybook": "start-storybook -p 6006 -s src/assets,dist",
-        "storybook:build": "build-storybook",
-        "sass": "sass src/assets/*.scss",
-        "sass:watch": "sass --watch src/assets/*.scss"
+        "storybook": "start-storybook -p 6006",
+        "storybook:build": "build-storybook"
     },
     "author": "",
     "license": "ISC",

@@ -10,7 +10,7 @@
       "sourceMap": true,
       "inlineSources": true,
       "outDir": "./dist",
-      "rootDir": "./src",
+      "rootDir": "./lib",
       "strict": true,
       "allowJs": true,
       "noImplicitReturns": true,
@@ -28,7 +28,7 @@
       ]
     },
     "include": [
-      "src/**/*.ts",
+      "lib/**/*.ts",
       "node_modules/lit-scss-loader/types.d.ts"
     ],
     "exclude": []

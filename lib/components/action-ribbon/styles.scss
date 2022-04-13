@@ -1,0 +1,6 @@
+@use '@material/banner/banner' as banner-core;
+@use '@material/banner';
+@use  './action-ribbon.theme';
+
+@include banner-core.core-styles();
+@include action-ribbon.theme();

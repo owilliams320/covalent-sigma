@@ -2,8 +2,8 @@ const covalentWebpack = require('../webpack.config.js');
 
 module.exports = {
   'stories': [
-    '../src/stories/**/*.stories.mdx',
-    '../src/stories/**/*.stories.@(js|jsx|ts|tsx)'
+    '../**/*.stories.mdx',
+    '../**/*.stories.@(js|jsx|ts|tsx)'
   ],
   'addons': [
     '@storybook/addon-links',
@@ -20,6 +20,12 @@ module.exports = {
     'storybook-addon-designs',
   ],
   webpackFinal: (config) => {
-    return Object.assign({}, config, {module:{rules: [...config.module.rules, ...covalentWebpack.module.rules] }});
+    return Object.assign({}, config, {
+      entry: [ ...config.entry, ...covalentWebpack.entry],
+      module: {
+        rules: [...config.module.rules, ...covalentWebpack.module.rules] 
+      }, 
+      plugins: [...config.plugins, ...covalentWebpack.plugins]
+    });
   },
 }

@@ -3,8 +3,8 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: [
-      './src/lib/theme/index.scss',
-      './src/lib/components/index.ts',
+      './lib/theme/index.scss',
+      './lib/components/index.ts',
     ],
     output: {
       filename: 'covalent.js',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {
           test: /\.css|\.s(c|a)ss$/,
-          include: /src\/lib\/components/,
+          include: /lib\/components/,
           exclude: /node_modules/,
           use: [
             {
@@ -39,7 +39,6 @@ module.exports = {
                 includePaths: ['./node_modules'],
                 // Prefer Dart Sass
                 implementation: require('sass'),
-
                 // See https://github.com/webpack-contrib/sass-loader/issues/804
                 webpackImporter: false,
               }
@@ -48,7 +47,7 @@ module.exports = {
         },
         {
           test: /\.s(c|a)ss$/,
-          include: /src\/lib\/theme/,
+          include: /lib\/theme/,
           exclude: /node_modules/,
           use: [
             {
@@ -65,7 +64,6 @@ module.exports = {
                 includePaths: ['./node_modules'],
                 // Prefer Dart Sass
                 implementation: require('sass'),
-
                 // See https://github.com/webpack-contrib/sass-loader/issues/804
                 webpackImporter: false,
               }
@@ -76,7 +74,8 @@ module.exports = {
     },
     plugins: [
       new CopyPlugin([
-        { from: "./src/assets/covalent-icons", to: "./covalent-icons" },
+        { from: "./lib/icons/covalent-icons", to: "./covalent-icons" },
+        { from: "./lib/icons/teradata-icons", to: "./teradata-icons" },
       ]),
     ],  
   };

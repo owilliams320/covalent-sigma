@@ -1,6 +1,7 @@
+import darkTheme from './theme/covalent.dark.theme';
+import lightTheme from './theme/covalent.light.theme';
 
-import darkTheme from './covalent.dark.theme';
-import lightTheme from './covalent.light.theme';
+import '!style-loader!css-loader!sass-loader!./theme/markdown-elements.scss';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

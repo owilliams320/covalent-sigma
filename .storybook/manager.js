@@ -1,7 +1,7 @@
 // .storybook/manager.js
 
 import { addons } from '@storybook/addons';
-import theme from './covalent.dark.theme';
+import theme from './theme/covalent.dark.theme';
 
 addons.setConfig({
     theme
