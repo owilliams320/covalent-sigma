@@ -3,7 +3,35 @@ import lightTheme from './theme/covalent.light.theme';
 
 import '!style-loader!css-loader!sass-loader!./theme/markdown-elements.scss';
 
+import anysort from 'anysort'
+
 export const parameters = {
+  options: {
+    // storySort: {
+    //   method: 'alphabetical',
+    //   order: [
+    //     'Introduction', 
+    //     'Guides', 
+    //     'Pattern', 
+    //     'Example', 
+    //     [
+    //       '*', 
+    //       ['Overview'],
+    //     ],
+    //   ],
+    // },
+    storySort: (previous, next) => {
+      const [previousStory, previousMeta] = previous
+      const [nextStory, nextMeta] = next
+
+      return anysort(previousMeta.kind, nextMeta.kind, [
+        'Introduction',
+        'Guides/**',
+        'Pattern/**',
+        'Example/**/Overview',
+      ])
+    }
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {

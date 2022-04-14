@@ -12,6 +12,7 @@
 }
 .sbdocs-content {
     display: grid; /* Prevent margin-collapse of child elements */
+    align-content: start;
     font-size: 16px;
     max-width: 64rem;
 
