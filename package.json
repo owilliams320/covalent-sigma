@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lib:build": "webpack -p",
     "storybook": "start-storybook -p 6006 -s public",
-    "storybook:build": "build-storybook",
-    "chromatic": "npx chromatic --project-token=faad438e3032"
+    "storybook:build": "build-storybook"
   },
   "author": "",
   "license": "ISC",
