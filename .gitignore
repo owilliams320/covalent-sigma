@@ -1,6 +1,7 @@
 node_modules/
 dist/
 storybook-static/
+build-storybook.log
 
 # MacOS
 .DS_Store
