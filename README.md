@@ -1,4 +1,4 @@
-# covalent-sigma
+# Covalent Sigma
 
 ## Installing
 
