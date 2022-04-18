@@ -1,7 +1,7 @@
 import * as gridContent from './demos/grid.content.html';
 
 export default {
-  title: 'Example/Grid',
+  title: 'Components/Grid',
 };
 
 export const Basic = ({}) => gridContent;

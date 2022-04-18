@@ -1,7 +1,7 @@
 import * as typographyContent from './demos/typography.content.html';
 
 export default {
-  title: 'Example/Typography',
+  title: 'Basics/Typography',
 };
 
 export const Basic = ({}) => typographyContent;
