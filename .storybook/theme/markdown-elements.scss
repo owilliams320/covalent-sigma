@@ -20,18 +20,6 @@
         margin-top: 2rem;
     }
 
-    & > ul,
-    & > ol {
-        margin: 0;
-        padding-bottom: 1.250rem;
-        padding-top: .5rem;
-
-        ul,
-        ol {
-            margin-top: 1.250rem;
-        }
-    }
-
     table.docblock-argstable {
         border-collapse: unset;
         border-radius: 0;
@@ -272,6 +260,10 @@
         margin: 5rem 0 0;
         padding: 0 0 3rem;
     }
+    .sbdocs-ul {
+        margin: 0;
+        padding-top: .5rem;
+    }
     .sbdocs-li {
         color: var(--mdc-theme-text-secondary-on-background);
         font-family: var(--mdc-typography-font-family);
@@ -279,7 +271,14 @@
         font-weight: var(--mdc-typography-body1-font-weight);
         line-height: var(--mdc-typography-body1-line-height);
         margin: 0;
-        padding-bottom: .75rem;
+        padding-top: .75rem;
+
+        &:first-of-type {
+            padding-top: 0;
+        }
+        .sbdocs-ul {
+            padding-top: .75rem;
+        }
     }
     .sbdocs-p {
         color: var(--mdc-theme-text-secondary-on-background);
