@@ -3,11 +3,11 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: [
-      './lib/theme/index.scss',
+      './lib/components/theme/index.scss',
       './lib/components/index.ts',
     ],
     output: {
-      filename: 'covalent.js',
+      filename: 'index.js',
     },
     resolve: {
       // Add `.ts` and `.tsx` as a resolvable extension.
@@ -78,6 +78,7 @@ module.exports = {
     },
     plugins: [
       new CopyPlugin([
+        { from: "./lib/components/package.json", to: "./" },
         { from: "./lib/icons/covalent-icons/*", to: "./covalent-icons" },
         { from: "./lib/icons/teradata-icons/*", to: "./teradata-icons" },
       ]),

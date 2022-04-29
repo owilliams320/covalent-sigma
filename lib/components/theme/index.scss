@@ -1,11 +1,10 @@
-@use '../color/material-palette';
-@use '../color/covalent-palette';
-@use './covalent.theme.scss' as theme;
+@use '../../color/material-palette';
+@use '../../color/covalent-palette';
+@use './covalent.theme' as theme;
 
 @use '@material/image-list';
 @use '@material/list/evolution-mixins' as list;
 @use 'skeleton-elements/skeleton-elements';
-
 @use '@material/banner/styles' as banner-styles;
 @use '@material/button/mdc-button';
 @use '@material/card/mdc-card';
@@ -45,10 +44,8 @@
 @use '@material/tooltip/styles' as tooltip-styles;
 @use '@material/top-app-bar/mdc-top-app-bar';
 @use '@material/typography/mdc-typography';
-
 @use '@material/chips/styles' as chipStyles;
 @use '@material/switch/styles' as switchStyles;
-
 
 $light-theme: (
   // Foreground colors
@@ -192,6 +189,7 @@ $dark-theme: (
   divider: rgba(white, 0.2)
 );
 
+// TODO should be moved to consuming app - DOCS NEEDED
 :root {
   @include theme.covalent-theme($light-theme);
 }
