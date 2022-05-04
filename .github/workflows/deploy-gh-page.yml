@@ -30,6 +30,7 @@ jobs:
       - name: Commit changes for git hub doc site
         continue-on-error: true
         run: |
+          rm -rf docs/
           rsync -a ./storybook-static/ ./docs/
           mv ./dist/**.css* ./docs
           mv ./dist/**.js* ./docs
