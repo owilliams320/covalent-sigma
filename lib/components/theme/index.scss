@@ -1,5 +1,5 @@
-@use '../../color/material-palette';
-@use '../../color/covalent-palette';
+@use '../../tokens/color/material-palette';
+@use '../../tokens/color/covalent-palette';
 @use './covalent.theme' as theme;
 
 @use '@material/image-list';
