@@ -17,9 +17,9 @@ import { Dialog } from '@storybook/components';
 />
 
 <style>{`
-  #story--example-dialog--anatomy > div,
-  #story--example-dialog--logout > div,
-  #story--example-dialog--udf > div {
+  #story--components-dialog--anatomy > div,
+  #story--components-dialog--logout > div,
+  #story--components-dialog--udf > div {
     height: 20rem !important;
   }
   .preview-dark {
@@ -39,19 +39,23 @@ import { Dialog } from '@storybook/components';
 
 - Use only when the user has to make a decision RIGHT NOW
 - It's always better to do the action and then allow an "undo" option rather than using an "Are you sure?" dialog
-- To notify the user less intrusively, consider using a [snackbar](?path=/story/example-snackbar--basic) instead
+- To notify the user less intrusively, consider using a [snackbar](?path=/story/components-snackbar--basic) instead
 
 ***
 
 ## Anatomy
 
-<Story id="example-dialog--basic" parameters={{ docs: { disable: true }, darkMode: {current: 'dark', stylePreview: true} }} ></Story>
+<Pre>
+  <Story id="components-dialog--anatomy" />
+</Pre>
 
-## Examples
+***
+
+## Components
 
 <Pre>
-  <Story id="example-dialog--logout" />
+  <Story id="components-dialog--logout" />
 </Pre>
 <Pre>
-  <Story id="example-dialog--udf" />
+  <Story id="components-dialog--udf" />
 </Pre>
