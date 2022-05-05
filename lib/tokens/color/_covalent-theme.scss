@@ -1,51 +1,6 @@
-@use '../../tokens/color/material-palette';
-@use '../../tokens/color/covalent-palette';
-@use './covalent.theme' as theme;
 
-@use '@material/image-list';
-@use '@material/list/evolution-mixins' as list;
-@use 'skeleton-elements/skeleton-elements';
-@use '@material/banner/styles' as banner-styles;
-@use '@material/button/mdc-button';
-@use '@material/card/mdc-card';
-@use '@material/checkbox/mdc-checkbox';
-@use '@material/chips/deprecated/mdc-chips';
-@use '@material/circular-progress/mdc-circular-progress';
-// Select's styles must be emitted before datatable's due to equal specificity.
-@use '@material/select/mdc-select';
-@use '@material/data-table/mdc-data-table';
-@use '@material/dialog/mdc-dialog';
-@use '@material/drawer/mdc-drawer';
-@use '@material/elevation/mdc-elevation';
-@use '@material/fab/mdc-fab';
-@use '@material/floating-label/mdc-floating-label';
-@use '@material/form-field/mdc-form-field';
-@use '@material/icon-button/mdc-icon-button';
-@use '@material/image-list/mdc-image-list';
-@use '@material/layout-grid/mdc-layout-grid';
-@use '@material/line-ripple/mdc-line-ripple';
-@use '@material/linear-progress/mdc-linear-progress';
-@use '@material/list/mdc-list';
-@use '@material/menu/mdc-menu';
-@use '@material/menu-surface/mdc-menu-surface';
-@use '@material/notched-outline/mdc-notched-outline';
-@use '@material/radio/mdc-radio';
-@use '@material/ripple/mdc-ripple';
-@use '@material/segmented-button/styles' as segmented-button-styles;
-@use '@material/slider/styles' as slider-styles;
-@use '@material/snackbar/mdc-snackbar';
-@use '@material/switch/styles';
-@use '@material/tab/mdc-tab';
-@use '@material/tab-bar/mdc-tab-bar';
-@use '@material/tab-indicator/mdc-tab-indicator';
-@use '@material/tab-scroller/mdc-tab-scroller';
-@use '@material/textfield/mdc-text-field';
-@use '@material/theme/mdc-theme';
-@use '@material/tooltip/styles' as tooltip-styles;
-@use '@material/top-app-bar/mdc-top-app-bar';
-@use '@material/typography/mdc-typography';
-@use '@material/chips/styles' as chipStyles;
-@use '@material/switch/styles' as switchStyles;
+@use './material-palette';
+@use './covalent-palette';
 
 $light-theme: (
   // Foreground colors
@@ -188,29 +143,3 @@ $dark-theme: (
   // Foreground colors (expanded)
   divider: rgba(white, 0.2)
 );
-
-// TODO should be moved to consuming app - DOCS NEEDED
-:root {
-  @include theme.covalent-theme($light-theme);
-}
-
-.dark {
-  @include theme.covalent-theme($dark-theme);
-}
-
-// TD Tiger stripe
-// TODO: move to app-shell
-body.tiger-stripe:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  height: 2px;
-  width: 100%;
-  z-index: 1000;
-  background-color: #f3753f;
-}
-
-// Image list
-.mdc-image-list {
-  @include image-list.masonry-columns(2);
-}
