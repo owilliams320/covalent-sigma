@@ -11,12 +11,28 @@
     --mdc-list-vertical-padding: 0;
 }
 
+// TD Tiger stripe
+// TODO: move to app-shell
+body.tiger-stripe:after {
+    
+  }
+  
 .app-shell {
     display: grid;
     grid-template-columns: auto auto 1fr;
     grid-template-rows: min-content;
     grid-template-areas: "nav mini-list main help";
     min-height: 100vh;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 2px;
+        width: 100%;
+        z-index: 1000;
+        background-color: #f3753f;
+    }
 }
 
 .main {

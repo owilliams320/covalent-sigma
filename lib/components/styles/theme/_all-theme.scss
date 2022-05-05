@@ -1,23 +1,25 @@
 // Covalent themed components
-@use "../button/button.theme" as button;
-@use "../card/card.theme" as card;
-@use "../checkbox/checkbox.theme" as checkbox;
-@use "../chips/chips.theme" as chips;
-@use "../data-table/data-table.theme" as data-table;
-@use "../dialog/dialog.theme" as dialog;
-@use "../drawer/drawer.theme" as drawer;
-@use "../icon-button/icon-button.theme" as icon-button;
-@use "../linear-progress/linear-progress.theme" as linear-progress;
-@use "../list/list.theme" as lists;
-@use "../radio/radio.theme" as radio;
-@use "../select/select.theme" as select;
-@use "../snackbar/snackbar.theme" as snack-bar;
-@use "../switch/switch.theme" as switch;
-@use "../tabs/tabs.theme" as tabs;
-@use "../text-field/text-field.theme" as text-field;
-@use "../top-app-bar/top-app-bar.theme" as top-app-bar;
+@use "../../src/button/button.theme" as button;
+@use "../../src/card/card.theme" as card;
+@use "../../src/checkbox/checkbox.theme" as checkbox;
+@use "../../src/chips/chips.theme" as chips;
+@use "../../src/data-table/data-table.theme" as data-table;
+@use "../../src/dialog/dialog.theme" as dialog;
+@use "../../src/drawer/drawer.theme" as drawer;
+@use "../../src/icon-button/icon-button.theme" as icon-button;
+@use "../../src/linear-progress/linear-progress.theme" as linear-progress;
+@use "../../src/list/list.theme" as lists;
+@use "../../src/radio/radio.theme" as radio;
+@use "../../src/select/select.theme" as select;
+@use "../../src/snackbar/snackbar.theme" as snack-bar;
+@use "../../src/switch/switch.theme" as switch;
+@use "../../src/tabs/tabs.theme" as tabs;
+@use "../../src/text-field/text-field.theme" as text-field;
+@use "../../src/top-app-bar/top-app-bar.theme" as top-app-bar;
 
-@mixin covalent-theme($theme) {
+@mixin components-theme($theme) {
+
+  // TODO REPLACE THESE W/ STYLE DISCTIONARY TOKENS
 
   // Foreground colors
   --mdc-theme-primary: #{map-get($theme, primary)};

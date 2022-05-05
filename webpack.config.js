@@ -3,8 +3,9 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: [
-      './lib/components/theme/index.scss',
-      './lib/components/index.ts',
+      './lib/components/src/index.ts',
+      './lib/components/styles/vendor.scss',
+      './lib/components/styles/theme/theme.scss',
     ],
     output: {
       filename: 'index.js',
@@ -22,8 +23,8 @@ module.exports = {
         },
         {
           test: /\.css|\.s(c|a)ss$/,
-          include: /lib\/components/,
-          exclude: /node_modules|\/lib\/components\/theme/,
+          include: /lib\/components\/src/,
+          exclude: /node_modules/,
           use: [
             {
               loader: 'lit-scss-loader',
@@ -49,13 +50,13 @@ module.exports = {
         },
         {
           test: /\.s(c|a)ss$/,
-          include: /lib\/components\/theme/,
+          include: /lib\/components\/styles/,
           exclude: /node_modules/,
           use: [
             {
               loader: 'file-loader',
               options: {
-                name: 'covalent-theme.css',
+                name: '[name].css',
               },
             },
             'extract-loader',
