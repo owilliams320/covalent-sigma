@@ -1,0 +1,32 @@
+{
+  "color": {
+    "light" : {
+      "primary": { "value" : "{color.teradata-brand.teal-900}" },
+      "secondary": { "value" : "{color.teradata-brand.teal-900}" },
+      "error": { "value" : "#b11d00" },
+      "positive": { "value" : "#0a7e07" },
+      "caution": { "value" : "{color.material.amber-800}" },
+      "negative": { "value" : "#b11d00" },
+      "on-primary": { "value" : "white" },
+      "on-secondary": { "value" : "white" },
+      "on-background": { "value" : "rgba(0, 0, 0, 0.87)" },
+      "on-surface": { "value" : "rgba(0, 0, 0, 0.87)" },
+      "on-error": { "value" : "white" },
+      "divider": { "value" : "rgba(0, 0, 0, 0.12)" }
+    },
+    "dark" : {
+      "primary": { "value" :"{color.teradata-brand.teal-300}"},
+      "secondary": { "value" :"{color.teradata-brand.teal-300}"},
+      "error": { "value" :"#f46f5a"},
+      "positive": { "value" :"#42bd41"},
+      "caution": { "value" :"material-palette.$orange-300"},
+      "negative": { "value" :"#f46f5a"},
+      "on-primary": { "value" :"rgba(0, 0, 0, 0.87)"},
+      "on-secondary": { "value" :"rgba(0, 0, 0, 0.87)"},
+      "on-background": { "value" :"white"},
+      "on-surface": { "value" :"white"},
+      "on-error": { "value" :"rgba(0, 0, 0, 0.87)"},
+      "divider": { "value" :"rgba(255, 255, 255, 0.2)"}
+    }
+  }
+}
