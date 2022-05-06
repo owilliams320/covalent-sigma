@@ -9,7 +9,7 @@
     "storybook": "start-storybook -p 6006 -s assets,dist",
     "storybook:build": "build-storybook",
     "chromatic": "npx chromatic",
-    "style-dictionary": "npx style-dictionary build -c lib/tokens/config.json"
+    "style-dictionary": "cd lib/tokens && style-dictionary build"
   },
   "author": "",
   "license": "ISC",
