@@ -1,21 +1,36 @@
 /**
  * Do not edit directly
- * Generated on Fri, 06 May 2022 21:42:47 GMT
+ * Generated on Fri, 06 May 2022 21:44:17 GMT
  */
 
 :root {
-  --td-light-color-primary: #007373;
-  --td-light-color-secondary: #007373;
+  --td-light-color-primary: #85dddc;
+  --td-light-color-secondary: #85dddc;
   --td-light-color-error: #b11d00;
-  --td-light-color-positive: #0a7e07;
-  --td-light-color-caution: #ff8f00;
-  --td-light-color-negative: #b11d00;
+  --td-light-color-positive: #a5d6a7;
+  --td-light-color-caution: #ffb74d;
+  --td-light-color-negative: #e57373;
   --td-light-color-on-primary: white;
   --td-light-color-on-secondary: white;
   --td-light-color-on-background: rgba(0, 0, 0, 0.87);
   --td-light-color-on-surface: rgba(0, 0, 0, 0.87);
   --td-light-color-on-error: white;
   --td-light-color-divider: rgba(0, 0, 0, 0.12);
+  --td-light-color-background: #f5f5f5;
+  --td-light-color-canvas: #eee;
+  --td-light-color-primary-highlight: rgba(#85dddc, 0.1);
+  --td-light-color-primary-highlight-hover: rgba(#85dddc, 0.2);
+  --td-light-color-secondary-highlight: rgba(#85dddc, 0.1);
+  --td-light-color-secondary-highlight-hover: rgba(#85dddc, 0.2);
+  --td-light-color-positive-highlight: rgba(#a5d6a7, 0.1);
+  --td-light-color-positive-highlight-hover: rgba(#a5d6a7, 0.2);
+  --td-light-color-caution-highlight: rgba(#ffb74d, 0.1);
+  --td-light-color-caution-highlight-hover: rgba({material.color.orange-300, 0.2);
+  --td-light-color-negative-highlight: rgba(#e57373, 0.1);
+  --td-light-color-negative-highlight-hover: rgba(#e57373, 0.2);
+  --td-light-color-neutral: #bdbdbd;
+  --td-light-color-neutral-highlight: rgba(#bdbdbd, 0.04);
+  --td-light-color-neutral-highlight-hover: rgba(#bdbdbd, 0.08);
   --td-light-color-text-primary-on-background: rgba(0, 0, 0, 0.87);
   --td-light-color-text-secondary-on-background: rgba(0, 0, 0, 0.54);
   --td-light-color-text-hint-on-background: rgba(0, 0, 0, 0.38);
@@ -32,27 +47,6 @@
   --td-light-color-text-hint-on-dark: rgba(255, 255, 255, 0.5);
   --td-light-color-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
   --td-light-color-text-icon-on-dark: white;
-  --td-light-color-surface-background: #f5f5f5;
-  --td-light-color-surface-surface: white;
-  --td-light-color-surface-canvas: #eee;
-  --td-light-color-surface-primary: #85dddc;
-  --td-light-color-surface-primary-highlight: rgba(#85dddc, 0.1);
-  --td-light-color-surface-primary-highlight-hover: rgba(#85dddc, 0.2);
-  --td-light-color-surface-secondary: #85dddc;
-  --td-light-color-surface-secondary-highlight: rgba(#85dddc, 0.1);
-  --td-light-color-surface-secondary-highlight-hover: rgba(#85dddc, 0.2);
-  --td-light-color-surface-positive: #a5d6a7;
-  --td-light-color-surface-positive-highlight: rgba(#a5d6a7, 0.1);
-  --td-light-color-surface-positive-highlight-hover: rgba(#a5d6a7, 0.2);
-  --td-light-color-surface-caution: #ffb74d;
-  --td-light-color-surface-caution-highlight: rgba(#ffb74d, 0.1);
-  --td-light-color-surface-caution-highlight-hover: rgba({material.color.orange-300, 0.2);
-  --td-light-color-surface-negative: #e57373;
-  --td-light-color-surface-negative-highlight: rgba(#e57373, 0.1);
-  --td-light-color-surface-negative-highlight-hover: rgba(#e57373, 0.2);
-  --td-light-color-surface-neutral: #bdbdbd;
-  --td-light-color-surface-neutral-highlight: rgba(#bdbdbd, 0.04);
-  --td-light-color-surface-neutral-highlight-hover: rgba(#bdbdbd, 0.08);
   --td-dark-color-primary: #59cecd;
   --td-dark-color-secondary: #59cecd;
   --td-dark-color-error: #f46f5a;
@@ -65,22 +59,6 @@
   --td-dark-color-on-surface: white;
   --td-dark-color-on-error: rgba(0, 0, 0, 0.87);
   --td-dark-color-divider: rgba(255, 255, 255, 0.2);
-  --td-dark-color-text-primary-on-background: white;
-  --td-dark-color-text-secondary-on-background: rgba(255, 255, 255, 0.7);
-  --td-dark-color-text-hint-on-background: rgba(255, 255, 255, 0.5);
-  --td-dark-color-text-disabled-on-background: rgba(255, 255, 255, 0.5);
-  --td-dark-color-text-icon-on-background: white;
-  --td-dark-color-text-logo-on-background: white;
-  --td-dark-color-text-primary-on-light: rgba(0, 0, 0, 0.87);
-  --td-dark-color-text-secondary-on-light: rgba(0, 0, 0, 0.54);
-  --td-dark-color-text-hint-on-light: rgba(0, 0, 0, 0.38);
-  --td-dark-color-text-disabled-on-light: rgba(0, 0, 0, 0.38);
-  --td-dark-color-text-icon-on-light: rgba(0, 0, 0, 0.54);
-  --td-dark-color-text-primary-on-dark: white;
-  --td-dark-color-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
-  --td-dark-color-text-hint-on-dark: rgba(255, 255, 255, 0.5);
-  --td-dark-color-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
-  --td-dark-color-text-icon-on-dark: white;
   --td-dark-color-surface-background: #161c1f;
   --td-dark-color-surface-surface: #28353b;
   --td-dark-color-surface-canvas: #101314;
@@ -102,6 +80,22 @@
   --td-dark-color-surface-neutral: #43515a;
   --td-dark-color-surface-neutral-highlight: rgba(#43515a, 0.4);
   --td-dark-color-surface-neutral-highlight-hover: rgba(#43515a, 0.6);
+  --td-dark-color-text-primary-on-background: white;
+  --td-dark-color-text-secondary-on-background: rgba(255, 255, 255, 0.7);
+  --td-dark-color-text-hint-on-background: rgba(255, 255, 255, 0.5);
+  --td-dark-color-text-disabled-on-background: rgba(255, 255, 255, 0.5);
+  --td-dark-color-text-icon-on-background: white;
+  --td-dark-color-text-logo-on-background: white;
+  --td-dark-color-text-primary-on-light: rgba(0, 0, 0, 0.87);
+  --td-dark-color-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+  --td-dark-color-text-hint-on-light: rgba(0, 0, 0, 0.38);
+  --td-dark-color-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+  --td-dark-color-text-icon-on-light: rgba(0, 0, 0, 0.54);
+  --td-dark-color-text-primary-on-dark: white;
+  --td-dark-color-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+  --td-dark-color-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+  --td-dark-color-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+  --td-dark-color-text-icon-on-dark: white;
   --td-teradata-brand-color-teal-50: #def9f8;
   --td-teradata-brand-color-teal-100: #b2ebea;
   --td-teradata-brand-color-teal-200: #85dddc;
