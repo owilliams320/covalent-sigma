@@ -2,10 +2,12 @@
   "light": {
     "primary": {
       "value": "#007373",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.color.teal-900}"
+        "value": "{teradata-brand.color.teal-900}",
+        "type": "color"
       },
       "name": "primary",
       "attributes": {
@@ -19,10 +21,12 @@
     },
     "secondary": {
       "value": "#007373",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.color.teal-900}"
+        "value": "{teradata-brand.color.teal-900}",
+        "type": "color"
       },
       "name": "secondary",
       "attributes": {
@@ -36,10 +40,12 @@
     },
     "error": {
       "value": "#b11d00",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "#b11d00"
+        "value": "#b11d00",
+        "type": "color"
       },
       "name": "error",
       "attributes": {
@@ -53,10 +59,12 @@
     },
     "positive": {
       "value": "#0a7e07",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "#0a7e07"
+        "value": "#0a7e07",
+        "type": "color"
       },
       "name": "positive",
       "attributes": {
@@ -70,10 +78,12 @@
     },
     "caution": {
       "value": "#ff8f00",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.amber-800}"
+        "value": "{material.color.amber-800}",
+        "type": "color"
       },
       "name": "caution",
       "attributes": {
@@ -87,10 +97,12 @@
     },
     "negative": {
       "value": "#b11d00",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "#b11d00"
+        "value": "#b11d00",
+        "type": "color"
       },
       "name": "negative",
       "attributes": {
@@ -104,10 +116,12 @@
     },
     "on-primary": {
       "value": "white",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "white"
+        "value": "white",
+        "type": "color"
       },
       "name": "on-primary",
       "attributes": {
@@ -121,10 +135,12 @@
     },
     "on-secondary": {
       "value": "white",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "white"
+        "value": "white",
+        "type": "color"
       },
       "name": "on-secondary",
       "attributes": {
@@ -138,10 +154,12 @@
     },
     "on-background": {
       "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "rgba(0, 0, 0, 0.87)"
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "color"
       },
       "name": "on-background",
       "attributes": {
@@ -155,10 +173,12 @@
     },
     "on-surface": {
       "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "rgba(0, 0, 0, 0.87)"
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "color"
       },
       "name": "on-surface",
       "attributes": {
@@ -172,10 +192,12 @@
     },
     "on-error": {
       "value": "white",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "white"
+        "value": "white",
+        "type": "color"
       },
       "name": "on-error",
       "attributes": {
@@ -189,10 +211,12 @@
     },
     "divider": {
       "value": "rgba(0, 0, 0, 0.12)",
+      "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "rgba(0, 0, 0, 0.12)"
+        "value": "rgba(0, 0, 0, 0.12)",
+        "type": "color"
       },
       "name": "divider",
       "attributes": {
@@ -927,235 +951,233 @@
     }
   },
   "dark": {
-    "Color": {
-      "primary": {
-        "value": "#59cecd",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "{teradata-brand.color.teal-300}"
-        },
-        "name": "primary",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "primary"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "primary"
-        ]
+    "primary": {
+      "value": "#59cecd",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-300}",
+        "type": "color"
       },
-      "secondary": {
-        "value": "#59cecd",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "{teradata-brand.color.teal-300}"
-        },
-        "name": "secondary",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "secondary"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "secondary"
-        ]
+      "name": "primary",
+      "attributes": {
+        "category": "dark",
+        "type": "primary"
       },
-      "error": {
+      "path": [
+        "dark",
+        "primary"
+      ]
+    },
+    "secondary": {
+      "value": "#59cecd",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-300}",
+        "type": "color"
+      },
+      "name": "secondary",
+      "attributes": {
+        "category": "dark",
+        "type": "secondary"
+      },
+      "path": [
+        "dark",
+        "secondary"
+      ]
+    },
+    "error": {
+      "value": "#f46f5a",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "#f46f5a",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#f46f5a"
-        },
-        "name": "error",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "error"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "error"
-        ]
+        "type": "color"
       },
-      "positive": {
+      "name": "error",
+      "attributes": {
+        "category": "dark",
+        "type": "error"
+      },
+      "path": [
+        "dark",
+        "error"
+      ]
+    },
+    "positive": {
+      "value": "#42bd41",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "#42bd41",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#42bd41"
-        },
-        "name": "positive",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "positive"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "positive"
-        ]
+        "type": "color"
       },
-      "caution": {
+      "name": "positive",
+      "attributes": {
+        "category": "dark",
+        "type": "positive"
+      },
+      "path": [
+        "dark",
+        "positive"
+      ]
+    },
+    "caution": {
+      "value": "material-palette.$orange-300",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "material-palette.$orange-300",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "material-palette.$orange-300"
-        },
-        "name": "caution",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "caution"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "caution"
-        ]
+        "type": "color"
       },
-      "negative": {
+      "name": "caution",
+      "attributes": {
+        "category": "dark",
+        "type": "caution"
+      },
+      "path": [
+        "dark",
+        "caution"
+      ]
+    },
+    "negative": {
+      "value": "#f46f5a",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "#f46f5a",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#f46f5a"
-        },
-        "name": "negative",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "negative"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "negative"
-        ]
+        "type": "color"
       },
-      "on-primary": {
+      "name": "negative",
+      "attributes": {
+        "category": "dark",
+        "type": "negative"
+      },
+      "path": [
+        "dark",
+        "negative"
+      ]
+    },
+    "on-primary": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "rgba(0, 0, 0, 0.87)",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba(0, 0, 0, 0.87)"
-        },
-        "name": "on-primary",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "on-primary"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "on-primary"
-        ]
+        "type": "color"
       },
-      "on-secondary": {
+      "name": "on-primary",
+      "attributes": {
+        "category": "dark",
+        "type": "on-primary"
+      },
+      "path": [
+        "dark",
+        "on-primary"
+      ]
+    },
+    "on-secondary": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "rgba(0, 0, 0, 0.87)",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba(0, 0, 0, 0.87)"
-        },
-        "name": "on-secondary",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "on-secondary"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "on-secondary"
-        ]
+        "type": "color"
       },
-      "on-background": {
+      "name": "on-secondary",
+      "attributes": {
+        "category": "dark",
+        "type": "on-secondary"
+      },
+      "path": [
+        "dark",
+        "on-secondary"
+      ]
+    },
+    "on-background": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "white",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "white"
-        },
-        "name": "on-background",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "on-background"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "on-background"
-        ]
+        "type": "color"
       },
-      "on-surface": {
+      "name": "on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "on-background"
+      },
+      "path": [
+        "dark",
+        "on-background"
+      ]
+    },
+    "on-surface": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "white",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "white"
-        },
-        "name": "on-surface",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "on-surface"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "on-surface"
-        ]
+        "type": "color"
       },
-      "on-error": {
+      "name": "on-surface",
+      "attributes": {
+        "category": "dark",
+        "type": "on-surface"
+      },
+      "path": [
+        "dark",
+        "on-surface"
+      ]
+    },
+    "on-error": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "rgba(0, 0, 0, 0.87)",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba(0, 0, 0, 0.87)"
-        },
-        "name": "on-error",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "on-error"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "on-error"
-        ]
+        "type": "color"
       },
-      "divider": {
+      "name": "on-error",
+      "attributes": {
+        "category": "dark",
+        "type": "on-error"
+      },
+      "path": [
+        "dark",
+        "on-error"
+      ]
+    },
+    "divider": {
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
         "value": "rgba(255, 255, 255, 0.2)",
-        "filePath": "src/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba(255, 255, 255, 0.2)"
-        },
-        "name": "divider",
-        "attributes": {
-          "category": "dark",
-          "type": "Color",
-          "item": "divider"
-        },
-        "path": [
-          "dark",
-          "Color",
-          "divider"
-        ]
-      }
+        "type": "color"
+      },
+      "name": "divider",
+      "attributes": {
+        "category": "dark",
+        "type": "divider"
+      },
+      "path": [
+        "dark",
+        "divider"
+      ]
     },
     "color": {
       "surface": {
