@@ -1,6 +1,6 @@
 {
     "light": {
-        "color": {
+        "Color": {
             "surface": {
                 "background": { "value":  "{material.color.grey-100}"},
                 "surface": { "value":  "white"},
@@ -33,7 +33,7 @@
         }       
     },
     "dark": {
-        "color": {
+        "Color": {
             "surface": {
                 "background": { "value":  "{teradata-brand.color.slate-1500}"},
                 "surface": { "value":  "{teradata-brand.color.slate-1100}"},
