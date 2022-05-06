@@ -1,6 +1,6 @@
 {
   "light": {
-    "color" : {
+    "Color" : {
       "primary": { "value" : "{teradata-brand.color.teal-900}" },
       "secondary": { "value" : "{teradata-brand.color.teal-900}" },
       "error": { "value" : "#b11d00" },
@@ -16,7 +16,7 @@
     }
   },
   "dark": {
-    "color" : {
+    "Color" : {
       "primary": { "value" :"{teradata-brand.color.teal-300}"},
       "secondary": { "value" :"{teradata-brand.color.teal-300}"},
       "error": { "value" :"#f46f5a"},
