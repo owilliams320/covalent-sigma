@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 06 May 2022 22:32:53 GMT
+ * Generated on Fri, 06 May 2022 22:41:09 GMT
  */
 
 :root {
@@ -57,7 +57,7 @@
   --td-dark-secondary: #59cecd;
   --td-dark-error: #f46f5a;
   --td-dark-positive: #42bd41;
-  --td-dark-caution: material-palette.$orange-300;
+  --td-dark-caution: #ffb74d;
   --td-dark-negative: #f46f5a;
   --td-dark-on-primary: rgba(0, 0, 0, 0.87);
   --td-dark-on-secondary: rgba(0, 0, 0, 0.87);

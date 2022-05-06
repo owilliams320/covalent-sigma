@@ -1010,12 +1010,12 @@
       ]
     },
     "caution": {
-      "value": "material-palette.$orange-300",
+      "value": "#ffb74d",
       "type": "color",
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "material-palette.$orange-300",
+        "value": "{material.color.orange-300}",
         "type": "color"
       },
       "name": "caution",
