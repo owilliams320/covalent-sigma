@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 06 May 2022 04:21:00 GMT
+ * Generated on Fri, 06 May 2022 17:54:23 GMT
  */
 
 :root {
@@ -311,22 +311,22 @@
   --td-material-blue-grey-700: #455a64;
   --td-material-blue-grey-800: #37474f;
   --td-material-blue-grey-900: #263238;
-  --td-light-text-primary-on-background: rgba(0, 0, 0, 0.87);
-  --td-light-text-secondary-on-background: rgba(0, 0, 0, 0.54);
-  --td-light-text-hint-on-background: rgba(0, 0, 0, 0.38);
-  --td-light-text-disabled-on-background: rgba(0, 0, 0, 0.38);
-  --td-light-text-icon-on-background: rgba(0, 0, 0, 0.54);
-  --td-light-text-logo-on-background: #354145;
-  --td-light-text-primary-on-light: rgba(0, 0, 0, 0.87);
-  --td-light-text-secondary-on-light: rgba(0, 0, 0, 0.54);
-  --td-light-text-hint-on-light: rgba(0, 0, 0, 0.38);
-  --td-light-text-disabled-on-light: rgba(0, 0, 0, 0.38);
-  --td-light-text-icon-on-light: rgba(0, 0, 0, 0.54);
-  --td-light-text-primary-on-dark: 255, 255, 255;
-  --td-light-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
-  --td-light-text-hint-on-dark: rgba(255, 255, 255, 0.5);
-  --td-light-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
-  --td-light-text-icon-on-dark: 255, 255, 255;
+  --td-light-color-text-primary-on-background: rgba(0, 0, 0, 0.87);
+  --td-light-color-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+  --td-light-color-text-hint-on-background: rgba(0, 0, 0, 0.38);
+  --td-light-color-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+  --td-light-color-text-icon-on-background: rgba(0, 0, 0, 0.54);
+  --td-light-color-text-logo-on-background: #354145;
+  --td-light-color-text-primary-on-light: rgba(0, 0, 0, 0.87);
+  --td-light-color-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+  --td-light-color-text-hint-on-light: rgba(0, 0, 0, 0.38);
+  --td-light-color-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+  --td-light-color-text-icon-on-light: rgba(0, 0, 0, 0.54);
+  --td-light-color-text-primary-on-dark: 255, 255, 255;
+  --td-light-color-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+  --td-light-color-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+  --td-light-color-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+  --td-light-color-text-icon-on-dark: 255, 255, 255;
   --td-size-font-small: 0.75rem; /* the small size of the font */
   --td-size-font-medium: 1rem; /* the medium size of the font */
   --td-size-font-large: 2rem; /* the large size of the font */

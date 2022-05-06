@@ -1,6 +1,7 @@
 {
   "light": {
-    "text": {
+    "color" : {
+      "text": {
         "primary-on-background" : { "value": "rgba(0, 0, 0, 0.87)" },
         "secondary-on-background" : { "value" : "rgba(0, 0, 0, 0.54)" },
         "hint-on-background" : { "value" : "rgba(0, 0, 0, 0.38)" },
@@ -17,6 +18,7 @@
         "hint-on-dark" : { "value" : "rgba(255, 255, 255, 0.5)" },
         "disabled-on-dark" : { "value" : "rgba(255, 255, 255, 0.5)" },
         "icon-on-dark" : { "value" : "255, 255, 255" }
+      }
     }
   }
 }
