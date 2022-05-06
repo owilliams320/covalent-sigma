@@ -25,7 +25,6 @@ jobs:
         run: npm run storybook:build
 
       - name: Commit changes for git hub doc site
-        continue-on-error: true
         run: |
           rm -f docs/*.js*
           rsync -a ./storybook-static/ ./docs/
