@@ -82,7 +82,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.amber-800}",
+        "value": "{material.amber-800}",
         "type": "color"
       },
       "name": "caution",
@@ -234,7 +234,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.grey-100}",
+        "value": "{material.grey-100}",
         "type": "color"
       },
       "name": "background",
@@ -272,7 +272,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.grey-200}",
+        "value": "{material.grey-200}",
         "type": "color"
       },
       "name": "surface-canvas",
@@ -405,7 +405,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.green-200}",
+        "value": "{material.green-200}",
         "type": "color"
       },
       "name": "surface-positive",
@@ -424,7 +424,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.green-200}, 0.1)",
+        "value": "rgba({material.green-200}, 0.1)",
         "type": "color"
       },
       "name": "surface-positive-highlight",
@@ -443,7 +443,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.green-200}, 0.2)",
+        "value": "rgba({material.green-200}, 0.2)",
         "type": "color"
       },
       "name": "surface-positive-highlight-hover",
@@ -462,7 +462,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.orange-300}",
+        "value": "{material.orange-300}",
         "type": "color"
       },
       "name": "surface-caution",
@@ -481,7 +481,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.orange-300}, 0.1)",
+        "value": "rgba({material.orange-300}, 0.1)",
         "type": "color"
       },
       "name": "surface-caution-highlight",
@@ -495,12 +495,12 @@
       ]
     },
     "surface-caution-highlight-hover": {
-      "value": "rgba({material.color.orange-300, 0.2)",
+      "value": "rgba({material.orange-300, 0.2)",
       "type": "color",
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.orange-300, 0.2)",
+        "value": "rgba({material.orange-300, 0.2)",
         "type": "color"
       },
       "name": "surface-caution-highlight-hover",
@@ -519,7 +519,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.red-300}",
+        "value": "{material.red-300}",
         "type": "color"
       },
       "name": "surface-negative",
@@ -538,7 +538,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.red-300}, 0.1)",
+        "value": "rgba({material.red-300}, 0.1)",
         "type": "color"
       },
       "name": "surface-negative-highlight",
@@ -557,7 +557,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.red-300}, 0.2)",
+        "value": "rgba({material.red-300}, 0.2)",
         "type": "color"
       },
       "name": "surface-negative-highlight-hover",
@@ -576,7 +576,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.grey-400}",
+        "value": "{material.grey-400}",
         "type": "color"
       },
       "name": "surface-neutral",
@@ -595,7 +595,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.grey-400}, 0.04)",
+        "value": "rgba({material.grey-400}, 0.04)",
         "type": "color"
       },
       "name": "surface-neutral-highlight",
@@ -614,7 +614,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.color.grey-400}, 0.08)",
+        "value": "rgba({material.grey-400}, 0.08)",
         "type": "color"
       },
       "name": "surface-neutral-highlight-hover",
@@ -1015,7 +1015,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{material.color.orange-300}",
+        "value": "{material.orange-300}",
         "type": "color"
       },
       "name": "caution",
