@@ -1,6 +1,15 @@
 {
   "source": ["**/*.json"],
   "platforms": {
+    "json": {
+      "transformGroup": "web",
+      "prefix": "td",
+      "buildPath": "build/json/",
+      "files": [{
+        "destination": "_variables.json",
+        "format": "json"
+      }]
+    },
     "scss": {
       "transformGroup": "scss",
       "prefix": "td",

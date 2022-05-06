@@ -1,0 +1,5835 @@
+{
+  "primary": {
+    "value": "#007373",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "{teal.900}",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-primary",
+    "attributes": {
+      "category": "primary"
+    },
+    "path": [
+      "primary"
+    ]
+  },
+  "secondary": {
+    "value": "#007373",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "{teal.900}",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-secondary",
+    "attributes": {
+      "category": "secondary"
+    },
+    "path": [
+      "secondary"
+    ]
+  },
+  "error": {
+    "value": "#b11d00",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "#b11d00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-error",
+    "attributes": {
+      "category": "error"
+    },
+    "path": [
+      "error"
+    ]
+  },
+  "positive": {
+    "value": "#0a7e07",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "#0a7e07",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-positive",
+    "attributes": {
+      "category": "positive"
+    },
+    "path": [
+      "positive"
+    ]
+  },
+  "caution": {
+    "value": "#ff8f00",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "{material-amber-800}",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-caution",
+    "attributes": {
+      "category": "caution"
+    },
+    "path": [
+      "caution"
+    ]
+  },
+  "negative": {
+    "value": "#b11d00",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "#b11d00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-negative",
+    "attributes": {
+      "category": "negative"
+    },
+    "path": [
+      "negative"
+    ]
+  },
+  "on-primary": {
+    "value": "white",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "white",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-on-primary",
+    "attributes": {
+      "category": "on-primary"
+    },
+    "path": [
+      "on-primary"
+    ]
+  },
+  "on-secondary": {
+    "value": "white",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "white",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-on-secondary",
+    "attributes": {
+      "category": "on-secondary"
+    },
+    "path": [
+      "on-secondary"
+    ]
+  },
+  "on-background": {
+    "value": "rgba(0, 0, 0, 0.87)",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-on-background",
+    "attributes": {
+      "category": "on-background"
+    },
+    "path": [
+      "on-background"
+    ]
+  },
+  "on-surface": {
+    "value": "rgba(0, 0, 0, 0.87)",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-on-surface",
+    "attributes": {
+      "category": "on-surface"
+    },
+    "path": [
+      "on-surface"
+    ]
+  },
+  "on-error": {
+    "value": "white",
+    "filePath": "color/base.json",
+    "isSource": true,
+    "original": {
+      "value": "white",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-on-error",
+    "attributes": {
+      "category": "on-error"
+    },
+    "path": [
+      "on-error"
+    ]
+  },
+  "teal": {
+    "50": {
+      "value": "#def9f8",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#def9f8",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-50",
+      "attributes": {
+        "category": "teal",
+        "type": "50"
+      },
+      "path": [
+        "teal",
+        "50"
+      ]
+    },
+    "100": {
+      "value": "#b2ebea",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#b2ebea",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-100",
+      "attributes": {
+        "category": "teal",
+        "type": "100"
+      },
+      "path": [
+        "teal",
+        "100"
+      ]
+    },
+    "200": {
+      "value": "#85dddc",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#85dddc",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-200",
+      "attributes": {
+        "category": "teal",
+        "type": "200"
+      },
+      "path": [
+        "teal",
+        "200"
+      ]
+    },
+    "300": {
+      "value": "#59cecd",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#59cecd",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-300",
+      "attributes": {
+        "category": "teal",
+        "type": "300"
+      },
+      "path": [
+        "teal",
+        "300"
+      ]
+    },
+    "400": {
+      "value": "#2cc0bf",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#2cc0bf",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-400",
+      "attributes": {
+        "category": "teal",
+        "type": "400"
+      },
+      "path": [
+        "teal",
+        "400"
+      ]
+    },
+    "500": {
+      "value": "#00b2b1",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#00b2b1",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-500",
+      "attributes": {
+        "category": "teal",
+        "type": "500"
+      },
+      "path": [
+        "teal",
+        "500"
+      ]
+    },
+    "600": {
+      "value": "#00a2a2",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#00a2a2",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-600",
+      "attributes": {
+        "category": "teal",
+        "type": "600"
+      },
+      "path": [
+        "teal",
+        "600"
+      ]
+    },
+    "700": {
+      "value": "#009392",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#009392",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-700",
+      "attributes": {
+        "category": "teal",
+        "type": "700"
+      },
+      "path": [
+        "teal",
+        "700"
+      ]
+    },
+    "800": {
+      "value": "#008383",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#008383",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-800",
+      "attributes": {
+        "category": "teal",
+        "type": "800"
+      },
+      "path": [
+        "teal",
+        "800"
+      ]
+    },
+    "900": {
+      "value": "#007373",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#007373",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-900",
+      "attributes": {
+        "category": "teal",
+        "type": "900"
+      },
+      "path": [
+        "teal",
+        "900"
+      ]
+    },
+    "1000": {
+      "value": "#016b6b",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#016b6b",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1000",
+      "attributes": {
+        "category": "teal",
+        "type": "1000"
+      },
+      "path": [
+        "teal",
+        "1000"
+      ]
+    },
+    "1100": {
+      "value": "#036464",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#036464",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1100",
+      "attributes": {
+        "category": "teal",
+        "type": "1100"
+      },
+      "path": [
+        "teal",
+        "1100"
+      ]
+    },
+    "1200": {
+      "value": "#045c5c",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#045c5c",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1200",
+      "attributes": {
+        "category": "teal",
+        "type": "1200"
+      },
+      "path": [
+        "teal",
+        "1200"
+      ]
+    },
+    "1300": {
+      "value": "#055454",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#055454",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1300",
+      "attributes": {
+        "category": "teal",
+        "type": "1300"
+      },
+      "path": [
+        "teal",
+        "1300"
+      ]
+    },
+    "1400": {
+      "value": "#074d4d",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#074d4d",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1400",
+      "attributes": {
+        "category": "teal",
+        "type": "1400"
+      },
+      "path": [
+        "teal",
+        "1400"
+      ]
+    },
+    "1500": {
+      "value": "#084545",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#084545",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1500",
+      "attributes": {
+        "category": "teal",
+        "type": "1500"
+      },
+      "path": [
+        "teal",
+        "1500"
+      ]
+    },
+    "1600": {
+      "value": "#0a3e3e",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0a3e3e",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1600",
+      "attributes": {
+        "category": "teal",
+        "type": "1600"
+      },
+      "path": [
+        "teal",
+        "1600"
+      ]
+    },
+    "1700": {
+      "value": "#0b3636",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0b3636",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1700",
+      "attributes": {
+        "category": "teal",
+        "type": "1700"
+      },
+      "path": [
+        "teal",
+        "1700"
+      ]
+    },
+    "1800": {
+      "value": "#0c2e2e",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0c2e2e",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1800",
+      "attributes": {
+        "category": "teal",
+        "type": "1800"
+      },
+      "path": [
+        "teal",
+        "1800"
+      ]
+    },
+    "1900": {
+      "value": "#0e2727",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0e2727",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-1900",
+      "attributes": {
+        "category": "teal",
+        "type": "1900"
+      },
+      "path": [
+        "teal",
+        "1900"
+      ]
+    },
+    "2000": {
+      "value": "#0f1f1f",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0f1f1f",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-teal-2000",
+      "attributes": {
+        "category": "teal",
+        "type": "2000"
+      },
+      "path": [
+        "teal",
+        "2000"
+      ]
+    }
+  },
+  "slate": {
+    "50": {
+      "value": "#e3e7e8",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#e3e7e8",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-50",
+      "attributes": {
+        "category": "slate",
+        "type": "50"
+      },
+      "path": [
+        "slate",
+        "50"
+      ]
+    },
+    "100": {
+      "value": "#c9cfd1",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#c9cfd1",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-100",
+      "attributes": {
+        "category": "slate",
+        "type": "100"
+      },
+      "path": [
+        "slate",
+        "100"
+      ]
+    },
+    "200": {
+      "value": "#afb6b9",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#afb6b9",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-200",
+      "attributes": {
+        "category": "slate",
+        "type": "200"
+      },
+      "path": [
+        "slate",
+        "200"
+      ]
+    },
+    "300": {
+      "value": "#959ea2",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#959ea2",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-300",
+      "attributes": {
+        "category": "slate",
+        "type": "300"
+      },
+      "path": [
+        "slate",
+        "300"
+      ]
+    },
+    "400": {
+      "value": "#7b858a",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#7b858a",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-400",
+      "attributes": {
+        "category": "slate",
+        "type": "400"
+      },
+      "path": [
+        "slate",
+        "400"
+      ]
+    },
+    "500": {
+      "value": "#616d73",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#616d73",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-500",
+      "attributes": {
+        "category": "slate",
+        "type": "500"
+      },
+      "path": [
+        "slate",
+        "500"
+      ]
+    },
+    "600": {
+      "value": "#57646b",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#57646b",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-600",
+      "attributes": {
+        "category": "slate",
+        "type": "600"
+      },
+      "path": [
+        "slate",
+        "600"
+      ]
+    },
+    "700": {
+      "value": "#4d5b62",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#4d5b62",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-700",
+      "attributes": {
+        "category": "slate",
+        "type": "700"
+      },
+      "path": [
+        "slate",
+        "700"
+      ]
+    },
+    "800": {
+      "value": "#43515a",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#43515a",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-800",
+      "attributes": {
+        "category": "slate",
+        "type": "800"
+      },
+      "path": [
+        "slate",
+        "800"
+      ]
+    },
+    "900": {
+      "value": "#394851",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#394851",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-900",
+      "attributes": {
+        "category": "slate",
+        "type": "900"
+      },
+      "path": [
+        "slate",
+        "900"
+      ]
+    },
+    "1000": {
+      "value": "#2e3d42",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#2e3d42",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1000",
+      "attributes": {
+        "category": "slate",
+        "type": "1000"
+      },
+      "path": [
+        "slate",
+        "1000"
+      ]
+    },
+    "1100": {
+      "value": "#28353b",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#28353b",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1100",
+      "attributes": {
+        "category": "slate",
+        "type": "1100"
+      },
+      "path": [
+        "slate",
+        "1100"
+      ]
+    },
+    "1200": {
+      "value": "#222e33",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#222e33",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1200",
+      "attributes": {
+        "category": "slate",
+        "type": "1200"
+      },
+      "path": [
+        "slate",
+        "1200"
+      ]
+    },
+    "1300": {
+      "value": "#1f282e",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#1f282e",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1300",
+      "attributes": {
+        "category": "slate",
+        "type": "1300"
+      },
+      "path": [
+        "slate",
+        "1300"
+      ]
+    },
+    "1400": {
+      "value": "#1a2126",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#1a2126",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1400",
+      "attributes": {
+        "category": "slate",
+        "type": "1400"
+      },
+      "path": [
+        "slate",
+        "1400"
+      ]
+    },
+    "1500": {
+      "value": "#161c1f",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#161c1f",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1500",
+      "attributes": {
+        "category": "slate",
+        "type": "1500"
+      },
+      "path": [
+        "slate",
+        "1500"
+      ]
+    },
+    "1600": {
+      "value": "#14171a",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#14171a",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1600",
+      "attributes": {
+        "category": "slate",
+        "type": "1600"
+      },
+      "path": [
+        "slate",
+        "1600"
+      ]
+    },
+    "1700": {
+      "value": "#101314",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#101314",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1700",
+      "attributes": {
+        "category": "slate",
+        "type": "1700"
+      },
+      "path": [
+        "slate",
+        "1700"
+      ]
+    },
+    "1800": {
+      "value": "#0c0e0f",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#0c0e0f",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1800",
+      "attributes": {
+        "category": "slate",
+        "type": "1800"
+      },
+      "path": [
+        "slate",
+        "1800"
+      ]
+    },
+    "1900": {
+      "value": "#060708",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#060708",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-1900",
+      "attributes": {
+        "category": "slate",
+        "type": "1900"
+      },
+      "path": [
+        "slate",
+        "1900"
+      ]
+    },
+    "2000": {
+      "value": "#020203",
+      "filePath": "color/covalent.json",
+      "isSource": true,
+      "original": {
+        "value": "#020203",
+        "filePath": "build/json/_variables.json",
+        "isSource": true
+      },
+      "name": "td-slate-2000",
+      "attributes": {
+        "category": "slate",
+        "type": "2000"
+      },
+      "path": [
+        "slate",
+        "2000"
+      ]
+    }
+  },
+  "material-red-50": {
+    "value": "#ffebee",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffebee",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-50",
+    "attributes": {
+      "category": "material-red-50"
+    },
+    "path": [
+      "material-red-50"
+    ]
+  },
+  "material-red-100": {
+    "value": "#ffcdd2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffcdd2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-100",
+    "attributes": {
+      "category": "material-red-100"
+    },
+    "path": [
+      "material-red-100"
+    ]
+  },
+  "material-red-200": {
+    "value": "#ef9a9a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ef9a9a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-200",
+    "attributes": {
+      "category": "material-red-200"
+    },
+    "path": [
+      "material-red-200"
+    ]
+  },
+  "material-red-300": {
+    "value": "#e57373",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e57373",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-300",
+    "attributes": {
+      "category": "material-red-300"
+    },
+    "path": [
+      "material-red-300"
+    ]
+  },
+  "material-red-400": {
+    "value": "#ef5350",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ef5350",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-400",
+    "attributes": {
+      "category": "material-red-400"
+    },
+    "path": [
+      "material-red-400"
+    ]
+  },
+  "material-red-500": {
+    "value": "#f44336",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f44336",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-500",
+    "attributes": {
+      "category": "material-red-500"
+    },
+    "path": [
+      "material-red-500"
+    ]
+  },
+  "material-red-600": {
+    "value": "#e53935",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e53935",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-600",
+    "attributes": {
+      "category": "material-red-600"
+    },
+    "path": [
+      "material-red-600"
+    ]
+  },
+  "material-red-700": {
+    "value": "#d32f2f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d32f2f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-700",
+    "attributes": {
+      "category": "material-red-700"
+    },
+    "path": [
+      "material-red-700"
+    ]
+  },
+  "material-red-800": {
+    "value": "#c62828",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c62828",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-800",
+    "attributes": {
+      "category": "material-red-800"
+    },
+    "path": [
+      "material-red-800"
+    ]
+  },
+  "material-red-900": {
+    "value": "#b71c1c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b71c1c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-900",
+    "attributes": {
+      "category": "material-red-900"
+    },
+    "path": [
+      "material-red-900"
+    ]
+  },
+  "material-red-a100": {
+    "value": "#ff8a80",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff8a80",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-a100",
+    "attributes": {
+      "category": "material-red-a100"
+    },
+    "path": [
+      "material-red-a100"
+    ]
+  },
+  "material-red-a200": {
+    "value": "#ff5252",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff5252",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-a200",
+    "attributes": {
+      "category": "material-red-a200"
+    },
+    "path": [
+      "material-red-a200"
+    ]
+  },
+  "material-red-a400": {
+    "value": "#ff1744",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff1744",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-a400",
+    "attributes": {
+      "category": "material-red-a400"
+    },
+    "path": [
+      "material-red-a400"
+    ]
+  },
+  "material-red-a700": {
+    "value": "#d50000",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d50000",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-red-a700",
+    "attributes": {
+      "category": "material-red-a700"
+    },
+    "path": [
+      "material-red-a700"
+    ]
+  },
+  "material-pink-50": {
+    "value": "#fce4ec",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fce4ec",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-50",
+    "attributes": {
+      "category": "material-pink-50"
+    },
+    "path": [
+      "material-pink-50"
+    ]
+  },
+  "material-pink-100": {
+    "value": "#f8bbd0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f8bbd0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-100",
+    "attributes": {
+      "category": "material-pink-100"
+    },
+    "path": [
+      "material-pink-100"
+    ]
+  },
+  "material-pink-200": {
+    "value": "#f48fb1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f48fb1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-200",
+    "attributes": {
+      "category": "material-pink-200"
+    },
+    "path": [
+      "material-pink-200"
+    ]
+  },
+  "material-pink-300": {
+    "value": "#f06292",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f06292",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-300",
+    "attributes": {
+      "category": "material-pink-300"
+    },
+    "path": [
+      "material-pink-300"
+    ]
+  },
+  "material-pink-400": {
+    "value": "#ec407a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ec407a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-400",
+    "attributes": {
+      "category": "material-pink-400"
+    },
+    "path": [
+      "material-pink-400"
+    ]
+  },
+  "material-pink-500": {
+    "value": "#e91e63",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e91e63",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-500",
+    "attributes": {
+      "category": "material-pink-500"
+    },
+    "path": [
+      "material-pink-500"
+    ]
+  },
+  "material-pink-600": {
+    "value": "#d81b60",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d81b60",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-600",
+    "attributes": {
+      "category": "material-pink-600"
+    },
+    "path": [
+      "material-pink-600"
+    ]
+  },
+  "material-pink-700": {
+    "value": "#c2185b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c2185b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-700",
+    "attributes": {
+      "category": "material-pink-700"
+    },
+    "path": [
+      "material-pink-700"
+    ]
+  },
+  "material-pink-800": {
+    "value": "#ad1457",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ad1457",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-800",
+    "attributes": {
+      "category": "material-pink-800"
+    },
+    "path": [
+      "material-pink-800"
+    ]
+  },
+  "material-pink-900": {
+    "value": "#880e4f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#880e4f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-900",
+    "attributes": {
+      "category": "material-pink-900"
+    },
+    "path": [
+      "material-pink-900"
+    ]
+  },
+  "material-pink-a100": {
+    "value": "#ff80ab",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff80ab",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-a100",
+    "attributes": {
+      "category": "material-pink-a100"
+    },
+    "path": [
+      "material-pink-a100"
+    ]
+  },
+  "material-pink-a200": {
+    "value": "#ff4081",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff4081",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-a200",
+    "attributes": {
+      "category": "material-pink-a200"
+    },
+    "path": [
+      "material-pink-a200"
+    ]
+  },
+  "material-pink-a400": {
+    "value": "#f50057",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f50057",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-a400",
+    "attributes": {
+      "category": "material-pink-a400"
+    },
+    "path": [
+      "material-pink-a400"
+    ]
+  },
+  "material-pink-a700": {
+    "value": "#c51162",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c51162",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-pink-a700",
+    "attributes": {
+      "category": "material-pink-a700"
+    },
+    "path": [
+      "material-pink-a700"
+    ]
+  },
+  "material-purple-50": {
+    "value": "#f3e5f5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f3e5f5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-50",
+    "attributes": {
+      "category": "material-purple-50"
+    },
+    "path": [
+      "material-purple-50"
+    ]
+  },
+  "material-purple-100": {
+    "value": "#e1bee7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e1bee7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-100",
+    "attributes": {
+      "category": "material-purple-100"
+    },
+    "path": [
+      "material-purple-100"
+    ]
+  },
+  "material-purple-200": {
+    "value": "#ce93d8",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ce93d8",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-200",
+    "attributes": {
+      "category": "material-purple-200"
+    },
+    "path": [
+      "material-purple-200"
+    ]
+  },
+  "material-purple-300": {
+    "value": "#ba68c8",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ba68c8",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-300",
+    "attributes": {
+      "category": "material-purple-300"
+    },
+    "path": [
+      "material-purple-300"
+    ]
+  },
+  "material-purple-400": {
+    "value": "#ab47bc",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ab47bc",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-400",
+    "attributes": {
+      "category": "material-purple-400"
+    },
+    "path": [
+      "material-purple-400"
+    ]
+  },
+  "material-purple-500": {
+    "value": "#9c27b0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9c27b0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-500",
+    "attributes": {
+      "category": "material-purple-500"
+    },
+    "path": [
+      "material-purple-500"
+    ]
+  },
+  "material-purple-600": {
+    "value": "#8e24aa",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#8e24aa",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-600",
+    "attributes": {
+      "category": "material-purple-600"
+    },
+    "path": [
+      "material-purple-600"
+    ]
+  },
+  "material-purple-700": {
+    "value": "#7b1fa2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#7b1fa2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-700",
+    "attributes": {
+      "category": "material-purple-700"
+    },
+    "path": [
+      "material-purple-700"
+    ]
+  },
+  "material-purple-800": {
+    "value": "#6a1b9a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#6a1b9a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-800",
+    "attributes": {
+      "category": "material-purple-800"
+    },
+    "path": [
+      "material-purple-800"
+    ]
+  },
+  "material-purple-900": {
+    "value": "#4a148c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4a148c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-900",
+    "attributes": {
+      "category": "material-purple-900"
+    },
+    "path": [
+      "material-purple-900"
+    ]
+  },
+  "material-purple-a100": {
+    "value": "#ea80fc",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ea80fc",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-a100",
+    "attributes": {
+      "category": "material-purple-a100"
+    },
+    "path": [
+      "material-purple-a100"
+    ]
+  },
+  "material-purple-a200": {
+    "value": "#e040fb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e040fb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-a200",
+    "attributes": {
+      "category": "material-purple-a200"
+    },
+    "path": [
+      "material-purple-a200"
+    ]
+  },
+  "material-purple-a400": {
+    "value": "#d500f9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d500f9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-a400",
+    "attributes": {
+      "category": "material-purple-a400"
+    },
+    "path": [
+      "material-purple-a400"
+    ]
+  },
+  "material-purple-a700": {
+    "value": "#a0f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#a0f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-purple-a700",
+    "attributes": {
+      "category": "material-purple-a700"
+    },
+    "path": [
+      "material-purple-a700"
+    ]
+  },
+  "material-deep-purple-50": {
+    "value": "#ede7f6",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ede7f6",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-50",
+    "attributes": {
+      "category": "material-deep-purple-50"
+    },
+    "path": [
+      "material-deep-purple-50"
+    ]
+  },
+  "material-deep-purple-100": {
+    "value": "#d1c4e9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d1c4e9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-100",
+    "attributes": {
+      "category": "material-deep-purple-100"
+    },
+    "path": [
+      "material-deep-purple-100"
+    ]
+  },
+  "material-deep-purple-200": {
+    "value": "#b39ddb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b39ddb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-200",
+    "attributes": {
+      "category": "material-deep-purple-200"
+    },
+    "path": [
+      "material-deep-purple-200"
+    ]
+  },
+  "material-deep-purple-300": {
+    "value": "#9575cd",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9575cd",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-300",
+    "attributes": {
+      "category": "material-deep-purple-300"
+    },
+    "path": [
+      "material-deep-purple-300"
+    ]
+  },
+  "material-deep-purple-400": {
+    "value": "#7e57c2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#7e57c2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-400",
+    "attributes": {
+      "category": "material-deep-purple-400"
+    },
+    "path": [
+      "material-deep-purple-400"
+    ]
+  },
+  "material-deep-purple-500": {
+    "value": "#673ab7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#673ab7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-500",
+    "attributes": {
+      "category": "material-deep-purple-500"
+    },
+    "path": [
+      "material-deep-purple-500"
+    ]
+  },
+  "material-deep-purple-600": {
+    "value": "#5e35b1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#5e35b1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-600",
+    "attributes": {
+      "category": "material-deep-purple-600"
+    },
+    "path": [
+      "material-deep-purple-600"
+    ]
+  },
+  "material-deep-purple-700": {
+    "value": "#512da8",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#512da8",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-700",
+    "attributes": {
+      "category": "material-deep-purple-700"
+    },
+    "path": [
+      "material-deep-purple-700"
+    ]
+  },
+  "material-deep-purple-800": {
+    "value": "#4527a0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4527a0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-800",
+    "attributes": {
+      "category": "material-deep-purple-800"
+    },
+    "path": [
+      "material-deep-purple-800"
+    ]
+  },
+  "material-deep-purple-900": {
+    "value": "#311b92",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#311b92",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-900",
+    "attributes": {
+      "category": "material-deep-purple-900"
+    },
+    "path": [
+      "material-deep-purple-900"
+    ]
+  },
+  "material-deep-purple-a100": {
+    "value": "#b388ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b388ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-a100",
+    "attributes": {
+      "category": "material-deep-purple-a100"
+    },
+    "path": [
+      "material-deep-purple-a100"
+    ]
+  },
+  "material-deep-purple-a200": {
+    "value": "#7c4dff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#7c4dff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-a200",
+    "attributes": {
+      "category": "material-deep-purple-a200"
+    },
+    "path": [
+      "material-deep-purple-a200"
+    ]
+  },
+  "material-deep-purple-a400": {
+    "value": "#651fff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#651fff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-a400",
+    "attributes": {
+      "category": "material-deep-purple-a400"
+    },
+    "path": [
+      "material-deep-purple-a400"
+    ]
+  },
+  "material-deep-purple-a700": {
+    "value": "#6200ea",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#6200ea",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-purple-a700",
+    "attributes": {
+      "category": "material-deep-purple-a700"
+    },
+    "path": [
+      "material-deep-purple-a700"
+    ]
+  },
+  "material-indigo-50": {
+    "value": "#e8eaf6",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e8eaf6",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-50",
+    "attributes": {
+      "category": "material-indigo-50"
+    },
+    "path": [
+      "material-indigo-50"
+    ]
+  },
+  "material-indigo-100": {
+    "value": "#c5cae9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c5cae9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-100",
+    "attributes": {
+      "category": "material-indigo-100"
+    },
+    "path": [
+      "material-indigo-100"
+    ]
+  },
+  "material-indigo-200": {
+    "value": "#9fa8da",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9fa8da",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-200",
+    "attributes": {
+      "category": "material-indigo-200"
+    },
+    "path": [
+      "material-indigo-200"
+    ]
+  },
+  "material-indigo-300": {
+    "value": "#7986cb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#7986cb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-300",
+    "attributes": {
+      "category": "material-indigo-300"
+    },
+    "path": [
+      "material-indigo-300"
+    ]
+  },
+  "material-indigo-400": {
+    "value": "#5c6bc0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#5c6bc0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-400",
+    "attributes": {
+      "category": "material-indigo-400"
+    },
+    "path": [
+      "material-indigo-400"
+    ]
+  },
+  "material-indigo-500": {
+    "value": "#3f51b5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#3f51b5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-500",
+    "attributes": {
+      "category": "material-indigo-500"
+    },
+    "path": [
+      "material-indigo-500"
+    ]
+  },
+  "material-indigo-600": {
+    "value": "#3949ab",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#3949ab",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-600",
+    "attributes": {
+      "category": "material-indigo-600"
+    },
+    "path": [
+      "material-indigo-600"
+    ]
+  },
+  "material-indigo-700": {
+    "value": "#303f9f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#303f9f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-700",
+    "attributes": {
+      "category": "material-indigo-700"
+    },
+    "path": [
+      "material-indigo-700"
+    ]
+  },
+  "material-indigo-800": {
+    "value": "#283593",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#283593",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-800",
+    "attributes": {
+      "category": "material-indigo-800"
+    },
+    "path": [
+      "material-indigo-800"
+    ]
+  },
+  "material-indigo-900": {
+    "value": "#1a237e",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1a237e",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-900",
+    "attributes": {
+      "category": "material-indigo-900"
+    },
+    "path": [
+      "material-indigo-900"
+    ]
+  },
+  "material-indigo-a100": {
+    "value": "#8c9eff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#8c9eff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-a100",
+    "attributes": {
+      "category": "material-indigo-a100"
+    },
+    "path": [
+      "material-indigo-a100"
+    ]
+  },
+  "material-indigo-a200": {
+    "value": "#536dfe",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#536dfe",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-a200",
+    "attributes": {
+      "category": "material-indigo-a200"
+    },
+    "path": [
+      "material-indigo-a200"
+    ]
+  },
+  "material-indigo-a400": {
+    "value": "#3d5afe",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#3d5afe",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-a400",
+    "attributes": {
+      "category": "material-indigo-a400"
+    },
+    "path": [
+      "material-indigo-a400"
+    ]
+  },
+  "material-indigo-a700": {
+    "value": "#304ffe",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#304ffe",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-indigo-a700",
+    "attributes": {
+      "category": "material-indigo-a700"
+    },
+    "path": [
+      "material-indigo-a700"
+    ]
+  },
+  "material-blue-50": {
+    "value": "#e3f2fd",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e3f2fd",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-50",
+    "attributes": {
+      "category": "material-blue-50"
+    },
+    "path": [
+      "material-blue-50"
+    ]
+  },
+  "material-blue-100": {
+    "value": "#bbdefb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#bbdefb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-100",
+    "attributes": {
+      "category": "material-blue-100"
+    },
+    "path": [
+      "material-blue-100"
+    ]
+  },
+  "material-blue-200": {
+    "value": "#90caf9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#90caf9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-200",
+    "attributes": {
+      "category": "material-blue-200"
+    },
+    "path": [
+      "material-blue-200"
+    ]
+  },
+  "material-blue-300": {
+    "value": "#64b5f6",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#64b5f6",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-300",
+    "attributes": {
+      "category": "material-blue-300"
+    },
+    "path": [
+      "material-blue-300"
+    ]
+  },
+  "material-blue-400": {
+    "value": "#42a5f5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#42a5f5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-400",
+    "attributes": {
+      "category": "material-blue-400"
+    },
+    "path": [
+      "material-blue-400"
+    ]
+  },
+  "material-blue-500": {
+    "value": "#2196f3",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#2196f3",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-500",
+    "attributes": {
+      "category": "material-blue-500"
+    },
+    "path": [
+      "material-blue-500"
+    ]
+  },
+  "material-blue-600": {
+    "value": "#1e88e5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1e88e5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-600",
+    "attributes": {
+      "category": "material-blue-600"
+    },
+    "path": [
+      "material-blue-600"
+    ]
+  },
+  "material-blue-700": {
+    "value": "#1976d2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1976d2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-700",
+    "attributes": {
+      "category": "material-blue-700"
+    },
+    "path": [
+      "material-blue-700"
+    ]
+  },
+  "material-blue-800": {
+    "value": "#1565c0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1565c0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-800",
+    "attributes": {
+      "category": "material-blue-800"
+    },
+    "path": [
+      "material-blue-800"
+    ]
+  },
+  "material-blue-900": {
+    "value": "#0d47a1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#0d47a1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-900",
+    "attributes": {
+      "category": "material-blue-900"
+    },
+    "path": [
+      "material-blue-900"
+    ]
+  },
+  "material-blue-a100": {
+    "value": "#82b1ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#82b1ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-a100",
+    "attributes": {
+      "category": "material-blue-a100"
+    },
+    "path": [
+      "material-blue-a100"
+    ]
+  },
+  "material-blue-a200": {
+    "value": "#448aff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#448aff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-a200",
+    "attributes": {
+      "category": "material-blue-a200"
+    },
+    "path": [
+      "material-blue-a200"
+    ]
+  },
+  "material-blue-a400": {
+    "value": "#2979ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#2979ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-a400",
+    "attributes": {
+      "category": "material-blue-a400"
+    },
+    "path": [
+      "material-blue-a400"
+    ]
+  },
+  "material-blue-a700": {
+    "value": "#2962ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#2962ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-a700",
+    "attributes": {
+      "category": "material-blue-a700"
+    },
+    "path": [
+      "material-blue-a700"
+    ]
+  },
+  "material-light-blue-50": {
+    "value": "#e1f5fe",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e1f5fe",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-50",
+    "attributes": {
+      "category": "material-light-blue-50"
+    },
+    "path": [
+      "material-light-blue-50"
+    ]
+  },
+  "material-light-blue-100": {
+    "value": "#b3e5fc",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b3e5fc",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-100",
+    "attributes": {
+      "category": "material-light-blue-100"
+    },
+    "path": [
+      "material-light-blue-100"
+    ]
+  },
+  "material-light-blue-200": {
+    "value": "#81d4fa",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#81d4fa",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-200",
+    "attributes": {
+      "category": "material-light-blue-200"
+    },
+    "path": [
+      "material-light-blue-200"
+    ]
+  },
+  "material-light-blue-300": {
+    "value": "#4fc3f7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4fc3f7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-300",
+    "attributes": {
+      "category": "material-light-blue-300"
+    },
+    "path": [
+      "material-light-blue-300"
+    ]
+  },
+  "material-light-blue-400": {
+    "value": "#29b6f6",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#29b6f6",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-400",
+    "attributes": {
+      "category": "material-light-blue-400"
+    },
+    "path": [
+      "material-light-blue-400"
+    ]
+  },
+  "material-light-blue-500": {
+    "value": "#03a9f4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#03a9f4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-500",
+    "attributes": {
+      "category": "material-light-blue-500"
+    },
+    "path": [
+      "material-light-blue-500"
+    ]
+  },
+  "material-light-blue-600": {
+    "value": "#039be5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#039be5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-600",
+    "attributes": {
+      "category": "material-light-blue-600"
+    },
+    "path": [
+      "material-light-blue-600"
+    ]
+  },
+  "material-light-blue-700": {
+    "value": "#0288d1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#0288d1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-700",
+    "attributes": {
+      "category": "material-light-blue-700"
+    },
+    "path": [
+      "material-light-blue-700"
+    ]
+  },
+  "material-light-blue-800": {
+    "value": "#0277bd",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#0277bd",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-800",
+    "attributes": {
+      "category": "material-light-blue-800"
+    },
+    "path": [
+      "material-light-blue-800"
+    ]
+  },
+  "material-light-blue-900": {
+    "value": "#01579b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#01579b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-900",
+    "attributes": {
+      "category": "material-light-blue-900"
+    },
+    "path": [
+      "material-light-blue-900"
+    ]
+  },
+  "material-light-blue-a100": {
+    "value": "#80d8ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#80d8ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-a100",
+    "attributes": {
+      "category": "material-light-blue-a100"
+    },
+    "path": [
+      "material-light-blue-a100"
+    ]
+  },
+  "material-light-blue-a200": {
+    "value": "#40c4ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#40c4ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-a200",
+    "attributes": {
+      "category": "material-light-blue-a200"
+    },
+    "path": [
+      "material-light-blue-a200"
+    ]
+  },
+  "material-light-blue-a400": {
+    "value": "#00b0ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00b0ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-a400",
+    "attributes": {
+      "category": "material-light-blue-a400"
+    },
+    "path": [
+      "material-light-blue-a400"
+    ]
+  },
+  "material-light-blue-a700": {
+    "value": "#0091ea",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#0091ea",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-blue-a700",
+    "attributes": {
+      "category": "material-light-blue-a700"
+    },
+    "path": [
+      "material-light-blue-a700"
+    ]
+  },
+  "material-cyan-50": {
+    "value": "#e0f7fa",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e0f7fa",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-50",
+    "attributes": {
+      "category": "material-cyan-50"
+    },
+    "path": [
+      "material-cyan-50"
+    ]
+  },
+  "material-cyan-100": {
+    "value": "#b2ebf2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b2ebf2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-100",
+    "attributes": {
+      "category": "material-cyan-100"
+    },
+    "path": [
+      "material-cyan-100"
+    ]
+  },
+  "material-cyan-200": {
+    "value": "#80deea",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#80deea",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-200",
+    "attributes": {
+      "category": "material-cyan-200"
+    },
+    "path": [
+      "material-cyan-200"
+    ]
+  },
+  "material-cyan-300": {
+    "value": "#4dd0e1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4dd0e1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-300",
+    "attributes": {
+      "category": "material-cyan-300"
+    },
+    "path": [
+      "material-cyan-300"
+    ]
+  },
+  "material-cyan-400": {
+    "value": "#26c6da",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#26c6da",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-400",
+    "attributes": {
+      "category": "material-cyan-400"
+    },
+    "path": [
+      "material-cyan-400"
+    ]
+  },
+  "material-cyan-500": {
+    "value": "#00bcd4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00bcd4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-500",
+    "attributes": {
+      "category": "material-cyan-500"
+    },
+    "path": [
+      "material-cyan-500"
+    ]
+  },
+  "material-cyan-600": {
+    "value": "#00acc1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00acc1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-600",
+    "attributes": {
+      "category": "material-cyan-600"
+    },
+    "path": [
+      "material-cyan-600"
+    ]
+  },
+  "material-cyan-700": {
+    "value": "#0097a7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#0097a7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-700",
+    "attributes": {
+      "category": "material-cyan-700"
+    },
+    "path": [
+      "material-cyan-700"
+    ]
+  },
+  "material-cyan-800": {
+    "value": "#00838f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00838f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-800",
+    "attributes": {
+      "category": "material-cyan-800"
+    },
+    "path": [
+      "material-cyan-800"
+    ]
+  },
+  "material-cyan-900": {
+    "value": "#006064",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#006064",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-900",
+    "attributes": {
+      "category": "material-cyan-900"
+    },
+    "path": [
+      "material-cyan-900"
+    ]
+  },
+  "material-cyan-a100": {
+    "value": "#84ffff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#84ffff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-a100",
+    "attributes": {
+      "category": "material-cyan-a100"
+    },
+    "path": [
+      "material-cyan-a100"
+    ]
+  },
+  "material-cyan-a200": {
+    "value": "#18ffff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#18ffff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-a200",
+    "attributes": {
+      "category": "material-cyan-a200"
+    },
+    "path": [
+      "material-cyan-a200"
+    ]
+  },
+  "material-cyan-a400": {
+    "value": "#00e5ff",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00e5ff",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-a400",
+    "attributes": {
+      "category": "material-cyan-a400"
+    },
+    "path": [
+      "material-cyan-a400"
+    ]
+  },
+  "material-cyan-a700": {
+    "value": "#00b8d4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00b8d4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-cyan-a700",
+    "attributes": {
+      "category": "material-cyan-a700"
+    },
+    "path": [
+      "material-cyan-a700"
+    ]
+  },
+  "material-teal-50": {
+    "value": "#e0f2f1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e0f2f1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-50",
+    "attributes": {
+      "category": "material-teal-50"
+    },
+    "path": [
+      "material-teal-50"
+    ]
+  },
+  "material-teal-100": {
+    "value": "#b2dfdb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b2dfdb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-100",
+    "attributes": {
+      "category": "material-teal-100"
+    },
+    "path": [
+      "material-teal-100"
+    ]
+  },
+  "material-teal-200": {
+    "value": "#80cbc4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#80cbc4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-200",
+    "attributes": {
+      "category": "material-teal-200"
+    },
+    "path": [
+      "material-teal-200"
+    ]
+  },
+  "material-teal-300": {
+    "value": "#4db6ac",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4db6ac",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-300",
+    "attributes": {
+      "category": "material-teal-300"
+    },
+    "path": [
+      "material-teal-300"
+    ]
+  },
+  "material-teal-400": {
+    "value": "#26a69a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#26a69a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-400",
+    "attributes": {
+      "category": "material-teal-400"
+    },
+    "path": [
+      "material-teal-400"
+    ]
+  },
+  "material-teal-500": {
+    "value": "#009688",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#009688",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-500",
+    "attributes": {
+      "category": "material-teal-500"
+    },
+    "path": [
+      "material-teal-500"
+    ]
+  },
+  "material-teal-600": {
+    "value": "#00897b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00897b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-600",
+    "attributes": {
+      "category": "material-teal-600"
+    },
+    "path": [
+      "material-teal-600"
+    ]
+  },
+  "material-teal-700": {
+    "value": "#00796b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00796b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-700",
+    "attributes": {
+      "category": "material-teal-700"
+    },
+    "path": [
+      "material-teal-700"
+    ]
+  },
+  "material-teal-800": {
+    "value": "#00695c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00695c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-800",
+    "attributes": {
+      "category": "material-teal-800"
+    },
+    "path": [
+      "material-teal-800"
+    ]
+  },
+  "material-teal-900": {
+    "value": "#004d40",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#004d40",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-900",
+    "attributes": {
+      "category": "material-teal-900"
+    },
+    "path": [
+      "material-teal-900"
+    ]
+  },
+  "material-teal-a100": {
+    "value": "#a7ffeb",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#a7ffeb",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-a100",
+    "attributes": {
+      "category": "material-teal-a100"
+    },
+    "path": [
+      "material-teal-a100"
+    ]
+  },
+  "material-teal-a200": {
+    "value": "#64ffda",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#64ffda",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-a200",
+    "attributes": {
+      "category": "material-teal-a200"
+    },
+    "path": [
+      "material-teal-a200"
+    ]
+  },
+  "material-teal-a400": {
+    "value": "#1de9b6",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1de9b6",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-a400",
+    "attributes": {
+      "category": "material-teal-a400"
+    },
+    "path": [
+      "material-teal-a400"
+    ]
+  },
+  "material-teal-a700": {
+    "value": "#00bfa5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00bfa5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-teal-a700",
+    "attributes": {
+      "category": "material-teal-a700"
+    },
+    "path": [
+      "material-teal-a700"
+    ]
+  },
+  "material-green-50": {
+    "value": "#e8f5e9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e8f5e9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-50",
+    "attributes": {
+      "category": "material-green-50"
+    },
+    "path": [
+      "material-green-50"
+    ]
+  },
+  "material-green-100": {
+    "value": "#c8e6c9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c8e6c9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-100",
+    "attributes": {
+      "category": "material-green-100"
+    },
+    "path": [
+      "material-green-100"
+    ]
+  },
+  "material-green-200": {
+    "value": "#a5d6a7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#a5d6a7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-200",
+    "attributes": {
+      "category": "material-green-200"
+    },
+    "path": [
+      "material-green-200"
+    ]
+  },
+  "material-green-300": {
+    "value": "#81c784",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#81c784",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-300",
+    "attributes": {
+      "category": "material-green-300"
+    },
+    "path": [
+      "material-green-300"
+    ]
+  },
+  "material-green-400": {
+    "value": "#66bb6a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#66bb6a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-400",
+    "attributes": {
+      "category": "material-green-400"
+    },
+    "path": [
+      "material-green-400"
+    ]
+  },
+  "material-green-500": {
+    "value": "#4caf50",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4caf50",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-500",
+    "attributes": {
+      "category": "material-green-500"
+    },
+    "path": [
+      "material-green-500"
+    ]
+  },
+  "material-green-600": {
+    "value": "#43a047",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#43a047",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-600",
+    "attributes": {
+      "category": "material-green-600"
+    },
+    "path": [
+      "material-green-600"
+    ]
+  },
+  "material-green-700": {
+    "value": "#388e3c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#388e3c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-700",
+    "attributes": {
+      "category": "material-green-700"
+    },
+    "path": [
+      "material-green-700"
+    ]
+  },
+  "material-green-800": {
+    "value": "#2e7d32",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#2e7d32",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-800",
+    "attributes": {
+      "category": "material-green-800"
+    },
+    "path": [
+      "material-green-800"
+    ]
+  },
+  "material-green-900": {
+    "value": "#1b5e20",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#1b5e20",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-900",
+    "attributes": {
+      "category": "material-green-900"
+    },
+    "path": [
+      "material-green-900"
+    ]
+  },
+  "material-green-a100": {
+    "value": "#b9f6ca",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b9f6ca",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-a100",
+    "attributes": {
+      "category": "material-green-a100"
+    },
+    "path": [
+      "material-green-a100"
+    ]
+  },
+  "material-green-a200": {
+    "value": "#69f0ae",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#69f0ae",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-a200",
+    "attributes": {
+      "category": "material-green-a200"
+    },
+    "path": [
+      "material-green-a200"
+    ]
+  },
+  "material-green-a400": {
+    "value": "#00e676",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00e676",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-a400",
+    "attributes": {
+      "category": "material-green-a400"
+    },
+    "path": [
+      "material-green-a400"
+    ]
+  },
+  "material-green-a700": {
+    "value": "#00c853",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#00c853",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-green-a700",
+    "attributes": {
+      "category": "material-green-a700"
+    },
+    "path": [
+      "material-green-a700"
+    ]
+  },
+  "material-light-green-50": {
+    "value": "#f1f8e9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f1f8e9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-50",
+    "attributes": {
+      "category": "material-light-green-50"
+    },
+    "path": [
+      "material-light-green-50"
+    ]
+  },
+  "material-light-green-100": {
+    "value": "#dcedc8",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#dcedc8",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-100",
+    "attributes": {
+      "category": "material-light-green-100"
+    },
+    "path": [
+      "material-light-green-100"
+    ]
+  },
+  "material-light-green-200": {
+    "value": "#c5e1a5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c5e1a5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-200",
+    "attributes": {
+      "category": "material-light-green-200"
+    },
+    "path": [
+      "material-light-green-200"
+    ]
+  },
+  "material-light-green-300": {
+    "value": "#aed581",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#aed581",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-300",
+    "attributes": {
+      "category": "material-light-green-300"
+    },
+    "path": [
+      "material-light-green-300"
+    ]
+  },
+  "material-light-green-400": {
+    "value": "#9ccc65",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9ccc65",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-400",
+    "attributes": {
+      "category": "material-light-green-400"
+    },
+    "path": [
+      "material-light-green-400"
+    ]
+  },
+  "material-light-green-500": {
+    "value": "#8bc34a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#8bc34a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-500",
+    "attributes": {
+      "category": "material-light-green-500"
+    },
+    "path": [
+      "material-light-green-500"
+    ]
+  },
+  "material-light-green-600": {
+    "value": "#7cb342",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#7cb342",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-600",
+    "attributes": {
+      "category": "material-light-green-600"
+    },
+    "path": [
+      "material-light-green-600"
+    ]
+  },
+  "material-light-green-700": {
+    "value": "#689f38",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#689f38",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-700",
+    "attributes": {
+      "category": "material-light-green-700"
+    },
+    "path": [
+      "material-light-green-700"
+    ]
+  },
+  "material-light-green-800": {
+    "value": "#558b2f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#558b2f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-800",
+    "attributes": {
+      "category": "material-light-green-800"
+    },
+    "path": [
+      "material-light-green-800"
+    ]
+  },
+  "material-light-green-900": {
+    "value": "#33691e",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#33691e",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-900",
+    "attributes": {
+      "category": "material-light-green-900"
+    },
+    "path": [
+      "material-light-green-900"
+    ]
+  },
+  "material-light-green-a100": {
+    "value": "#ccff90",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ccff90",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-a100",
+    "attributes": {
+      "category": "material-light-green-a100"
+    },
+    "path": [
+      "material-light-green-a100"
+    ]
+  },
+  "material-light-green-a200": {
+    "value": "#b2ff59",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b2ff59",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-a200",
+    "attributes": {
+      "category": "material-light-green-a200"
+    },
+    "path": [
+      "material-light-green-a200"
+    ]
+  },
+  "material-light-green-a400": {
+    "value": "#76ff03",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#76ff03",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-a400",
+    "attributes": {
+      "category": "material-light-green-a400"
+    },
+    "path": [
+      "material-light-green-a400"
+    ]
+  },
+  "material-light-green-a700": {
+    "value": "#64dd17",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#64dd17",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-light-green-a700",
+    "attributes": {
+      "category": "material-light-green-a700"
+    },
+    "path": [
+      "material-light-green-a700"
+    ]
+  },
+  "material-lime-50": {
+    "value": "#f9fbe7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f9fbe7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-50",
+    "attributes": {
+      "category": "material-lime-50"
+    },
+    "path": [
+      "material-lime-50"
+    ]
+  },
+  "material-lime-100": {
+    "value": "#f0f4c3",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f0f4c3",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-100",
+    "attributes": {
+      "category": "material-lime-100"
+    },
+    "path": [
+      "material-lime-100"
+    ]
+  },
+  "material-lime-200": {
+    "value": "#e6ee9c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e6ee9c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-200",
+    "attributes": {
+      "category": "material-lime-200"
+    },
+    "path": [
+      "material-lime-200"
+    ]
+  },
+  "material-lime-300": {
+    "value": "#dce775",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#dce775",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-300",
+    "attributes": {
+      "category": "material-lime-300"
+    },
+    "path": [
+      "material-lime-300"
+    ]
+  },
+  "material-lime-400": {
+    "value": "#d4e157",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d4e157",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-400",
+    "attributes": {
+      "category": "material-lime-400"
+    },
+    "path": [
+      "material-lime-400"
+    ]
+  },
+  "material-lime-500": {
+    "value": "#cddc39",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#cddc39",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-500",
+    "attributes": {
+      "category": "material-lime-500"
+    },
+    "path": [
+      "material-lime-500"
+    ]
+  },
+  "material-lime-600": {
+    "value": "#c0ca33",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c0ca33",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-600",
+    "attributes": {
+      "category": "material-lime-600"
+    },
+    "path": [
+      "material-lime-600"
+    ]
+  },
+  "material-lime-700": {
+    "value": "#afb42b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#afb42b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-700",
+    "attributes": {
+      "category": "material-lime-700"
+    },
+    "path": [
+      "material-lime-700"
+    ]
+  },
+  "material-lime-800": {
+    "value": "#9e9d24",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9e9d24",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-800",
+    "attributes": {
+      "category": "material-lime-800"
+    },
+    "path": [
+      "material-lime-800"
+    ]
+  },
+  "material-lime-900": {
+    "value": "#827717",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#827717",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-900",
+    "attributes": {
+      "category": "material-lime-900"
+    },
+    "path": [
+      "material-lime-900"
+    ]
+  },
+  "material-lime-a100": {
+    "value": "#f4ff81",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f4ff81",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-a100",
+    "attributes": {
+      "category": "material-lime-a100"
+    },
+    "path": [
+      "material-lime-a100"
+    ]
+  },
+  "material-lime-a200": {
+    "value": "#eeff41",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#eeff41",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-a200",
+    "attributes": {
+      "category": "material-lime-a200"
+    },
+    "path": [
+      "material-lime-a200"
+    ]
+  },
+  "material-lime-a400": {
+    "value": "#c6ff00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#c6ff00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-a400",
+    "attributes": {
+      "category": "material-lime-a400"
+    },
+    "path": [
+      "material-lime-a400"
+    ]
+  },
+  "material-lime-a700": {
+    "value": "#aeea00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#aeea00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-lime-a700",
+    "attributes": {
+      "category": "material-lime-a700"
+    },
+    "path": [
+      "material-lime-a700"
+    ]
+  },
+  "material-yellow-50": {
+    "value": "#fffde7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fffde7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-50",
+    "attributes": {
+      "category": "material-yellow-50"
+    },
+    "path": [
+      "material-yellow-50"
+    ]
+  },
+  "material-yellow-100": {
+    "value": "#fff9c4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fff9c4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-100",
+    "attributes": {
+      "category": "material-yellow-100"
+    },
+    "path": [
+      "material-yellow-100"
+    ]
+  },
+  "material-yellow-200": {
+    "value": "#fff59d",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fff59d",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-200",
+    "attributes": {
+      "category": "material-yellow-200"
+    },
+    "path": [
+      "material-yellow-200"
+    ]
+  },
+  "material-yellow-300": {
+    "value": "#fff176",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fff176",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-300",
+    "attributes": {
+      "category": "material-yellow-300"
+    },
+    "path": [
+      "material-yellow-300"
+    ]
+  },
+  "material-yellow-400": {
+    "value": "#ffee58",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffee58",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-400",
+    "attributes": {
+      "category": "material-yellow-400"
+    },
+    "path": [
+      "material-yellow-400"
+    ]
+  },
+  "material-yellow-500": {
+    "value": "#ffeb3b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffeb3b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-500",
+    "attributes": {
+      "category": "material-yellow-500"
+    },
+    "path": [
+      "material-yellow-500"
+    ]
+  },
+  "material-yellow-600": {
+    "value": "#fdd835",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fdd835",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-600",
+    "attributes": {
+      "category": "material-yellow-600"
+    },
+    "path": [
+      "material-yellow-600"
+    ]
+  },
+  "material-yellow-700": {
+    "value": "#fbc02d",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fbc02d",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-700",
+    "attributes": {
+      "category": "material-yellow-700"
+    },
+    "path": [
+      "material-yellow-700"
+    ]
+  },
+  "material-yellow-800": {
+    "value": "#f9a825",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f9a825",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-800",
+    "attributes": {
+      "category": "material-yellow-800"
+    },
+    "path": [
+      "material-yellow-800"
+    ]
+  },
+  "material-yellow-900": {
+    "value": "#f57f17",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f57f17",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-900",
+    "attributes": {
+      "category": "material-yellow-900"
+    },
+    "path": [
+      "material-yellow-900"
+    ]
+  },
+  "material-yellow-a100": {
+    "value": "#ffff8d",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffff8d",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-a100",
+    "attributes": {
+      "category": "material-yellow-a100"
+    },
+    "path": [
+      "material-yellow-a100"
+    ]
+  },
+  "material-yellow-a200": {
+    "value": "#ff0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-a200",
+    "attributes": {
+      "category": "material-yellow-a200"
+    },
+    "path": [
+      "material-yellow-a200"
+    ]
+  },
+  "material-yellow-a400": {
+    "value": "#ffea00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffea00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-a400",
+    "attributes": {
+      "category": "material-yellow-a400"
+    },
+    "path": [
+      "material-yellow-a400"
+    ]
+  },
+  "material-yellow-a700": {
+    "value": "#ffd600",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffd600",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-yellow-a700",
+    "attributes": {
+      "category": "material-yellow-a700"
+    },
+    "path": [
+      "material-yellow-a700"
+    ]
+  },
+  "material-amber-50": {
+    "value": "#fff8e1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fff8e1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-50",
+    "attributes": {
+      "category": "material-amber-50"
+    },
+    "path": [
+      "material-amber-50"
+    ]
+  },
+  "material-amber-100": {
+    "value": "#ffecb3",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffecb3",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-100",
+    "attributes": {
+      "category": "material-amber-100"
+    },
+    "path": [
+      "material-amber-100"
+    ]
+  },
+  "material-amber-200": {
+    "value": "#ffe082",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffe082",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-200",
+    "attributes": {
+      "category": "material-amber-200"
+    },
+    "path": [
+      "material-amber-200"
+    ]
+  },
+  "material-amber-300": {
+    "value": "#ffd54f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffd54f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-300",
+    "attributes": {
+      "category": "material-amber-300"
+    },
+    "path": [
+      "material-amber-300"
+    ]
+  },
+  "material-amber-400": {
+    "value": "#ffca28",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffca28",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-400",
+    "attributes": {
+      "category": "material-amber-400"
+    },
+    "path": [
+      "material-amber-400"
+    ]
+  },
+  "material-amber-500": {
+    "value": "#ffc107",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffc107",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-500",
+    "attributes": {
+      "category": "material-amber-500"
+    },
+    "path": [
+      "material-amber-500"
+    ]
+  },
+  "material-amber-600": {
+    "value": "#ffb300",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffb300",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-600",
+    "attributes": {
+      "category": "material-amber-600"
+    },
+    "path": [
+      "material-amber-600"
+    ]
+  },
+  "material-amber-700": {
+    "value": "#ffa000",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffa000",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-700",
+    "attributes": {
+      "category": "material-amber-700"
+    },
+    "path": [
+      "material-amber-700"
+    ]
+  },
+  "material-amber-800": {
+    "value": "#ff8f00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff8f00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-800",
+    "attributes": {
+      "category": "material-amber-800"
+    },
+    "path": [
+      "material-amber-800"
+    ]
+  },
+  "material-amber-900": {
+    "value": "#ff6f00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff6f00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-900",
+    "attributes": {
+      "category": "material-amber-900"
+    },
+    "path": [
+      "material-amber-900"
+    ]
+  },
+  "material-amber-a100": {
+    "value": "#ffe57f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffe57f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-a100",
+    "attributes": {
+      "category": "material-amber-a100"
+    },
+    "path": [
+      "material-amber-a100"
+    ]
+  },
+  "material-amber-a200": {
+    "value": "#ffd740",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffd740",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-a200",
+    "attributes": {
+      "category": "material-amber-a200"
+    },
+    "path": [
+      "material-amber-a200"
+    ]
+  },
+  "material-amber-a400": {
+    "value": "#ffc400",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffc400",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-a400",
+    "attributes": {
+      "category": "material-amber-a400"
+    },
+    "path": [
+      "material-amber-a400"
+    ]
+  },
+  "material-amber-a700": {
+    "value": "#ffab00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffab00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-amber-a700",
+    "attributes": {
+      "category": "material-amber-a700"
+    },
+    "path": [
+      "material-amber-a700"
+    ]
+  },
+  "material-orange-50": {
+    "value": "#fff3e0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fff3e0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-50",
+    "attributes": {
+      "category": "material-orange-50"
+    },
+    "path": [
+      "material-orange-50"
+    ]
+  },
+  "material-orange-100": {
+    "value": "#ffe0b2",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffe0b2",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-100",
+    "attributes": {
+      "category": "material-orange-100"
+    },
+    "path": [
+      "material-orange-100"
+    ]
+  },
+  "material-orange-200": {
+    "value": "#ffcc80",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffcc80",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-200",
+    "attributes": {
+      "category": "material-orange-200"
+    },
+    "path": [
+      "material-orange-200"
+    ]
+  },
+  "material-orange-300": {
+    "value": "#ffb74d",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffb74d",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-300",
+    "attributes": {
+      "category": "material-orange-300"
+    },
+    "path": [
+      "material-orange-300"
+    ]
+  },
+  "material-orange-400": {
+    "value": "#ffa726",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffa726",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-400",
+    "attributes": {
+      "category": "material-orange-400"
+    },
+    "path": [
+      "material-orange-400"
+    ]
+  },
+  "material-orange-500": {
+    "value": "#ff9800",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff9800",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-500",
+    "attributes": {
+      "category": "material-orange-500"
+    },
+    "path": [
+      "material-orange-500"
+    ]
+  },
+  "material-orange-600": {
+    "value": "#fb8c00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fb8c00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-600",
+    "attributes": {
+      "category": "material-orange-600"
+    },
+    "path": [
+      "material-orange-600"
+    ]
+  },
+  "material-orange-700": {
+    "value": "#f57c00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f57c00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-700",
+    "attributes": {
+      "category": "material-orange-700"
+    },
+    "path": [
+      "material-orange-700"
+    ]
+  },
+  "material-orange-800": {
+    "value": "#ef6c00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ef6c00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-800",
+    "attributes": {
+      "category": "material-orange-800"
+    },
+    "path": [
+      "material-orange-800"
+    ]
+  },
+  "material-orange-900": {
+    "value": "#e65100",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e65100",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-900",
+    "attributes": {
+      "category": "material-orange-900"
+    },
+    "path": [
+      "material-orange-900"
+    ]
+  },
+  "material-orange-a100": {
+    "value": "#ffd180",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffd180",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-a100",
+    "attributes": {
+      "category": "material-orange-a100"
+    },
+    "path": [
+      "material-orange-a100"
+    ]
+  },
+  "material-orange-a200": {
+    "value": "#ffab40",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffab40",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-a200",
+    "attributes": {
+      "category": "material-orange-a200"
+    },
+    "path": [
+      "material-orange-a200"
+    ]
+  },
+  "material-orange-a400": {
+    "value": "#ff9100",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff9100",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-a400",
+    "attributes": {
+      "category": "material-orange-a400"
+    },
+    "path": [
+      "material-orange-a400"
+    ]
+  },
+  "material-orange-a700": {
+    "value": "#ff6d00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff6d00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-orange-a700",
+    "attributes": {
+      "category": "material-orange-a700"
+    },
+    "path": [
+      "material-orange-a700"
+    ]
+  },
+  "material-deep-orange-50": {
+    "value": "#fbe9e7",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fbe9e7",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-50",
+    "attributes": {
+      "category": "material-deep-orange-50"
+    },
+    "path": [
+      "material-deep-orange-50"
+    ]
+  },
+  "material-deep-orange-100": {
+    "value": "#ffccbc",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffccbc",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-100",
+    "attributes": {
+      "category": "material-deep-orange-100"
+    },
+    "path": [
+      "material-deep-orange-100"
+    ]
+  },
+  "material-deep-orange-200": {
+    "value": "#ffab91",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ffab91",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-200",
+    "attributes": {
+      "category": "material-deep-orange-200"
+    },
+    "path": [
+      "material-deep-orange-200"
+    ]
+  },
+  "material-deep-orange-300": {
+    "value": "#ff8a65",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff8a65",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-300",
+    "attributes": {
+      "category": "material-deep-orange-300"
+    },
+    "path": [
+      "material-deep-orange-300"
+    ]
+  },
+  "material-deep-orange-400": {
+    "value": "#ff7043",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff7043",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-400",
+    "attributes": {
+      "category": "material-deep-orange-400"
+    },
+    "path": [
+      "material-deep-orange-400"
+    ]
+  },
+  "material-deep-orange-500": {
+    "value": "#ff5722",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff5722",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-500",
+    "attributes": {
+      "category": "material-deep-orange-500"
+    },
+    "path": [
+      "material-deep-orange-500"
+    ]
+  },
+  "material-deep-orange-600": {
+    "value": "#f4511e",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f4511e",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-600",
+    "attributes": {
+      "category": "material-deep-orange-600"
+    },
+    "path": [
+      "material-deep-orange-600"
+    ]
+  },
+  "material-deep-orange-700": {
+    "value": "#e64a19",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e64a19",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-700",
+    "attributes": {
+      "category": "material-deep-orange-700"
+    },
+    "path": [
+      "material-deep-orange-700"
+    ]
+  },
+  "material-deep-orange-800": {
+    "value": "#d84315",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d84315",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-800",
+    "attributes": {
+      "category": "material-deep-orange-800"
+    },
+    "path": [
+      "material-deep-orange-800"
+    ]
+  },
+  "material-deep-orange-900": {
+    "value": "#bf360c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#bf360c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-900",
+    "attributes": {
+      "category": "material-deep-orange-900"
+    },
+    "path": [
+      "material-deep-orange-900"
+    ]
+  },
+  "material-deep-orange-a100": {
+    "value": "#ff9e80",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff9e80",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-a100",
+    "attributes": {
+      "category": "material-deep-orange-a100"
+    },
+    "path": [
+      "material-deep-orange-a100"
+    ]
+  },
+  "material-deep-orange-a200": {
+    "value": "#ff6e40",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff6e40",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-a200",
+    "attributes": {
+      "category": "material-deep-orange-a200"
+    },
+    "path": [
+      "material-deep-orange-a200"
+    ]
+  },
+  "material-deep-orange-a400": {
+    "value": "#ff3d00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#ff3d00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-a400",
+    "attributes": {
+      "category": "material-deep-orange-a400"
+    },
+    "path": [
+      "material-deep-orange-a400"
+    ]
+  },
+  "material-deep-orange-a700": {
+    "value": "#dd2c00",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#dd2c00",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-deep-orange-a700",
+    "attributes": {
+      "category": "material-deep-orange-a700"
+    },
+    "path": [
+      "material-deep-orange-a700"
+    ]
+  },
+  "material-brown-50": {
+    "value": "#efebe9",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#efebe9",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-50",
+    "attributes": {
+      "category": "material-brown-50"
+    },
+    "path": [
+      "material-brown-50"
+    ]
+  },
+  "material-brown-100": {
+    "value": "#d7ccc8",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#d7ccc8",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-100",
+    "attributes": {
+      "category": "material-brown-100"
+    },
+    "path": [
+      "material-brown-100"
+    ]
+  },
+  "material-brown-200": {
+    "value": "#bcaaa4",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#bcaaa4",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-200",
+    "attributes": {
+      "category": "material-brown-200"
+    },
+    "path": [
+      "material-brown-200"
+    ]
+  },
+  "material-brown-300": {
+    "value": "#a1887f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#a1887f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-300",
+    "attributes": {
+      "category": "material-brown-300"
+    },
+    "path": [
+      "material-brown-300"
+    ]
+  },
+  "material-brown-400": {
+    "value": "#8d6e63",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#8d6e63",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-400",
+    "attributes": {
+      "category": "material-brown-400"
+    },
+    "path": [
+      "material-brown-400"
+    ]
+  },
+  "material-brown-500": {
+    "value": "#795548",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#795548",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-500",
+    "attributes": {
+      "category": "material-brown-500"
+    },
+    "path": [
+      "material-brown-500"
+    ]
+  },
+  "material-brown-600": {
+    "value": "#6d4c41",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#6d4c41",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-600",
+    "attributes": {
+      "category": "material-brown-600"
+    },
+    "path": [
+      "material-brown-600"
+    ]
+  },
+  "material-brown-700": {
+    "value": "#5d4037",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#5d4037",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-700",
+    "attributes": {
+      "category": "material-brown-700"
+    },
+    "path": [
+      "material-brown-700"
+    ]
+  },
+  "material-brown-800": {
+    "value": "#4e342e",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#4e342e",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-800",
+    "attributes": {
+      "category": "material-brown-800"
+    },
+    "path": [
+      "material-brown-800"
+    ]
+  },
+  "material-brown-900": {
+    "value": "#3e2723",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#3e2723",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-brown-900",
+    "attributes": {
+      "category": "material-brown-900"
+    },
+    "path": [
+      "material-brown-900"
+    ]
+  },
+  "material-grey-50": {
+    "value": "#fafafa",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#fafafa",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-50",
+    "attributes": {
+      "category": "material-grey-50"
+    },
+    "path": [
+      "material-grey-50"
+    ]
+  },
+  "material-grey-100": {
+    "value": "#f5f5f5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#f5f5f5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-100",
+    "attributes": {
+      "category": "material-grey-100"
+    },
+    "path": [
+      "material-grey-100"
+    ]
+  },
+  "material-grey-200": {
+    "value": "#eee",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#eee",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-200",
+    "attributes": {
+      "category": "material-grey-200"
+    },
+    "path": [
+      "material-grey-200"
+    ]
+  },
+  "material-grey-300": {
+    "value": "#e0e0e0",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#e0e0e0",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-300",
+    "attributes": {
+      "category": "material-grey-300"
+    },
+    "path": [
+      "material-grey-300"
+    ]
+  },
+  "material-grey-400": {
+    "value": "#bdbdbd",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#bdbdbd",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-400",
+    "attributes": {
+      "category": "material-grey-400"
+    },
+    "path": [
+      "material-grey-400"
+    ]
+  },
+  "material-grey-500": {
+    "value": "#9e9e9e",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#9e9e9e",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-500",
+    "attributes": {
+      "category": "material-grey-500"
+    },
+    "path": [
+      "material-grey-500"
+    ]
+  },
+  "material-grey-600": {
+    "value": "#757575",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#757575",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-600",
+    "attributes": {
+      "category": "material-grey-600"
+    },
+    "path": [
+      "material-grey-600"
+    ]
+  },
+  "material-grey-700": {
+    "value": "#616161",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#616161",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-700",
+    "attributes": {
+      "category": "material-grey-700"
+    },
+    "path": [
+      "material-grey-700"
+    ]
+  },
+  "material-grey-800": {
+    "value": "#424242",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#424242",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-800",
+    "attributes": {
+      "category": "material-grey-800"
+    },
+    "path": [
+      "material-grey-800"
+    ]
+  },
+  "material-grey-900": {
+    "value": "#212121",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#212121",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-grey-900",
+    "attributes": {
+      "category": "material-grey-900"
+    },
+    "path": [
+      "material-grey-900"
+    ]
+  },
+  "material-blue-grey-50": {
+    "value": "#eceff1",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#eceff1",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-50",
+    "attributes": {
+      "category": "material-blue-grey-50"
+    },
+    "path": [
+      "material-blue-grey-50"
+    ]
+  },
+  "material-blue-grey-100": {
+    "value": "#cfd8dc",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#cfd8dc",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-100",
+    "attributes": {
+      "category": "material-blue-grey-100"
+    },
+    "path": [
+      "material-blue-grey-100"
+    ]
+  },
+  "material-blue-grey-200": {
+    "value": "#b0bec5",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#b0bec5",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-200",
+    "attributes": {
+      "category": "material-blue-grey-200"
+    },
+    "path": [
+      "material-blue-grey-200"
+    ]
+  },
+  "material-blue-grey-300": {
+    "value": "#90a4ae",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#90a4ae",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-300",
+    "attributes": {
+      "category": "material-blue-grey-300"
+    },
+    "path": [
+      "material-blue-grey-300"
+    ]
+  },
+  "material-blue-grey-400": {
+    "value": "#78909c",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#78909c",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-400",
+    "attributes": {
+      "category": "material-blue-grey-400"
+    },
+    "path": [
+      "material-blue-grey-400"
+    ]
+  },
+  "material-blue-grey-500": {
+    "value": "#607d8b",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#607d8b",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-500",
+    "attributes": {
+      "category": "material-blue-grey-500"
+    },
+    "path": [
+      "material-blue-grey-500"
+    ]
+  },
+  "material-blue-grey-600": {
+    "value": "#546e7a",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#546e7a",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-600",
+    "attributes": {
+      "category": "material-blue-grey-600"
+    },
+    "path": [
+      "material-blue-grey-600"
+    ]
+  },
+  "material-blue-grey-700": {
+    "value": "#455a64",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#455a64",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-700",
+    "attributes": {
+      "category": "material-blue-grey-700"
+    },
+    "path": [
+      "material-blue-grey-700"
+    ]
+  },
+  "material-blue-grey-800": {
+    "value": "#37474f",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#37474f",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-800",
+    "attributes": {
+      "category": "material-blue-grey-800"
+    },
+    "path": [
+      "material-blue-grey-800"
+    ]
+  },
+  "material-blue-grey-900": {
+    "value": "#263238",
+    "filePath": "color/material.json",
+    "isSource": true,
+    "original": {
+      "value": "#263238",
+      "filePath": "build/json/_variables.json",
+      "isSource": true
+    },
+    "name": "td-material-blue-grey-900",
+    "attributes": {
+      "category": "material-blue-grey-900"
+    },
+    "path": [
+      "material-blue-grey-900"
+    ]
+  },
+  "light": {
+    "color": {
+      "text": {
+        "primary-on-background": {
+          "value": "rgba(0, 0, 0, 0.87)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.87)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-primary-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "primary-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "primary-on-background"
+          ]
+        },
+        "secondary-on-background": {
+          "value": "rgba(0, 0, 0, 0.54)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.54)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-secondary-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "secondary-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "secondary-on-background"
+          ]
+        },
+        "hint-on-background": {
+          "value": "rgba(0, 0, 0, 0.38)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.38)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-hint-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "hint-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "hint-on-background"
+          ]
+        },
+        "disabled-on-background": {
+          "value": "rgba(0, 0, 0, 0.38)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.38)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-disabled-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "disabled-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "disabled-on-background"
+          ]
+        },
+        "icon-on-background": {
+          "value": "rgba(0, 0, 0, 0.54)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.54)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-icon-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "icon-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "icon-on-background"
+          ]
+        },
+        "logo-on-background": {
+          "value": "#354145",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "#354145",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-logo-on-background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "logo-on-background"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "logo-on-background"
+          ]
+        },
+        "primary-on-light": {
+          "value": "rgba(0, 0, 0, 0.87)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.87)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-primary-on-light",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "primary-on-light"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "primary-on-light"
+          ]
+        },
+        "secondary-on-light": {
+          "value": "rgba(0, 0, 0, 0.54)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.54)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-secondary-on-light",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "secondary-on-light"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "secondary-on-light"
+          ]
+        },
+        "hint-on-light": {
+          "value": "rgba(0, 0, 0, 0.38)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.38)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-hint-on-light",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "hint-on-light"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "hint-on-light"
+          ]
+        },
+        "disabled-on-light": {
+          "value": "rgba(0, 0, 0, 0.38)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.38)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-disabled-on-light",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "disabled-on-light"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "disabled-on-light"
+          ]
+        },
+        "icon-on-light": {
+          "value": "rgba(0, 0, 0, 0.54)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0, 0, 0, 0.54)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-icon-on-light",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "icon-on-light"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "icon-on-light"
+          ]
+        },
+        "primary-on-dark": {
+          "value": "255, 255, 255",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "255, 255, 255",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-primary-on-dark",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "primary-on-dark"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "primary-on-dark"
+          ]
+        },
+        "secondary-on-dark": {
+          "value": "rgba(255, 255, 255, 0.7)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(255, 255, 255, 0.7)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-secondary-on-dark",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "secondary-on-dark"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "secondary-on-dark"
+          ]
+        },
+        "hint-on-dark": {
+          "value": "rgba(255, 255, 255, 0.5)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(255, 255, 255, 0.5)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-hint-on-dark",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "hint-on-dark"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "hint-on-dark"
+          ]
+        },
+        "disabled-on-dark": {
+          "value": "rgba(255, 255, 255, 0.5)",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(255, 255, 255, 0.5)",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-disabled-on-dark",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "disabled-on-dark"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "disabled-on-dark"
+          ]
+        },
+        "icon-on-dark": {
+          "value": "255, 255, 255",
+          "filePath": "color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "255, 255, 255",
+            "filePath": "build/json/_variables.json",
+            "isSource": true
+          },
+          "name": "td-light-color-text-icon-on-dark",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "text",
+            "subitem": "icon-on-dark"
+          },
+          "path": [
+            "light",
+            "color",
+            "text",
+            "icon-on-dark"
+          ]
+        }
+      }
+    }
+  },
+  "dark": {},
+  "source": [
+    "**/*.json"
+  ],
+  "platforms": {
+    "json": {
+      "prefix": "td",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "_variables.json",
+          "format": "json"
+        }
+      ],
+      "transformGroup": "web"
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "prefix": "td",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "prefix": "td",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/pascal",
+        "size/rem",
+        "color/css"
+      ],
+      "prefix": "td",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "variables.js",
+          "format": "javascript/es6"
+        }
+      ]
+    }
+  },
+  "size": {
+    "font": {
+      "small": {
+        "value": "0.75px",
+        "comment": "the small size of the font",
+        "filePath": "size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "0.75",
+          "comment": "the small size of the font",
+          "filePath": "build/json/_variables.json",
+          "isSource": true
+        },
+        "name": "td-size-font-small",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "small"
+        },
+        "path": [
+          "size",
+          "font",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": "1px",
+        "comment": "the medium size of the font",
+        "filePath": "size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "1",
+          "comment": "the medium size of the font",
+          "filePath": "build/json/_variables.json",
+          "isSource": true
+        },
+        "name": "td-size-font-medium",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "medium"
+        },
+        "path": [
+          "size",
+          "font",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": "2px",
+        "comment": "the large size of the font",
+        "filePath": "size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "2",
+          "comment": "the large size of the font",
+          "filePath": "build/json/_variables.json",
+          "isSource": true
+        },
+        "name": "td-size-font-large",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "large"
+        },
+        "path": [
+          "size",
+          "font",
+          "large"
+        ]
+      },
+      "base": {
+        "value": "1px",
+        "comment": "the base size of the font",
+        "filePath": "size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.medium.value}",
+          "comment": "the base size of the font",
+          "filePath": "build/json/_variables.json",
+          "isSource": true
+        },
+        "name": "td-size-font-base",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "base"
+        },
+        "path": [
+          "size",
+          "font",
+          "base"
+        ]
+      }
+    }
+  }
+}
