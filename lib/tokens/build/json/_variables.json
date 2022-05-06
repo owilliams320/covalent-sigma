@@ -627,345 +627,309 @@
         "surface-neutral-highlight-hover"
       ]
     },
-    "color": {
-      "text": {
-        "primary-on-background": {
-          "value": "rgba(0, 0, 0, 0.87)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.87)"
-          },
-          "name": "primary-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "primary-on-background"
-          ]
-        },
-        "secondary-on-background": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "secondary-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "secondary-on-background"
-          ]
-        },
-        "hint-on-background": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "hint-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "hint-on-background"
-          ]
-        },
-        "disabled-on-background": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "disabled-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "disabled-on-background"
-          ]
-        },
-        "icon-on-background": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "icon-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "icon-on-background"
-          ]
-        },
-        "logo-on-background": {
-          "value": "#354145",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "#354145"
-          },
-          "name": "logo-on-background",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "logo-on-background"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "logo-on-background"
-          ]
-        },
-        "primary-on-light": {
-          "value": "rgba(0, 0, 0, 0.87)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.87)"
-          },
-          "name": "primary-on-light",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-light"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "primary-on-light"
-          ]
-        },
-        "secondary-on-light": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "secondary-on-light",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-light"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "secondary-on-light"
-          ]
-        },
-        "hint-on-light": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "hint-on-light",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-light"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "hint-on-light"
-          ]
-        },
-        "disabled-on-light": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "disabled-on-light",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-light"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "disabled-on-light"
-          ]
-        },
-        "icon-on-light": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "icon-on-light",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-light"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "icon-on-light"
-          ]
-        },
-        "primary-on-dark": {
-          "value": "255, 255, 255",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "255, 255, 255"
-          },
-          "name": "primary-on-dark",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-dark"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "primary-on-dark"
-          ]
-        },
-        "secondary-on-dark": {
-          "value": "rgba(255, 255, 255, 0.7)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.7)"
-          },
-          "name": "secondary-on-dark",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-dark"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "secondary-on-dark"
-          ]
-        },
-        "hint-on-dark": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "hint-on-dark",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-dark"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "hint-on-dark"
-          ]
-        },
-        "disabled-on-dark": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "disabled-on-dark",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-dark"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "disabled-on-dark"
-          ]
-        },
-        "icon-on-dark": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "icon-on-dark",
-          "attributes": {
-            "category": "light",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-dark"
-          },
-          "path": [
-            "light",
-            "color",
-            "text",
-            "icon-on-dark"
-          ]
-        }
-      }
+    "text-primary-on-background": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "color"
+      },
+      "name": "text-primary-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-primary-on-background"
+      },
+      "path": [
+        "light",
+        "text-primary-on-background"
+      ]
+    },
+    "text-secondary-on-background": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-secondary-on-background"
+      },
+      "path": [
+        "light",
+        "text-secondary-on-background"
+      ]
+    },
+    "text-hint-on-background": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-hint-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-hint-on-background"
+      },
+      "path": [
+        "light",
+        "text-hint-on-background"
+      ]
+    },
+    "text-disabled-on-background": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-disabled-on-background"
+      },
+      "path": [
+        "light",
+        "text-disabled-on-background"
+      ]
+    },
+    "text-icon-on-background": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-icon-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-icon-on-background"
+      },
+      "path": [
+        "light",
+        "text-icon-on-background"
+      ]
+    },
+    "text-logo-on-background": {
+      "value": "#354145",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "#354145",
+        "type": "color"
+      },
+      "name": "text-logo-on-background",
+      "attributes": {
+        "category": "light",
+        "type": "text-logo-on-background"
+      },
+      "path": [
+        "light",
+        "text-logo-on-background"
+      ]
+    },
+    "text-primary-on-light": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "color"
+      },
+      "name": "text-primary-on-light",
+      "attributes": {
+        "category": "light",
+        "type": "text-primary-on-light"
+      },
+      "path": [
+        "light",
+        "text-primary-on-light"
+      ]
+    },
+    "text-secondary-on-light": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-light",
+      "attributes": {
+        "category": "light",
+        "type": "text-secondary-on-light"
+      },
+      "path": [
+        "light",
+        "text-secondary-on-light"
+      ]
+    },
+    "text-hint-on-light": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-hint-on-light",
+      "attributes": {
+        "category": "light",
+        "type": "text-hint-on-light"
+      },
+      "path": [
+        "light",
+        "text-hint-on-light"
+      ]
+    },
+    "text-disabled-on-light": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-light",
+      "attributes": {
+        "category": "light",
+        "type": "text-disabled-on-light"
+      },
+      "path": [
+        "light",
+        "text-disabled-on-light"
+      ]
+    },
+    "text-icon-on-light": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-icon-on-light",
+      "attributes": {
+        "category": "light",
+        "type": "text-icon-on-light"
+      },
+      "path": [
+        "light",
+        "text-icon-on-light"
+      ]
+    },
+    "text-primary-on-dark": {
+      "value": "255, 255, 255",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "255, 255, 255",
+        "type": "color"
+      },
+      "name": "text-primary-on-dark",
+      "attributes": {
+        "category": "light",
+        "type": "text-primary-on-dark"
+      },
+      "path": [
+        "light",
+        "text-primary-on-dark"
+      ]
+    },
+    "text-secondary-on-dark": {
+      "value": "rgba(255, 255, 255, 0.7)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-dark",
+      "attributes": {
+        "category": "light",
+        "type": "text-secondary-on-dark"
+      },
+      "path": [
+        "light",
+        "text-secondary-on-dark"
+      ]
+    },
+    "text-hint-on-dark": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-hint-on-dark",
+      "attributes": {
+        "category": "light",
+        "type": "text-hint-on-dark"
+      },
+      "path": [
+        "light",
+        "text-hint-on-dark"
+      ]
+    },
+    "text-disabled-on-dark": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-dark",
+      "attributes": {
+        "category": "light",
+        "type": "text-disabled-on-dark"
+      },
+      "path": [
+        "light",
+        "text-disabled-on-dark"
+      ]
+    },
+    "text-icon-on-dark": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-icon-on-dark",
+      "attributes": {
+        "category": "light",
+        "type": "text-icon-on-dark"
+      },
+      "path": [
+        "light",
+        "text-icon-on-dark"
+      ]
     }
   },
   "dark": {
@@ -1596,345 +1560,309 @@
         "surface-neutral-highlight-hover"
       ]
     },
-    "color": {
-      "text": {
-        "primary-on-background": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "primary-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "primary-on-background"
-          ]
-        },
-        "secondary-on-background": {
-          "value": "rgba(255, 255, 255, 0.7)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.7)"
-          },
-          "name": "secondary-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "secondary-on-background"
-          ]
-        },
-        "hint-on-background": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "hint-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "hint-on-background"
-          ]
-        },
-        "disabled-on-background": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "disabled-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "disabled-on-background"
-          ]
-        },
-        "icon-on-background": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "icon-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "icon-on-background"
-          ]
-        },
-        "logo-on-background": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "logo-on-background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "logo-on-background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "logo-on-background"
-          ]
-        },
-        "primary-on-light": {
-          "value": "rgba(0, 0, 0, 0.87)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.87)"
-          },
-          "name": "primary-on-light",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-light"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "primary-on-light"
-          ]
-        },
-        "secondary-on-light": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "secondary-on-light",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-light"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "secondary-on-light"
-          ]
-        },
-        "hint-on-light": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "hint-on-light",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-light"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "hint-on-light"
-          ]
-        },
-        "disabled-on-light": {
-          "value": "rgba(0, 0, 0, 0.38)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.38)"
-          },
-          "name": "disabled-on-light",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-light"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "disabled-on-light"
-          ]
-        },
-        "icon-on-light": {
-          "value": "rgba(0, 0, 0, 0.54)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(0, 0, 0, 0.54)"
-          },
-          "name": "icon-on-light",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-light"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "icon-on-light"
-          ]
-        },
-        "primary-on-dark": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "primary-on-dark",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "primary-on-dark"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "primary-on-dark"
-          ]
-        },
-        "secondary-on-dark": {
-          "value": "rgba(255, 255, 255, 0.7)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.7)"
-          },
-          "name": "secondary-on-dark",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "secondary-on-dark"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "secondary-on-dark"
-          ]
-        },
-        "hint-on-dark": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "hint-on-dark",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "hint-on-dark"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "hint-on-dark"
-          ]
-        },
-        "disabled-on-dark": {
-          "value": "rgba(255, 255, 255, 0.5)",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(255, 255, 255, 0.5)"
-          },
-          "name": "disabled-on-dark",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "disabled-on-dark"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "disabled-on-dark"
-          ]
-        },
-        "icon-on-dark": {
-          "value": "white",
-          "filePath": "src/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "icon-on-dark",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "text",
-            "subitem": "icon-on-dark"
-          },
-          "path": [
-            "dark",
-            "color",
-            "text",
-            "icon-on-dark"
-          ]
-        }
-      }
+    "text-primary-on-background": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-primary-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-primary-on-background"
+      },
+      "path": [
+        "dark",
+        "text-primary-on-background"
+      ]
+    },
+    "text-secondary-on-background": {
+      "value": "rgba(255, 255, 255, 0.7)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-secondary-on-background"
+      },
+      "path": [
+        "dark",
+        "text-secondary-on-background"
+      ]
+    },
+    "text-hint-on-background": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-hint-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-hint-on-background"
+      },
+      "path": [
+        "dark",
+        "text-hint-on-background"
+      ]
+    },
+    "text-disabled-on-background": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-disabled-on-background"
+      },
+      "path": [
+        "dark",
+        "text-disabled-on-background"
+      ]
+    },
+    "text-icon-on-background": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-icon-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-icon-on-background"
+      },
+      "path": [
+        "dark",
+        "text-icon-on-background"
+      ]
+    },
+    "text-logo-on-background": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-logo-on-background",
+      "attributes": {
+        "category": "dark",
+        "type": "text-logo-on-background"
+      },
+      "path": [
+        "dark",
+        "text-logo-on-background"
+      ]
+    },
+    "text-primary-on-light": {
+      "value": "rgba(0, 0, 0, 0.87)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "color"
+      },
+      "name": "text-primary-on-light",
+      "attributes": {
+        "category": "dark",
+        "type": "text-primary-on-light"
+      },
+      "path": [
+        "dark",
+        "text-primary-on-light"
+      ]
+    },
+    "text-secondary-on-light": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-light",
+      "attributes": {
+        "category": "dark",
+        "type": "text-secondary-on-light"
+      },
+      "path": [
+        "dark",
+        "text-secondary-on-light"
+      ]
+    },
+    "text-hint-on-light": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-hint-on-light",
+      "attributes": {
+        "category": "dark",
+        "type": "text-hint-on-light"
+      },
+      "path": [
+        "dark",
+        "text-hint-on-light"
+      ]
+    },
+    "text-disabled-on-light": {
+      "value": "rgba(0, 0, 0, 0.38)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-light",
+      "attributes": {
+        "category": "dark",
+        "type": "text-disabled-on-light"
+      },
+      "path": [
+        "dark",
+        "text-disabled-on-light"
+      ]
+    },
+    "text-icon-on-light": {
+      "value": "rgba(0, 0, 0, 0.54)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "color"
+      },
+      "name": "text-icon-on-light",
+      "attributes": {
+        "category": "dark",
+        "type": "text-icon-on-light"
+      },
+      "path": [
+        "dark",
+        "text-icon-on-light"
+      ]
+    },
+    "text-primary-on-dark": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-primary-on-dark",
+      "attributes": {
+        "category": "dark",
+        "type": "text-primary-on-dark"
+      },
+      "path": [
+        "dark",
+        "text-primary-on-dark"
+      ]
+    },
+    "text-secondary-on-dark": {
+      "value": "rgba(255, 255, 255, 0.7)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "type": "color"
+      },
+      "name": "text-secondary-on-dark",
+      "attributes": {
+        "category": "dark",
+        "type": "text-secondary-on-dark"
+      },
+      "path": [
+        "dark",
+        "text-secondary-on-dark"
+      ]
+    },
+    "text-hint-on-dark": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-hint-on-dark",
+      "attributes": {
+        "category": "dark",
+        "type": "text-hint-on-dark"
+      },
+      "path": [
+        "dark",
+        "text-hint-on-dark"
+      ]
+    },
+    "text-disabled-on-dark": {
+      "value": "rgba(255, 255, 255, 0.5)",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "color"
+      },
+      "name": "text-disabled-on-dark",
+      "attributes": {
+        "category": "dark",
+        "type": "text-disabled-on-dark"
+      },
+      "path": [
+        "dark",
+        "text-disabled-on-dark"
+      ]
+    },
+    "text-icon-on-dark": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/text.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
+      },
+      "name": "text-icon-on-dark",
+      "attributes": {
+        "category": "dark",
+        "type": "text-icon-on-dark"
+      },
+      "path": [
+        "dark",
+        "text-icon-on-dark"
+      ]
     }
   },
   "teradata-brand": {
