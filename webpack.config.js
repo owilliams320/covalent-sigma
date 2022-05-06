@@ -78,8 +78,8 @@ module.exports = {
     plugins: [
       new CopyPlugin([
         { from: "./lib/components/package.json", to: "./" },
-        { from: "./lib/icons/covalent-icons", to: "./covalent-icons" },
-        { from: "./lib/icons/teradata-icons", to: "./teradata-icons" },
+        { from: "./assets/icons/covalent-icons", to: "./covalent-icons" },
+        { from: "./assets/icons/teradata-icons", to: "./teradata-icons" },
       ]),
     ],
   };
