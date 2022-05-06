@@ -7475,10 +7475,12 @@
     },
     "blue-grey-900": {
       "value": "#263238",
+      "type": "color",
       "filePath": "src/color/material.json",
       "isSource": true,
       "original": {
-        "value": "#263238"
+        "value": "#263238",
+        "type": "color"
       },
       "name": "blue-grey-900",
       "attributes": {

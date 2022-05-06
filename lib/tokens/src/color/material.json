@@ -272,6 +272,6 @@
             "blue-grey-600": { "value" : "#546e7a", "type": "color" },
             "blue-grey-700": { "value" : "#455a64", "type": "color" },
             "blue-grey-800": { "value" : "#37474f", "type": "color" },
-            "blue-grey-900": { "value" : "#263238"}
+            "blue-grey-900": { "value" : "#263238", "type": "color" }
     }
 }
