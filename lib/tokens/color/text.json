@@ -1,23 +1,71 @@
 {
   "light": {
     "text": {
-        "primary-on-background" : { "value": "rgba(0, 0, 0, 0.87)" },
-        "secondary-on-background" : { "value" : "rgba(0, 0, 0, 0.54)" },
-        "hint-on-background" : { "value" : "rgba(0, 0, 0, 0.38)" },
-        "disabled-on-background" : { "value" : "rgba(0, 0, 0, 0.38)" },
-        "icon-on-background" : { "value" : "rgba(0, 0, 0, 0.54)" },
-        "logo-on-background" : { "value" : "#354145"},
-        "primary-on-light" : { "value" : "rgba(0, 0, 0, 0.87)" },
-        "secondary-on-light" : { "value" : "rgba(0, 0, 0, 0.54)" },
-        "hint-on-light" : { "value" : "rgba(0, 0, 0, 0.38)" },
-        "disabled-on-light" : { "value" : "rgba(0, 0, 0, 0.38)" },
-        "icon-on-light" : { "value" : "rgba(0, 0, 0, 0.54)" },
-        "primary-on-dark" : { "value" : "255, 255, 255" },
-        "secondary-on-dark" : { "value" : "rgba(255, 255, 255, 0.7)" },
-        "hint-on-dark" : { "value" : "rgba(255, 255, 255, 0.5)" },
-        "disabled-on-dark" : { "value" : "rgba(255, 255, 255, 0.5)" },
-        "icon-on-dark" : { "value" : "255, 255, 255" }
+      "primary-on-background": {
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "other"
+      },
+      "secondary-on-background": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "other"
+      },
+      "hint-on-background": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "other"
+      },
+      "disabled-on-background": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "other"
+      },
+      "icon-on-background": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "other"
+      },
+      "logo-on-background": {
+        "value": "#354145",
+        "type": "other"
+      },
+      "primary-on-light": {
+        "value": "rgba(0, 0, 0, 0.87)",
+        "type": "other"
+      },
+      "secondary-on-light": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "other"
+      },
+      "hint-on-light": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "other"
+      },
+      "disabled-on-light": {
+        "value": "rgba(0, 0, 0, 0.38)",
+        "type": "other"
+      },
+      "icon-on-light": {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "type": "other"
+      },
+      "primary-on-dark": {
+        "value": "255, 255, 255",
+        "type": "other"
+      },
+      "secondary-on-dark": {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "type": "other"
+      },
+      "hint-on-dark": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "other"
+      },
+      "disabled-on-dark": {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "type": "other"
+      },
+      "icon-on-dark": {
+        "value": "255, 255, 255",
+        "type": "other"
+      }
     }
-  }
+  },
+  "dark": {}
 }
-  
