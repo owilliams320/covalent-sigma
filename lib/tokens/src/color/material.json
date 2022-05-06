@@ -1,7 +1,7 @@
 
 {
-    "color": {
-        "material": {
+    "material": {
+        "color": {
             "red-50": { "value" : "#ffebee"},
             "red-100": { "value" : "#ffcdd2"},
             "red-200": { "value" : "#ef9a9a"},

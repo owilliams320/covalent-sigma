@@ -1,6 +1,6 @@
 {
-  "color": {
-    "light" : {
+  "light": {
+    "color" : {
       "text": {
         "primary-on-background" : { "value": "rgba(0, 0, 0, 0.87)" },
         "secondary-on-background" : { "value" : "rgba(0, 0, 0, 0.54)" },
@@ -19,8 +19,10 @@
         "disabled-on-dark" : { "value" : "rgba(255, 255, 255, 0.5)" },
         "icon-on-dark" : { "value" : "white" }
       }
-    },
-    "dark": {
+    }
+  },
+  "dark": {
+    "color": {
       "text": {
         "primary-on-background": { "value": "white" },
         "secondary-on-background": { "value": "rgba(255, 255, 255, 0.7)" },

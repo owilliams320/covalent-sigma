@@ -1,64 +1,68 @@
 {
-    "color": {
-        "surface": {
-            "light": {
-                "background": { "value":  "{color.material.grey-100}"},
+    "light": {
+        "color": {
+            "surface": {
+                "background": { "value":  "{material.color.grey-100}"},
                 "surface": { "value":  "white"},
-                "canvas": { "value":  "{color.material.grey-200}"},
+                "canvas": { "value":  "{material.color.grey-200}"},
               
-                "primary": { "value":  "{color.teradata-brand.teal-200}"},
-                "primary-highlight": { "value":  "rgba({color.teradata-brand.teal-200}, 0.1)"},
-                "primary-highlight-hover": { "value":  "rgba({color.teradata-brand.teal-200}, 0.2)"},
+                "primary": { "value":  "{teradata-brand.color.teal-200}"},
+                "primary-highlight": { "value":  "rgba({teradata-brand.color.teal-200}, 0.1)"},
+                "primary-highlight-hover": { "value":  "rgba({teradata-brand.color.teal-200}, 0.2)"},
               
-                "secondary": { "value":  "{color.teradata-brand.teal-200}"},
-                "secondary-highlight": { "value":  "rgba({color.teradata-brand.teal-200}, 0.1)"},
-                "secondary-highlight-hover": { "value":  "rgba({color.teradata-brand.teal-200}, 0.2)"},
+                "secondary": { "value":  "{teradata-brand.color.teal-200}"},
+                "secondary-highlight": { "value":  "rgba({teradata-brand.color.teal-200}, 0.1)"},
+                "secondary-highlight-hover": { "value":  "rgba({teradata-brand.color.teal-200}, 0.2)"},
               
-                "positive": { "value":  "{color.material.green-200}"},
-                "positive-highlight": { "value":  "rgba({color.material.green-200}, 0.1)"},
-                "positive-highlight-hover": { "value":  "rgba({color.material.green-200}, 0.2)"},
+                "positive": { "value":  "{material.color.green-200}"},
+                "positive-highlight": { "value":  "rgba({material.color.green-200}, 0.1)"},
+                "positive-highlight-hover": { "value":  "rgba({material.color.green-200}, 0.2)"},
               
-                "caution": { "value":  "{color.material.orange-300}"},
-                "caution-highlight": { "value":  "rgba({color.material.orange-300}, 0.1)"},
-                "caution-highlight-hover": { "value":  "rgba({color.material.orange-300, 0.2)"},
+                "caution": { "value":  "{material.color.orange-300}"},
+                "caution-highlight": { "value":  "rgba({material.color.orange-300}, 0.1)"},
+                "caution-highlight-hover": { "value":  "rgba({material.color.orange-300, 0.2)"},
               
-                "negative": { "value":  "{color.material.red-300}"},
-                "negative-highlight": { "value":  "rgba({color.material.red-300}, 0.1)"},
-                "negative-highlight-hover": { "value":  "rgba({color.material.red-300}, 0.2)"},
+                "negative": { "value":  "{material.color.red-300}"},
+                "negative-highlight": { "value":  "rgba({material.color.red-300}, 0.1)"},
+                "negative-highlight-hover": { "value":  "rgba({material.color.red-300}, 0.2)"},
               
-                "neutral": { "value":  "{color.material.grey-400}"},
-                "neutral-highlight": { "value":  "rgba({color.material.grey-400}, 0.04)"},
-                "neutral-highlight-hover": { "value":  "rgba({color.material.grey-400}, 0.08)"}
-            },
-            "dark": {
-                "background": { "value":  "{color.teradata-brand.slate-1500}"},
-                "surface": { "value":  "{color.teradata-brand.slate-1100}"},
-                "canvas": { "value":  "{color.teradata-brand.slate-1700}"},
-
-                "primary": { "value":  "{color.teradata-brand.teal-1200}"},
-                "primary-highlight": { "value":  "rgba({color.teradata-brand.teal-1200}, 0.4)"},
-                "primary-highlight-hover": { "value":  "rgba({color.teradata-brand.teal-1200}, 0.6)"},
-
-                "secondary": { "value":  "{color.teradata-brand.teal-1200}"},
-                "secondary-highlight": { "value":  "rgba({color.teradata-brand.teal-1200}, 0.4)"},
-                "secondary-highlight-hover": { "value":  "rgba({color.teradata-brand.teal-1200}, 0.6)"},
-
+                "neutral": { "value":  "{material.color.grey-400}"},
+                "neutral-highlight": { "value":  "rgba({material.color.grey-400}, 0.04)"},
+                "neutral-highlight-hover": { "value":  "rgba({material.color.grey-400}, 0.08)"}
+            }   
+        }       
+    },
+    "dark": {
+        "color": {
+            "surface": {
+                "background": { "value":  "{teradata-brand.color.slate-1500}"},
+                "surface": { "value":  "{teradata-brand.color.slate-1100}"},
+                "canvas": { "value":  "{teradata-brand.color.slate-1700}"},
+    
+                "primary": { "value":  "{teradata-brand.color.teal-1200}"},
+                "primary-highlight": { "value":  "rgba({teradata-brand.color.teal-1200}, 0.4)"},
+                "primary-highlight-hover": { "value":  "rgba({teradata-brand.color.teal-1200}, 0.6)"},
+    
+                "secondary": { "value":  "{teradata-brand.color.teal-1200}"},
+                "secondary-highlight": { "value":  "rgba({teradata-brand.color.teal-1200}, 0.4)"},
+                "secondary-highlight-hover": { "value":  "rgba({teradata-brand.color.teal-1200}, 0.6)"},
+    
                 "positive": { "value":  "#336033"},
                 "positive-highlight": { "value":  "rgba(#336033, 0.4)"},
                 "positive-highlight-hover": { "value":  "rgba(#336033, 0.6)"},
-
+    
                 "caution": { "value":  "#704C16"},
                 "caution-highlight": { "value":  "rgba(#704C16, 0.4)"},
                 "caution-highlight-hover": { "value":  "rgba(#704C16, 0.6)"},
-
+    
                 "negative": { "value":  "#883E32"},
                 "negative-highlight": { "value":  "rgba(#883E32, 0.4)"},
                 "negative-highlight-hover": { "value":  "rgba(#883E32, 0.6)"},
-
-                "neutral": { "value":  "{color.teradata-brand.slate-800}"},
-                "neutral-highlight": { "value":  "rgba({color.teradata-brand.slate-800}, 0.4)"},
-                "neutral-highlight-hover": { "value":  "rgba({color.teradata-brand.slate-800}, 0.6)"}
+    
+                "neutral": { "value":  "{teradata-brand.color.slate-800}"},
+                "neutral-highlight": { "value":  "rgba({teradata-brand.color.slate-800}, 0.4)"},
+                "neutral-highlight-hover": { "value":  "rgba({teradata-brand.color.slate-800}, 0.6)"}
             }
-        }        
+        }
     }
 }

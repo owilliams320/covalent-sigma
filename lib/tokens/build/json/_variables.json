@@ -1,22 +1,22 @@
 {
-  "color": {
-    "light": {
+  "light": {
+    "color": {
       "primary": {
         "value": "#007373",
         "filePath": "src/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.teradata-brand.teal-900}"
+          "value": "{teradata-brand.color.teal-900}"
         },
         "name": "primary",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "primary"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "primary"
         ]
       },
@@ -25,17 +25,17 @@
         "filePath": "src/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.teradata-brand.teal-900}"
+          "value": "{teradata-brand.color.teal-900}"
         },
         "name": "secondary",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "secondary"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "secondary"
         ]
       },
@@ -48,13 +48,13 @@
         },
         "name": "error",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "error"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "error"
         ]
       },
@@ -67,13 +67,13 @@
         },
         "name": "positive",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "positive"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "positive"
         ]
       },
@@ -82,17 +82,17 @@
         "filePath": "src/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.material.amber-800}"
+          "value": "{material.color.amber-800}"
         },
         "name": "caution",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "caution"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "caution"
         ]
       },
@@ -105,13 +105,13 @@
         },
         "name": "negative",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "negative"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "negative"
         ]
       },
@@ -124,13 +124,13 @@
         },
         "name": "on-primary",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "on-primary"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "on-primary"
         ]
       },
@@ -143,13 +143,13 @@
         },
         "name": "on-secondary",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "on-secondary"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "on-secondary"
         ]
       },
@@ -162,13 +162,13 @@
         },
         "name": "on-background",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "on-background"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "on-background"
         ]
       },
@@ -181,13 +181,13 @@
         },
         "name": "on-surface",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "on-surface"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "on-surface"
         ]
       },
@@ -200,13 +200,13 @@
         },
         "name": "on-error",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "on-error"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "on-error"
         ]
       },
@@ -219,15 +219,458 @@
         },
         "name": "divider",
         "attributes": {
-          "category": "color",
-          "type": "light",
+          "category": "light",
+          "type": "color",
           "item": "divider"
         },
         "path": [
-          "color",
           "light",
+          "color",
           "divider"
         ]
+      },
+      "surface": {
+        "background": {
+          "value": "#f5f5f5",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.grey-100}"
+          },
+          "name": "background",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "background"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "background"
+          ]
+        },
+        "surface": {
+          "value": "white",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "white"
+          },
+          "name": "surface",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "surface"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "surface"
+          ]
+        },
+        "canvas": {
+          "value": "#eee",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.grey-200}"
+          },
+          "name": "canvas",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "canvas"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "canvas"
+          ]
+        },
+        "primary": {
+          "value": "#85dddc",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.teal-200}"
+          },
+          "name": "primary",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "primary"
+          ]
+        },
+        "primary-highlight": {
+          "value": "rgba(#85dddc, 0.1)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-200}, 0.1)"
+          },
+          "name": "primary-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "primary-highlight"
+          ]
+        },
+        "primary-highlight-hover": {
+          "value": "rgba(#85dddc, 0.2)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-200}, 0.2)"
+          },
+          "name": "primary-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "primary-highlight-hover"
+          ]
+        },
+        "secondary": {
+          "value": "#85dddc",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.teal-200}"
+          },
+          "name": "secondary",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "secondary"
+          ]
+        },
+        "secondary-highlight": {
+          "value": "rgba(#85dddc, 0.1)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-200}, 0.1)"
+          },
+          "name": "secondary-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "secondary-highlight"
+          ]
+        },
+        "secondary-highlight-hover": {
+          "value": "rgba(#85dddc, 0.2)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-200}, 0.2)"
+          },
+          "name": "secondary-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "secondary-highlight-hover"
+          ]
+        },
+        "positive": {
+          "value": "#a5d6a7",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.green-200}"
+          },
+          "name": "positive",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "positive"
+          ]
+        },
+        "positive-highlight": {
+          "value": "rgba(#a5d6a7, 0.1)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.green-200}, 0.1)"
+          },
+          "name": "positive-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "positive-highlight"
+          ]
+        },
+        "positive-highlight-hover": {
+          "value": "rgba(#a5d6a7, 0.2)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.green-200}, 0.2)"
+          },
+          "name": "positive-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "positive-highlight-hover"
+          ]
+        },
+        "caution": {
+          "value": "#ffb74d",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.orange-300}"
+          },
+          "name": "caution",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "caution"
+          ]
+        },
+        "caution-highlight": {
+          "value": "rgba(#ffb74d, 0.1)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.orange-300}, 0.1)"
+          },
+          "name": "caution-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "caution-highlight"
+          ]
+        },
+        "caution-highlight-hover": {
+          "value": "rgba({material.color.orange-300, 0.2)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.orange-300, 0.2)"
+          },
+          "name": "caution-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "caution-highlight-hover"
+          ]
+        },
+        "negative": {
+          "value": "#e57373",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.red-300}"
+          },
+          "name": "negative",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "negative"
+          ]
+        },
+        "negative-highlight": {
+          "value": "rgba(#e57373, 0.1)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.red-300}, 0.1)"
+          },
+          "name": "negative-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "negative-highlight"
+          ]
+        },
+        "negative-highlight-hover": {
+          "value": "rgba(#e57373, 0.2)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.red-300}, 0.2)"
+          },
+          "name": "negative-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "negative-highlight-hover"
+          ]
+        },
+        "neutral": {
+          "value": "#bdbdbd",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{material.color.grey-400}"
+          },
+          "name": "neutral",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "neutral"
+          ]
+        },
+        "neutral-highlight": {
+          "value": "rgba(#bdbdbd, 0.04)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.grey-400}, 0.04)"
+          },
+          "name": "neutral-highlight",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral-highlight"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "neutral-highlight"
+          ]
+        },
+        "neutral-highlight-hover": {
+          "value": "rgba(#bdbdbd, 0.08)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({material.color.grey-400}, 0.08)"
+          },
+          "name": "neutral-highlight-hover",
+          "attributes": {
+            "category": "light",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral-highlight-hover"
+          },
+          "path": [
+            "light",
+            "color",
+            "surface",
+            "neutral-highlight-hover"
+          ]
+        }
       },
       "text": {
         "primary-on-background": {
@@ -239,14 +682,14 @@
           },
           "name": "primary-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "primary-on-background"
           ]
@@ -260,14 +703,14 @@
           },
           "name": "secondary-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "secondary-on-background"
           ]
@@ -281,14 +724,14 @@
           },
           "name": "hint-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "hint-on-background"
           ]
@@ -302,14 +745,14 @@
           },
           "name": "disabled-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "disabled-on-background"
           ]
@@ -323,14 +766,14 @@
           },
           "name": "icon-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "icon-on-background"
           ]
@@ -344,14 +787,14 @@
           },
           "name": "logo-on-background",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "logo-on-background"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "logo-on-background"
           ]
@@ -365,14 +808,14 @@
           },
           "name": "primary-on-light",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-light"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "primary-on-light"
           ]
@@ -386,14 +829,14 @@
           },
           "name": "secondary-on-light",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-light"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "secondary-on-light"
           ]
@@ -407,14 +850,14 @@
           },
           "name": "hint-on-light",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-light"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "hint-on-light"
           ]
@@ -428,14 +871,14 @@
           },
           "name": "disabled-on-light",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-light"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "disabled-on-light"
           ]
@@ -449,14 +892,14 @@
           },
           "name": "icon-on-light",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-light"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "icon-on-light"
           ]
@@ -470,14 +913,14 @@
           },
           "name": "primary-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-dark"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "primary-on-dark"
           ]
@@ -491,14 +934,14 @@
           },
           "name": "secondary-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-dark"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "secondary-on-dark"
           ]
@@ -512,14 +955,14 @@
           },
           "name": "hint-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-dark"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "hint-on-dark"
           ]
@@ -533,14 +976,14 @@
           },
           "name": "disabled-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-dark"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "disabled-on-dark"
           ]
@@ -554,37 +997,39 @@
           },
           "name": "icon-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "light",
+            "category": "light",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-dark"
           },
           "path": [
-            "color",
             "light",
+            "color",
             "text",
             "icon-on-dark"
           ]
         }
       }
-    },
-    "dark": {
+    }
+  },
+  "dark": {
+    "color": {
       "primary": {
         "value": "#59cecd",
         "filePath": "src/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.teradata-brand.teal-300}"
+          "value": "{teradata-brand.color.teal-300}"
         },
         "name": "primary",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "primary"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "primary"
         ]
       },
@@ -593,17 +1038,17 @@
         "filePath": "src/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.teradata-brand.teal-300}"
+          "value": "{teradata-brand.color.teal-300}"
         },
         "name": "secondary",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "secondary"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "secondary"
         ]
       },
@@ -616,13 +1061,13 @@
         },
         "name": "error",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "error"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "error"
         ]
       },
@@ -635,13 +1080,13 @@
         },
         "name": "positive",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "positive"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "positive"
         ]
       },
@@ -654,13 +1099,13 @@
         },
         "name": "caution",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "caution"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "caution"
         ]
       },
@@ -673,13 +1118,13 @@
         },
         "name": "negative",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "negative"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "negative"
         ]
       },
@@ -692,13 +1137,13 @@
         },
         "name": "on-primary",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "on-primary"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "on-primary"
         ]
       },
@@ -711,13 +1156,13 @@
         },
         "name": "on-secondary",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "on-secondary"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "on-secondary"
         ]
       },
@@ -730,13 +1175,13 @@
         },
         "name": "on-background",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "on-background"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "on-background"
         ]
       },
@@ -749,13 +1194,13 @@
         },
         "name": "on-surface",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "on-surface"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "on-surface"
         ]
       },
@@ -768,13 +1213,13 @@
         },
         "name": "on-error",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "on-error"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "on-error"
         ]
       },
@@ -787,15 +1232,458 @@
         },
         "name": "divider",
         "attributes": {
-          "category": "color",
-          "type": "dark",
+          "category": "dark",
+          "type": "color",
           "item": "divider"
         },
         "path": [
-          "color",
           "dark",
+          "color",
           "divider"
         ]
+      },
+      "surface": {
+        "background": {
+          "value": "#161c1f",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.slate-1500}"
+          },
+          "name": "background",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "background"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "background"
+          ]
+        },
+        "surface": {
+          "value": "#28353b",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.slate-1100}"
+          },
+          "name": "surface",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "surface"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "surface"
+          ]
+        },
+        "canvas": {
+          "value": "#101314",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.slate-1700}"
+          },
+          "name": "canvas",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "canvas"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "canvas"
+          ]
+        },
+        "primary": {
+          "value": "#045c5c",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.teal-1200}"
+          },
+          "name": "primary",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "primary"
+          ]
+        },
+        "primary-highlight": {
+          "value": "rgba(#045c5c, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-1200}, 0.4)"
+          },
+          "name": "primary-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "primary-highlight"
+          ]
+        },
+        "primary-highlight-hover": {
+          "value": "rgba(#045c5c, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-1200}, 0.6)"
+          },
+          "name": "primary-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "primary-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "primary-highlight-hover"
+          ]
+        },
+        "secondary": {
+          "value": "#045c5c",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.teal-1200}"
+          },
+          "name": "secondary",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "secondary"
+          ]
+        },
+        "secondary-highlight": {
+          "value": "rgba(#045c5c, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-1200}, 0.4)"
+          },
+          "name": "secondary-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "secondary-highlight"
+          ]
+        },
+        "secondary-highlight-hover": {
+          "value": "rgba(#045c5c, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.teal-1200}, 0.6)"
+          },
+          "name": "secondary-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "secondary-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "secondary-highlight-hover"
+          ]
+        },
+        "positive": {
+          "value": "#336033",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "#336033"
+          },
+          "name": "positive",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "positive"
+          ]
+        },
+        "positive-highlight": {
+          "value": "rgba(#336033, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#336033, 0.4)"
+          },
+          "name": "positive-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "positive-highlight"
+          ]
+        },
+        "positive-highlight-hover": {
+          "value": "rgba(#336033, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#336033, 0.6)"
+          },
+          "name": "positive-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "positive-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "positive-highlight-hover"
+          ]
+        },
+        "caution": {
+          "value": "#704C16",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "#704C16"
+          },
+          "name": "caution",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "caution"
+          ]
+        },
+        "caution-highlight": {
+          "value": "rgba(#704C16, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#704C16, 0.4)"
+          },
+          "name": "caution-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "caution-highlight"
+          ]
+        },
+        "caution-highlight-hover": {
+          "value": "rgba(#704C16, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#704C16, 0.6)"
+          },
+          "name": "caution-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "caution-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "caution-highlight-hover"
+          ]
+        },
+        "negative": {
+          "value": "#883E32",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "#883E32"
+          },
+          "name": "negative",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "negative"
+          ]
+        },
+        "negative-highlight": {
+          "value": "rgba(#883E32, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#883E32, 0.4)"
+          },
+          "name": "negative-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "negative-highlight"
+          ]
+        },
+        "negative-highlight-hover": {
+          "value": "rgba(#883E32, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(#883E32, 0.6)"
+          },
+          "name": "negative-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "negative-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "negative-highlight-hover"
+          ]
+        },
+        "neutral": {
+          "value": "#43515a",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "{teradata-brand.color.slate-800}"
+          },
+          "name": "neutral",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "neutral"
+          ]
+        },
+        "neutral-highlight": {
+          "value": "rgba(#43515a, 0.4)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.slate-800}, 0.4)"
+          },
+          "name": "neutral-highlight",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral-highlight"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "neutral-highlight"
+          ]
+        },
+        "neutral-highlight-hover": {
+          "value": "rgba(#43515a, 0.6)",
+          "filePath": "src/color/surface.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba({teradata-brand.color.slate-800}, 0.6)"
+          },
+          "name": "neutral-highlight-hover",
+          "attributes": {
+            "category": "dark",
+            "type": "color",
+            "item": "surface",
+            "subitem": "neutral-highlight-hover"
+          },
+          "path": [
+            "dark",
+            "color",
+            "surface",
+            "neutral-highlight-hover"
+          ]
+        }
       },
       "text": {
         "primary-on-background": {
@@ -807,14 +1695,14 @@
           },
           "name": "primary-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "primary-on-background"
           ]
@@ -828,14 +1716,14 @@
           },
           "name": "secondary-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "secondary-on-background"
           ]
@@ -849,14 +1737,14 @@
           },
           "name": "hint-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "hint-on-background"
           ]
@@ -870,14 +1758,14 @@
           },
           "name": "disabled-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "disabled-on-background"
           ]
@@ -891,14 +1779,14 @@
           },
           "name": "icon-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "icon-on-background"
           ]
@@ -912,14 +1800,14 @@
           },
           "name": "logo-on-background",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "logo-on-background"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "logo-on-background"
           ]
@@ -933,14 +1821,14 @@
           },
           "name": "primary-on-light",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-light"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "primary-on-light"
           ]
@@ -954,14 +1842,14 @@
           },
           "name": "secondary-on-light",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-light"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "secondary-on-light"
           ]
@@ -975,14 +1863,14 @@
           },
           "name": "hint-on-light",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-light"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "hint-on-light"
           ]
@@ -996,14 +1884,14 @@
           },
           "name": "disabled-on-light",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-light"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "disabled-on-light"
           ]
@@ -1017,14 +1905,14 @@
           },
           "name": "icon-on-light",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-light"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "icon-on-light"
           ]
@@ -1038,14 +1926,14 @@
           },
           "name": "primary-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "primary-on-dark"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "primary-on-dark"
           ]
@@ -1059,14 +1947,14 @@
           },
           "name": "secondary-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "secondary-on-dark"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "secondary-on-dark"
           ]
@@ -1080,14 +1968,14 @@
           },
           "name": "hint-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "hint-on-dark"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "hint-on-dark"
           ]
@@ -1101,14 +1989,14 @@
           },
           "name": "disabled-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "disabled-on-dark"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "disabled-on-dark"
           ]
@@ -1122,21 +2010,23 @@
           },
           "name": "icon-on-dark",
           "attributes": {
-            "category": "color",
-            "type": "dark",
+            "category": "dark",
+            "type": "color",
             "item": "text",
             "subitem": "icon-on-dark"
           },
           "path": [
-            "color",
             "dark",
+            "color",
             "text",
             "icon-on-dark"
           ]
         }
       }
-    },
-    "teradata-brand": {
+    }
+  },
+  "teradata-brand": {
+    "color": {
       "teal-50": {
         "value": "#def9f8",
         "filePath": "src/color/covalent.json",
@@ -1146,13 +2036,13 @@
         },
         "name": "teal-50",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-50"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-50"
         ]
       },
@@ -1165,13 +2055,13 @@
         },
         "name": "teal-100",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-100"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-100"
         ]
       },
@@ -1184,13 +2074,13 @@
         },
         "name": "teal-200",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-200"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-200"
         ]
       },
@@ -1203,13 +2093,13 @@
         },
         "name": "teal-300",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-300"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-300"
         ]
       },
@@ -1222,13 +2112,13 @@
         },
         "name": "teal-400",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-400"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-400"
         ]
       },
@@ -1241,13 +2131,13 @@
         },
         "name": "teal-500",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-500"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-500"
         ]
       },
@@ -1260,13 +2150,13 @@
         },
         "name": "teal-600",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-600"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-600"
         ]
       },
@@ -1279,13 +2169,13 @@
         },
         "name": "teal-700",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-700"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-700"
         ]
       },
@@ -1298,13 +2188,13 @@
         },
         "name": "teal-800",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-800"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-800"
         ]
       },
@@ -1317,13 +2207,13 @@
         },
         "name": "teal-900",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-900"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-900"
         ]
       },
@@ -1336,13 +2226,13 @@
         },
         "name": "teal-1000",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1000"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1000"
         ]
       },
@@ -1355,13 +2245,13 @@
         },
         "name": "teal-1100",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1100"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1100"
         ]
       },
@@ -1374,13 +2264,13 @@
         },
         "name": "teal-1200",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1200"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1200"
         ]
       },
@@ -1393,13 +2283,13 @@
         },
         "name": "teal-1300",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1300"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1300"
         ]
       },
@@ -1412,13 +2302,13 @@
         },
         "name": "teal-1400",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1400"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1400"
         ]
       },
@@ -1431,13 +2321,13 @@
         },
         "name": "teal-1500",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1500"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1500"
         ]
       },
@@ -1450,13 +2340,13 @@
         },
         "name": "teal-1600",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1600"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1600"
         ]
       },
@@ -1469,13 +2359,13 @@
         },
         "name": "teal-1700",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1700"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1700"
         ]
       },
@@ -1488,13 +2378,13 @@
         },
         "name": "teal-1800",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1800"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1800"
         ]
       },
@@ -1507,13 +2397,13 @@
         },
         "name": "teal-1900",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-1900"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-1900"
         ]
       },
@@ -1526,13 +2416,13 @@
         },
         "name": "teal-2000",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "teal-2000"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "teal-2000"
         ]
       },
@@ -1545,13 +2435,13 @@
         },
         "name": "slate-50",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-50"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-50"
         ]
       },
@@ -1564,13 +2454,13 @@
         },
         "name": "slate-100",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-100"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-100"
         ]
       },
@@ -1583,13 +2473,13 @@
         },
         "name": "slate-200",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-200"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-200"
         ]
       },
@@ -1602,13 +2492,13 @@
         },
         "name": "slate-300",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-300"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-300"
         ]
       },
@@ -1621,13 +2511,13 @@
         },
         "name": "slate-400",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-400"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-400"
         ]
       },
@@ -1640,13 +2530,13 @@
         },
         "name": "slate-500",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-500"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-500"
         ]
       },
@@ -1659,13 +2549,13 @@
         },
         "name": "slate-600",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-600"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-600"
         ]
       },
@@ -1678,13 +2568,13 @@
         },
         "name": "slate-700",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-700"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-700"
         ]
       },
@@ -1697,13 +2587,13 @@
         },
         "name": "slate-800",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-800"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-800"
         ]
       },
@@ -1716,13 +2606,13 @@
         },
         "name": "slate-900",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-900"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-900"
         ]
       },
@@ -1735,13 +2625,13 @@
         },
         "name": "slate-1000",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1000"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1000"
         ]
       },
@@ -1754,13 +2644,13 @@
         },
         "name": "slate-1100",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1100"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1100"
         ]
       },
@@ -1773,13 +2663,13 @@
         },
         "name": "slate-1200",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1200"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1200"
         ]
       },
@@ -1792,13 +2682,13 @@
         },
         "name": "slate-1300",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1300"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1300"
         ]
       },
@@ -1811,13 +2701,13 @@
         },
         "name": "slate-1400",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1400"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1400"
         ]
       },
@@ -1830,13 +2720,13 @@
         },
         "name": "slate-1500",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1500"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1500"
         ]
       },
@@ -1849,13 +2739,13 @@
         },
         "name": "slate-1600",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1600"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1600"
         ]
       },
@@ -1868,13 +2758,13 @@
         },
         "name": "slate-1700",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1700"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1700"
         ]
       },
@@ -1887,13 +2777,13 @@
         },
         "name": "slate-1800",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1800"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1800"
         ]
       },
@@ -1906,13 +2796,13 @@
         },
         "name": "slate-1900",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-1900"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-1900"
         ]
       },
@@ -1925,18 +2815,20 @@
         },
         "name": "slate-2000",
         "attributes": {
-          "category": "color",
-          "type": "teradata-brand",
+          "category": "teradata-brand",
+          "type": "color",
           "item": "slate-2000"
         },
         "path": [
-          "color",
           "teradata-brand",
+          "color",
           "slate-2000"
         ]
       }
-    },
-    "material": {
+    }
+  },
+  "material": {
+    "color": {
       "red-50": {
         "value": "#ffebee",
         "filePath": "src/color/material.json",
@@ -1946,13 +2838,13 @@
         },
         "name": "red-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-50"
         ]
       },
@@ -1965,13 +2857,13 @@
         },
         "name": "red-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-100"
         ]
       },
@@ -1984,13 +2876,13 @@
         },
         "name": "red-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-200"
         ]
       },
@@ -2003,13 +2895,13 @@
         },
         "name": "red-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-300"
         ]
       },
@@ -2022,13 +2914,13 @@
         },
         "name": "red-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-400"
         ]
       },
@@ -2041,13 +2933,13 @@
         },
         "name": "red-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-500"
         ]
       },
@@ -2060,13 +2952,13 @@
         },
         "name": "red-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-600"
         ]
       },
@@ -2079,13 +2971,13 @@
         },
         "name": "red-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-700"
         ]
       },
@@ -2098,13 +2990,13 @@
         },
         "name": "red-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-800"
         ]
       },
@@ -2117,13 +3009,13 @@
         },
         "name": "red-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-900"
         ]
       },
@@ -2136,13 +3028,13 @@
         },
         "name": "red-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-a100"
         ]
       },
@@ -2155,13 +3047,13 @@
         },
         "name": "red-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-a200"
         ]
       },
@@ -2174,13 +3066,13 @@
         },
         "name": "red-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-a400"
         ]
       },
@@ -2193,13 +3085,13 @@
         },
         "name": "red-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "red-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "red-a700"
         ]
       },
@@ -2212,13 +3104,13 @@
         },
         "name": "pink-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-50"
         ]
       },
@@ -2231,13 +3123,13 @@
         },
         "name": "pink-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-100"
         ]
       },
@@ -2250,13 +3142,13 @@
         },
         "name": "pink-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-200"
         ]
       },
@@ -2269,13 +3161,13 @@
         },
         "name": "pink-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-300"
         ]
       },
@@ -2288,13 +3180,13 @@
         },
         "name": "pink-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-400"
         ]
       },
@@ -2307,13 +3199,13 @@
         },
         "name": "pink-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-500"
         ]
       },
@@ -2326,13 +3218,13 @@
         },
         "name": "pink-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-600"
         ]
       },
@@ -2345,13 +3237,13 @@
         },
         "name": "pink-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-700"
         ]
       },
@@ -2364,13 +3256,13 @@
         },
         "name": "pink-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-800"
         ]
       },
@@ -2383,13 +3275,13 @@
         },
         "name": "pink-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-900"
         ]
       },
@@ -2402,13 +3294,13 @@
         },
         "name": "pink-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-a100"
         ]
       },
@@ -2421,13 +3313,13 @@
         },
         "name": "pink-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-a200"
         ]
       },
@@ -2440,13 +3332,13 @@
         },
         "name": "pink-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-a400"
         ]
       },
@@ -2459,13 +3351,13 @@
         },
         "name": "pink-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "pink-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "pink-a700"
         ]
       },
@@ -2478,13 +3370,13 @@
         },
         "name": "purple-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-50"
         ]
       },
@@ -2497,13 +3389,13 @@
         },
         "name": "purple-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-100"
         ]
       },
@@ -2516,13 +3408,13 @@
         },
         "name": "purple-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-200"
         ]
       },
@@ -2535,13 +3427,13 @@
         },
         "name": "purple-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-300"
         ]
       },
@@ -2554,13 +3446,13 @@
         },
         "name": "purple-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-400"
         ]
       },
@@ -2573,13 +3465,13 @@
         },
         "name": "purple-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-500"
         ]
       },
@@ -2592,13 +3484,13 @@
         },
         "name": "purple-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-600"
         ]
       },
@@ -2611,13 +3503,13 @@
         },
         "name": "purple-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-700"
         ]
       },
@@ -2630,13 +3522,13 @@
         },
         "name": "purple-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-800"
         ]
       },
@@ -2649,13 +3541,13 @@
         },
         "name": "purple-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-900"
         ]
       },
@@ -2668,13 +3560,13 @@
         },
         "name": "purple-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-a100"
         ]
       },
@@ -2687,13 +3579,13 @@
         },
         "name": "purple-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-a200"
         ]
       },
@@ -2706,13 +3598,13 @@
         },
         "name": "purple-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-a400"
         ]
       },
@@ -2725,13 +3617,13 @@
         },
         "name": "purple-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "purple-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "purple-a700"
         ]
       },
@@ -2744,13 +3636,13 @@
         },
         "name": "deep-purple-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-50"
         ]
       },
@@ -2763,13 +3655,13 @@
         },
         "name": "deep-purple-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-100"
         ]
       },
@@ -2782,13 +3674,13 @@
         },
         "name": "deep-purple-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-200"
         ]
       },
@@ -2801,13 +3693,13 @@
         },
         "name": "deep-purple-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-300"
         ]
       },
@@ -2820,13 +3712,13 @@
         },
         "name": "deep-purple-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-400"
         ]
       },
@@ -2839,13 +3731,13 @@
         },
         "name": "deep-purple-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-500"
         ]
       },
@@ -2858,13 +3750,13 @@
         },
         "name": "deep-purple-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-600"
         ]
       },
@@ -2877,13 +3769,13 @@
         },
         "name": "deep-purple-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-700"
         ]
       },
@@ -2896,13 +3788,13 @@
         },
         "name": "deep-purple-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-800"
         ]
       },
@@ -2915,13 +3807,13 @@
         },
         "name": "deep-purple-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-900"
         ]
       },
@@ -2934,13 +3826,13 @@
         },
         "name": "deep-purple-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-a100"
         ]
       },
@@ -2953,13 +3845,13 @@
         },
         "name": "deep-purple-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-a200"
         ]
       },
@@ -2972,13 +3864,13 @@
         },
         "name": "deep-purple-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-a400"
         ]
       },
@@ -2991,13 +3883,13 @@
         },
         "name": "deep-purple-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-purple-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-purple-a700"
         ]
       },
@@ -3010,13 +3902,13 @@
         },
         "name": "indigo-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-50"
         ]
       },
@@ -3029,13 +3921,13 @@
         },
         "name": "indigo-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-100"
         ]
       },
@@ -3048,13 +3940,13 @@
         },
         "name": "indigo-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-200"
         ]
       },
@@ -3067,13 +3959,13 @@
         },
         "name": "indigo-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-300"
         ]
       },
@@ -3086,13 +3978,13 @@
         },
         "name": "indigo-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-400"
         ]
       },
@@ -3105,13 +3997,13 @@
         },
         "name": "indigo-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-500"
         ]
       },
@@ -3124,13 +4016,13 @@
         },
         "name": "indigo-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-600"
         ]
       },
@@ -3143,13 +4035,13 @@
         },
         "name": "indigo-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-700"
         ]
       },
@@ -3162,13 +4054,13 @@
         },
         "name": "indigo-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-800"
         ]
       },
@@ -3181,13 +4073,13 @@
         },
         "name": "indigo-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-900"
         ]
       },
@@ -3200,13 +4092,13 @@
         },
         "name": "indigo-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-a100"
         ]
       },
@@ -3219,13 +4111,13 @@
         },
         "name": "indigo-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-a200"
         ]
       },
@@ -3238,13 +4130,13 @@
         },
         "name": "indigo-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-a400"
         ]
       },
@@ -3257,13 +4149,13 @@
         },
         "name": "indigo-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "indigo-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "indigo-a700"
         ]
       },
@@ -3276,13 +4168,13 @@
         },
         "name": "blue-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-50"
         ]
       },
@@ -3295,13 +4187,13 @@
         },
         "name": "blue-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-100"
         ]
       },
@@ -3314,13 +4206,13 @@
         },
         "name": "blue-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-200"
         ]
       },
@@ -3333,13 +4225,13 @@
         },
         "name": "blue-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-300"
         ]
       },
@@ -3352,13 +4244,13 @@
         },
         "name": "blue-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-400"
         ]
       },
@@ -3371,13 +4263,13 @@
         },
         "name": "blue-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-500"
         ]
       },
@@ -3390,13 +4282,13 @@
         },
         "name": "blue-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-600"
         ]
       },
@@ -3409,13 +4301,13 @@
         },
         "name": "blue-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-700"
         ]
       },
@@ -3428,13 +4320,13 @@
         },
         "name": "blue-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-800"
         ]
       },
@@ -3447,13 +4339,13 @@
         },
         "name": "blue-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-900"
         ]
       },
@@ -3466,13 +4358,13 @@
         },
         "name": "blue-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-a100"
         ]
       },
@@ -3485,13 +4377,13 @@
         },
         "name": "blue-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-a200"
         ]
       },
@@ -3504,13 +4396,13 @@
         },
         "name": "blue-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-a400"
         ]
       },
@@ -3523,13 +4415,13 @@
         },
         "name": "blue-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-a700"
         ]
       },
@@ -3542,13 +4434,13 @@
         },
         "name": "light-blue-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-50"
         ]
       },
@@ -3561,13 +4453,13 @@
         },
         "name": "light-blue-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-100"
         ]
       },
@@ -3580,13 +4472,13 @@
         },
         "name": "light-blue-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-200"
         ]
       },
@@ -3599,13 +4491,13 @@
         },
         "name": "light-blue-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-300"
         ]
       },
@@ -3618,13 +4510,13 @@
         },
         "name": "light-blue-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-400"
         ]
       },
@@ -3637,13 +4529,13 @@
         },
         "name": "light-blue-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-500"
         ]
       },
@@ -3656,13 +4548,13 @@
         },
         "name": "light-blue-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-600"
         ]
       },
@@ -3675,13 +4567,13 @@
         },
         "name": "light-blue-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-700"
         ]
       },
@@ -3694,13 +4586,13 @@
         },
         "name": "light-blue-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-800"
         ]
       },
@@ -3713,13 +4605,13 @@
         },
         "name": "light-blue-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-900"
         ]
       },
@@ -3732,13 +4624,13 @@
         },
         "name": "light-blue-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-a100"
         ]
       },
@@ -3751,13 +4643,13 @@
         },
         "name": "light-blue-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-a200"
         ]
       },
@@ -3770,13 +4662,13 @@
         },
         "name": "light-blue-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-a400"
         ]
       },
@@ -3789,13 +4681,13 @@
         },
         "name": "light-blue-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-blue-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-blue-a700"
         ]
       },
@@ -3808,13 +4700,13 @@
         },
         "name": "cyan-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-50"
         ]
       },
@@ -3827,13 +4719,13 @@
         },
         "name": "cyan-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-100"
         ]
       },
@@ -3846,13 +4738,13 @@
         },
         "name": "cyan-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-200"
         ]
       },
@@ -3865,13 +4757,13 @@
         },
         "name": "cyan-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-300"
         ]
       },
@@ -3884,13 +4776,13 @@
         },
         "name": "cyan-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-400"
         ]
       },
@@ -3903,13 +4795,13 @@
         },
         "name": "cyan-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-500"
         ]
       },
@@ -3922,13 +4814,13 @@
         },
         "name": "cyan-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-600"
         ]
       },
@@ -3941,13 +4833,13 @@
         },
         "name": "cyan-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-700"
         ]
       },
@@ -3960,13 +4852,13 @@
         },
         "name": "cyan-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-800"
         ]
       },
@@ -3979,13 +4871,13 @@
         },
         "name": "cyan-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-900"
         ]
       },
@@ -3998,13 +4890,13 @@
         },
         "name": "cyan-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-a100"
         ]
       },
@@ -4017,13 +4909,13 @@
         },
         "name": "cyan-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-a200"
         ]
       },
@@ -4036,13 +4928,13 @@
         },
         "name": "cyan-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-a400"
         ]
       },
@@ -4055,13 +4947,13 @@
         },
         "name": "cyan-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "cyan-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "cyan-a700"
         ]
       },
@@ -4074,13 +4966,13 @@
         },
         "name": "teal-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-50"
         ]
       },
@@ -4093,13 +4985,13 @@
         },
         "name": "teal-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-100"
         ]
       },
@@ -4112,13 +5004,13 @@
         },
         "name": "teal-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-200"
         ]
       },
@@ -4131,13 +5023,13 @@
         },
         "name": "teal-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-300"
         ]
       },
@@ -4150,13 +5042,13 @@
         },
         "name": "teal-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-400"
         ]
       },
@@ -4169,13 +5061,13 @@
         },
         "name": "teal-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-500"
         ]
       },
@@ -4188,13 +5080,13 @@
         },
         "name": "teal-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-600"
         ]
       },
@@ -4207,13 +5099,13 @@
         },
         "name": "teal-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-700"
         ]
       },
@@ -4226,13 +5118,13 @@
         },
         "name": "teal-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-800"
         ]
       },
@@ -4245,13 +5137,13 @@
         },
         "name": "teal-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-900"
         ]
       },
@@ -4264,13 +5156,13 @@
         },
         "name": "teal-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-a100"
         ]
       },
@@ -4283,13 +5175,13 @@
         },
         "name": "teal-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-a200"
         ]
       },
@@ -4302,13 +5194,13 @@
         },
         "name": "teal-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-a400"
         ]
       },
@@ -4321,13 +5213,13 @@
         },
         "name": "teal-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "teal-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "teal-a700"
         ]
       },
@@ -4340,13 +5232,13 @@
         },
         "name": "green-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-50"
         ]
       },
@@ -4359,13 +5251,13 @@
         },
         "name": "green-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-100"
         ]
       },
@@ -4378,13 +5270,13 @@
         },
         "name": "green-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-200"
         ]
       },
@@ -4397,13 +5289,13 @@
         },
         "name": "green-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-300"
         ]
       },
@@ -4416,13 +5308,13 @@
         },
         "name": "green-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-400"
         ]
       },
@@ -4435,13 +5327,13 @@
         },
         "name": "green-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-500"
         ]
       },
@@ -4454,13 +5346,13 @@
         },
         "name": "green-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-600"
         ]
       },
@@ -4473,13 +5365,13 @@
         },
         "name": "green-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-700"
         ]
       },
@@ -4492,13 +5384,13 @@
         },
         "name": "green-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-800"
         ]
       },
@@ -4511,13 +5403,13 @@
         },
         "name": "green-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-900"
         ]
       },
@@ -4530,13 +5422,13 @@
         },
         "name": "green-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-a100"
         ]
       },
@@ -4549,13 +5441,13 @@
         },
         "name": "green-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-a200"
         ]
       },
@@ -4568,13 +5460,13 @@
         },
         "name": "green-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-a400"
         ]
       },
@@ -4587,13 +5479,13 @@
         },
         "name": "green-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "green-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "green-a700"
         ]
       },
@@ -4606,13 +5498,13 @@
         },
         "name": "light-green-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-50"
         ]
       },
@@ -4625,13 +5517,13 @@
         },
         "name": "light-green-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-100"
         ]
       },
@@ -4644,13 +5536,13 @@
         },
         "name": "light-green-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-200"
         ]
       },
@@ -4663,13 +5555,13 @@
         },
         "name": "light-green-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-300"
         ]
       },
@@ -4682,13 +5574,13 @@
         },
         "name": "light-green-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-400"
         ]
       },
@@ -4701,13 +5593,13 @@
         },
         "name": "light-green-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-500"
         ]
       },
@@ -4720,13 +5612,13 @@
         },
         "name": "light-green-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-600"
         ]
       },
@@ -4739,13 +5631,13 @@
         },
         "name": "light-green-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-700"
         ]
       },
@@ -4758,13 +5650,13 @@
         },
         "name": "light-green-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-800"
         ]
       },
@@ -4777,13 +5669,13 @@
         },
         "name": "light-green-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-900"
         ]
       },
@@ -4796,13 +5688,13 @@
         },
         "name": "light-green-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-a100"
         ]
       },
@@ -4815,13 +5707,13 @@
         },
         "name": "light-green-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-a200"
         ]
       },
@@ -4834,13 +5726,13 @@
         },
         "name": "light-green-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-a400"
         ]
       },
@@ -4853,13 +5745,13 @@
         },
         "name": "light-green-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "light-green-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "light-green-a700"
         ]
       },
@@ -4872,13 +5764,13 @@
         },
         "name": "lime-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-50"
         ]
       },
@@ -4891,13 +5783,13 @@
         },
         "name": "lime-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-100"
         ]
       },
@@ -4910,13 +5802,13 @@
         },
         "name": "lime-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-200"
         ]
       },
@@ -4929,13 +5821,13 @@
         },
         "name": "lime-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-300"
         ]
       },
@@ -4948,13 +5840,13 @@
         },
         "name": "lime-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-400"
         ]
       },
@@ -4967,13 +5859,13 @@
         },
         "name": "lime-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-500"
         ]
       },
@@ -4986,13 +5878,13 @@
         },
         "name": "lime-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-600"
         ]
       },
@@ -5005,13 +5897,13 @@
         },
         "name": "lime-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-700"
         ]
       },
@@ -5024,13 +5916,13 @@
         },
         "name": "lime-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-800"
         ]
       },
@@ -5043,13 +5935,13 @@
         },
         "name": "lime-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-900"
         ]
       },
@@ -5062,13 +5954,13 @@
         },
         "name": "lime-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-a100"
         ]
       },
@@ -5081,13 +5973,13 @@
         },
         "name": "lime-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-a200"
         ]
       },
@@ -5100,13 +5992,13 @@
         },
         "name": "lime-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-a400"
         ]
       },
@@ -5119,13 +6011,13 @@
         },
         "name": "lime-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "lime-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "lime-a700"
         ]
       },
@@ -5138,13 +6030,13 @@
         },
         "name": "yellow-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-50"
         ]
       },
@@ -5157,13 +6049,13 @@
         },
         "name": "yellow-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-100"
         ]
       },
@@ -5176,13 +6068,13 @@
         },
         "name": "yellow-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-200"
         ]
       },
@@ -5195,13 +6087,13 @@
         },
         "name": "yellow-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-300"
         ]
       },
@@ -5214,13 +6106,13 @@
         },
         "name": "yellow-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-400"
         ]
       },
@@ -5233,13 +6125,13 @@
         },
         "name": "yellow-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-500"
         ]
       },
@@ -5252,13 +6144,13 @@
         },
         "name": "yellow-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-600"
         ]
       },
@@ -5271,13 +6163,13 @@
         },
         "name": "yellow-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-700"
         ]
       },
@@ -5290,13 +6182,13 @@
         },
         "name": "yellow-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-800"
         ]
       },
@@ -5309,13 +6201,13 @@
         },
         "name": "yellow-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-900"
         ]
       },
@@ -5328,13 +6220,13 @@
         },
         "name": "yellow-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-a100"
         ]
       },
@@ -5347,13 +6239,13 @@
         },
         "name": "yellow-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-a200"
         ]
       },
@@ -5366,13 +6258,13 @@
         },
         "name": "yellow-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-a400"
         ]
       },
@@ -5385,13 +6277,13 @@
         },
         "name": "yellow-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "yellow-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "yellow-a700"
         ]
       },
@@ -5404,13 +6296,13 @@
         },
         "name": "amber-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-50"
         ]
       },
@@ -5423,13 +6315,13 @@
         },
         "name": "amber-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-100"
         ]
       },
@@ -5442,13 +6334,13 @@
         },
         "name": "amber-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-200"
         ]
       },
@@ -5461,13 +6353,13 @@
         },
         "name": "amber-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-300"
         ]
       },
@@ -5480,13 +6372,13 @@
         },
         "name": "amber-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-400"
         ]
       },
@@ -5499,13 +6391,13 @@
         },
         "name": "amber-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-500"
         ]
       },
@@ -5518,13 +6410,13 @@
         },
         "name": "amber-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-600"
         ]
       },
@@ -5537,13 +6429,13 @@
         },
         "name": "amber-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-700"
         ]
       },
@@ -5556,13 +6448,13 @@
         },
         "name": "amber-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-800"
         ]
       },
@@ -5575,13 +6467,13 @@
         },
         "name": "amber-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-900"
         ]
       },
@@ -5594,13 +6486,13 @@
         },
         "name": "amber-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-a100"
         ]
       },
@@ -5613,13 +6505,13 @@
         },
         "name": "amber-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-a200"
         ]
       },
@@ -5632,13 +6524,13 @@
         },
         "name": "amber-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-a400"
         ]
       },
@@ -5651,13 +6543,13 @@
         },
         "name": "amber-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "amber-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "amber-a700"
         ]
       },
@@ -5670,13 +6562,13 @@
         },
         "name": "orange-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-50"
         ]
       },
@@ -5689,13 +6581,13 @@
         },
         "name": "orange-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-100"
         ]
       },
@@ -5708,13 +6600,13 @@
         },
         "name": "orange-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-200"
         ]
       },
@@ -5727,13 +6619,13 @@
         },
         "name": "orange-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-300"
         ]
       },
@@ -5746,13 +6638,13 @@
         },
         "name": "orange-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-400"
         ]
       },
@@ -5765,13 +6657,13 @@
         },
         "name": "orange-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-500"
         ]
       },
@@ -5784,13 +6676,13 @@
         },
         "name": "orange-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-600"
         ]
       },
@@ -5803,13 +6695,13 @@
         },
         "name": "orange-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-700"
         ]
       },
@@ -5822,13 +6714,13 @@
         },
         "name": "orange-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-800"
         ]
       },
@@ -5841,13 +6733,13 @@
         },
         "name": "orange-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-900"
         ]
       },
@@ -5860,13 +6752,13 @@
         },
         "name": "orange-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-a100"
         ]
       },
@@ -5879,13 +6771,13 @@
         },
         "name": "orange-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-a200"
         ]
       },
@@ -5898,13 +6790,13 @@
         },
         "name": "orange-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-a400"
         ]
       },
@@ -5917,13 +6809,13 @@
         },
         "name": "orange-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "orange-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "orange-a700"
         ]
       },
@@ -5936,13 +6828,13 @@
         },
         "name": "deep-orange-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-50"
         ]
       },
@@ -5955,13 +6847,13 @@
         },
         "name": "deep-orange-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-100"
         ]
       },
@@ -5974,13 +6866,13 @@
         },
         "name": "deep-orange-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-200"
         ]
       },
@@ -5993,13 +6885,13 @@
         },
         "name": "deep-orange-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-300"
         ]
       },
@@ -6012,13 +6904,13 @@
         },
         "name": "deep-orange-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-400"
         ]
       },
@@ -6031,13 +6923,13 @@
         },
         "name": "deep-orange-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-500"
         ]
       },
@@ -6050,13 +6942,13 @@
         },
         "name": "deep-orange-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-600"
         ]
       },
@@ -6069,13 +6961,13 @@
         },
         "name": "deep-orange-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-700"
         ]
       },
@@ -6088,13 +6980,13 @@
         },
         "name": "deep-orange-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-800"
         ]
       },
@@ -6107,13 +6999,13 @@
         },
         "name": "deep-orange-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-900"
         ]
       },
@@ -6126,13 +7018,13 @@
         },
         "name": "deep-orange-a100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-a100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-a100"
         ]
       },
@@ -6145,13 +7037,13 @@
         },
         "name": "deep-orange-a200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-a200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-a200"
         ]
       },
@@ -6164,13 +7056,13 @@
         },
         "name": "deep-orange-a400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-a400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-a400"
         ]
       },
@@ -6183,13 +7075,13 @@
         },
         "name": "deep-orange-a700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "deep-orange-a700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "deep-orange-a700"
         ]
       },
@@ -6202,13 +7094,13 @@
         },
         "name": "brown-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-50"
         ]
       },
@@ -6221,13 +7113,13 @@
         },
         "name": "brown-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-100"
         ]
       },
@@ -6240,13 +7132,13 @@
         },
         "name": "brown-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-200"
         ]
       },
@@ -6259,13 +7151,13 @@
         },
         "name": "brown-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-300"
         ]
       },
@@ -6278,13 +7170,13 @@
         },
         "name": "brown-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-400"
         ]
       },
@@ -6297,13 +7189,13 @@
         },
         "name": "brown-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-500"
         ]
       },
@@ -6316,13 +7208,13 @@
         },
         "name": "brown-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-600"
         ]
       },
@@ -6335,13 +7227,13 @@
         },
         "name": "brown-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-700"
         ]
       },
@@ -6354,13 +7246,13 @@
         },
         "name": "brown-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-800"
         ]
       },
@@ -6373,13 +7265,13 @@
         },
         "name": "brown-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "brown-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "brown-900"
         ]
       },
@@ -6392,13 +7284,13 @@
         },
         "name": "grey-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-50"
         ]
       },
@@ -6411,13 +7303,13 @@
         },
         "name": "grey-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-100"
         ]
       },
@@ -6430,13 +7322,13 @@
         },
         "name": "grey-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-200"
         ]
       },
@@ -6449,13 +7341,13 @@
         },
         "name": "grey-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-300"
         ]
       },
@@ -6468,13 +7360,13 @@
         },
         "name": "grey-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-400"
         ]
       },
@@ -6487,13 +7379,13 @@
         },
         "name": "grey-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-500"
         ]
       },
@@ -6506,13 +7398,13 @@
         },
         "name": "grey-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-600"
         ]
       },
@@ -6525,13 +7417,13 @@
         },
         "name": "grey-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-700"
         ]
       },
@@ -6544,13 +7436,13 @@
         },
         "name": "grey-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-800"
         ]
       },
@@ -6563,13 +7455,13 @@
         },
         "name": "grey-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "grey-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "grey-900"
         ]
       },
@@ -6582,13 +7474,13 @@
         },
         "name": "blue-grey-50",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-50"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-50"
         ]
       },
@@ -6601,13 +7493,13 @@
         },
         "name": "blue-grey-100",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-100"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-100"
         ]
       },
@@ -6620,13 +7512,13 @@
         },
         "name": "blue-grey-200",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-200"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-200"
         ]
       },
@@ -6639,13 +7531,13 @@
         },
         "name": "blue-grey-300",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-300"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-300"
         ]
       },
@@ -6658,13 +7550,13 @@
         },
         "name": "blue-grey-400",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-400"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-400"
         ]
       },
@@ -6677,13 +7569,13 @@
         },
         "name": "blue-grey-500",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-500"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-500"
         ]
       },
@@ -6696,13 +7588,13 @@
         },
         "name": "blue-grey-600",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-600"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-600"
         ]
       },
@@ -6715,13 +7607,13 @@
         },
         "name": "blue-grey-700",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-700"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-700"
         ]
       },
@@ -6734,13 +7626,13 @@
         },
         "name": "blue-grey-800",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-800"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-800"
         ]
       },
@@ -6753,903 +7645,15 @@
         },
         "name": "blue-grey-900",
         "attributes": {
-          "category": "color",
-          "type": "material",
+          "category": "material",
+          "type": "color",
           "item": "blue-grey-900"
         },
         "path": [
-          "color",
           "material",
+          "color",
           "blue-grey-900"
         ]
-      }
-    },
-    "surface": {
-      "light": {
-        "background": {
-          "value": "#f5f5f5",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.grey-100}"
-          },
-          "name": "background",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "background"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "background"
-          ]
-        },
-        "surface": {
-          "value": "white",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "white"
-          },
-          "name": "surface",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "surface"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "surface"
-          ]
-        },
-        "canvas": {
-          "value": "#eee",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.grey-200}"
-          },
-          "name": "canvas",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "canvas"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "canvas"
-          ]
-        },
-        "primary": {
-          "value": "#85dddc",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.teal-200}"
-          },
-          "name": "primary",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "primary"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "primary"
-          ]
-        },
-        "primary-highlight": {
-          "value": "rgba(#85dddc, 0.1)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-200}, 0.1)"
-          },
-          "name": "primary-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "primary-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "primary-highlight"
-          ]
-        },
-        "primary-highlight-hover": {
-          "value": "rgba(#85dddc, 0.2)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-200}, 0.2)"
-          },
-          "name": "primary-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "primary-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "primary-highlight-hover"
-          ]
-        },
-        "secondary": {
-          "value": "#85dddc",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.teal-200}"
-          },
-          "name": "secondary",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "secondary"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "secondary"
-          ]
-        },
-        "secondary-highlight": {
-          "value": "rgba(#85dddc, 0.1)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-200}, 0.1)"
-          },
-          "name": "secondary-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "secondary-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "secondary-highlight"
-          ]
-        },
-        "secondary-highlight-hover": {
-          "value": "rgba(#85dddc, 0.2)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-200}, 0.2)"
-          },
-          "name": "secondary-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "secondary-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "secondary-highlight-hover"
-          ]
-        },
-        "positive": {
-          "value": "#a5d6a7",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.green-200}"
-          },
-          "name": "positive",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "positive"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "positive"
-          ]
-        },
-        "positive-highlight": {
-          "value": "rgba(#a5d6a7, 0.1)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.green-200}, 0.1)"
-          },
-          "name": "positive-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "positive-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "positive-highlight"
-          ]
-        },
-        "positive-highlight-hover": {
-          "value": "rgba(#a5d6a7, 0.2)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.green-200}, 0.2)"
-          },
-          "name": "positive-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "positive-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "positive-highlight-hover"
-          ]
-        },
-        "caution": {
-          "value": "#ffb74d",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.orange-300}"
-          },
-          "name": "caution",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "caution"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "caution"
-          ]
-        },
-        "caution-highlight": {
-          "value": "rgba(#ffb74d, 0.1)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.orange-300}, 0.1)"
-          },
-          "name": "caution-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "caution-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "caution-highlight"
-          ]
-        },
-        "caution-highlight-hover": {
-          "value": "rgba({color.material.orange-300, 0.2)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.orange-300, 0.2)"
-          },
-          "name": "caution-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "caution-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "caution-highlight-hover"
-          ]
-        },
-        "negative": {
-          "value": "#e57373",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.red-300}"
-          },
-          "name": "negative",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "negative"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "negative"
-          ]
-        },
-        "negative-highlight": {
-          "value": "rgba(#e57373, 0.1)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.red-300}, 0.1)"
-          },
-          "name": "negative-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "negative-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "negative-highlight"
-          ]
-        },
-        "negative-highlight-hover": {
-          "value": "rgba(#e57373, 0.2)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.red-300}, 0.2)"
-          },
-          "name": "negative-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "negative-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "negative-highlight-hover"
-          ]
-        },
-        "neutral": {
-          "value": "#bdbdbd",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.material.grey-400}"
-          },
-          "name": "neutral",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "neutral"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "neutral"
-          ]
-        },
-        "neutral-highlight": {
-          "value": "rgba(#bdbdbd, 0.04)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.grey-400}, 0.04)"
-          },
-          "name": "neutral-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "neutral-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "neutral-highlight"
-          ]
-        },
-        "neutral-highlight-hover": {
-          "value": "rgba(#bdbdbd, 0.08)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.material.grey-400}, 0.08)"
-          },
-          "name": "neutral-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "light",
-            "subitem": "neutral-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "light",
-            "neutral-highlight-hover"
-          ]
-        }
-      },
-      "dark": {
-        "background": {
-          "value": "#161c1f",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.slate-1500}"
-          },
-          "name": "background",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "background"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "background"
-          ]
-        },
-        "surface": {
-          "value": "#28353b",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.slate-1100}"
-          },
-          "name": "surface",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "surface"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "surface"
-          ]
-        },
-        "canvas": {
-          "value": "#101314",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.slate-1700}"
-          },
-          "name": "canvas",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "canvas"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "canvas"
-          ]
-        },
-        "primary": {
-          "value": "#045c5c",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.teal-1200}"
-          },
-          "name": "primary",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "primary"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "primary"
-          ]
-        },
-        "primary-highlight": {
-          "value": "rgba(#045c5c, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-1200}, 0.4)"
-          },
-          "name": "primary-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "primary-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "primary-highlight"
-          ]
-        },
-        "primary-highlight-hover": {
-          "value": "rgba(#045c5c, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-1200}, 0.6)"
-          },
-          "name": "primary-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "primary-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "primary-highlight-hover"
-          ]
-        },
-        "secondary": {
-          "value": "#045c5c",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.teal-1200}"
-          },
-          "name": "secondary",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "secondary"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "secondary"
-          ]
-        },
-        "secondary-highlight": {
-          "value": "rgba(#045c5c, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-1200}, 0.4)"
-          },
-          "name": "secondary-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "secondary-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "secondary-highlight"
-          ]
-        },
-        "secondary-highlight-hover": {
-          "value": "rgba(#045c5c, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.teal-1200}, 0.6)"
-          },
-          "name": "secondary-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "secondary-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "secondary-highlight-hover"
-          ]
-        },
-        "positive": {
-          "value": "#336033",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#336033"
-          },
-          "name": "positive",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "positive"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "positive"
-          ]
-        },
-        "positive-highlight": {
-          "value": "rgba(#336033, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#336033, 0.4)"
-          },
-          "name": "positive-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "positive-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "positive-highlight"
-          ]
-        },
-        "positive-highlight-hover": {
-          "value": "rgba(#336033, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#336033, 0.6)"
-          },
-          "name": "positive-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "positive-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "positive-highlight-hover"
-          ]
-        },
-        "caution": {
-          "value": "#704C16",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#704C16"
-          },
-          "name": "caution",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "caution"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "caution"
-          ]
-        },
-        "caution-highlight": {
-          "value": "rgba(#704C16, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#704C16, 0.4)"
-          },
-          "name": "caution-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "caution-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "caution-highlight"
-          ]
-        },
-        "caution-highlight-hover": {
-          "value": "rgba(#704C16, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#704C16, 0.6)"
-          },
-          "name": "caution-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "caution-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "caution-highlight-hover"
-          ]
-        },
-        "negative": {
-          "value": "#883E32",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#883E32"
-          },
-          "name": "negative",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "negative"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "negative"
-          ]
-        },
-        "negative-highlight": {
-          "value": "rgba(#883E32, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#883E32, 0.4)"
-          },
-          "name": "negative-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "negative-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "negative-highlight"
-          ]
-        },
-        "negative-highlight-hover": {
-          "value": "rgba(#883E32, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#883E32, 0.6)"
-          },
-          "name": "negative-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "negative-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "negative-highlight-hover"
-          ]
-        },
-        "neutral": {
-          "value": "#43515a",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.teradata-brand.slate-800}"
-          },
-          "name": "neutral",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "neutral"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "neutral"
-          ]
-        },
-        "neutral-highlight": {
-          "value": "rgba(#43515a, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.slate-800}, 0.4)"
-          },
-          "name": "neutral-highlight",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "neutral-highlight"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "neutral-highlight"
-          ]
-        },
-        "neutral-highlight-hover": {
-          "value": "rgba(#43515a, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({color.teradata-brand.slate-800}, 0.6)"
-          },
-          "name": "neutral-highlight-hover",
-          "attributes": {
-            "category": "color",
-            "type": "surface",
-            "item": "dark",
-            "subitem": "neutral-highlight-hover"
-          },
-          "path": [
-            "color",
-            "surface",
-            "dark",
-            "neutral-highlight-hover"
-          ]
-        }
       }
     }
   },
