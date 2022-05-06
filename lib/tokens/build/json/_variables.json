@@ -228,388 +228,406 @@
         "divider"
       ]
     },
-    "color": {
-      "background": {
-        "value": "#f5f5f5",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.grey-100}"
-        },
-        "name": "background",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "background"
-        },
-        "path": [
-          "light",
-          "color",
-          "background"
-        ]
+    "background": {
+      "value": "#f5f5f5",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.grey-100}",
+        "type": "color"
       },
-      "surface": {},
-      "canvas": {
-        "value": "#eee",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.grey-200}"
-        },
-        "name": "canvas",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "canvas"
-        },
-        "path": [
-          "light",
-          "color",
-          "canvas"
-        ]
+      "name": "background",
+      "attributes": {
+        "category": "light",
+        "type": "background"
       },
-      "primary": {
-        "value": "#85dddc",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{teradata-brand.color.teal-200}"
-        },
-        "name": "primary",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "primary"
-        },
-        "path": [
-          "light",
-          "color",
-          "primary"
-        ]
+      "path": [
+        "light",
+        "background"
+      ]
+    },
+    "surface": {
+      "value": "white",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "white",
+        "type": "color"
       },
-      "primary-highlight": {
-        "value": "rgba(#85dddc, 0.1)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({teradata-brand.color.teal-200}, 0.1)"
-        },
-        "name": "primary-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "primary-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "primary-highlight"
-        ]
+      "name": "surface",
+      "attributes": {
+        "category": "light",
+        "type": "surface"
       },
-      "primary-highlight-hover": {
-        "value": "rgba(#85dddc, 0.2)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({teradata-brand.color.teal-200}, 0.2)"
-        },
-        "name": "primary-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "primary-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "primary-highlight-hover"
-        ]
+      "path": [
+        "light",
+        "surface"
+      ]
+    },
+    "surface-canvas": {
+      "value": "#eee",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.grey-200}",
+        "type": "color"
       },
-      "secondary": {
-        "value": "#85dddc",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{teradata-brand.color.teal-200}"
-        },
-        "name": "secondary",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "secondary"
-        },
-        "path": [
-          "light",
-          "color",
-          "secondary"
-        ]
+      "name": "surface-canvas",
+      "attributes": {
+        "category": "light",
+        "type": "surface-canvas"
       },
-      "secondary-highlight": {
-        "value": "rgba(#85dddc, 0.1)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({teradata-brand.color.teal-200}, 0.1)"
-        },
-        "name": "secondary-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "secondary-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "secondary-highlight"
-        ]
+      "path": [
+        "light",
+        "surface-canvas"
+      ]
+    },
+    "surface-primary": {
+      "value": "#85dddc",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-200}",
+        "type": "color"
       },
-      "secondary-highlight-hover": {
-        "value": "rgba(#85dddc, 0.2)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({teradata-brand.color.teal-200}, 0.2)"
-        },
-        "name": "secondary-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "secondary-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "secondary-highlight-hover"
-        ]
+      "name": "surface-primary",
+      "attributes": {
+        "category": "light",
+        "type": "surface-primary"
       },
-      "positive": {
-        "value": "#a5d6a7",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.green-200}"
-        },
-        "name": "positive",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "positive"
-        },
-        "path": [
-          "light",
-          "color",
-          "positive"
-        ]
+      "path": [
+        "light",
+        "surface-primary"
+      ]
+    },
+    "surface-primary-highlight": {
+      "value": "rgba(#85dddc, 0.1)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-200}, 0.1)",
+        "type": "color"
       },
-      "positive-highlight": {
-        "value": "rgba(#a5d6a7, 0.1)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.green-200}, 0.1)"
-        },
-        "name": "positive-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "positive-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "positive-highlight"
-        ]
+      "name": "surface-primary-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-primary-highlight"
       },
-      "positive-highlight-hover": {
-        "value": "rgba(#a5d6a7, 0.2)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.green-200}, 0.2)"
-        },
-        "name": "positive-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "positive-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "positive-highlight-hover"
-        ]
+      "path": [
+        "light",
+        "surface-primary-highlight"
+      ]
+    },
+    "surface-primary-highlight-hover": {
+      "value": "rgba(#85dddc, 0.2)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-200}, 0.2)",
+        "type": "color"
       },
-      "caution": {
-        "value": "#ffb74d",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.orange-300}"
-        },
-        "name": "caution",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "caution"
-        },
-        "path": [
-          "light",
-          "color",
-          "caution"
-        ]
+      "name": "surface-primary-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-primary-highlight-hover"
       },
-      "caution-highlight": {
-        "value": "rgba(#ffb74d, 0.1)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.orange-300}, 0.1)"
-        },
-        "name": "caution-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "caution-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "caution-highlight"
-        ]
+      "path": [
+        "light",
+        "surface-primary-highlight-hover"
+      ]
+    },
+    "surface-secondary": {
+      "value": "#85dddc",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-200}",
+        "type": "color"
       },
-      "caution-highlight-hover": {
+      "name": "surface-secondary",
+      "attributes": {
+        "category": "light",
+        "type": "surface-secondary"
+      },
+      "path": [
+        "light",
+        "surface-secondary"
+      ]
+    },
+    "surface-secondary-highlight": {
+      "value": "rgba(#85dddc, 0.1)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-200}, 0.1)",
+        "type": "color"
+      },
+      "name": "surface-secondary-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-secondary-highlight"
+      },
+      "path": [
+        "light",
+        "surface-secondary-highlight"
+      ]
+    },
+    "surface-secondary-highlight-hover": {
+      "value": "rgba(#85dddc, 0.2)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-200}, 0.2)",
+        "type": "color"
+      },
+      "name": "surface-secondary-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-secondary-highlight-hover"
+      },
+      "path": [
+        "light",
+        "surface-secondary-highlight-hover"
+      ]
+    },
+    "surface-positive": {
+      "value": "#a5d6a7",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.green-200}",
+        "type": "color"
+      },
+      "name": "surface-positive",
+      "attributes": {
+        "category": "light",
+        "type": "surface-positive"
+      },
+      "path": [
+        "light",
+        "surface-positive"
+      ]
+    },
+    "surface-positive-highlight": {
+      "value": "rgba(#a5d6a7, 0.1)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.green-200}, 0.1)",
+        "type": "color"
+      },
+      "name": "surface-positive-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-positive-highlight"
+      },
+      "path": [
+        "light",
+        "surface-positive-highlight"
+      ]
+    },
+    "surface-positive-highlight-hover": {
+      "value": "rgba(#a5d6a7, 0.2)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.green-200}, 0.2)",
+        "type": "color"
+      },
+      "name": "surface-positive-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-positive-highlight-hover"
+      },
+      "path": [
+        "light",
+        "surface-positive-highlight-hover"
+      ]
+    },
+    "surface-caution": {
+      "value": "#ffb74d",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.orange-300}",
+        "type": "color"
+      },
+      "name": "surface-caution",
+      "attributes": {
+        "category": "light",
+        "type": "surface-caution"
+      },
+      "path": [
+        "light",
+        "surface-caution"
+      ]
+    },
+    "surface-caution-highlight": {
+      "value": "rgba(#ffb74d, 0.1)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.orange-300}, 0.1)",
+        "type": "color"
+      },
+      "name": "surface-caution-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-caution-highlight"
+      },
+      "path": [
+        "light",
+        "surface-caution-highlight"
+      ]
+    },
+    "surface-caution-highlight-hover": {
+      "value": "rgba({material.color.orange-300, 0.2)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
         "value": "rgba({material.color.orange-300, 0.2)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.orange-300, 0.2)"
-        },
-        "name": "caution-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "caution-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "caution-highlight-hover"
-        ]
+        "type": "color"
       },
-      "negative": {
-        "value": "#e57373",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.red-300}"
-        },
-        "name": "negative",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "negative"
-        },
-        "path": [
-          "light",
-          "color",
-          "negative"
-        ]
+      "name": "surface-caution-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-caution-highlight-hover"
       },
-      "negative-highlight": {
-        "value": "rgba(#e57373, 0.1)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.red-300}, 0.1)"
-        },
-        "name": "negative-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "negative-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "negative-highlight"
-        ]
+      "path": [
+        "light",
+        "surface-caution-highlight-hover"
+      ]
+    },
+    "surface-negative": {
+      "value": "#e57373",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.red-300}",
+        "type": "color"
       },
-      "negative-highlight-hover": {
-        "value": "rgba(#e57373, 0.2)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.red-300}, 0.2)"
-        },
-        "name": "negative-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "negative-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "negative-highlight-hover"
-        ]
+      "name": "surface-negative",
+      "attributes": {
+        "category": "light",
+        "type": "surface-negative"
       },
-      "neutral": {
-        "value": "#bdbdbd",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "{material.color.grey-400}"
-        },
-        "name": "neutral",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "neutral"
-        },
-        "path": [
-          "light",
-          "color",
-          "neutral"
-        ]
+      "path": [
+        "light",
+        "surface-negative"
+      ]
+    },
+    "surface-negative-highlight": {
+      "value": "rgba(#e57373, 0.1)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.red-300}, 0.1)",
+        "type": "color"
       },
-      "neutral-highlight": {
-        "value": "rgba(#bdbdbd, 0.04)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.grey-400}, 0.04)"
-        },
-        "name": "neutral-highlight",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "neutral-highlight"
-        },
-        "path": [
-          "light",
-          "color",
-          "neutral-highlight"
-        ]
+      "name": "surface-negative-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-negative-highlight"
       },
-      "neutral-highlight-hover": {
-        "value": "rgba(#bdbdbd, 0.08)",
-        "filePath": "src/color/surface.json",
-        "isSource": true,
-        "original": {
-          "value": "rgba({material.color.grey-400}, 0.08)"
-        },
-        "name": "neutral-highlight-hover",
-        "attributes": {
-          "category": "light",
-          "type": "color",
-          "item": "neutral-highlight-hover"
-        },
-        "path": [
-          "light",
-          "color",
-          "neutral-highlight-hover"
-        ]
+      "path": [
+        "light",
+        "surface-negative-highlight"
+      ]
+    },
+    "surface-negative-highlight-hover": {
+      "value": "rgba(#e57373, 0.2)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.red-300}, 0.2)",
+        "type": "color"
       },
+      "name": "surface-negative-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-negative-highlight-hover"
+      },
+      "path": [
+        "light",
+        "surface-negative-highlight-hover"
+      ]
+    },
+    "surface-neutral": {
+      "value": "#bdbdbd",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{material.color.grey-400}",
+        "type": "color"
+      },
+      "name": "surface-neutral",
+      "attributes": {
+        "category": "light",
+        "type": "surface-neutral"
+      },
+      "path": [
+        "light",
+        "surface-neutral"
+      ]
+    },
+    "surface-neutral-highlight": {
+      "value": "rgba(#bdbdbd, 0.04)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.grey-400}, 0.04)",
+        "type": "color"
+      },
+      "name": "surface-neutral-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-neutral-highlight"
+      },
+      "path": [
+        "light",
+        "surface-neutral-highlight"
+      ]
+    },
+    "surface-neutral-highlight-hover": {
+      "value": "rgba(#bdbdbd, 0.08)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({material.color.grey-400}, 0.08)",
+        "type": "color"
+      },
+      "name": "surface-neutral-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-neutral-highlight-hover"
+      },
+      "path": [
+        "light",
+        "surface-neutral-highlight-hover"
+      ]
+    },
+    "color": {
       "text": {
         "primary-on-background": {
           "value": "rgba(0, 0, 0, 0.87)",
@@ -1179,450 +1197,406 @@
         "divider"
       ]
     },
-    "color": {
-      "surface": {
-        "background": {
-          "value": "#161c1f",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.slate-1500}"
-          },
-          "name": "background",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "background"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "background"
-          ]
-        },
-        "surface": {
-          "value": "#28353b",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.slate-1100}"
-          },
-          "name": "surface",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "surface"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "surface"
-          ]
-        },
-        "canvas": {
-          "value": "#101314",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.slate-1700}"
-          },
-          "name": "canvas",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "canvas"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "canvas"
-          ]
-        },
-        "primary": {
-          "value": "#045c5c",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.teal-1200}"
-          },
-          "name": "primary",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "primary"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "primary"
-          ]
-        },
-        "primary-highlight": {
-          "value": "rgba(#045c5c, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.teal-1200}, 0.4)"
-          },
-          "name": "primary-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "primary-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "primary-highlight"
-          ]
-        },
-        "primary-highlight-hover": {
-          "value": "rgba(#045c5c, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.teal-1200}, 0.6)"
-          },
-          "name": "primary-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "primary-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "primary-highlight-hover"
-          ]
-        },
-        "secondary": {
-          "value": "#045c5c",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.teal-1200}"
-          },
-          "name": "secondary",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "secondary"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "secondary"
-          ]
-        },
-        "secondary-highlight": {
-          "value": "rgba(#045c5c, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.teal-1200}, 0.4)"
-          },
-          "name": "secondary-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "secondary-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "secondary-highlight"
-          ]
-        },
-        "secondary-highlight-hover": {
-          "value": "rgba(#045c5c, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.teal-1200}, 0.6)"
-          },
-          "name": "secondary-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "secondary-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "secondary-highlight-hover"
-          ]
-        },
-        "positive": {
-          "value": "#336033",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#336033"
-          },
-          "name": "positive",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "positive"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "positive"
-          ]
-        },
-        "positive-highlight": {
-          "value": "rgba(#336033, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#336033, 0.4)"
-          },
-          "name": "positive-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "positive-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "positive-highlight"
-          ]
-        },
-        "positive-highlight-hover": {
-          "value": "rgba(#336033, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#336033, 0.6)"
-          },
-          "name": "positive-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "positive-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "positive-highlight-hover"
-          ]
-        },
-        "caution": {
-          "value": "#704C16",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#704C16"
-          },
-          "name": "caution",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "caution"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "caution"
-          ]
-        },
-        "caution-highlight": {
-          "value": "rgba(#704C16, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#704C16, 0.4)"
-          },
-          "name": "caution-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "caution-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "caution-highlight"
-          ]
-        },
-        "caution-highlight-hover": {
-          "value": "rgba(#704C16, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#704C16, 0.6)"
-          },
-          "name": "caution-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "caution-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "caution-highlight-hover"
-          ]
-        },
-        "negative": {
-          "value": "#883E32",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "#883E32"
-          },
-          "name": "negative",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "negative"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "negative"
-          ]
-        },
-        "negative-highlight": {
-          "value": "rgba(#883E32, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#883E32, 0.4)"
-          },
-          "name": "negative-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "negative-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "negative-highlight"
-          ]
-        },
-        "negative-highlight-hover": {
-          "value": "rgba(#883E32, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba(#883E32, 0.6)"
-          },
-          "name": "negative-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "negative-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "negative-highlight-hover"
-          ]
-        },
-        "neutral": {
-          "value": "#43515a",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "{teradata-brand.color.slate-800}"
-          },
-          "name": "neutral",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "neutral"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "neutral"
-          ]
-        },
-        "neutral-highlight": {
-          "value": "rgba(#43515a, 0.4)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.slate-800}, 0.4)"
-          },
-          "name": "neutral-highlight",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "neutral-highlight"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "neutral-highlight"
-          ]
-        },
-        "neutral-highlight-hover": {
-          "value": "rgba(#43515a, 0.6)",
-          "filePath": "src/color/surface.json",
-          "isSource": true,
-          "original": {
-            "value": "rgba({teradata-brand.color.slate-800}, 0.6)"
-          },
-          "name": "neutral-highlight-hover",
-          "attributes": {
-            "category": "dark",
-            "type": "color",
-            "item": "surface",
-            "subitem": "neutral-highlight-hover"
-          },
-          "path": [
-            "dark",
-            "color",
-            "surface",
-            "neutral-highlight-hover"
-          ]
-        }
+    "background": {
+      "value": "#161c1f",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.slate-1500}",
+        "type": "color"
       },
+      "name": "background",
+      "attributes": {
+        "category": "dark",
+        "type": "background"
+      },
+      "path": [
+        "dark",
+        "background"
+      ]
+    },
+    "surface": {
+      "value": "#28353b",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.slate-1100}",
+        "type": "color"
+      },
+      "name": "surface",
+      "attributes": {
+        "category": "dark",
+        "type": "surface"
+      },
+      "path": [
+        "dark",
+        "surface"
+      ]
+    },
+    "surface-canvas": {
+      "value": "#101314",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.slate-1700}",
+        "type": "color"
+      },
+      "name": "surface-canvas",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-canvas"
+      },
+      "path": [
+        "dark",
+        "surface-canvas"
+      ]
+    },
+    "surface-primary": {
+      "value": "#045c5c",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-1200}",
+        "type": "color"
+      },
+      "name": "surface-primary",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-primary"
+      },
+      "path": [
+        "dark",
+        "surface-primary"
+      ]
+    },
+    "surface-primary-highlight": {
+      "value": "rgba(#045c5c, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-1200}, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-primary-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-primary-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-primary-highlight"
+      ]
+    },
+    "surface-primary-highlight-hover": {
+      "value": "rgba(#045c5c, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-1200}, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-primary-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-primary-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-primary-highlight-hover"
+      ]
+    },
+    "surface-secondary": {
+      "value": "#045c5c",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.teal-1200}",
+        "type": "color"
+      },
+      "name": "surface-secondary",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-secondary"
+      },
+      "path": [
+        "dark",
+        "surface-secondary"
+      ]
+    },
+    "surface-secondary-highlight": {
+      "value": "rgba(#045c5c, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-1200}, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-secondary-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-secondary-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-secondary-highlight"
+      ]
+    },
+    "surface-secondary-highlight-hover": {
+      "value": "rgba(#045c5c, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.teal-1200}, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-secondary-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-secondary-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-secondary-highlight-hover"
+      ]
+    },
+    "surface-positive": {
+      "value": "#336033",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "#336033",
+        "type": "color"
+      },
+      "name": "surface-positive",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-positive"
+      },
+      "path": [
+        "dark",
+        "surface-positive"
+      ]
+    },
+    "surface-positive-highlight": {
+      "value": "rgba(#336033, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#336033, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-positive-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-positive-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-positive-highlight"
+      ]
+    },
+    "surface-positive-highlight-hover": {
+      "value": "rgba(#336033, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#336033, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-positive-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-positive-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-positive-highlight-hover"
+      ]
+    },
+    "surface-caution": {
+      "value": "#704C16",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "#704C16",
+        "type": "color"
+      },
+      "name": "surface-caution",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-caution"
+      },
+      "path": [
+        "dark",
+        "surface-caution"
+      ]
+    },
+    "surface-caution-highlight": {
+      "value": "rgba(#704C16, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#704C16, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-caution-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-caution-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-caution-highlight"
+      ]
+    },
+    "surface-caution-highlight-hover": {
+      "value": "rgba(#704C16, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#704C16, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-caution-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-caution-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-caution-highlight-hover"
+      ]
+    },
+    "surface-negative": {
+      "value": "#883E32",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "#883E32",
+        "type": "color"
+      },
+      "name": "surface-negative",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-negative"
+      },
+      "path": [
+        "dark",
+        "surface-negative"
+      ]
+    },
+    "surface-negative-highlight": {
+      "value": "rgba(#883E32, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#883E32, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-negative-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-negative-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-negative-highlight"
+      ]
+    },
+    "surface-negative-highlight-hover": {
+      "value": "rgba(#883E32, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(#883E32, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-negative-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-negative-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-negative-highlight-hover"
+      ]
+    },
+    "surface-neutral": {
+      "value": "#43515a",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata-brand.color.slate-800}",
+        "type": "color"
+      },
+      "name": "surface-neutral",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-neutral"
+      },
+      "path": [
+        "dark",
+        "surface-neutral"
+      ]
+    },
+    "surface-neutral-highlight": {
+      "value": "rgba(#43515a, 0.4)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.slate-800}, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-neutral-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-neutral-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-neutral-highlight"
+      ]
+    },
+    "surface-neutral-highlight-hover": {
+      "value": "rgba(#43515a, 0.6)",
+      "type": "color",
+      "filePath": "src/color/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata-brand.color.slate-800}, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-neutral-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-neutral-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-neutral-highlight-hover"
+      ]
+    },
+    "color": {
       "text": {
         "primary-on-background": {
           "value": "white",
