@@ -28,9 +28,6 @@ jobs:
         run: |
           rm -f docs/*.js*
           rsync -a ./storybook-static/ ./docs/
-          mv ./dist/**.css* ./docs
-          mv ./dist/**.js* ./docs
-          cp -r ./assets/* ./docs/
           git add docs
           git config --global user.name 'GitHub Page Bot'
           git config --global user.email 'gh-page-bot@users.noreply.github.com'
