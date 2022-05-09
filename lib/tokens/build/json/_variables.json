@@ -495,12 +495,12 @@
       ]
     },
     "surface-caution-highlight-hover": {
-      "value": "rgba({material.orange-300, 0.2)",
+      "value": "rgba(#ffb74d, 0.2)",
       "type": "color",
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({material.orange-300, 0.2)",
+        "value": "rgba({material.orange-300}, 0.2)",
         "type": "color"
       },
       "name": "surface-caution-highlight-hover",

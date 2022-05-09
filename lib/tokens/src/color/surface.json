@@ -18,7 +18,7 @@
 
             "surface-caution": { "value":  "{material.orange-300}", "type": "color" },
             "surface-caution-highlight": { "value":  "rgba({material.orange-300}, 0.1)", "type": "color" },
-            "surface-caution-highlight-hover": { "value":  "rgba({material.orange-300, 0.2)", "type": "color" },
+            "surface-caution-highlight-hover": { "value":  "rgba({material.orange-300}, 0.2)", "type": "color" },
 
             "surface-negative": { "value":  "{material.red-300}", "type": "color" },
             "surface-negative-highlight": { "value":  "rgba({material.red-300}, 0.1)", "type": "color" },
