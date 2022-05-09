@@ -28,10 +28,11 @@ Good for you! You have now built your first style dictionary! Moving on, take a 
 ├── tokens/
 │   ├── color/
 │       ├── base.json
-│       ├── material.json
 │       ├── surface.json
-│       ├── teradata.json
 │       ├── text.json
+│       ├── palettes/
+│          ├── material.json
+│          ├── teradata.json
 │   ├── typography/
 │       ├── typography.json
 ├── build/

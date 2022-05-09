@@ -1,6 +1,8 @@
+@use 'skeleton-elements/skeleton-elements';
+
+
 @use '@material/image-list';
 @use '@material/list/evolution-mixins' as list;
-@use 'skeleton-elements/skeleton-elements';
 @use '@material/banner/styles' as banner-styles;
 @use '@material/button/mdc-button';
 @use '@material/card/mdc-card';
