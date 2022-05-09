@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 09 May 2022 13:43:34 GMT
+ * Generated on Mon, 09 May 2022 14:11:52 GMT
  */
 
 $light-primary: #007373 !default;
@@ -102,48 +102,6 @@ $dark-text-secondary-on-dark: rgba(255, 255, 255, 0.7) !default;
 $dark-text-hint-on-dark: rgba(255, 255, 255, 0.5) !default;
 $dark-text-disabled-on-dark: rgba(255, 255, 255, 0.5) !default;
 $dark-text-icon-on-dark: white !default;
-$teradata-brand-teal-50: #def9f8 !default;
-$teradata-brand-teal-100: #b2ebea !default;
-$teradata-brand-teal-200: #85dddc !default;
-$teradata-brand-teal-300: #59cecd !default;
-$teradata-brand-teal-400: #2cc0bf !default;
-$teradata-brand-teal-500: #00b2b1 !default;
-$teradata-brand-teal-600: #00a2a2 !default;
-$teradata-brand-teal-700: #009392 !default;
-$teradata-brand-teal-800: #008383 !default;
-$teradata-brand-teal-900: #007373 !default;
-$teradata-brand-teal-1000: #016b6b !default;
-$teradata-brand-teal-1100: #036464 !default;
-$teradata-brand-teal-1200: #045c5c !default;
-$teradata-brand-teal-1300: #055454 !default;
-$teradata-brand-teal-1400: #074d4d !default;
-$teradata-brand-teal-1500: #084545 !default;
-$teradata-brand-teal-1600: #0a3e3e !default;
-$teradata-brand-teal-1700: #0b3636 !default;
-$teradata-brand-teal-1800: #0c2e2e !default;
-$teradata-brand-teal-1900: #0e2727 !default;
-$teradata-brand-teal-2000: #0f1f1f !default;
-$teradata-brand-slate-50: #e3e7e8 !default;
-$teradata-brand-slate-100: #c9cfd1 !default;
-$teradata-brand-slate-200: #afb6b9 !default;
-$teradata-brand-slate-300: #959ea2 !default;
-$teradata-brand-slate-400: #7b858a !default;
-$teradata-brand-slate-500: #616d73 !default;
-$teradata-brand-slate-600: #57646b !default;
-$teradata-brand-slate-700: #4d5b62 !default;
-$teradata-brand-slate-800: #43515a !default;
-$teradata-brand-slate-900: #394851 !default;
-$teradata-brand-slate-1000: #2e3d42 !default;
-$teradata-brand-slate-1100: #28353b !default;
-$teradata-brand-slate-1200: #222e33 !default;
-$teradata-brand-slate-1300: #1f282e !default;
-$teradata-brand-slate-1400: #1a2126 !default;
-$teradata-brand-slate-1500: #161c1f !default;
-$teradata-brand-slate-1600: #14171a !default;
-$teradata-brand-slate-1700: #101314 !default;
-$teradata-brand-slate-1800: #0c0e0f !default;
-$teradata-brand-slate-1900: #060708 !default;
-$teradata-brand-slate-2000: #020203 !default;
 $material-red-50: #ffebee !default;
 $material-red-100: #ffcdd2 !default;
 $material-red-200: #ef9a9a !default;
@@ -398,6 +356,48 @@ $material-blue-grey-600: #546e7a !default;
 $material-blue-grey-700: #455a64 !default;
 $material-blue-grey-800: #37474f !default;
 $material-blue-grey-900: #263238 !default;
+$teradata-teal-50: #def9f8 !default;
+$teradata-teal-100: #b2ebea !default;
+$teradata-teal-200: #85dddc !default;
+$teradata-teal-300: #59cecd !default;
+$teradata-teal-400: #2cc0bf !default;
+$teradata-teal-500: #00b2b1 !default;
+$teradata-teal-600: #00a2a2 !default;
+$teradata-teal-700: #009392 !default;
+$teradata-teal-800: #008383 !default;
+$teradata-teal-900: #007373 !default;
+$teradata-teal-1000: #016b6b !default;
+$teradata-teal-1100: #036464 !default;
+$teradata-teal-1200: #045c5c !default;
+$teradata-teal-1300: #055454 !default;
+$teradata-teal-1400: #074d4d !default;
+$teradata-teal-1500: #084545 !default;
+$teradata-teal-1600: #0a3e3e !default;
+$teradata-teal-1700: #0b3636 !default;
+$teradata-teal-1800: #0c2e2e !default;
+$teradata-teal-1900: #0e2727 !default;
+$teradata-teal-2000: #0f1f1f !default;
+$teradata-slate-50: #e3e7e8 !default;
+$teradata-slate-100: #c9cfd1 !default;
+$teradata-slate-200: #afb6b9 !default;
+$teradata-slate-300: #959ea2 !default;
+$teradata-slate-400: #7b858a !default;
+$teradata-slate-500: #616d73 !default;
+$teradata-slate-600: #57646b !default;
+$teradata-slate-700: #4d5b62 !default;
+$teradata-slate-800: #43515a !default;
+$teradata-slate-900: #394851 !default;
+$teradata-slate-1000: #2e3d42 !default;
+$teradata-slate-1100: #28353b !default;
+$teradata-slate-1200: #222e33 !default;
+$teradata-slate-1300: #1f282e !default;
+$teradata-slate-1400: #1a2126 !default;
+$teradata-slate-1500: #161c1f !default;
+$teradata-slate-1600: #14171a !default;
+$teradata-slate-1700: #101314 !default;
+$teradata-slate-1800: #0c0e0f !default;
+$teradata-slate-1900: #060708 !default;
+$teradata-slate-2000: #020203 !default;
 $size-font-small: 0.75rem !default; // the small size of the font
 $size-font-medium: 1rem !default; // the medium size of the font
 $size-font-large: 2rem !default; // the large size of the font
@@ -505,50 +505,6 @@ $tokens: (
     'text-hint-on-dark': $dark-text-hint-on-dark,
     'text-disabled-on-dark': $dark-text-disabled-on-dark,
     'text-icon-on-dark': $dark-text-icon-on-dark
-  ),
-  'teradata-brand': (
-    'teal-50': $teradata-brand-teal-50,
-    'teal-100': $teradata-brand-teal-100,
-    'teal-200': $teradata-brand-teal-200,
-    'teal-300': $teradata-brand-teal-300,
-    'teal-400': $teradata-brand-teal-400,
-    'teal-500': $teradata-brand-teal-500,
-    'teal-600': $teradata-brand-teal-600,
-    'teal-700': $teradata-brand-teal-700,
-    'teal-800': $teradata-brand-teal-800,
-    'teal-900': $teradata-brand-teal-900,
-    'teal-1000': $teradata-brand-teal-1000,
-    'teal-1100': $teradata-brand-teal-1100,
-    'teal-1200': $teradata-brand-teal-1200,
-    'teal-1300': $teradata-brand-teal-1300,
-    'teal-1400': $teradata-brand-teal-1400,
-    'teal-1500': $teradata-brand-teal-1500,
-    'teal-1600': $teradata-brand-teal-1600,
-    'teal-1700': $teradata-brand-teal-1700,
-    'teal-1800': $teradata-brand-teal-1800,
-    'teal-1900': $teradata-brand-teal-1900,
-    'teal-2000': $teradata-brand-teal-2000,
-    'slate-50': $teradata-brand-slate-50,
-    'slate-100': $teradata-brand-slate-100,
-    'slate-200': $teradata-brand-slate-200,
-    'slate-300': $teradata-brand-slate-300,
-    'slate-400': $teradata-brand-slate-400,
-    'slate-500': $teradata-brand-slate-500,
-    'slate-600': $teradata-brand-slate-600,
-    'slate-700': $teradata-brand-slate-700,
-    'slate-800': $teradata-brand-slate-800,
-    'slate-900': $teradata-brand-slate-900,
-    'slate-1000': $teradata-brand-slate-1000,
-    'slate-1100': $teradata-brand-slate-1100,
-    'slate-1200': $teradata-brand-slate-1200,
-    'slate-1300': $teradata-brand-slate-1300,
-    'slate-1400': $teradata-brand-slate-1400,
-    'slate-1500': $teradata-brand-slate-1500,
-    'slate-1600': $teradata-brand-slate-1600,
-    'slate-1700': $teradata-brand-slate-1700,
-    'slate-1800': $teradata-brand-slate-1800,
-    'slate-1900': $teradata-brand-slate-1900,
-    'slate-2000': $teradata-brand-slate-2000
   ),
   'material': (
     'red-50': $material-red-50,
@@ -805,6 +761,50 @@ $tokens: (
     'blue-grey-700': $material-blue-grey-700,
     'blue-grey-800': $material-blue-grey-800,
     'blue-grey-900': $material-blue-grey-900
+  ),
+  'teradata': (
+    'teal-50': $teradata-teal-50,
+    'teal-100': $teradata-teal-100,
+    'teal-200': $teradata-teal-200,
+    'teal-300': $teradata-teal-300,
+    'teal-400': $teradata-teal-400,
+    'teal-500': $teradata-teal-500,
+    'teal-600': $teradata-teal-600,
+    'teal-700': $teradata-teal-700,
+    'teal-800': $teradata-teal-800,
+    'teal-900': $teradata-teal-900,
+    'teal-1000': $teradata-teal-1000,
+    'teal-1100': $teradata-teal-1100,
+    'teal-1200': $teradata-teal-1200,
+    'teal-1300': $teradata-teal-1300,
+    'teal-1400': $teradata-teal-1400,
+    'teal-1500': $teradata-teal-1500,
+    'teal-1600': $teradata-teal-1600,
+    'teal-1700': $teradata-teal-1700,
+    'teal-1800': $teradata-teal-1800,
+    'teal-1900': $teradata-teal-1900,
+    'teal-2000': $teradata-teal-2000,
+    'slate-50': $teradata-slate-50,
+    'slate-100': $teradata-slate-100,
+    'slate-200': $teradata-slate-200,
+    'slate-300': $teradata-slate-300,
+    'slate-400': $teradata-slate-400,
+    'slate-500': $teradata-slate-500,
+    'slate-600': $teradata-slate-600,
+    'slate-700': $teradata-slate-700,
+    'slate-800': $teradata-slate-800,
+    'slate-900': $teradata-slate-900,
+    'slate-1000': $teradata-slate-1000,
+    'slate-1100': $teradata-slate-1100,
+    'slate-1200': $teradata-slate-1200,
+    'slate-1300': $teradata-slate-1300,
+    'slate-1400': $teradata-slate-1400,
+    'slate-1500': $teradata-slate-1500,
+    'slate-1600': $teradata-slate-1600,
+    'slate-1700': $teradata-slate-1700,
+    'slate-1800': $teradata-slate-1800,
+    'slate-1900': $teradata-slate-1900,
+    'slate-2000': $teradata-slate-2000
   ),
   'size': (
     'font': (

@@ -6,7 +6,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-900}",
+        "value": "{teradata.teal-900}",
         "type": "color"
       },
       "name": "primary",
@@ -25,7 +25,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-900}",
+        "value": "{teradata.teal-900}",
         "type": "color"
       },
       "name": "secondary",
@@ -291,7 +291,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-200}",
+        "value": "{teradata.teal-200}",
         "type": "color"
       },
       "name": "surface-primary",
@@ -310,7 +310,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-200}, 0.1)",
+        "value": "rgba({teradata.teal-200}, 0.1)",
         "type": "color"
       },
       "name": "surface-primary-highlight",
@@ -329,7 +329,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-200}, 0.2)",
+        "value": "rgba({teradata.teal-200}, 0.2)",
         "type": "color"
       },
       "name": "surface-primary-highlight-hover",
@@ -348,7 +348,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-200}",
+        "value": "{teradata.teal-200}",
         "type": "color"
       },
       "name": "surface-secondary",
@@ -367,7 +367,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-200}, 0.1)",
+        "value": "rgba({teradata.teal-200}, 0.1)",
         "type": "color"
       },
       "name": "surface-secondary-highlight",
@@ -386,7 +386,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-200}, 0.2)",
+        "value": "rgba({teradata.teal-200}, 0.2)",
         "type": "color"
       },
       "name": "surface-secondary-highlight-hover",
@@ -939,7 +939,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-300}",
+        "value": "{teradata.teal-300}",
         "type": "color"
       },
       "name": "primary",
@@ -958,7 +958,7 @@
       "filePath": "src/color/base.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-300}",
+        "value": "{teradata.teal-300}",
         "type": "color"
       },
       "name": "secondary",
@@ -1167,7 +1167,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.slate-1500}",
+        "value": "{teradata.slate-1500}",
         "type": "color"
       },
       "name": "background",
@@ -1186,7 +1186,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.slate-1100}",
+        "value": "{teradata.slate-1100}",
         "type": "color"
       },
       "name": "surface",
@@ -1205,7 +1205,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.slate-1700}",
+        "value": "{teradata.slate-1700}",
         "type": "color"
       },
       "name": "surface-canvas",
@@ -1224,7 +1224,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-1200}",
+        "value": "{teradata.teal-1200}",
         "type": "color"
       },
       "name": "surface-primary",
@@ -1243,7 +1243,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-1200}, 0.4)",
+        "value": "rgba({teradata.teal-1200}, 0.4)",
         "type": "color"
       },
       "name": "surface-primary-highlight",
@@ -1262,7 +1262,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-1200}, 0.6)",
+        "value": "rgba({teradata.teal-1200}, 0.6)",
         "type": "color"
       },
       "name": "surface-primary-highlight-hover",
@@ -1281,7 +1281,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.teal-1200}",
+        "value": "{teradata.teal-1200}",
         "type": "color"
       },
       "name": "surface-secondary",
@@ -1300,7 +1300,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-1200}, 0.4)",
+        "value": "rgba({teradata.teal-1200}, 0.4)",
         "type": "color"
       },
       "name": "surface-secondary-highlight",
@@ -1319,7 +1319,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.teal-1200}, 0.6)",
+        "value": "rgba({teradata.teal-1200}, 0.6)",
         "type": "color"
       },
       "name": "surface-secondary-highlight-hover",
@@ -1509,7 +1509,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "{teradata-brand.slate-800}",
+        "value": "{teradata.slate-800}",
         "type": "color"
       },
       "name": "surface-neutral",
@@ -1528,7 +1528,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.slate-800}, 0.4)",
+        "value": "rgba({teradata.slate-800}, 0.4)",
         "type": "color"
       },
       "name": "surface-neutral-highlight",
@@ -1547,7 +1547,7 @@
       "filePath": "src/color/surface.json",
       "isSource": true,
       "original": {
-        "value": "rgba({teradata-brand.slate-800}, 0.6)",
+        "value": "rgba({teradata.slate-800}, 0.6)",
         "type": "color"
       },
       "name": "surface-neutral-highlight-hover",
@@ -1862,806 +1862,6 @@
       "path": [
         "dark",
         "text-icon-on-dark"
-      ]
-    }
-  },
-  "teradata-brand": {
-    "teal-50": {
-      "value": "#def9f8",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#def9f8",
-        "type": "color"
-      },
-      "name": "teal-50",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-50"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-50"
-      ]
-    },
-    "teal-100": {
-      "value": "#b2ebea",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#b2ebea",
-        "type": "color"
-      },
-      "name": "teal-100",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-100"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-100"
-      ]
-    },
-    "teal-200": {
-      "value": "#85dddc",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#85dddc",
-        "type": "color"
-      },
-      "name": "teal-200",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-200"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-200"
-      ]
-    },
-    "teal-300": {
-      "value": "#59cecd",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#59cecd",
-        "type": "color"
-      },
-      "name": "teal-300",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-300"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-300"
-      ]
-    },
-    "teal-400": {
-      "value": "#2cc0bf",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#2cc0bf",
-        "type": "color"
-      },
-      "name": "teal-400",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-400"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-400"
-      ]
-    },
-    "teal-500": {
-      "value": "#00b2b1",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#00b2b1",
-        "type": "color"
-      },
-      "name": "teal-500",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-500"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-500"
-      ]
-    },
-    "teal-600": {
-      "value": "#00a2a2",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#00a2a2",
-        "type": "color"
-      },
-      "name": "teal-600",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-600"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-600"
-      ]
-    },
-    "teal-700": {
-      "value": "#009392",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#009392",
-        "type": "color"
-      },
-      "name": "teal-700",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-700"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-700"
-      ]
-    },
-    "teal-800": {
-      "value": "#008383",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#008383",
-        "type": "color"
-      },
-      "name": "teal-800",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-800"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-800"
-      ]
-    },
-    "teal-900": {
-      "value": "#007373",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#007373",
-        "type": "color"
-      },
-      "name": "teal-900",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-900"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-900"
-      ]
-    },
-    "teal-1000": {
-      "value": "#016b6b",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#016b6b",
-        "type": "color"
-      },
-      "name": "teal-1000",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1000"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1000"
-      ]
-    },
-    "teal-1100": {
-      "value": "#036464",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#036464",
-        "type": "color"
-      },
-      "name": "teal-1100",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1100"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1100"
-      ]
-    },
-    "teal-1200": {
-      "value": "#045c5c",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#045c5c",
-        "type": "color"
-      },
-      "name": "teal-1200",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1200"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1200"
-      ]
-    },
-    "teal-1300": {
-      "value": "#055454",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#055454",
-        "type": "color"
-      },
-      "name": "teal-1300",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1300"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1300"
-      ]
-    },
-    "teal-1400": {
-      "value": "#074d4d",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#074d4d",
-        "type": "color"
-      },
-      "name": "teal-1400",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1400"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1400"
-      ]
-    },
-    "teal-1500": {
-      "value": "#084545",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#084545",
-        "type": "color"
-      },
-      "name": "teal-1500",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1500"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1500"
-      ]
-    },
-    "teal-1600": {
-      "value": "#0a3e3e",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0a3e3e",
-        "type": "color"
-      },
-      "name": "teal-1600",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1600"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1600"
-      ]
-    },
-    "teal-1700": {
-      "value": "#0b3636",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0b3636",
-        "type": "color"
-      },
-      "name": "teal-1700",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1700"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1700"
-      ]
-    },
-    "teal-1800": {
-      "value": "#0c2e2e",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0c2e2e",
-        "type": "color"
-      },
-      "name": "teal-1800",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1800"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1800"
-      ]
-    },
-    "teal-1900": {
-      "value": "#0e2727",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0e2727",
-        "type": "color"
-      },
-      "name": "teal-1900",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-1900"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-1900"
-      ]
-    },
-    "teal-2000": {
-      "value": "#0f1f1f",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0f1f1f",
-        "type": "color"
-      },
-      "name": "teal-2000",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "teal-2000"
-      },
-      "path": [
-        "teradata-brand",
-        "teal-2000"
-      ]
-    },
-    "slate-50": {
-      "value": "#e3e7e8",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#e3e7e8",
-        "type": "color"
-      },
-      "name": "slate-50",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-50"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-50"
-      ]
-    },
-    "slate-100": {
-      "value": "#c9cfd1",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#c9cfd1",
-        "type": "color"
-      },
-      "name": "slate-100",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-100"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-100"
-      ]
-    },
-    "slate-200": {
-      "value": "#afb6b9",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#afb6b9",
-        "type": "color"
-      },
-      "name": "slate-200",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-200"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-200"
-      ]
-    },
-    "slate-300": {
-      "value": "#959ea2",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#959ea2",
-        "type": "color"
-      },
-      "name": "slate-300",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-300"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-300"
-      ]
-    },
-    "slate-400": {
-      "value": "#7b858a",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#7b858a",
-        "type": "color"
-      },
-      "name": "slate-400",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-400"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-400"
-      ]
-    },
-    "slate-500": {
-      "value": "#616d73",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#616d73",
-        "type": "color"
-      },
-      "name": "slate-500",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-500"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-500"
-      ]
-    },
-    "slate-600": {
-      "value": "#57646b",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#57646b",
-        "type": "color"
-      },
-      "name": "slate-600",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-600"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-600"
-      ]
-    },
-    "slate-700": {
-      "value": "#4d5b62",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#4d5b62",
-        "type": "color"
-      },
-      "name": "slate-700",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-700"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-700"
-      ]
-    },
-    "slate-800": {
-      "value": "#43515a",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#43515a",
-        "type": "color"
-      },
-      "name": "slate-800",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-800"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-800"
-      ]
-    },
-    "slate-900": {
-      "value": "#394851",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#394851",
-        "type": "color"
-      },
-      "name": "slate-900",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-900"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-900"
-      ]
-    },
-    "slate-1000": {
-      "value": "#2e3d42",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#2e3d42",
-        "type": "color"
-      },
-      "name": "slate-1000",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1000"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1000"
-      ]
-    },
-    "slate-1100": {
-      "value": "#28353b",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#28353b",
-        "type": "color"
-      },
-      "name": "slate-1100",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1100"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1100"
-      ]
-    },
-    "slate-1200": {
-      "value": "#222e33",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#222e33",
-        "type": "color"
-      },
-      "name": "slate-1200",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1200"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1200"
-      ]
-    },
-    "slate-1300": {
-      "value": "#1f282e",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#1f282e",
-        "type": "color"
-      },
-      "name": "slate-1300",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1300"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1300"
-      ]
-    },
-    "slate-1400": {
-      "value": "#1a2126",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#1a2126",
-        "type": "color"
-      },
-      "name": "slate-1400",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1400"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1400"
-      ]
-    },
-    "slate-1500": {
-      "value": "#161c1f",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#161c1f",
-        "type": "color"
-      },
-      "name": "slate-1500",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1500"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1500"
-      ]
-    },
-    "slate-1600": {
-      "value": "#14171a",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#14171a",
-        "type": "color"
-      },
-      "name": "slate-1600",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1600"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1600"
-      ]
-    },
-    "slate-1700": {
-      "value": "#101314",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#101314",
-        "type": "color"
-      },
-      "name": "slate-1700",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1700"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1700"
-      ]
-    },
-    "slate-1800": {
-      "value": "#0c0e0f",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#0c0e0f",
-        "type": "color"
-      },
-      "name": "slate-1800",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1800"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1800"
-      ]
-    },
-    "slate-1900": {
-      "value": "#060708",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#060708",
-        "type": "color"
-      },
-      "name": "slate-1900",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-1900"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-1900"
-      ]
-    },
-    "slate-2000": {
-      "value": "#020203",
-      "type": "color",
-      "filePath": "src/color/covalent.json",
-      "isSource": true,
-      "original": {
-        "value": "#020203",
-        "type": "color"
-      },
-      "name": "slate-2000",
-      "attributes": {
-        "category": "teradata-brand",
-        "type": "slate-2000"
-      },
-      "path": [
-        "teradata-brand",
-        "slate-2000"
       ]
     }
   },
@@ -7490,6 +6690,806 @@
       "path": [
         "material",
         "blue-grey-900"
+      ]
+    }
+  },
+  "teradata": {
+    "teal-50": {
+      "value": "#def9f8",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#def9f8",
+        "type": "color"
+      },
+      "name": "teal-50",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-50"
+      },
+      "path": [
+        "teradata",
+        "teal-50"
+      ]
+    },
+    "teal-100": {
+      "value": "#b2ebea",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#b2ebea",
+        "type": "color"
+      },
+      "name": "teal-100",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-100"
+      },
+      "path": [
+        "teradata",
+        "teal-100"
+      ]
+    },
+    "teal-200": {
+      "value": "#85dddc",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#85dddc",
+        "type": "color"
+      },
+      "name": "teal-200",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-200"
+      },
+      "path": [
+        "teradata",
+        "teal-200"
+      ]
+    },
+    "teal-300": {
+      "value": "#59cecd",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#59cecd",
+        "type": "color"
+      },
+      "name": "teal-300",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-300"
+      },
+      "path": [
+        "teradata",
+        "teal-300"
+      ]
+    },
+    "teal-400": {
+      "value": "#2cc0bf",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#2cc0bf",
+        "type": "color"
+      },
+      "name": "teal-400",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-400"
+      },
+      "path": [
+        "teradata",
+        "teal-400"
+      ]
+    },
+    "teal-500": {
+      "value": "#00b2b1",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#00b2b1",
+        "type": "color"
+      },
+      "name": "teal-500",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-500"
+      },
+      "path": [
+        "teradata",
+        "teal-500"
+      ]
+    },
+    "teal-600": {
+      "value": "#00a2a2",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#00a2a2",
+        "type": "color"
+      },
+      "name": "teal-600",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-600"
+      },
+      "path": [
+        "teradata",
+        "teal-600"
+      ]
+    },
+    "teal-700": {
+      "value": "#009392",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#009392",
+        "type": "color"
+      },
+      "name": "teal-700",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-700"
+      },
+      "path": [
+        "teradata",
+        "teal-700"
+      ]
+    },
+    "teal-800": {
+      "value": "#008383",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#008383",
+        "type": "color"
+      },
+      "name": "teal-800",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-800"
+      },
+      "path": [
+        "teradata",
+        "teal-800"
+      ]
+    },
+    "teal-900": {
+      "value": "#007373",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#007373",
+        "type": "color"
+      },
+      "name": "teal-900",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-900"
+      },
+      "path": [
+        "teradata",
+        "teal-900"
+      ]
+    },
+    "teal-1000": {
+      "value": "#016b6b",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#016b6b",
+        "type": "color"
+      },
+      "name": "teal-1000",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1000"
+      },
+      "path": [
+        "teradata",
+        "teal-1000"
+      ]
+    },
+    "teal-1100": {
+      "value": "#036464",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#036464",
+        "type": "color"
+      },
+      "name": "teal-1100",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1100"
+      },
+      "path": [
+        "teradata",
+        "teal-1100"
+      ]
+    },
+    "teal-1200": {
+      "value": "#045c5c",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#045c5c",
+        "type": "color"
+      },
+      "name": "teal-1200",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1200"
+      },
+      "path": [
+        "teradata",
+        "teal-1200"
+      ]
+    },
+    "teal-1300": {
+      "value": "#055454",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#055454",
+        "type": "color"
+      },
+      "name": "teal-1300",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1300"
+      },
+      "path": [
+        "teradata",
+        "teal-1300"
+      ]
+    },
+    "teal-1400": {
+      "value": "#074d4d",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#074d4d",
+        "type": "color"
+      },
+      "name": "teal-1400",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1400"
+      },
+      "path": [
+        "teradata",
+        "teal-1400"
+      ]
+    },
+    "teal-1500": {
+      "value": "#084545",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#084545",
+        "type": "color"
+      },
+      "name": "teal-1500",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1500"
+      },
+      "path": [
+        "teradata",
+        "teal-1500"
+      ]
+    },
+    "teal-1600": {
+      "value": "#0a3e3e",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0a3e3e",
+        "type": "color"
+      },
+      "name": "teal-1600",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1600"
+      },
+      "path": [
+        "teradata",
+        "teal-1600"
+      ]
+    },
+    "teal-1700": {
+      "value": "#0b3636",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0b3636",
+        "type": "color"
+      },
+      "name": "teal-1700",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1700"
+      },
+      "path": [
+        "teradata",
+        "teal-1700"
+      ]
+    },
+    "teal-1800": {
+      "value": "#0c2e2e",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0c2e2e",
+        "type": "color"
+      },
+      "name": "teal-1800",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1800"
+      },
+      "path": [
+        "teradata",
+        "teal-1800"
+      ]
+    },
+    "teal-1900": {
+      "value": "#0e2727",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0e2727",
+        "type": "color"
+      },
+      "name": "teal-1900",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-1900"
+      },
+      "path": [
+        "teradata",
+        "teal-1900"
+      ]
+    },
+    "teal-2000": {
+      "value": "#0f1f1f",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0f1f1f",
+        "type": "color"
+      },
+      "name": "teal-2000",
+      "attributes": {
+        "category": "teradata",
+        "type": "teal-2000"
+      },
+      "path": [
+        "teradata",
+        "teal-2000"
+      ]
+    },
+    "slate-50": {
+      "value": "#e3e7e8",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#e3e7e8",
+        "type": "color"
+      },
+      "name": "slate-50",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-50"
+      },
+      "path": [
+        "teradata",
+        "slate-50"
+      ]
+    },
+    "slate-100": {
+      "value": "#c9cfd1",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#c9cfd1",
+        "type": "color"
+      },
+      "name": "slate-100",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-100"
+      },
+      "path": [
+        "teradata",
+        "slate-100"
+      ]
+    },
+    "slate-200": {
+      "value": "#afb6b9",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#afb6b9",
+        "type": "color"
+      },
+      "name": "slate-200",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-200"
+      },
+      "path": [
+        "teradata",
+        "slate-200"
+      ]
+    },
+    "slate-300": {
+      "value": "#959ea2",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#959ea2",
+        "type": "color"
+      },
+      "name": "slate-300",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-300"
+      },
+      "path": [
+        "teradata",
+        "slate-300"
+      ]
+    },
+    "slate-400": {
+      "value": "#7b858a",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#7b858a",
+        "type": "color"
+      },
+      "name": "slate-400",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-400"
+      },
+      "path": [
+        "teradata",
+        "slate-400"
+      ]
+    },
+    "slate-500": {
+      "value": "#616d73",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#616d73",
+        "type": "color"
+      },
+      "name": "slate-500",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-500"
+      },
+      "path": [
+        "teradata",
+        "slate-500"
+      ]
+    },
+    "slate-600": {
+      "value": "#57646b",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#57646b",
+        "type": "color"
+      },
+      "name": "slate-600",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-600"
+      },
+      "path": [
+        "teradata",
+        "slate-600"
+      ]
+    },
+    "slate-700": {
+      "value": "#4d5b62",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#4d5b62",
+        "type": "color"
+      },
+      "name": "slate-700",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-700"
+      },
+      "path": [
+        "teradata",
+        "slate-700"
+      ]
+    },
+    "slate-800": {
+      "value": "#43515a",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#43515a",
+        "type": "color"
+      },
+      "name": "slate-800",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-800"
+      },
+      "path": [
+        "teradata",
+        "slate-800"
+      ]
+    },
+    "slate-900": {
+      "value": "#394851",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#394851",
+        "type": "color"
+      },
+      "name": "slate-900",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-900"
+      },
+      "path": [
+        "teradata",
+        "slate-900"
+      ]
+    },
+    "slate-1000": {
+      "value": "#2e3d42",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#2e3d42",
+        "type": "color"
+      },
+      "name": "slate-1000",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1000"
+      },
+      "path": [
+        "teradata",
+        "slate-1000"
+      ]
+    },
+    "slate-1100": {
+      "value": "#28353b",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#28353b",
+        "type": "color"
+      },
+      "name": "slate-1100",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1100"
+      },
+      "path": [
+        "teradata",
+        "slate-1100"
+      ]
+    },
+    "slate-1200": {
+      "value": "#222e33",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#222e33",
+        "type": "color"
+      },
+      "name": "slate-1200",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1200"
+      },
+      "path": [
+        "teradata",
+        "slate-1200"
+      ]
+    },
+    "slate-1300": {
+      "value": "#1f282e",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#1f282e",
+        "type": "color"
+      },
+      "name": "slate-1300",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1300"
+      },
+      "path": [
+        "teradata",
+        "slate-1300"
+      ]
+    },
+    "slate-1400": {
+      "value": "#1a2126",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#1a2126",
+        "type": "color"
+      },
+      "name": "slate-1400",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1400"
+      },
+      "path": [
+        "teradata",
+        "slate-1400"
+      ]
+    },
+    "slate-1500": {
+      "value": "#161c1f",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#161c1f",
+        "type": "color"
+      },
+      "name": "slate-1500",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1500"
+      },
+      "path": [
+        "teradata",
+        "slate-1500"
+      ]
+    },
+    "slate-1600": {
+      "value": "#14171a",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#14171a",
+        "type": "color"
+      },
+      "name": "slate-1600",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1600"
+      },
+      "path": [
+        "teradata",
+        "slate-1600"
+      ]
+    },
+    "slate-1700": {
+      "value": "#101314",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#101314",
+        "type": "color"
+      },
+      "name": "slate-1700",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1700"
+      },
+      "path": [
+        "teradata",
+        "slate-1700"
+      ]
+    },
+    "slate-1800": {
+      "value": "#0c0e0f",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#0c0e0f",
+        "type": "color"
+      },
+      "name": "slate-1800",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1800"
+      },
+      "path": [
+        "teradata",
+        "slate-1800"
+      ]
+    },
+    "slate-1900": {
+      "value": "#060708",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#060708",
+        "type": "color"
+      },
+      "name": "slate-1900",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-1900"
+      },
+      "path": [
+        "teradata",
+        "slate-1900"
+      ]
+    },
+    "slate-2000": {
+      "value": "#020203",
+      "type": "color",
+      "filePath": "src/color/teradata.json",
+      "isSource": true,
+      "original": {
+        "value": "#020203",
+        "type": "color"
+      },
+      "name": "slate-2000",
+      "attributes": {
+        "category": "teradata",
+        "type": "slate-2000"
+      },
+      "path": [
+        "teradata",
+        "slate-2000"
       ]
     }
   },

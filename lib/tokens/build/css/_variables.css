@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 09 May 2022 13:43:34 GMT
+ * Generated on Mon, 09 May 2022 14:11:52 GMT
  */
 
 :root {
@@ -102,48 +102,6 @@
   --td-dark-text-hint-on-dark: rgba(255, 255, 255, 0.5);
   --td-dark-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
   --td-dark-text-icon-on-dark: white;
-  --td-teradata-brand-teal-50: #def9f8;
-  --td-teradata-brand-teal-100: #b2ebea;
-  --td-teradata-brand-teal-200: #85dddc;
-  --td-teradata-brand-teal-300: #59cecd;
-  --td-teradata-brand-teal-400: #2cc0bf;
-  --td-teradata-brand-teal-500: #00b2b1;
-  --td-teradata-brand-teal-600: #00a2a2;
-  --td-teradata-brand-teal-700: #009392;
-  --td-teradata-brand-teal-800: #008383;
-  --td-teradata-brand-teal-900: #007373;
-  --td-teradata-brand-teal-1000: #016b6b;
-  --td-teradata-brand-teal-1100: #036464;
-  --td-teradata-brand-teal-1200: #045c5c;
-  --td-teradata-brand-teal-1300: #055454;
-  --td-teradata-brand-teal-1400: #074d4d;
-  --td-teradata-brand-teal-1500: #084545;
-  --td-teradata-brand-teal-1600: #0a3e3e;
-  --td-teradata-brand-teal-1700: #0b3636;
-  --td-teradata-brand-teal-1800: #0c2e2e;
-  --td-teradata-brand-teal-1900: #0e2727;
-  --td-teradata-brand-teal-2000: #0f1f1f;
-  --td-teradata-brand-slate-50: #e3e7e8;
-  --td-teradata-brand-slate-100: #c9cfd1;
-  --td-teradata-brand-slate-200: #afb6b9;
-  --td-teradata-brand-slate-300: #959ea2;
-  --td-teradata-brand-slate-400: #7b858a;
-  --td-teradata-brand-slate-500: #616d73;
-  --td-teradata-brand-slate-600: #57646b;
-  --td-teradata-brand-slate-700: #4d5b62;
-  --td-teradata-brand-slate-800: #43515a;
-  --td-teradata-brand-slate-900: #394851;
-  --td-teradata-brand-slate-1000: #2e3d42;
-  --td-teradata-brand-slate-1100: #28353b;
-  --td-teradata-brand-slate-1200: #222e33;
-  --td-teradata-brand-slate-1300: #1f282e;
-  --td-teradata-brand-slate-1400: #1a2126;
-  --td-teradata-brand-slate-1500: #161c1f;
-  --td-teradata-brand-slate-1600: #14171a;
-  --td-teradata-brand-slate-1700: #101314;
-  --td-teradata-brand-slate-1800: #0c0e0f;
-  --td-teradata-brand-slate-1900: #060708;
-  --td-teradata-brand-slate-2000: #020203;
   --td-material-red-50: #ffebee;
   --td-material-red-100: #ffcdd2;
   --td-material-red-200: #ef9a9a;
@@ -398,6 +356,48 @@
   --td-material-blue-grey-700: #455a64;
   --td-material-blue-grey-800: #37474f;
   --td-material-blue-grey-900: #263238;
+  --td-teradata-teal-50: #def9f8;
+  --td-teradata-teal-100: #b2ebea;
+  --td-teradata-teal-200: #85dddc;
+  --td-teradata-teal-300: #59cecd;
+  --td-teradata-teal-400: #2cc0bf;
+  --td-teradata-teal-500: #00b2b1;
+  --td-teradata-teal-600: #00a2a2;
+  --td-teradata-teal-700: #009392;
+  --td-teradata-teal-800: #008383;
+  --td-teradata-teal-900: #007373;
+  --td-teradata-teal-1000: #016b6b;
+  --td-teradata-teal-1100: #036464;
+  --td-teradata-teal-1200: #045c5c;
+  --td-teradata-teal-1300: #055454;
+  --td-teradata-teal-1400: #074d4d;
+  --td-teradata-teal-1500: #084545;
+  --td-teradata-teal-1600: #0a3e3e;
+  --td-teradata-teal-1700: #0b3636;
+  --td-teradata-teal-1800: #0c2e2e;
+  --td-teradata-teal-1900: #0e2727;
+  --td-teradata-teal-2000: #0f1f1f;
+  --td-teradata-slate-50: #e3e7e8;
+  --td-teradata-slate-100: #c9cfd1;
+  --td-teradata-slate-200: #afb6b9;
+  --td-teradata-slate-300: #959ea2;
+  --td-teradata-slate-400: #7b858a;
+  --td-teradata-slate-500: #616d73;
+  --td-teradata-slate-600: #57646b;
+  --td-teradata-slate-700: #4d5b62;
+  --td-teradata-slate-800: #43515a;
+  --td-teradata-slate-900: #394851;
+  --td-teradata-slate-1000: #2e3d42;
+  --td-teradata-slate-1100: #28353b;
+  --td-teradata-slate-1200: #222e33;
+  --td-teradata-slate-1300: #1f282e;
+  --td-teradata-slate-1400: #1a2126;
+  --td-teradata-slate-1500: #161c1f;
+  --td-teradata-slate-1600: #14171a;
+  --td-teradata-slate-1700: #101314;
+  --td-teradata-slate-1800: #0c0e0f;
+  --td-teradata-slate-1900: #060708;
+  --td-teradata-slate-2000: #020203;
   --td-size-font-small: 0.75rem; /* the small size of the font */
   --td-size-font-medium: 1rem; /* the medium size of the font */
   --td-size-font-large: 2rem; /* the large size of the font */
