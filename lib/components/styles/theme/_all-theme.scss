@@ -106,22 +106,22 @@
   --mdc-typography-body1-font-family: var(--mdc-typography-font-family);
   --mdc-typography-body1-font-size: #{map-get($typography, body1-font-size)};
   --mdc-typography-body1-font-weight: #{map-get($typography, body1-font-weight)};
-  --mdc-typography-body1-line-height: #{map-get($typography, headline1-line-height)};
+  --mdc-typography-body1-line-height: #{map-get($typography, body1-line-height)};
 
   --mdc-typography-body2-font-family: var(--mdc-typography-font-family);
   --mdc-typography-body2-font-size: #{map-get($typography, body2-font-size)};
   --mdc-typography-body2-font-weight: #{map-get($typography, body2-font-weight)};
-  --mdc-typography-body2-line-height: #{map-get($typography, headline1-line-height)};
+  --mdc-typography-body2-line-height: #{map-get($typography, body2-line-height)};
 
   --mdc-typography-button-font-family: #{map-get($typography, button-font-family)};
   --mdc-typography-button-font-size: #{map-get($typography, button-font-size)};
   --mdc-typography-button-font-weight: #{map-get($typography, button-font-weight)};
-  --mdc-typography-button-line-height: #{map-get($typography, headline1-line-height)};
+  --mdc-typography-button-line-height: #{map-get($typography, button-line-height)};
 
   --mdc-typography-caption-font-family: var(--mdc-typography-font-family);
   --mdc-typography-caption-font-size: #{map-get($typography, caption-font-size)};
   --mdc-typography-caption-font-weight: #{map-get($typography, caption-font-weight)};
-  --mdc-typography-caption-line-height: #{map-get($typography, headline1-line-height)};
+  --mdc-typography-caption-line-height: #{map-get($typography, caption-line-height)};
 
   // Text 
   --mdc-theme-text-primary-on-background: #{map-get($theme, text-primary-on-background)};
