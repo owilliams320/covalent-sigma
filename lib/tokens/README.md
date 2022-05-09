@@ -1,4 +1,4 @@
-# Basic Style Dictionary
+# Covalent Style Dictionary
 
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
 
@@ -49,7 +49,7 @@ If you open `config.json` you will see there are 5 platforms defined: scss, andr
 
 **SCSS**
 ```scss
-// variables.scss
+// _variables.scss
 $light-primary: #007373 !default;
 $light-secondary: #007373 !default;
 $light-error: #b11d00 !default;
@@ -64,7 +64,7 @@ $light-on-error: white !default;
 $light-divider: rgba(0, 0, 0, 0.12) !default;
 $light-background: #f5f5f5 !default;
 $light-surface: white !default;
-``
+```
 
 Pretty nifty! This shows a few things happening:
 1. The build system does a deep merge of all the token JSON files defined in the `source` attribute of `config.json`. This allows you to split up the token JSON files however you want. There are 2 JSON files with `color` as the top level key, but they get merged properly.
