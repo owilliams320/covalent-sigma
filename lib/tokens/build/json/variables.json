@@ -231,7 +231,7 @@
     "background": {
       "value": "#f5f5f5",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.grey-100}",
@@ -250,7 +250,7 @@
     "surface": {
       "value": "white",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "white",
@@ -269,7 +269,7 @@
     "surface-canvas": {
       "value": "#eee",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.grey-200}",
@@ -288,7 +288,7 @@
     "surface-primary": {
       "value": "#85dddc",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.teal-200}",
@@ -307,7 +307,7 @@
     "surface-primary-highlight": {
       "value": "rgba(#85dddc, 0.1)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-200}, 0.1)",
@@ -326,7 +326,7 @@
     "surface-primary-highlight-hover": {
       "value": "rgba(#85dddc, 0.2)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-200}, 0.2)",
@@ -345,7 +345,7 @@
     "surface-secondary": {
       "value": "#85dddc",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.teal-200}",
@@ -364,7 +364,7 @@
     "surface-secondary-highlight": {
       "value": "rgba(#85dddc, 0.1)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-200}, 0.1)",
@@ -383,7 +383,7 @@
     "surface-secondary-highlight-hover": {
       "value": "rgba(#85dddc, 0.2)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-200}, 0.2)",
@@ -402,7 +402,7 @@
     "surface-positive": {
       "value": "#a5d6a7",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.green-200}",
@@ -421,7 +421,7 @@
     "surface-positive-highlight": {
       "value": "rgba(#a5d6a7, 0.1)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.green-200}, 0.1)",
@@ -440,7 +440,7 @@
     "surface-positive-highlight-hover": {
       "value": "rgba(#a5d6a7, 0.2)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.green-200}, 0.2)",
@@ -459,7 +459,7 @@
     "surface-caution": {
       "value": "#ffb74d",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.orange-300}",
@@ -478,7 +478,7 @@
     "surface-caution-highlight": {
       "value": "rgba(#ffb74d, 0.1)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.orange-300}, 0.1)",
@@ -497,7 +497,7 @@
     "surface-caution-highlight-hover": {
       "value": "rgba(#ffb74d, 0.2)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.orange-300}, 0.2)",
@@ -516,7 +516,7 @@
     "surface-negative": {
       "value": "#e57373",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.red-300}",
@@ -535,7 +535,7 @@
     "surface-negative-highlight": {
       "value": "rgba(#e57373, 0.1)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.red-300}, 0.1)",
@@ -554,7 +554,7 @@
     "surface-negative-highlight-hover": {
       "value": "rgba(#e57373, 0.2)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.red-300}, 0.2)",
@@ -573,7 +573,7 @@
     "surface-neutral": {
       "value": "#bdbdbd",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{material.grey-400}",
@@ -592,7 +592,7 @@
     "surface-neutral-highlight": {
       "value": "rgba(#bdbdbd, 0.04)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.grey-400}, 0.04)",
@@ -611,7 +611,7 @@
     "surface-neutral-highlight-hover": {
       "value": "rgba(#bdbdbd, 0.08)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({material.grey-400}, 0.08)",
@@ -1164,7 +1164,7 @@
     "background": {
       "value": "#161c1f",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.slate-1500}",
@@ -1183,7 +1183,7 @@
     "surface": {
       "value": "#28353b",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.slate-1100}",
@@ -1202,7 +1202,7 @@
     "surface-canvas": {
       "value": "#101314",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.slate-1700}",
@@ -1221,7 +1221,7 @@
     "surface-primary": {
       "value": "#045c5c",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.teal-1200}",
@@ -1240,7 +1240,7 @@
     "surface-primary-highlight": {
       "value": "rgba(#045c5c, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-1200}, 0.4)",
@@ -1259,7 +1259,7 @@
     "surface-primary-highlight-hover": {
       "value": "rgba(#045c5c, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-1200}, 0.6)",
@@ -1278,7 +1278,7 @@
     "surface-secondary": {
       "value": "#045c5c",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.teal-1200}",
@@ -1297,7 +1297,7 @@
     "surface-secondary-highlight": {
       "value": "rgba(#045c5c, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-1200}, 0.4)",
@@ -1316,7 +1316,7 @@
     "surface-secondary-highlight-hover": {
       "value": "rgba(#045c5c, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.teal-1200}, 0.6)",
@@ -1335,7 +1335,7 @@
     "surface-positive": {
       "value": "#336033",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "#336033",
@@ -1354,7 +1354,7 @@
     "surface-positive-highlight": {
       "value": "rgba(#336033, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#336033, 0.4)",
@@ -1373,7 +1373,7 @@
     "surface-positive-highlight-hover": {
       "value": "rgba(#336033, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#336033, 0.6)",
@@ -1392,7 +1392,7 @@
     "surface-caution": {
       "value": "#704C16",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "#704C16",
@@ -1411,7 +1411,7 @@
     "surface-caution-highlight": {
       "value": "rgba(#704C16, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#704C16, 0.4)",
@@ -1430,7 +1430,7 @@
     "surface-caution-highlight-hover": {
       "value": "rgba(#704C16, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#704C16, 0.6)",
@@ -1449,7 +1449,7 @@
     "surface-negative": {
       "value": "#883E32",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "#883E32",
@@ -1468,7 +1468,7 @@
     "surface-negative-highlight": {
       "value": "rgba(#883E32, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#883E32, 0.4)",
@@ -1487,7 +1487,7 @@
     "surface-negative-highlight-hover": {
       "value": "rgba(#883E32, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba(#883E32, 0.6)",
@@ -1506,7 +1506,7 @@
     "surface-neutral": {
       "value": "#43515a",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "{teradata.slate-800}",
@@ -1525,7 +1525,7 @@
     "surface-neutral-highlight": {
       "value": "rgba(#43515a, 0.4)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.slate-800}, 0.4)",
@@ -1544,7 +1544,7 @@
     "surface-neutral-highlight-hover": {
       "value": "rgba(#43515a, 0.6)",
       "type": "color",
-      "filePath": "src/color/surface.json",
+      "filePath": "src/color/palettes/surface.json",
       "isSource": true,
       "original": {
         "value": "rgba({teradata.slate-800}, 0.6)",
@@ -1869,7 +1869,7 @@
     "red-50": {
       "value": "#ffebee",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffebee",
@@ -1888,7 +1888,7 @@
     "red-100": {
       "value": "#ffcdd2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffcdd2",
@@ -1907,7 +1907,7 @@
     "red-200": {
       "value": "#ef9a9a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ef9a9a",
@@ -1926,7 +1926,7 @@
     "red-300": {
       "value": "#e57373",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e57373",
@@ -1945,7 +1945,7 @@
     "red-400": {
       "value": "#ef5350",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ef5350",
@@ -1964,7 +1964,7 @@
     "red-500": {
       "value": "#f44336",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f44336",
@@ -1983,7 +1983,7 @@
     "red-600": {
       "value": "#e53935",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e53935",
@@ -2002,7 +2002,7 @@
     "red-700": {
       "value": "#d32f2f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d32f2f",
@@ -2021,7 +2021,7 @@
     "red-800": {
       "value": "#c62828",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c62828",
@@ -2040,7 +2040,7 @@
     "red-900": {
       "value": "#b71c1c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b71c1c",
@@ -2059,7 +2059,7 @@
     "red-a100": {
       "value": "#ff8a80",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff8a80",
@@ -2078,7 +2078,7 @@
     "red-a200": {
       "value": "#ff5252",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff5252",
@@ -2097,7 +2097,7 @@
     "red-a400": {
       "value": "#ff1744",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff1744",
@@ -2116,7 +2116,7 @@
     "red-a700": {
       "value": "#d50000",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d50000",
@@ -2135,7 +2135,7 @@
     "pink-50": {
       "value": "#fce4ec",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fce4ec",
@@ -2154,7 +2154,7 @@
     "pink-100": {
       "value": "#f8bbd0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f8bbd0",
@@ -2173,7 +2173,7 @@
     "pink-200": {
       "value": "#f48fb1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f48fb1",
@@ -2192,7 +2192,7 @@
     "pink-300": {
       "value": "#f06292",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f06292",
@@ -2211,7 +2211,7 @@
     "pink-400": {
       "value": "#ec407a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ec407a",
@@ -2230,7 +2230,7 @@
     "pink-500": {
       "value": "#e91e63",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e91e63",
@@ -2249,7 +2249,7 @@
     "pink-600": {
       "value": "#d81b60",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d81b60",
@@ -2268,7 +2268,7 @@
     "pink-700": {
       "value": "#c2185b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c2185b",
@@ -2287,7 +2287,7 @@
     "pink-800": {
       "value": "#ad1457",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ad1457",
@@ -2306,7 +2306,7 @@
     "pink-900": {
       "value": "#880e4f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#880e4f",
@@ -2325,7 +2325,7 @@
     "pink-a100": {
       "value": "#ff80ab",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff80ab",
@@ -2344,7 +2344,7 @@
     "pink-a200": {
       "value": "#ff4081",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff4081",
@@ -2363,7 +2363,7 @@
     "pink-a400": {
       "value": "#f50057",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f50057",
@@ -2382,7 +2382,7 @@
     "pink-a700": {
       "value": "#c51162",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c51162",
@@ -2401,7 +2401,7 @@
     "purple-50": {
       "value": "#f3e5f5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f3e5f5",
@@ -2420,7 +2420,7 @@
     "purple-100": {
       "value": "#e1bee7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e1bee7",
@@ -2439,7 +2439,7 @@
     "purple-200": {
       "value": "#ce93d8",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ce93d8",
@@ -2458,7 +2458,7 @@
     "purple-300": {
       "value": "#ba68c8",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ba68c8",
@@ -2477,7 +2477,7 @@
     "purple-400": {
       "value": "#ab47bc",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ab47bc",
@@ -2496,7 +2496,7 @@
     "purple-500": {
       "value": "#9c27b0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9c27b0",
@@ -2515,7 +2515,7 @@
     "purple-600": {
       "value": "#8e24aa",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#8e24aa",
@@ -2534,7 +2534,7 @@
     "purple-700": {
       "value": "#7b1fa2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#7b1fa2",
@@ -2553,7 +2553,7 @@
     "purple-800": {
       "value": "#6a1b9a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#6a1b9a",
@@ -2572,7 +2572,7 @@
     "purple-900": {
       "value": "#4a148c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4a148c",
@@ -2591,7 +2591,7 @@
     "purple-a100": {
       "value": "#ea80fc",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ea80fc",
@@ -2610,7 +2610,7 @@
     "purple-a200": {
       "value": "#e040fb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e040fb",
@@ -2629,7 +2629,7 @@
     "purple-a400": {
       "value": "#d500f9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d500f9",
@@ -2648,7 +2648,7 @@
     "purple-a700": {
       "value": "#a0f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#a0f",
@@ -2667,7 +2667,7 @@
     "deep-purple-50": {
       "value": "#ede7f6",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ede7f6",
@@ -2686,7 +2686,7 @@
     "deep-purple-100": {
       "value": "#d1c4e9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d1c4e9",
@@ -2705,7 +2705,7 @@
     "deep-purple-200": {
       "value": "#b39ddb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b39ddb",
@@ -2724,7 +2724,7 @@
     "deep-purple-300": {
       "value": "#9575cd",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9575cd",
@@ -2743,7 +2743,7 @@
     "deep-purple-400": {
       "value": "#7e57c2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#7e57c2",
@@ -2762,7 +2762,7 @@
     "deep-purple-500": {
       "value": "#673ab7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#673ab7",
@@ -2781,7 +2781,7 @@
     "deep-purple-600": {
       "value": "#5e35b1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#5e35b1",
@@ -2800,7 +2800,7 @@
     "deep-purple-700": {
       "value": "#512da8",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#512da8",
@@ -2819,7 +2819,7 @@
     "deep-purple-800": {
       "value": "#4527a0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4527a0",
@@ -2838,7 +2838,7 @@
     "deep-purple-900": {
       "value": "#311b92",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#311b92",
@@ -2857,7 +2857,7 @@
     "deep-purple-a100": {
       "value": "#b388ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b388ff",
@@ -2876,7 +2876,7 @@
     "deep-purple-a200": {
       "value": "#7c4dff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#7c4dff",
@@ -2895,7 +2895,7 @@
     "deep-purple-a400": {
       "value": "#651fff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#651fff",
@@ -2914,7 +2914,7 @@
     "deep-purple-a700": {
       "value": "#6200ea",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#6200ea",
@@ -2933,7 +2933,7 @@
     "indigo-50": {
       "value": "#e8eaf6",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e8eaf6",
@@ -2952,7 +2952,7 @@
     "indigo-100": {
       "value": "#c5cae9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c5cae9",
@@ -2971,7 +2971,7 @@
     "indigo-200": {
       "value": "#9fa8da",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9fa8da",
@@ -2990,7 +2990,7 @@
     "indigo-300": {
       "value": "#7986cb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#7986cb",
@@ -3009,7 +3009,7 @@
     "indigo-400": {
       "value": "#5c6bc0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#5c6bc0",
@@ -3028,7 +3028,7 @@
     "indigo-500": {
       "value": "#3f51b5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#3f51b5",
@@ -3047,7 +3047,7 @@
     "indigo-600": {
       "value": "#3949ab",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#3949ab",
@@ -3066,7 +3066,7 @@
     "indigo-700": {
       "value": "#303f9f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#303f9f",
@@ -3085,7 +3085,7 @@
     "indigo-800": {
       "value": "#283593",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#283593",
@@ -3104,7 +3104,7 @@
     "indigo-900": {
       "value": "#1a237e",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1a237e",
@@ -3123,7 +3123,7 @@
     "indigo-a100": {
       "value": "#8c9eff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#8c9eff",
@@ -3142,7 +3142,7 @@
     "indigo-a200": {
       "value": "#536dfe",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#536dfe",
@@ -3161,7 +3161,7 @@
     "indigo-a400": {
       "value": "#3d5afe",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#3d5afe",
@@ -3180,7 +3180,7 @@
     "indigo-a700": {
       "value": "#304ffe",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#304ffe",
@@ -3199,7 +3199,7 @@
     "blue-50": {
       "value": "#e3f2fd",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e3f2fd",
@@ -3218,7 +3218,7 @@
     "blue-100": {
       "value": "#bbdefb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#bbdefb",
@@ -3237,7 +3237,7 @@
     "blue-200": {
       "value": "#90caf9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#90caf9",
@@ -3256,7 +3256,7 @@
     "blue-300": {
       "value": "#64b5f6",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#64b5f6",
@@ -3275,7 +3275,7 @@
     "blue-400": {
       "value": "#42a5f5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#42a5f5",
@@ -3294,7 +3294,7 @@
     "blue-500": {
       "value": "#2196f3",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#2196f3",
@@ -3313,7 +3313,7 @@
     "blue-600": {
       "value": "#1e88e5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1e88e5",
@@ -3332,7 +3332,7 @@
     "blue-700": {
       "value": "#1976d2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1976d2",
@@ -3351,7 +3351,7 @@
     "blue-800": {
       "value": "#1565c0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1565c0",
@@ -3370,7 +3370,7 @@
     "blue-900": {
       "value": "#0d47a1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#0d47a1",
@@ -3389,7 +3389,7 @@
     "blue-a100": {
       "value": "#82b1ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#82b1ff",
@@ -3408,7 +3408,7 @@
     "blue-a200": {
       "value": "#448aff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#448aff",
@@ -3427,7 +3427,7 @@
     "blue-a400": {
       "value": "#2979ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#2979ff",
@@ -3446,7 +3446,7 @@
     "blue-a700": {
       "value": "#2962ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#2962ff",
@@ -3465,7 +3465,7 @@
     "light-blue-50": {
       "value": "#e1f5fe",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e1f5fe",
@@ -3484,7 +3484,7 @@
     "light-blue-100": {
       "value": "#b3e5fc",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b3e5fc",
@@ -3503,7 +3503,7 @@
     "light-blue-200": {
       "value": "#81d4fa",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#81d4fa",
@@ -3522,7 +3522,7 @@
     "light-blue-300": {
       "value": "#4fc3f7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4fc3f7",
@@ -3541,7 +3541,7 @@
     "light-blue-400": {
       "value": "#29b6f6",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#29b6f6",
@@ -3560,7 +3560,7 @@
     "light-blue-500": {
       "value": "#03a9f4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#03a9f4",
@@ -3579,7 +3579,7 @@
     "light-blue-600": {
       "value": "#039be5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#039be5",
@@ -3598,7 +3598,7 @@
     "light-blue-700": {
       "value": "#0288d1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#0288d1",
@@ -3617,7 +3617,7 @@
     "light-blue-800": {
       "value": "#0277bd",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#0277bd",
@@ -3636,7 +3636,7 @@
     "light-blue-900": {
       "value": "#01579b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#01579b",
@@ -3655,7 +3655,7 @@
     "light-blue-a100": {
       "value": "#80d8ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#80d8ff",
@@ -3674,7 +3674,7 @@
     "light-blue-a200": {
       "value": "#40c4ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#40c4ff",
@@ -3693,7 +3693,7 @@
     "light-blue-a400": {
       "value": "#00b0ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00b0ff",
@@ -3712,7 +3712,7 @@
     "light-blue-a700": {
       "value": "#0091ea",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#0091ea",
@@ -3731,7 +3731,7 @@
     "cyan-50": {
       "value": "#e0f7fa",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e0f7fa",
@@ -3750,7 +3750,7 @@
     "cyan-100": {
       "value": "#b2ebf2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b2ebf2",
@@ -3769,7 +3769,7 @@
     "cyan-200": {
       "value": "#80deea",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#80deea",
@@ -3788,7 +3788,7 @@
     "cyan-300": {
       "value": "#4dd0e1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4dd0e1",
@@ -3807,7 +3807,7 @@
     "cyan-400": {
       "value": "#26c6da",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#26c6da",
@@ -3826,7 +3826,7 @@
     "cyan-500": {
       "value": "#00bcd4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00bcd4",
@@ -3845,7 +3845,7 @@
     "cyan-600": {
       "value": "#00acc1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00acc1",
@@ -3864,7 +3864,7 @@
     "cyan-700": {
       "value": "#0097a7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#0097a7",
@@ -3883,7 +3883,7 @@
     "cyan-800": {
       "value": "#00838f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00838f",
@@ -3902,7 +3902,7 @@
     "cyan-900": {
       "value": "#006064",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#006064",
@@ -3921,7 +3921,7 @@
     "cyan-a100": {
       "value": "#84ffff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#84ffff",
@@ -3940,7 +3940,7 @@
     "cyan-a200": {
       "value": "#18ffff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#18ffff",
@@ -3959,7 +3959,7 @@
     "cyan-a400": {
       "value": "#00e5ff",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00e5ff",
@@ -3978,7 +3978,7 @@
     "cyan-a700": {
       "value": "#00b8d4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00b8d4",
@@ -3997,7 +3997,7 @@
     "teal-50": {
       "value": "#e0f2f1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e0f2f1",
@@ -4016,7 +4016,7 @@
     "teal-100": {
       "value": "#b2dfdb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b2dfdb",
@@ -4035,7 +4035,7 @@
     "teal-200": {
       "value": "#80cbc4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#80cbc4",
@@ -4054,7 +4054,7 @@
     "teal-300": {
       "value": "#4db6ac",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4db6ac",
@@ -4073,7 +4073,7 @@
     "teal-400": {
       "value": "#26a69a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#26a69a",
@@ -4092,7 +4092,7 @@
     "teal-500": {
       "value": "#009688",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#009688",
@@ -4111,7 +4111,7 @@
     "teal-600": {
       "value": "#00897b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00897b",
@@ -4130,7 +4130,7 @@
     "teal-700": {
       "value": "#00796b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00796b",
@@ -4149,7 +4149,7 @@
     "teal-800": {
       "value": "#00695c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00695c",
@@ -4168,7 +4168,7 @@
     "teal-900": {
       "value": "#004d40",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#004d40",
@@ -4187,7 +4187,7 @@
     "teal-a100": {
       "value": "#a7ffeb",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#a7ffeb",
@@ -4206,7 +4206,7 @@
     "teal-a200": {
       "value": "#64ffda",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#64ffda",
@@ -4225,7 +4225,7 @@
     "teal-a400": {
       "value": "#1de9b6",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1de9b6",
@@ -4244,7 +4244,7 @@
     "teal-a700": {
       "value": "#00bfa5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00bfa5",
@@ -4263,7 +4263,7 @@
     "green-50": {
       "value": "#e8f5e9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e8f5e9",
@@ -4282,7 +4282,7 @@
     "green-100": {
       "value": "#c8e6c9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c8e6c9",
@@ -4301,7 +4301,7 @@
     "green-200": {
       "value": "#a5d6a7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#a5d6a7",
@@ -4320,7 +4320,7 @@
     "green-300": {
       "value": "#81c784",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#81c784",
@@ -4339,7 +4339,7 @@
     "green-400": {
       "value": "#66bb6a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#66bb6a",
@@ -4358,7 +4358,7 @@
     "green-500": {
       "value": "#4caf50",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4caf50",
@@ -4377,7 +4377,7 @@
     "green-600": {
       "value": "#43a047",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#43a047",
@@ -4396,7 +4396,7 @@
     "green-700": {
       "value": "#388e3c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#388e3c",
@@ -4415,7 +4415,7 @@
     "green-800": {
       "value": "#2e7d32",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#2e7d32",
@@ -4434,7 +4434,7 @@
     "green-900": {
       "value": "#1b5e20",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#1b5e20",
@@ -4453,7 +4453,7 @@
     "green-a100": {
       "value": "#b9f6ca",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b9f6ca",
@@ -4472,7 +4472,7 @@
     "green-a200": {
       "value": "#69f0ae",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#69f0ae",
@@ -4491,7 +4491,7 @@
     "green-a400": {
       "value": "#00e676",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00e676",
@@ -4510,7 +4510,7 @@
     "green-a700": {
       "value": "#00c853",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#00c853",
@@ -4529,7 +4529,7 @@
     "light-green-50": {
       "value": "#f1f8e9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f1f8e9",
@@ -4548,7 +4548,7 @@
     "light-green-100": {
       "value": "#dcedc8",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#dcedc8",
@@ -4567,7 +4567,7 @@
     "light-green-200": {
       "value": "#c5e1a5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c5e1a5",
@@ -4586,7 +4586,7 @@
     "light-green-300": {
       "value": "#aed581",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#aed581",
@@ -4605,7 +4605,7 @@
     "light-green-400": {
       "value": "#9ccc65",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9ccc65",
@@ -4624,7 +4624,7 @@
     "light-green-500": {
       "value": "#8bc34a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#8bc34a",
@@ -4643,7 +4643,7 @@
     "light-green-600": {
       "value": "#7cb342",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#7cb342",
@@ -4662,7 +4662,7 @@
     "light-green-700": {
       "value": "#689f38",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#689f38",
@@ -4681,7 +4681,7 @@
     "light-green-800": {
       "value": "#558b2f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#558b2f",
@@ -4700,7 +4700,7 @@
     "light-green-900": {
       "value": "#33691e",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#33691e",
@@ -4719,7 +4719,7 @@
     "light-green-a100": {
       "value": "#ccff90",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ccff90",
@@ -4738,7 +4738,7 @@
     "light-green-a200": {
       "value": "#b2ff59",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b2ff59",
@@ -4757,7 +4757,7 @@
     "light-green-a400": {
       "value": "#76ff03",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#76ff03",
@@ -4776,7 +4776,7 @@
     "light-green-a700": {
       "value": "#64dd17",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#64dd17",
@@ -4795,7 +4795,7 @@
     "lime-50": {
       "value": "#f9fbe7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f9fbe7",
@@ -4814,7 +4814,7 @@
     "lime-100": {
       "value": "#f0f4c3",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f0f4c3",
@@ -4833,7 +4833,7 @@
     "lime-200": {
       "value": "#e6ee9c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e6ee9c",
@@ -4852,7 +4852,7 @@
     "lime-300": {
       "value": "#dce775",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#dce775",
@@ -4871,7 +4871,7 @@
     "lime-400": {
       "value": "#d4e157",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d4e157",
@@ -4890,7 +4890,7 @@
     "lime-500": {
       "value": "#cddc39",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#cddc39",
@@ -4909,7 +4909,7 @@
     "lime-600": {
       "value": "#c0ca33",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c0ca33",
@@ -4928,7 +4928,7 @@
     "lime-700": {
       "value": "#afb42b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#afb42b",
@@ -4947,7 +4947,7 @@
     "lime-800": {
       "value": "#9e9d24",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9e9d24",
@@ -4966,7 +4966,7 @@
     "lime-900": {
       "value": "#827717",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#827717",
@@ -4985,7 +4985,7 @@
     "lime-a100": {
       "value": "#f4ff81",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f4ff81",
@@ -5004,7 +5004,7 @@
     "lime-a200": {
       "value": "#eeff41",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#eeff41",
@@ -5023,7 +5023,7 @@
     "lime-a400": {
       "value": "#c6ff00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#c6ff00",
@@ -5042,7 +5042,7 @@
     "lime-a700": {
       "value": "#aeea00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#aeea00",
@@ -5061,7 +5061,7 @@
     "yellow-50": {
       "value": "#fffde7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fffde7",
@@ -5080,7 +5080,7 @@
     "yellow-100": {
       "value": "#fff9c4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fff9c4",
@@ -5099,7 +5099,7 @@
     "yellow-200": {
       "value": "#fff59d",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fff59d",
@@ -5118,7 +5118,7 @@
     "yellow-300": {
       "value": "#fff176",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fff176",
@@ -5137,7 +5137,7 @@
     "yellow-400": {
       "value": "#ffee58",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffee58",
@@ -5156,7 +5156,7 @@
     "yellow-500": {
       "value": "#ffeb3b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffeb3b",
@@ -5175,7 +5175,7 @@
     "yellow-600": {
       "value": "#fdd835",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fdd835",
@@ -5194,7 +5194,7 @@
     "yellow-700": {
       "value": "#fbc02d",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fbc02d",
@@ -5213,7 +5213,7 @@
     "yellow-800": {
       "value": "#f9a825",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f9a825",
@@ -5232,7 +5232,7 @@
     "yellow-900": {
       "value": "#f57f17",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f57f17",
@@ -5251,7 +5251,7 @@
     "yellow-a100": {
       "value": "#ffff8d",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffff8d",
@@ -5270,7 +5270,7 @@
     "yellow-a200": {
       "value": "#ff0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff0",
@@ -5289,7 +5289,7 @@
     "yellow-a400": {
       "value": "#ffea00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffea00",
@@ -5308,7 +5308,7 @@
     "yellow-a700": {
       "value": "#ffd600",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffd600",
@@ -5327,7 +5327,7 @@
     "amber-50": {
       "value": "#fff8e1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fff8e1",
@@ -5346,7 +5346,7 @@
     "amber-100": {
       "value": "#ffecb3",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffecb3",
@@ -5365,7 +5365,7 @@
     "amber-200": {
       "value": "#ffe082",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffe082",
@@ -5384,7 +5384,7 @@
     "amber-300": {
       "value": "#ffd54f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffd54f",
@@ -5403,7 +5403,7 @@
     "amber-400": {
       "value": "#ffca28",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffca28",
@@ -5422,7 +5422,7 @@
     "amber-500": {
       "value": "#ffc107",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffc107",
@@ -5441,7 +5441,7 @@
     "amber-600": {
       "value": "#ffb300",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffb300",
@@ -5460,7 +5460,7 @@
     "amber-700": {
       "value": "#ffa000",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffa000",
@@ -5479,7 +5479,7 @@
     "amber-800": {
       "value": "#ff8f00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff8f00",
@@ -5498,7 +5498,7 @@
     "amber-900": {
       "value": "#ff6f00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff6f00",
@@ -5517,7 +5517,7 @@
     "amber-a100": {
       "value": "#ffe57f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffe57f",
@@ -5536,7 +5536,7 @@
     "amber-a200": {
       "value": "#ffd740",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffd740",
@@ -5555,7 +5555,7 @@
     "amber-a400": {
       "value": "#ffc400",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffc400",
@@ -5574,7 +5574,7 @@
     "amber-a700": {
       "value": "#ffab00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffab00",
@@ -5593,7 +5593,7 @@
     "orange-50": {
       "value": "#fff3e0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fff3e0",
@@ -5612,7 +5612,7 @@
     "orange-100": {
       "value": "#ffe0b2",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffe0b2",
@@ -5631,7 +5631,7 @@
     "orange-200": {
       "value": "#ffcc80",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffcc80",
@@ -5650,7 +5650,7 @@
     "orange-300": {
       "value": "#ffb74d",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffb74d",
@@ -5669,7 +5669,7 @@
     "orange-400": {
       "value": "#ffa726",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffa726",
@@ -5688,7 +5688,7 @@
     "orange-500": {
       "value": "#ff9800",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff9800",
@@ -5707,7 +5707,7 @@
     "orange-600": {
       "value": "#fb8c00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fb8c00",
@@ -5726,7 +5726,7 @@
     "orange-700": {
       "value": "#f57c00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f57c00",
@@ -5745,7 +5745,7 @@
     "orange-800": {
       "value": "#ef6c00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ef6c00",
@@ -5764,7 +5764,7 @@
     "orange-900": {
       "value": "#e65100",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e65100",
@@ -5783,7 +5783,7 @@
     "orange-a100": {
       "value": "#ffd180",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffd180",
@@ -5802,7 +5802,7 @@
     "orange-a200": {
       "value": "#ffab40",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffab40",
@@ -5821,7 +5821,7 @@
     "orange-a400": {
       "value": "#ff9100",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff9100",
@@ -5840,7 +5840,7 @@
     "orange-a700": {
       "value": "#ff6d00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff6d00",
@@ -5859,7 +5859,7 @@
     "deep-orange-50": {
       "value": "#fbe9e7",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fbe9e7",
@@ -5878,7 +5878,7 @@
     "deep-orange-100": {
       "value": "#ffccbc",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffccbc",
@@ -5897,7 +5897,7 @@
     "deep-orange-200": {
       "value": "#ffab91",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ffab91",
@@ -5916,7 +5916,7 @@
     "deep-orange-300": {
       "value": "#ff8a65",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff8a65",
@@ -5935,7 +5935,7 @@
     "deep-orange-400": {
       "value": "#ff7043",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff7043",
@@ -5954,7 +5954,7 @@
     "deep-orange-500": {
       "value": "#ff5722",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff5722",
@@ -5973,7 +5973,7 @@
     "deep-orange-600": {
       "value": "#f4511e",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f4511e",
@@ -5992,7 +5992,7 @@
     "deep-orange-700": {
       "value": "#e64a19",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e64a19",
@@ -6011,7 +6011,7 @@
     "deep-orange-800": {
       "value": "#d84315",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d84315",
@@ -6030,7 +6030,7 @@
     "deep-orange-900": {
       "value": "#bf360c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#bf360c",
@@ -6049,7 +6049,7 @@
     "deep-orange-a100": {
       "value": "#ff9e80",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff9e80",
@@ -6068,7 +6068,7 @@
     "deep-orange-a200": {
       "value": "#ff6e40",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff6e40",
@@ -6087,7 +6087,7 @@
     "deep-orange-a400": {
       "value": "#ff3d00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#ff3d00",
@@ -6106,7 +6106,7 @@
     "deep-orange-a700": {
       "value": "#dd2c00",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#dd2c00",
@@ -6125,7 +6125,7 @@
     "brown-50": {
       "value": "#efebe9",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#efebe9",
@@ -6144,7 +6144,7 @@
     "brown-100": {
       "value": "#d7ccc8",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#d7ccc8",
@@ -6163,7 +6163,7 @@
     "brown-200": {
       "value": "#bcaaa4",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#bcaaa4",
@@ -6182,7 +6182,7 @@
     "brown-300": {
       "value": "#a1887f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#a1887f",
@@ -6201,7 +6201,7 @@
     "brown-400": {
       "value": "#8d6e63",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#8d6e63",
@@ -6220,7 +6220,7 @@
     "brown-500": {
       "value": "#795548",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#795548",
@@ -6239,7 +6239,7 @@
     "brown-600": {
       "value": "#6d4c41",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#6d4c41",
@@ -6258,7 +6258,7 @@
     "brown-700": {
       "value": "#5d4037",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#5d4037",
@@ -6277,7 +6277,7 @@
     "brown-800": {
       "value": "#4e342e",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#4e342e",
@@ -6296,7 +6296,7 @@
     "brown-900": {
       "value": "#3e2723",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#3e2723",
@@ -6315,7 +6315,7 @@
     "grey-50": {
       "value": "#fafafa",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#fafafa",
@@ -6334,7 +6334,7 @@
     "grey-100": {
       "value": "#f5f5f5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#f5f5f5",
@@ -6353,7 +6353,7 @@
     "grey-200": {
       "value": "#eee",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#eee",
@@ -6372,7 +6372,7 @@
     "grey-300": {
       "value": "#e0e0e0",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#e0e0e0",
@@ -6391,7 +6391,7 @@
     "grey-400": {
       "value": "#bdbdbd",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#bdbdbd",
@@ -6410,7 +6410,7 @@
     "grey-500": {
       "value": "#9e9e9e",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#9e9e9e",
@@ -6429,7 +6429,7 @@
     "grey-600": {
       "value": "#757575",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#757575",
@@ -6448,7 +6448,7 @@
     "grey-700": {
       "value": "#616161",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#616161",
@@ -6467,7 +6467,7 @@
     "grey-800": {
       "value": "#424242",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#424242",
@@ -6486,7 +6486,7 @@
     "grey-900": {
       "value": "#212121",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#212121",
@@ -6505,7 +6505,7 @@
     "blue-grey-50": {
       "value": "#eceff1",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#eceff1",
@@ -6524,7 +6524,7 @@
     "blue-grey-100": {
       "value": "#cfd8dc",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#cfd8dc",
@@ -6543,7 +6543,7 @@
     "blue-grey-200": {
       "value": "#b0bec5",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#b0bec5",
@@ -6562,7 +6562,7 @@
     "blue-grey-300": {
       "value": "#90a4ae",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#90a4ae",
@@ -6581,7 +6581,7 @@
     "blue-grey-400": {
       "value": "#78909c",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#78909c",
@@ -6600,7 +6600,7 @@
     "blue-grey-500": {
       "value": "#607d8b",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#607d8b",
@@ -6619,7 +6619,7 @@
     "blue-grey-600": {
       "value": "#546e7a",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#546e7a",
@@ -6638,7 +6638,7 @@
     "blue-grey-700": {
       "value": "#455a64",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#455a64",
@@ -6657,7 +6657,7 @@
     "blue-grey-800": {
       "value": "#37474f",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#37474f",
@@ -6676,7 +6676,7 @@
     "blue-grey-900": {
       "value": "#263238",
       "type": "color",
-      "filePath": "src/color/material.json",
+      "filePath": "src/color/palettes/material.json",
       "isSource": true,
       "original": {
         "value": "#263238",
