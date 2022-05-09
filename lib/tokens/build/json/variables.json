@@ -7493,92 +7493,937 @@
       ]
     }
   },
-  "size": {
-    "font": {
-      "small": {
-        "value": "0.75",
-        "comment": "the small size of the font",
-        "filePath": "src/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "0.75",
-          "comment": "the small size of the font"
-        },
-        "name": "small",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "small"
-        },
-        "path": [
-          "size",
-          "font",
-          "small"
-        ]
+  "typography": {
+    "font-family": {
+      "value": "Arial, sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "Arial, sans-serif",
+        "type": "fontFamilies"
       },
-      "medium": {
-        "value": "1",
-        "comment": "the medium size of the font",
-        "filePath": "src/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "1",
-          "comment": "the medium size of the font"
-        },
-        "name": "medium",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "medium"
-        },
-        "path": [
-          "size",
-          "font",
-          "medium"
-        ]
+      "name": "font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "font-family"
       },
-      "large": {
-        "value": "2",
-        "comment": "the large size of the font",
-        "filePath": "src/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "2",
-          "comment": "the large size of the font"
-        },
-        "name": "large",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "large"
-        },
-        "path": [
-          "size",
-          "font",
-          "large"
-        ]
+      "path": [
+        "typography",
+        "font-family"
+      ]
+    },
+    "headline1-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
-      "base": {
-        "value": "1",
-        "comment": "the base size of the font",
-        "filePath": "src/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "{size.font.medium.value}",
-          "comment": "the base size of the font"
-        },
-        "name": "base",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "base"
-        },
-        "path": [
-          "size",
-          "font",
-          "base"
-        ]
-      }
+      "name": "headline1-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline1-font-family"
+      },
+      "path": [
+        "typography",
+        "headline1-font-family"
+      ]
+    },
+    "headline1-font-size": {
+      "value": "96px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "96px",
+        "type": "fontSizes"
+      },
+      "name": "headline1-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline1-font-size"
+      },
+      "path": [
+        "typography",
+        "headline1-font-size"
+      ]
+    },
+    "headline1-font-weight": {
+      "value": "500",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "name": "headline1-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline1-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline1-font-weight"
+      ]
+    },
+    "headline1-line-height": {
+      "value": "112px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "112px",
+        "type": "lineHeights"
+      },
+      "name": "headline1-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline1-line-height"
+      },
+      "path": [
+        "typography",
+        "headline1-line-height"
+      ]
+    },
+    "headline2-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "headline2-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline2-font-family"
+      },
+      "path": [
+        "typography",
+        "headline2-font-family"
+      ]
+    },
+    "headline2-font-size": {
+      "value": "60px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "60px",
+        "type": "fontSizes"
+      },
+      "name": "headline2-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline2-font-size"
+      },
+      "path": [
+        "typography",
+        "headline2-font-size"
+      ]
+    },
+    "headline2-font-weight": {
+      "value": "600",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "name": "headline2-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline2-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline2-font-weight"
+      ]
+    },
+    "headline2-line-height": {
+      "value": "84px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "84px",
+        "type": "lineHeights"
+      },
+      "name": "headline2-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline2-line-height"
+      },
+      "path": [
+        "typography",
+        "headline2-line-height"
+      ]
+    },
+    "headline3-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "headline3-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline3-font-family"
+      },
+      "path": [
+        "typography",
+        "headline3-font-family"
+      ]
+    },
+    "headline3-font-size": {
+      "value": "48px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "48px",
+        "type": "fontSizes"
+      },
+      "name": "headline3-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline3-font-size"
+      },
+      "path": [
+        "typography",
+        "headline3-font-size"
+      ]
+    },
+    "headline3-font-weight": {
+      "value": "600",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "name": "headline3-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline3-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline3-font-weight"
+      ]
+    },
+    "headline3-line-height": {
+      "value": "64px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "64px",
+        "type": "lineHeights"
+      },
+      "name": "headline3-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline3-line-height"
+      },
+      "path": [
+        "typography",
+        "headline3-line-height"
+      ]
+    },
+    "headline4-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "headline4-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline4-font-family"
+      },
+      "path": [
+        "typography",
+        "headline4-font-family"
+      ]
+    },
+    "headline4-font-size": {
+      "value": "34px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "34px",
+        "type": "fontSizes"
+      },
+      "name": "headline4-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline4-font-size"
+      },
+      "path": [
+        "typography",
+        "headline4-font-size"
+      ]
+    },
+    "headline4-font-weight": {
+      "value": "700",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "name": "headline4-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline4-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline4-font-weight"
+      ]
+    },
+    "headline4-line-height": {
+      "value": "48px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "48px",
+        "type": "lineHeights"
+      },
+      "name": "headline4-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline4-line-height"
+      },
+      "path": [
+        "typography",
+        "headline4-line-height"
+      ]
+    },
+    "headline5-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "headline5-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline5-font-family"
+      },
+      "path": [
+        "typography",
+        "headline5-font-family"
+      ]
+    },
+    "headline5-font-size": {
+      "value": "24px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "24px",
+        "type": "fontSizes"
+      },
+      "name": "headline5-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline5-font-size"
+      },
+      "path": [
+        "typography",
+        "headline5-font-size"
+      ]
+    },
+    "headline5-font-weight": {
+      "value": "700",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "name": "headline5-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline5-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline5-font-weight"
+      ]
+    },
+    "headline5-line-height": {
+      "value": "36px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "36px",
+        "type": "lineHeights"
+      },
+      "name": "headline5-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline5-line-height"
+      },
+      "path": [
+        "typography",
+        "headline5-line-height"
+      ]
+    },
+    "headline6-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "headline6-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "headline6-font-family"
+      },
+      "path": [
+        "typography",
+        "headline6-font-family"
+      ]
+    },
+    "headline6-font-size": {
+      "value": "20px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "20px",
+        "type": "fontSizes"
+      },
+      "name": "headline6-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "headline6-font-size"
+      },
+      "path": [
+        "typography",
+        "headline6-font-size"
+      ]
+    },
+    "headline6-font-weight": {
+      "value": "700",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "name": "headline6-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "headline6-font-weight"
+      },
+      "path": [
+        "typography",
+        "headline6-font-weight"
+      ]
+    },
+    "headline6-line-height": {
+      "value": "28px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "28px",
+        "type": "lineHeights"
+      },
+      "name": "headline6-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "headline6-line-height"
+      },
+      "path": [
+        "typography",
+        "headline6-line-height"
+      ]
+    },
+    "subtitle1-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "subtitle1-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle1-font-family"
+      },
+      "path": [
+        "typography",
+        "subtitle1-font-family"
+      ]
+    },
+    "subtitle1-font-size": {
+      "value": "14px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "name": "subtitle1-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle1-font-size"
+      },
+      "path": [
+        "typography",
+        "subtitle1-font-size"
+      ]
+    },
+    "subtitle1-font-weight": {
+      "value": "600",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "name": "subtitle1-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle1-font-weight"
+      },
+      "path": [
+        "typography",
+        "subtitle1-font-weight"
+      ]
+    },
+    "subtitle1-line-height": {
+      "value": "20px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "20px",
+        "type": "lineHeights"
+      },
+      "name": "subtitle1-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle1-line-height"
+      },
+      "path": [
+        "typography",
+        "subtitle1-line-height"
+      ]
+    },
+    "subtitle2-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "subtitle2-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle2-font-family"
+      },
+      "path": [
+        "typography",
+        "subtitle2-font-family"
+      ]
+    },
+    "subtitle2-font-size": {
+      "value": "16px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "name": "subtitle2-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle2-font-size"
+      },
+      "path": [
+        "typography",
+        "subtitle2-font-size"
+      ]
+    },
+    "subtitle2-font-weight": {
+      "value": "600",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "name": "subtitle2-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle2-font-weight"
+      },
+      "path": [
+        "typography",
+        "subtitle2-font-weight"
+      ]
+    },
+    "subtitle2-line-height": {
+      "value": "24px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "name": "subtitle2-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "subtitle2-line-height"
+      },
+      "path": [
+        "typography",
+        "subtitle2-line-height"
+      ]
+    },
+    "body1-font-family": {
+      "value": "Arial, sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
+      },
+      "name": "body1-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "body1-font-family"
+      },
+      "path": [
+        "typography",
+        "body1-font-family"
+      ]
+    },
+    "body1-font-size": {
+      "value": "16px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "name": "body1-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "body1-font-size"
+      },
+      "path": [
+        "typography",
+        "body1-font-size"
+      ]
+    },
+    "body1-font-weight": {
+      "value": "400",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "name": "body1-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "body1-font-weight"
+      },
+      "path": [
+        "typography",
+        "body1-font-weight"
+      ]
+    },
+    "body1-line-height": {
+      "value": "24px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "name": "body1-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "body1-line-height"
+      },
+      "path": [
+        "typography",
+        "body1-line-height"
+      ]
+    },
+    "body2-font-family": {
+      "value": "Arial, sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
+      },
+      "name": "body2-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "body2-font-family"
+      },
+      "path": [
+        "typography",
+        "body2-font-family"
+      ]
+    },
+    "body2-font-size": {
+      "value": "14px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "name": "body2-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "body2-font-size"
+      },
+      "path": [
+        "typography",
+        "body2-font-size"
+      ]
+    },
+    "body2-font-weight": {
+      "value": "400",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "name": "body2-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "body2-font-weight"
+      },
+      "path": [
+        "typography",
+        "body2-font-weight"
+      ]
+    },
+    "body2-line-height": {
+      "value": "20px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "20px",
+        "type": "lineHeights"
+      },
+      "name": "body2-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "body2-line-height"
+      },
+      "path": [
+        "typography",
+        "body2-line-height"
+      ]
+    },
+    "button-font-family": {
+      "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
+      },
+      "name": "button-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "button-font-family"
+      },
+      "path": [
+        "typography",
+        "button-font-family"
+      ]
+    },
+    "button-font-size": {
+      "value": "14px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "name": "button-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "button-font-size"
+      },
+      "path": [
+        "typography",
+        "button-font-size"
+      ]
+    },
+    "button-font-weight": {
+      "value": "600",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "name": "button-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "button-font-weight"
+      },
+      "path": [
+        "typography",
+        "button-font-weight"
+      ]
+    },
+    "button-line-height": {
+      "value": "16px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "name": "button-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "button-line-height"
+      },
+      "path": [
+        "typography",
+        "button-line-height"
+      ]
+    },
+    "caption-font-family": {
+      "value": "Arial, sans-serif",
+      "type": "fontFamilies",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
+      },
+      "name": "caption-font-family",
+      "attributes": {
+        "category": "typography",
+        "type": "caption-font-family"
+      },
+      "path": [
+        "typography",
+        "caption-font-family"
+      ]
+    },
+    "caption-font-size": {
+      "value": "12px",
+      "type": "fontSizes",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "name": "caption-font-size",
+      "attributes": {
+        "category": "typography",
+        "type": "caption-font-size"
+      },
+      "path": [
+        "typography",
+        "caption-font-size"
+      ]
+    },
+    "caption-font-weight": {
+      "value": "400",
+      "type": "fontWeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "name": "caption-font-weight",
+      "attributes": {
+        "category": "typography",
+        "type": "caption-font-weight"
+      },
+      "path": [
+        "typography",
+        "caption-font-weight"
+      ]
+    },
+    "caption-line-height": {
+      "value": "16px",
+      "type": "lineHeights",
+      "filePath": "src/typography/typography.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "name": "caption-line-height",
+      "attributes": {
+        "category": "typography",
+        "type": "caption-line-height"
+      },
+      "path": [
+        "typography",
+        "caption-line-height"
+      ]
     }
   }
 }

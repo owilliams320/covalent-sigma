@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 09 May 2022 14:22:36 GMT
+ * Generated on Mon, 09 May 2022 16:30:21 GMT
  */
 
 $light-primary: #007373 !default;
@@ -398,10 +398,55 @@ $teradata-slate-1700: #101314 !default;
 $teradata-slate-1800: #0c0e0f !default;
 $teradata-slate-1900: #060708 !default;
 $teradata-slate-2000: #020203 !default;
-$size-font-small: 0.75rem !default; // the small size of the font
-$size-font-medium: 1rem !default; // the medium size of the font
-$size-font-large: 2rem !default; // the large size of the font
-$size-font-base: 1rem !default; // the base size of the font
+$typography-font-family: Arial, sans-serif !default;
+$typography-headline1-font-family: 'Poppins', sans-serif !default;
+$typography-headline1-font-size: 96px !default;
+$typography-headline1-font-weight: 500 !default;
+$typography-headline1-line-height: 112px !default;
+$typography-headline2-font-family: 'Poppins', sans-serif !default;
+$typography-headline2-font-size: 60px !default;
+$typography-headline2-font-weight: 600 !default;
+$typography-headline2-line-height: 84px !default;
+$typography-headline3-font-family: 'Poppins', sans-serif !default;
+$typography-headline3-font-size: 48px !default;
+$typography-headline3-font-weight: 600 !default;
+$typography-headline3-line-height: 64px !default;
+$typography-headline4-font-family: 'Poppins', sans-serif !default;
+$typography-headline4-font-size: 34px !default;
+$typography-headline4-font-weight: 700 !default;
+$typography-headline4-line-height: 48px !default;
+$typography-headline5-font-family: 'Poppins', sans-serif !default;
+$typography-headline5-font-size: 24px !default;
+$typography-headline5-font-weight: 700 !default;
+$typography-headline5-line-height: 36px !default;
+$typography-headline6-font-family: 'Poppins', sans-serif !default;
+$typography-headline6-font-size: 20px !default;
+$typography-headline6-font-weight: 700 !default;
+$typography-headline6-line-height: 28px !default;
+$typography-subtitle1-font-family: 'Poppins', sans-serif !default;
+$typography-subtitle1-font-size: 14px !default;
+$typography-subtitle1-font-weight: 600 !default;
+$typography-subtitle1-line-height: 20px !default;
+$typography-subtitle2-font-family: 'Poppins', sans-serif !default;
+$typography-subtitle2-font-size: 16px !default;
+$typography-subtitle2-font-weight: 600 !default;
+$typography-subtitle2-line-height: 24px !default;
+$typography-body1-font-family: Arial, sans-serif !default;
+$typography-body1-font-size: 16px !default;
+$typography-body1-font-weight: 400 !default;
+$typography-body1-line-height: 24px !default;
+$typography-body2-font-family: Arial, sans-serif !default;
+$typography-body2-font-size: 14px !default;
+$typography-body2-font-weight: 400 !default;
+$typography-body2-line-height: 20px !default;
+$typography-button-font-family: 'Poppins', sans-serif !default;
+$typography-button-font-size: 14px !default;
+$typography-button-font-weight: 600 !default;
+$typography-button-line-height: 16px !default;
+$typography-caption-font-family: Arial, sans-serif !default;
+$typography-caption-font-size: 12px !default;
+$typography-caption-font-weight: 400 !default;
+$typography-caption-line-height: 16px !default;
 
 $tokens: (
   'light': (
@@ -806,12 +851,55 @@ $tokens: (
     'slate-1900': $teradata-slate-1900,
     'slate-2000': $teradata-slate-2000
   ),
-  'size': (
-    'font': (
-      'small': $size-font-small,
-      'medium': $size-font-medium,
-      'large': $size-font-large,
-      'base': $size-font-base
-    )
+  'typography': (
+    'font-family': $typography-font-family,
+    'headline1-font-family': $typography-headline1-font-family,
+    'headline1-font-size': $typography-headline1-font-size,
+    'headline1-font-weight': $typography-headline1-font-weight,
+    'headline1-line-height': $typography-headline1-line-height,
+    'headline2-font-family': $typography-headline2-font-family,
+    'headline2-font-size': $typography-headline2-font-size,
+    'headline2-font-weight': $typography-headline2-font-weight,
+    'headline2-line-height': $typography-headline2-line-height,
+    'headline3-font-family': $typography-headline3-font-family,
+    'headline3-font-size': $typography-headline3-font-size,
+    'headline3-font-weight': $typography-headline3-font-weight,
+    'headline3-line-height': $typography-headline3-line-height,
+    'headline4-font-family': $typography-headline4-font-family,
+    'headline4-font-size': $typography-headline4-font-size,
+    'headline4-font-weight': $typography-headline4-font-weight,
+    'headline4-line-height': $typography-headline4-line-height,
+    'headline5-font-family': $typography-headline5-font-family,
+    'headline5-font-size': $typography-headline5-font-size,
+    'headline5-font-weight': $typography-headline5-font-weight,
+    'headline5-line-height': $typography-headline5-line-height,
+    'headline6-font-family': $typography-headline6-font-family,
+    'headline6-font-size': $typography-headline6-font-size,
+    'headline6-font-weight': $typography-headline6-font-weight,
+    'headline6-line-height': $typography-headline6-line-height,
+    'subtitle1-font-family': $typography-subtitle1-font-family,
+    'subtitle1-font-size': $typography-subtitle1-font-size,
+    'subtitle1-font-weight': $typography-subtitle1-font-weight,
+    'subtitle1-line-height': $typography-subtitle1-line-height,
+    'subtitle2-font-family': $typography-subtitle2-font-family,
+    'subtitle2-font-size': $typography-subtitle2-font-size,
+    'subtitle2-font-weight': $typography-subtitle2-font-weight,
+    'subtitle2-line-height': $typography-subtitle2-line-height,
+    'body1-font-family': $typography-body1-font-family,
+    'body1-font-size': $typography-body1-font-size,
+    'body1-font-weight': $typography-body1-font-weight,
+    'body1-line-height': $typography-body1-line-height,
+    'body2-font-family': $typography-body2-font-family,
+    'body2-font-size': $typography-body2-font-size,
+    'body2-font-weight': $typography-body2-font-weight,
+    'body2-line-height': $typography-body2-line-height,
+    'button-font-family': $typography-button-font-family,
+    'button-font-size': $typography-button-font-size,
+    'button-font-weight': $typography-button-font-weight,
+    'button-line-height': $typography-button-line-height,
+    'caption-font-family': $typography-caption-font-family,
+    'caption-font-size': $typography-caption-font-size,
+    'caption-font-weight': $typography-caption-font-weight,
+    'caption-line-height': $typography-caption-line-height
   )
 );
