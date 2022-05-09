@@ -7496,10 +7496,12 @@
   "typography": {
     "font-family": {
       "value": "Arial, sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "Arial, sans-serif"
+        "value": "Arial, sans-serif",
+        "type": "fontFamilies"
       },
       "name": "font-family",
       "attributes": {
@@ -7513,10 +7515,12 @@
     },
     "headline1-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline1-font-family",
       "attributes": {
@@ -7530,10 +7534,12 @@
     },
     "headline1-font-size": {
       "value": "96px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "96px"
+        "value": "96px",
+        "type": "fontSizes"
       },
       "name": "headline1-font-size",
       "attributes": {
@@ -7547,10 +7553,12 @@
     },
     "headline1-font-weight": {
       "value": "500",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "500"
+        "value": "500",
+        "type": "fontWeights"
       },
       "name": "headline1-font-weight",
       "attributes": {
@@ -7564,10 +7572,12 @@
     },
     "headline1-line-height": {
       "value": "112px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "112px"
+        "value": "112px",
+        "type": "lineHeights"
       },
       "name": "headline1-line-height",
       "attributes": {
@@ -7581,10 +7591,12 @@
     },
     "headline2-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline2-font-family",
       "attributes": {
@@ -7598,10 +7610,12 @@
     },
     "headline2-font-size": {
       "value": "60px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "60px"
+        "value": "60px",
+        "type": "fontSizes"
       },
       "name": "headline2-font-size",
       "attributes": {
@@ -7615,10 +7629,12 @@
     },
     "headline2-font-weight": {
       "value": "600",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeights"
       },
       "name": "headline2-font-weight",
       "attributes": {
@@ -7632,10 +7648,12 @@
     },
     "headline2-line-height": {
       "value": "84px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "84px"
+        "value": "84px",
+        "type": "lineHeights"
       },
       "name": "headline2-line-height",
       "attributes": {
@@ -7649,10 +7667,12 @@
     },
     "headline3-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline3-font-family",
       "attributes": {
@@ -7666,10 +7686,12 @@
     },
     "headline3-font-size": {
       "value": "48px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "48px"
+        "value": "48px",
+        "type": "fontSizes"
       },
       "name": "headline3-font-size",
       "attributes": {
@@ -7683,10 +7705,12 @@
     },
     "headline3-font-weight": {
       "value": "600",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeights"
       },
       "name": "headline3-font-weight",
       "attributes": {
@@ -7700,10 +7724,12 @@
     },
     "headline3-line-height": {
       "value": "64px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "64px"
+        "value": "64px",
+        "type": "lineHeights"
       },
       "name": "headline3-line-height",
       "attributes": {
@@ -7717,10 +7743,12 @@
     },
     "headline4-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline4-font-family",
       "attributes": {
@@ -7734,10 +7762,12 @@
     },
     "headline4-font-size": {
       "value": "34px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "34px"
+        "value": "34px",
+        "type": "fontSizes"
       },
       "name": "headline4-font-size",
       "attributes": {
@@ -7751,10 +7781,12 @@
     },
     "headline4-font-weight": {
       "value": "700",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "700"
+        "value": "700",
+        "type": "fontWeights"
       },
       "name": "headline4-font-weight",
       "attributes": {
@@ -7768,10 +7800,12 @@
     },
     "headline4-line-height": {
       "value": "48px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "48px"
+        "value": "48px",
+        "type": "lineHeights"
       },
       "name": "headline4-line-height",
       "attributes": {
@@ -7785,10 +7819,12 @@
     },
     "headline5-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline5-font-family",
       "attributes": {
@@ -7802,10 +7838,12 @@
     },
     "headline5-font-size": {
       "value": "24px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "24px"
+        "value": "24px",
+        "type": "fontSizes"
       },
       "name": "headline5-font-size",
       "attributes": {
@@ -7819,10 +7857,12 @@
     },
     "headline5-font-weight": {
       "value": "700",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "700"
+        "value": "700",
+        "type": "fontWeights"
       },
       "name": "headline5-font-weight",
       "attributes": {
@@ -7836,10 +7876,12 @@
     },
     "headline5-line-height": {
       "value": "36px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "36px"
+        "value": "36px",
+        "type": "lineHeights"
       },
       "name": "headline5-line-height",
       "attributes": {
@@ -7853,10 +7895,12 @@
     },
     "headline6-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "headline6-font-family",
       "attributes": {
@@ -7870,10 +7914,12 @@
     },
     "headline6-font-size": {
       "value": "20px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "20px"
+        "value": "20px",
+        "type": "fontSizes"
       },
       "name": "headline6-font-size",
       "attributes": {
@@ -7887,10 +7933,12 @@
     },
     "headline6-font-weight": {
       "value": "700",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "700"
+        "value": "700",
+        "type": "fontWeights"
       },
       "name": "headline6-font-weight",
       "attributes": {
@@ -7904,10 +7952,12 @@
     },
     "headline6-line-height": {
       "value": "28px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "28px"
+        "value": "28px",
+        "type": "lineHeights"
       },
       "name": "headline6-line-height",
       "attributes": {
@@ -7921,10 +7971,12 @@
     },
     "subtitle1-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "subtitle1-font-family",
       "attributes": {
@@ -7938,10 +7990,12 @@
     },
     "subtitle1-font-size": {
       "value": "14px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "14px"
+        "value": "14px",
+        "type": "fontSizes"
       },
       "name": "subtitle1-font-size",
       "attributes": {
@@ -7955,10 +8009,12 @@
     },
     "subtitle1-font-weight": {
       "value": "600",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeights"
       },
       "name": "subtitle1-font-weight",
       "attributes": {
@@ -7972,10 +8028,12 @@
     },
     "subtitle1-line-height": {
       "value": "20px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "20px"
+        "value": "20px",
+        "type": "lineHeights"
       },
       "name": "subtitle1-line-height",
       "attributes": {
@@ -7989,10 +8047,12 @@
     },
     "subtitle2-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "subtitle2-font-family",
       "attributes": {
@@ -8006,10 +8066,12 @@
     },
     "subtitle2-font-size": {
       "value": "16px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "16px"
+        "value": "16px",
+        "type": "fontSizes"
       },
       "name": "subtitle2-font-size",
       "attributes": {
@@ -8023,10 +8085,12 @@
     },
     "subtitle2-font-weight": {
       "value": "600",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeights"
       },
       "name": "subtitle2-font-weight",
       "attributes": {
@@ -8040,10 +8104,12 @@
     },
     "subtitle2-line-height": {
       "value": "24px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "24px"
+        "value": "24px",
+        "type": "lineHeights"
       },
       "name": "subtitle2-line-height",
       "attributes": {
@@ -8057,10 +8123,12 @@
     },
     "body1-font-family": {
       "value": "Arial, sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "{typography.font-family}"
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
       },
       "name": "body1-font-family",
       "attributes": {
@@ -8074,10 +8142,12 @@
     },
     "body1-font-size": {
       "value": "16px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "16px"
+        "value": "16px",
+        "type": "fontSizes"
       },
       "name": "body1-font-size",
       "attributes": {
@@ -8091,10 +8161,12 @@
     },
     "body1-font-weight": {
       "value": "400",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "400"
+        "value": "400",
+        "type": "fontWeights"
       },
       "name": "body1-font-weight",
       "attributes": {
@@ -8108,10 +8180,12 @@
     },
     "body1-line-height": {
       "value": "24px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "24px"
+        "value": "24px",
+        "type": "lineHeights"
       },
       "name": "body1-line-height",
       "attributes": {
@@ -8125,10 +8199,12 @@
     },
     "body2-font-family": {
       "value": "Arial, sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "{typography.font-family}"
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
       },
       "name": "body2-font-family",
       "attributes": {
@@ -8142,10 +8218,12 @@
     },
     "body2-font-size": {
       "value": "14px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "14px"
+        "value": "14px",
+        "type": "fontSizes"
       },
       "name": "body2-font-size",
       "attributes": {
@@ -8159,10 +8237,12 @@
     },
     "body2-font-weight": {
       "value": "400",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "400"
+        "value": "400",
+        "type": "fontWeights"
       },
       "name": "body2-font-weight",
       "attributes": {
@@ -8176,10 +8256,12 @@
     },
     "body2-line-height": {
       "value": "20px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "20px"
+        "value": "20px",
+        "type": "lineHeights"
       },
       "name": "body2-line-height",
       "attributes": {
@@ -8193,10 +8275,12 @@
     },
     "button-font-family": {
       "value": "'Poppins', sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "'Poppins', sans-serif"
+        "value": "'Poppins', sans-serif",
+        "type": "fontFamilies"
       },
       "name": "button-font-family",
       "attributes": {
@@ -8210,10 +8294,12 @@
     },
     "button-font-size": {
       "value": "14px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "14px"
+        "value": "14px",
+        "type": "fontSizes"
       },
       "name": "button-font-size",
       "attributes": {
@@ -8227,10 +8313,12 @@
     },
     "button-font-weight": {
       "value": "600",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeights"
       },
       "name": "button-font-weight",
       "attributes": {
@@ -8244,10 +8332,12 @@
     },
     "button-line-height": {
       "value": "16px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "16px"
+        "value": "16px",
+        "type": "lineHeights"
       },
       "name": "button-line-height",
       "attributes": {
@@ -8261,10 +8351,12 @@
     },
     "caption-font-family": {
       "value": "Arial, sans-serif",
+      "type": "fontFamilies",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "{typography.font-family}"
+        "value": "{typography.font-family}",
+        "type": "fontFamilies"
       },
       "name": "caption-font-family",
       "attributes": {
@@ -8278,10 +8370,12 @@
     },
     "caption-font-size": {
       "value": "12px",
+      "type": "fontSizes",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "12px"
+        "value": "12px",
+        "type": "fontSizes"
       },
       "name": "caption-font-size",
       "attributes": {
@@ -8295,10 +8389,12 @@
     },
     "caption-font-weight": {
       "value": "400",
+      "type": "fontWeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "400"
+        "value": "400",
+        "type": "fontWeights"
       },
       "name": "caption-font-weight",
       "attributes": {
@@ -8312,10 +8408,12 @@
     },
     "caption-line-height": {
       "value": "16px",
+      "type": "lineHeights",
       "filePath": "src/typography/typography.json",
       "isSource": true,
       "original": {
-        "value": "16px"
+        "value": "16px",
+        "type": "lineHeights"
       },
       "name": "caption-line-height",
       "attributes": {
