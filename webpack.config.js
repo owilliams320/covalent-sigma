@@ -79,7 +79,6 @@ module.exports = {
       new CopyPlugin([
         { from: "./lib/components/package.json", to: "./" },
         { from: "./assets/icons/covalent-icons", to: "./covalent-icons" },
-        { from: "./assets/icons/teradata-icons", to: "./teradata-icons" },
       ]),
     ],
   };
