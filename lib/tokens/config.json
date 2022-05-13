@@ -43,6 +43,10 @@
         {
           "destination": "variables.js",
           "format": "javascript/es6"
+        },
+        {
+          "destination": "variables.d.ts",
+          "format": "typescript/es6-declarations"
         }
       ]
     }
