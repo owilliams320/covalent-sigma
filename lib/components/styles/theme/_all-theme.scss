@@ -165,4 +165,13 @@
   @include tabs.tabs-theme($theme);
   @include text-field.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
+
+  color: var(--mdc-theme-text-primary-on-background);
+
+  // Links
+  a[href] {
+    color: var(--mdc-theme-text-primary-on-background);
+
+    &:hover { text-decoration: underline; }
+  }
 }
