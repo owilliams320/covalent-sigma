@@ -19,8 +19,6 @@
 
 @mixin components-theme($theme, $typography) {
 
-  // TODO REPLACE THESE W/ STYLE DISCTIONARY TOKENS
-
   // Foreground colors
   --mdc-theme-primary: #{map-get($theme, primary)};
   --mdc-theme-secondary: #{map-get($theme, secondary)};
@@ -29,6 +27,7 @@
   --mdc-theme-positive: #{map-get($theme, positive)};
   --mdc-theme-caution: #{map-get($theme, caution)};
 
+  // Background colors
   --mdc-theme-background: #{map-get($theme, background)};
   --mdc-theme-surface: #{map-get($theme, surface)};
   --mdc-theme-surface-canvas: #{map-get($theme, surface-canvas)};
@@ -145,27 +144,9 @@
   // Covalent Specific variables
   --covalent-theme-text-logo-on-background: #{map-get($theme, text-logo-on-background)};
 
-  // Icon 
-  // TODO move to its own imports
-  .covalent-icon {
-    --mdc-icon-font: 'covalent-icons';
-  }
-
   // Shape
   --mdc-shape-small: 8px;
   --mdc-shape-medium: 8px;
-
-  // Skeleton
-  // TODO move to its own imports
-  .skeleton-text * {
-    font-family: "skeleton" !important;
-  }
-  .skeleton-text {
-    --mdc-typography-body2-font-family: "skeleton";
-    --mdc-typography-body2-letter-spacing: -0.03em;
-    --mdc-theme-text-primary-on-background: #ccc;
-    --skeleton-color: #ccc;
-  }
 
   @include button.button-theme($theme);
   @include card.card-theme($theme);
@@ -184,24 +165,4 @@
   @include tabs.tabs-theme($theme);
   @include text-field.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
-
-  color: var(--mdc-theme-text-primary-on-background);
-
-  // Links
-  // TODO move to its own imports
-  a[href] {
-    color: var(--mdc-theme-text-primary-on-background);
-    &:hover { text-decoration: underline; }
-  }
-
-  // TODO move to its own imports
-  .beta-list-item {
-    --mdc-theme-primary: #{map-get($theme, surface-caution)};
-  }
-
-  [divider] {
-    border-bottom: 1px solid;
-    list-style: none;
-    border-color: var(--mdc-theme-border, rgba(black, 0.12));
-  }
 }

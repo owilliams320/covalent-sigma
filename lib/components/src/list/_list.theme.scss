@@ -82,8 +82,14 @@
     }
   }
 
+  .beta-list-item {
+    --mdc-theme-primary: #{map-get($theme, surface-caution)};
+  }
+
   // Divider
   [divider] {
-    border-bottom-color: var(mdc-theme-border);
+    border-bottom: 1px solid;
+    list-style: none;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12));
   }
 }

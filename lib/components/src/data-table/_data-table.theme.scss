@@ -20,7 +20,13 @@
     @include data-table.row-text-color($text);
     @include data-table.divider-color($divider);
     @include data-table.stroke-size(0);
-    //checked-icon-color, , divider-size, 
+    //checked-icon-color, , divider-size,
+
+    .mdc-data-table {
+      width: 100%;
+      border-width: 0;
+      white-space: normal;
+    }
 
     .mdc-data-table__header-cell {
       font-family: var(--mdc-typography-font-family);
