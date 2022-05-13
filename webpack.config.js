@@ -77,8 +77,13 @@ module.exports = {
     },
     plugins: [
       new CopyPlugin([
-        { from: "./lib/components/package.json", to: "./" },
-        { from: "./assets/icons/covalent-icons", to: "./covalent-icons" },
+        './lib/components/package.json',
+        { from: './lib/icons/covalent-icons.css', to: './icons' },
+        { from: './lib/icons/covalent-icons.eot', to: './icons' },
+        { from: './lib/icons/covalent-icons.svg', to: './icons' },
+        { from: './lib/icons/covalent-icons.ttf', to: './icons' },
+        { from: './lib/icons/covalent-icons.wof', to: './icons' },
+        { from: './lib/icons/favicon.ico', to: './icons' },
       ]),
     ],
   };

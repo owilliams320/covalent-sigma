@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lib:build": "webpack -p",
-    "storybook": "start-storybook -p 6006 -s assets,dist",
+    "storybook": "start-storybook -p 6006 -s libs/icons,dist",
     "storybook:build": "build-storybook",
     "chromatic": "npx chromatic",
     "style-dictionary": "cd lib/tokens && style-dictionary build"
