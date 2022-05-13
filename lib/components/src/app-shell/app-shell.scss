@@ -10,12 +10,6 @@
     --mdc-theme-surface: var(--mdc-theme-background);
     --mdc-list-vertical-padding: 0;
 }
-
-// TD Tiger stripe
-// TODO: move to app-shell
-body.tiger-stripe:after {
-    
-  }
   
 .app-shell {
     display: grid;
@@ -24,6 +18,7 @@ body.tiger-stripe:after {
     grid-template-areas: "nav mini-list main help";
     min-height: 100vh;
 
+    // TD Tiger stripe
     &:after {
         content: "";
         position: absolute;
