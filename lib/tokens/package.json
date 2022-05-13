@@ -2,5 +2,5 @@
     "name": "@covalent/tokens",
     "version": "1.0.0",
     "description": "tokens for covalent design system",
-    "main": "build/js/variables.js"
+    "main": "js/variables.js"
 }
