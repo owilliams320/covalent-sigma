@@ -5,6 +5,7 @@ module.exports = {
     entry: [
       './lib/components/src/index.ts',
       './lib/components/styles/vendor.scss',
+      './lib/components/styles/styles.scss',
       './lib/components/styles/theme/theme.scss',
     ],
     output: {
@@ -82,7 +83,7 @@ module.exports = {
         { from: './lib/icons/covalent-icons.eot', to: './icons' },
         { from: './lib/icons/covalent-icons.svg', to: './icons' },
         { from: './lib/icons/covalent-icons.ttf', to: './icons' },
-        { from: './lib/icons/covalent-icons.wof', to: './icons' },
+        { from: './lib/icons/covalent-icons.woff', to: './icons' },
         { from: './lib/icons/favicon.ico', to: './icons' },
       ]),
     ],

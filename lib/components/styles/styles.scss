@@ -1,0 +1,36 @@
+@use "../src/list/list" as list;
+@use "../src/skeleton/skeleton.styles" as skeleton;
+
+@include list.core-styles();
+@include skeleton.core-styles();
+
+// Icon 
+// TODO move to its own imports
+.covalent-icon {
+    --mdc-icon-font: 'covalent-icons';
+}
+
+// TODO move to its own toolbar imports
+.td-toolbar {
+    min-height:64px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-top: 1px solid;
+    border-color: var(--mdc-theme-border, rgba(black, 0.12))
+}
+
+.td-toolbar .spacer {
+    display: flex;
+    flex: 1;
+}
+
+:root {
+    color: var(--mdc-theme-text-primary-on-background);
+
+    // Links
+    a[href] {
+      color: var(--mdc-theme-text-primary-on-background);
+      &:hover { text-decoration: underline; }
+    }
+}
