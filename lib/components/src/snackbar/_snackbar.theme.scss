@@ -6,8 +6,8 @@
 
   --mdc-snackbar-action-color: #{$accent};
 
-  mwc-snackbar {
-    mwc-icon-button {
+  td-snackbar {
+    td-icon-button {
       color: #{$icon-on-dark};
     }
   }

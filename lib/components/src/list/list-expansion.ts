@@ -1,7 +1,7 @@
 import { ListBase } from '@material/mwc-list/mwc-list-base';
 import { observer } from '@material/mwc-base/observer';
 import { styles as listBaseStyles } from '@material/mwc-list/mwc-list.css';
-import styles from './td-list-expansion.scss';
+import styles from './list-expansion.scss';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators';
 import { ifDefined } from 'lit/directives/if-defined';
@@ -31,7 +31,6 @@ export class CovalentExpansionList extends ListBase {
   
   constructor() {
     super();
-
   }
 
   private _toggleOpen() {

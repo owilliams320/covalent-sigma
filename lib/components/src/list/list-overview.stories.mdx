@@ -33,14 +33,14 @@ A list item may contain:
 - A trailing icon
 
 <Canvas>
-<mwc-list>
-  <mwc-list-item graphic="avatar" hasMeta twoline>
+<td-list>
+  <td-list-item graphic="avatar" hasMeta twoline>
     <span>Two-line list item</span>
     <span slot="secondary">Secondary line</span>
-    <mwc-icon slot="graphic">folder</mwc-icon>
-    <mwc-icon slot="meta">info</mwc-icon>
-  </mwc-list-item>
-</mwc-list>
+    <td-icon slot="graphic">folder</td-icon>
+    <td-icon slot="meta">info</td-icon>
+  </td-list-item>
+</td-list>
 </Canvas>
 
 ## Displaying status
@@ -48,33 +48,33 @@ A list item may contain:
 Show as a byline in your list item. Do not use the main icon or avatar - this is reserved for showing object type.
 
 <Canvas>
-<mwc-list>
-  <mwc-list-item twoline graphic="avatar">
+<td-list>
+  <td-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-caution">
-      <mwc-icon>warning</mwc-icon>
+      <td-icon>warning</td-icon>
       Warning
     </span>
-    <mwc-icon slot="graphic" class="inverted">tag_faces</mwc-icon>
-  </mwc-list-item>
+    <td-icon slot="graphic" class="inverted">tag_faces</td-icon>
+  </td-list-item>
   <li divider role="separator"></li>
-  <mwc-list-item twoline graphic="avatar">
+  <td-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-negative">
-      <mwc-icon>error</mwc-icon>
+      <td-icon>error</td-icon>
       Error
     </span>
-    <mwc-icon slot="graphic" class="inverted">tag_faces</mwc-icon>
-  </mwc-list-item>
+    <td-icon slot="graphic" class="inverted">tag_faces</td-icon>
+  </td-list-item>
   <li divider role="separator"></li>
-  <mwc-list-item twoline graphic="avatar">
+  <td-list-item twoline graphic="avatar">
     <span>User Name</span>
     <span slot="secondary" class="status-positive">
-      <mwc-icon>check</mwc-icon>
+      <td-icon>check</td-icon>
       Successful
     </span>
-    <mwc-icon slot="graphic" class="inverted">tag_faces</mwc-icon>
-  </mwc-list-item>
+    <td-icon slot="graphic" class="inverted">tag_faces</td-icon>
+  </td-list-item>
   <li divider role="separator"></li>
-</mwc-list>
+</td-list>
 </Canvas>

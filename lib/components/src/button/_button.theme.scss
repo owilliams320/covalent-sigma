@@ -7,26 +7,26 @@
   // --- web component --- //
 
   // --- set default to neutral --- //
-  mwc-button {
+  td-button {
     --mdc-button-outline-color: #{map-get($theme,text-icon-on-background)};
     --mdc-theme-primary: #{map-get($theme,text-primary-on-background)};
   }
   
   // --- apply accent color --- //
-  mwc-button[outlined].accent.primary,
-  mwc-button[raised].accent.primary,
-  mwc-button[text].accent.primary {
+  td-button[outlined].accent.primary,
+  td-button[raised].accent.primary,
+  td-button[text].accent.primary {
     --mdc-theme-primary: #{map-get($theme,primary)};
     --mdc-button-outline-color: var(--mdc-theme-primary);
   }
   
   // --- apply error color --- //
-  mwc-button[outlined].destructive.primary,
-  mwc-button[raised].destructive.primary,
-  mwc-button[text].destructive.primary,
-  mwc-button[outlined].negative.primary, // Same thing, just using "negative" alias
-  mwc-button[raised].negative.primary,
-  mwc-button[text].negative.primary {
+  td-button[outlined].destructive.primary,
+  td-button[raised].destructive.primary,
+  td-button[text].destructive.primary,
+  td-button[outlined].negative.primary, // Same thing, just using "negative" alias
+  td-button[raised].negative.primary,
+  td-button[text].negative.primary {
     --mdc-theme-primary: var(--mdc-theme-error);
     --mdc-button-outline-color: var(--mdc-theme-error);
   }

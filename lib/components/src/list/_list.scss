@@ -2,7 +2,7 @@
 
 
 @mixin core-styles() {
-    mwc-list {
+    td-list {
         .beta-list-item {
             --mdc-list-item-meta-size: 20px;
             --mdc-list-item-graphic-size: 40px; 
@@ -20,14 +20,12 @@
         }
 
         &.navigation-rail {
-            td-list-item,
-            mwc-list-item:not(.beta-list-item) {
+            td-list-item:not(.beta-list-item) {
                 border-radius: 0 28px 28px 0;
                 margin-right: 16px;
             }
 
-            mwc-list-item[graphic=avatar] mwc-icon[slot=graphic],
-            mwc-list-item[graphic=avatar]:not(.beta-list-item) mwc-icon[slot=graphic] {
+            td-list-item[graphic=avatar]:not(.beta-list-item) td-icon[slot=graphic] {
                 background: transparent;
             }
 
@@ -43,7 +41,7 @@
             .home-item:hover .covalent-icon {display: none;}
 
             td-app-shell:not([open]) & {
-                td-list-item, mwc-list-item:not(.beta-list-item) {
+                td-list-item:not(.beta-list-item) {
                     border-radius: 100%;
                     margin: 0 auto 8px;
                     padding: 0;
@@ -51,8 +49,8 @@
                     height: 48px;
                 }
 
-                mwc-list-item [slot="graphic"],
-                td-list-item mwc-icon {
+                td-list-item [slot="graphic"],
+                td-list-item td-icon {
                     margin-left: 8px
                 }
 
@@ -78,6 +76,7 @@
                     --mdc-theme-text-icon-on-background: #fff;
                 }
             }
+
 
             td-app-shell[open] & {
                 .home-item .covalent-icon {display: none;}

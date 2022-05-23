@@ -5,7 +5,7 @@ import { customElement, property } from 'lit/decorators';
 
 import { styles as controlStyle } from '@material/mwc-list/mwc-control-list-item.css';
 import { styles as listItemStyle } from '@material/mwc-list/mwc-list-item.css';
-import styles  from './td-list-item.component.scss';
+import styles  from './list-item.scss';
 
 declare global {
     interface HTMLElementTagNameMap {
@@ -25,7 +25,7 @@ export class CovalentListItemBase extends ListItemBase {
     const graphic = this.graphic ? this.renderGraphic() : html``;
     const meta = this.hasMeta ? this.renderMeta() : html``;
     const arrowIcon = this.activated ? 'arrow_drop_down' : 'arrow_right';
-    const arrow = this.hasChildren ? html`<mwc-icon class="expansion-icon" >${arrowIcon}</mwc-icon>` : html``;
+    const arrow = this.hasChildren ? html`<td-icon class="expansion-icon" >${arrowIcon}</td-icon>` : html``;
 
     return html`
       ${this.renderRipple()}
