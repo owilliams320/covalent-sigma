@@ -9,15 +9,15 @@ import * as tableContent from "./table.content.html";
 import * as tableRowSelectionContent from "./table-row-selection.content.html";
 
 const iconButtons = `
-        <mwc-icon-button icon="filter_list" slot="actionItems"></mwc-icon-button>
-        <mwc-icon-button icon="search" slot="actionItems"></mwc-icon-button>
-        <mwc-icon-button icon="add" slot="actionItems"></mwc-icon-button>`;
+        <td-icon-button icon="filter_list" slot="actionItems"></td-icon-button>
+        <td-icon-button icon="search" slot="actionItems"></td-icon-button>
+        <td-icon-button icon="add" slot="actionItems"></td-icon-button>`;
 
-const buttons = `<mwc-button label="Buttons" slot="actionItems" ></mwc-button>
-    <mwc-button outlined label="Buttons" slot="actionItems" ></mwc-button>`;
+const buttons = `<td-button label="Buttons" slot="actionItems" ></td-button>
+    <td-button outlined label="Buttons" slot="actionItems" ></td-button>`;
       
 export default ({ title = "App Bar Title", centerTitle, dense, prominent, showContent, showActionItems } = {}, { parameters } = {}) => {
-    const AppBarComponentElem = parameters?.fixed ? 'mwc-top-app-bar-fixed' : 'mwc-top-app-bar';
+    const AppBarComponentElem = parameters?.fixed ? 'td-top-app-bar-fixed' : 'td-top-app-bar';
     const actionItems =  showActionItems === 'buttons' ? buttons : iconButtons;
     let content = loremIpsumContent;
 
@@ -38,7 +38,7 @@ export default ({ title = "App Bar Title", centerTitle, dense, prominent, showCo
           ${centerTitle ? "centerTitle" : null}
           ${dense ? "dense" : null}
           ${prominent ? "prominent" : null}>
-        <mwc-icon-button slot="navigationIcon" icon="menu_open"></mwc-icon-button>
+        <td-icon-button slot="navigationIcon" icon="menu_open"></td-icon-button>
         <div slot="title">${title}</div>
         ${actionItems}
        </${AppBarComponentElem}>

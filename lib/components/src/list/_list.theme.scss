@@ -42,15 +42,15 @@
   }
 
   .mdc-deprecated-list.mdc-deprecated-list--avatar-list .mdc-deprecated-list-item__graphic,
-  mwc-list-item[graphic=avatar] mwc-icon[slot=graphic] {
+  td-list-item[graphic=avatar] td-icon[slot=graphic] {
     background-color: var(--mdc-theme-surface-neutral-highlight);
   }
 
   td-list-item,
-  mwc-list-item,
-  mwc-check-list-item,
+  td-list-item,
+  td-check-list-item,
   .mdc-list,
-  .mwc-list-item,
+  .td-list-item,
   .mdc-deprecated-list,
   .mdc-deprecated-list-item__text,
   .mdc-list-item__primary-text {
@@ -60,10 +60,10 @@
     line-height: var(--mdc-typography-body1-line-height);
   }
 
-  mwc-list-item {
+  td-list-item {
     span[slot="secondary"] {
 
-      mwc-icon {
+      td-icon {
         font-size: 1rem;
         margin-right: .25rem;
         position: relative;

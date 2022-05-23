@@ -1,45 +1,45 @@
-<mwc-button data-num="1" raised>Basic</mwc-button>
-    <mwc-dialog id="dialog1" heading="Dialog header">
+<td-button data-num="1" raised>Basic</td-button>
+    <td-dialog id="dialog1" heading="Dialog header">
       Dialog body text
-      <mwc-button slot="primaryAction" dialogAction="ok">Action 2</mwc-button>
-      <mwc-button slot="secondaryAction" dialogAction="cancel">Action 1</mwc-button>
-    </mwc-dialog>
+      <td-button slot="primaryAction" dialogAction="ok">Action 2</td-button>
+      <td-button slot="secondaryAction" dialogAction="cancel">Action 1</td-button>
+    </td-dialog>
 
-    <mwc-button data-num="2" raised>Actions</mwc-button>
-    <mwc-dialog id="dialog2" heading="Actions">
+    <td-button data-num="2" raised>Actions</td-button>
+    <td-dialog id="dialog2" heading="Actions">
       <p>
         By setting the dialogAction="my-action" attribute on any element projected into
         mwc-dialog, you can close the dialog by clicking on that element. The
         dialog will then fire a non-bubbling "closing" event and a non-bubbling
         "closed" event with an event detail of {action: "my-action"}
       </p>
-      <mwc-button slot="primaryAction" dialogAction="customAction">This has action</mwc-button>
-      <mwc-button slot="secondaryAction">this does not</mwc-button>
-    </mwc-dialog>
+      <td-button slot="primaryAction" dialogAction="customAction">This has action</td-button>
+      <td-button slot="secondaryAction">this does not</td-button>
+    </td-dialog>
 
-    <mwc-button data-num="3" raised>Scrollable</mwc-button>
-    <mwc-dialog id="dialog3" heading="My Title">
+    <td-button data-num="3" raised>Scrollable</td-button>
+    <td-dialog id="dialog3" heading="My Title">
       <p>
         Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really long text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll. Really log text will scroll.
       </p>
-      <mwc-button slot="primaryAction" dialogAction="close">Close this!</mwc-button>
-    </mwc-dialog>
+      <td-button slot="primaryAction" dialogAction="close">Close this!</td-button>
+    </td-dialog>
 
-    <mwc-button data-num="4" raised>Hide Actions</mwc-button>
-    <mwc-dialog id="dialog4" heading="Hide Actions">
+    <td-button data-num="4" raised>Hide Actions</td-button>
+    <td-dialog id="dialog4" heading="Hide Actions">
       <p>
         If you don't have actions, you may want to set the "hideActions" property.
         This property will remove extra whitespace at the bottom of this dialog.
         This button will toggle that whitespace:
       </p>
-      <mwc-button raised id="toggleActions">Toggle hideActions</mwc-button>
+      <td-button raised id="toggleActions">Toggle hideActions</td-button>
       <div>
         mwc-dialog.hideActions is currently:
         <span id="hideActionVal">
           false
         </span>
       </div>
-    </mwc-dialog>
+    </td-dialog>
 
     <style>
       .styled {
@@ -58,8 +58,8 @@
       }
     </style>
 
-    <mwc-button data-num="5" raised>Styled</mwc-button>
-    <mwc-dialog id="dialog5" heading="Styled" class="styled">
+    <td-button data-num="5" raised>Styled</td-button>
+    <td-dialog id="dialog5" heading="Styled" class="styled">
         <div>These are the current styles applied to this dialog</div>
         <pre>
 --mdc-theme-surface: #FFF;
@@ -75,61 +75,61 @@
 /* color buttons */
 --mdc-theme-primary: #344955;
         </pre>
-      <mwc-button slot="primaryAction" dialogAction="close">
+      <td-button slot="primaryAction" dialogAction="close">
         Too stylish for me!
-      </mwc-button>
-    </mwc-dialog>
+      </td-button>
+    </td-dialog>
 
-    <mwc-button data-num="6" raised>Stacked</mwc-button>
-    <mwc-dialog id="dialog6" heading="Stacked" stacked>
+    <td-button data-num="6" raised>Stacked</td-button>
+    <td-dialog id="dialog6" heading="Stacked" stacked>
       <div>
         This is what happens when you set the stacked property on mwc-dialog.
         Notice that the primary action is now on top.
       </div>
-      <mwc-button slot="primaryAction" dialogAction="close">
+      <td-button slot="primaryAction" dialogAction="close">
         Primary
-      </mwc-button>
-      <mwc-button slot="secondaryAction" dialogAction="close">
+      </td-button>
+      <td-button slot="secondaryAction" dialogAction="close">
         Secondary
-      </mwc-button>
-    </mwc-dialog>
+      </td-button>
+    </td-dialog>
 
-    <mwc-button data-num="7" raised>Initial Focus</mwc-button>
-    <mwc-dialog id="dialog7" heading="Initial Focus">
+    <td-button data-num="7" raised>Initial Focus</td-button>
+    <td-dialog id="dialog7" heading="Initial Focus">
       <div>
         In this example we set "dialogInitialFocus" on the mwc-textfield.
         When this dialog opens, it is auto-focused.
       </div>
-      <mwc-textfield
+      <td-textfield
           label="i am auto-focused"
           dialogInitialFocus>
-      </mwc-textfield>
-      <mwc-button slot="primaryAction" dialogAction="close">
+      </td-textfield>
+      <td-button slot="primaryAction" dialogAction="close">
         Primary
-      </mwc-button>
-      <mwc-button slot="secondaryAction" dialogAction="close">
+      </td-button>
+      <td-button slot="secondaryAction" dialogAction="close">
         Secondary
-      </mwc-button>
-    </mwc-dialog>
+      </td-button>
+    </td-dialog>
     
-    <mwc-button data-num="8" raised>Form Validation</mwc-button>
-    <mwc-dialog id="dialog8" heading="Form Validation">
+    <td-button data-num="8" raised>Form Validation</td-button>
+    <td-dialog id="dialog8" heading="Form Validation">
       <p>This dialog can validate user input before closing.</p>
-      <mwc-textfield
+      <td-textfield
         id="dialog8-text-field"
         minlength="3"
         maxlength="64"
         placeholder="First name"
         required>
-      </mwc-textfield>
-      <mwc-button
+      </td-textfield>
+      <td-button
         id="dialog8-primary-action-button"
         slot="primaryAction">
         Confirm
-      </mwc-button>
-      <mwc-button
+      </td-button>
+      <td-button
         slot="secondaryAction"
         dialogAction="close">
         Cancel
-      </mwc-button>
-    </mwc-dialog>
+      </td-button>
+    </td-dialog>

@@ -75,14 +75,14 @@ declare global {
 
     return html`
       <div class="app-shell">
-        <span class="header" ><mwc-top-app-bar-fixed centerTitle>
-          <mwc-icon-button class="toggle-drawer" @click=${this._toggleOpen} slot="navigationIcon" icon="menu"></mwc-icon-button>
+        <span class="header" ><td-top-app-bar-fixed centerTitle>
+          <td-icon-button class="toggle-drawer" @click=${this._toggleOpen} slot="navigationIcon" icon="menu"></td-icon-button>
           <span slot="title">${this.appName}</span>
-        </mwc-top-app-bar-fixed>
+        </td-top-app-bar-fixed>
         </span>
         <nav class="navigation mdc-drawer ${classMap(classes)}">
           <div class="navigation-toolbar">
-            <mwc-icon-button @click=${this._toggleOpen} class="toggle-drawer" icon="menu"></mwc-icon-button>
+            <td-icon-button @click=${this._toggleOpen} class="toggle-drawer" icon="menu"></td-icon-button>
             <slot name="logo"></slot>
           </div>
           <slot name="navigation"></slot>

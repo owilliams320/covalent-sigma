@@ -78,9 +78,9 @@ export class ActionRibbonBase extends BaseElement {
     return html`
     <div class="mdc-banner__graphic" role="img" alt="">
       <slot name="icon">
-        <mwc-icon class="mdc-banner__icon">
+        <td-icon class="mdc-banner__icon">
         ${this.icon}
-        </mwc-icon>
+        </td-icon>
       </slot>
     </div>`;
   }

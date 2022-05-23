@@ -13,8 +13,8 @@
 @use "../../src/select/select.theme" as select;
 @use "../../src/snackbar/snackbar.theme" as snack-bar;
 @use "../../src/switch/switch.theme" as switch;
-@use "../../src/tabs/tabs.theme" as tabs;
-@use "../../src/text-field/text-field.theme" as text-field;
+@use "../../src/tab/tab.theme" as tab;
+@use "../../src/textfield/textfield.theme" as textfield;
 @use "../../src/top-app-bar/top-app-bar.theme" as top-app-bar;
 
 @mixin components-theme($theme, $typography) {
@@ -162,8 +162,8 @@
   @include select.select-theme($theme);
   @include snack-bar.snack-bar-theme($theme);
   @include switch.switch-theme($theme);
-  @include tabs.tabs-theme($theme);
-  @include text-field.text-field-theme($theme);
+  @include tab.tab-theme($theme);
+  @include textfield.text-field-theme($theme);
   @include top-app-bar.top-app-bar-theme($theme);
 
   color: var(--mdc-theme-text-primary-on-background);

@@ -1,5 +1,5 @@
 @mixin switch-theme($theme) {
-  mwc-switch,
+  td-switch,
   .mdc-switch {
     --mdc-theme-surface: #{map-get($theme, background)};
     --mdc-switch-selected-handle-color: var(--mdc-theme-primary);

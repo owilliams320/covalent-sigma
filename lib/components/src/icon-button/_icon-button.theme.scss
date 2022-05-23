@@ -4,7 +4,7 @@
   $icon: map-get($theme, text-icon-on-background);
 
   // Support for web component
-  mwc-icon-button {
+  td-icon-button {
     color: $icon;
   }
 
