@@ -17,6 +17,7 @@ export * from './menu/menu';
 export * from './radio/radio';
 export * from './select/select';
 export * from './slider/slider';
+export * from './slider/slider-range';
 export * from './snackbar/snackbar';
 export * from './switch/switch';
 export * from './tab/tab';
