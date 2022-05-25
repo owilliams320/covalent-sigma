@@ -1,6 +1,7 @@
-import { TextFieldBase } from '@material/mwc-textfield/mwc-textfield-base';
-import { styles } from '@material/mwc-textfield/mwc-textfield.css';
 import { customElement } from 'lit/decorators';
+import { TextFieldBase } from '@material/mwc-textfield/mwc-textfield-base';
+import { styles as baseTextFieldStyles } from '@material/mwc-textfield/mwc-textfield.css';
+import styles from './textfield.scss';
 
 declare global {
     interface HTMLElementTagNameMap {
@@ -11,5 +12,5 @@ declare global {
 @customElement('td-textfield')
 export class CovalentTextFieldBase extends TextFieldBase {
 
-  static override styles = [styles];  
+  static override styles = [baseTextFieldStyles, styles];  
 }
