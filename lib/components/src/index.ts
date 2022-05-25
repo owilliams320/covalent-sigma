@@ -1,6 +1,7 @@
 
 
 export * from './action-ribbon/action-ribbon';
+export * from './alert/alert';
 export * from './app-shell/app-shell';
 export * from './button/button';
 export * from './checkbox/checkbox';

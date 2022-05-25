@@ -1,6 +1,6 @@
 import { customElement } from 'lit/decorators.js';
 import { ActionRibbonBase } from './action-ribbon-base';
-import styles from './styles.scss';
+import styles from './action-ribbon.scss';
 
 /**
   * Action ribbon
