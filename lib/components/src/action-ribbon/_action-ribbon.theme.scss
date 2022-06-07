@@ -1,7 +1,7 @@
 @mixin theme() {
   .mdc-banner {
-    background-color: var(--mdc-theme-surface);
-    border-bottom-color: var(--mdc-theme-border);
+    --td-action-ribbon-background: transparent;
+    background-color: var(--td-action-ribbon-background);
     overflow: hidden;
 
     .mdc-banner__content {
@@ -17,10 +17,14 @@
     .mdc-banner__text {
       --mdc-theme-on-surface: var(--mdc-theme-text-disabled-on-background);
       margin-left: 16px;
+      font-family: var(--mdc-typography-caption-font-family);
+      font-size: var(--mdc-typography-caption-font-size);
+      font-weight: var(--mdc-typography-caption-font-weight);
+      line-height:  var(--mdc-typography-caption-line-height); 
     }
 
     &.caution {
-      --mdc-theme-surface: var(--mdc-theme-surface-caution-highlight);
+      --td-action-ribbon-background: var(--mdc-theme-surface-caution-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-caution-highlight-hover);
@@ -28,7 +32,7 @@
       }
     }
     &.negative {
-      --mdc-theme-surface: var(--mdc-theme-surface-negative-highlight);
+      --td-action-ribbon-background: var(--mdc-theme-surface-negative-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text  {
         --mdc-theme-primary: var(--mdc-theme-surface-negative-highlight-hover);
@@ -36,7 +40,7 @@
       }
     }
     &.active {
-      --mdc-theme-surface: var(--mdc-theme-surface-secondary-highlight);
+      --td-action-ribbon-background: var(--mdc-theme-surface-secondary-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-secondary-highlight-hover);
@@ -44,7 +48,7 @@
       }
     }
     &.positive {
-      --mdc-theme-surface: var(--mdc-theme-surface-positive-highlight);
+      --td-action-ribbon-background: var(--mdc-theme-surface-positive-highlight);
 
       .mdc-banner__graphic, .mdc-banner__text {
         --mdc-theme-primary: var(--mdc-theme-surface-positive-highlight-hover);

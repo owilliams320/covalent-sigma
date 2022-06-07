@@ -1,25 +1,24 @@
 import { addHasRemoveClass, BaseElement } from '@material/mwc-base/base-element';
 import { observer } from '@material/mwc-base/observer';
 import { MDCBannerAdapter } from '@material/banner/adapter';
-import { CloseReason, events, selectors } from '@material/banner/constants';
+import { CloseReason } from '@material/banner/constants';
 
 //TODO REMOVE ONCE default export is fixed
-import MDCBannerFoundation from './foundation';
+import MDCBannerFoundation from '../action-ribbon/foundation';
 
 import { html, TemplateResult } from 'lit';
 import { classMap } from 'lit/directives/class-map';
 import { property, query } from 'lit/decorators';
 
-export class ActionRibbonBase extends BaseElement {
+export class AlertBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;
   protected readonly mdcFoundationClass = MDCBannerFoundation;
 
   @query('.mdc-banner') protected mdcRoot!: HTMLElement;
-  @query(selectors.CONTENT) protected mdcContent!: HTMLElement;
-  @query(selectors.PRIMARY_ACTION) protected primaryActionEl!: HTMLElement;
+  @query('.mdc-banner__content') protected mdcContent!: HTMLElement;
 
   @property({type: Boolean, reflect: true})
-  @observer(function(this: ActionRibbonBase, value: boolean) {
+  @observer(function(this: AlertBase, value: boolean) {
     if (this.mdcFoundation) {
       if (value) {
         this.mdcFoundation.open();
@@ -31,46 +30,54 @@ export class ActionRibbonBase extends BaseElement {
   })
   open = true;
 
-  @property({type: String}) labelText = '';
+  @property({type: String}) titleText = '';
+
+  @property({type: String}) descriptionText = '';
 
   @property({type: String}) icon = '';
 
-  @property({type: Boolean}) centered = true;
-   
+  @property({type: Boolean}) inline = false;
   /**
    * The state representation active|negative|positive|caution
    */
   @property()
-  state?: 'active'|'negative'|'positive'|'caution';
+  state = '';
   
   protected reason: CloseReason = CloseReason.UNSPECIFIED;
 
   protected override render() {
     const classes = {
       'mdc-banner': true,
+      'td-banner--inline': this.inline,
       'negative': this.state === 'negative',
       'positive': this.state === 'positive',
       'caution': this.state === 'caution',
       'active': this.state === 'active',
-      'mdc-banner--centered': this.centered,
     };
     return html`
       <div class="${classMap(classes)}" role="banner">
       <div class="mdc-banner__content"
-           role="alertdialog"
-           aria-live="assertive">
+          role="alertdialog"
+          aria-live="assertive">
 
         <div class="mdc-banner__graphic-text-wrapper">
           ${this.icon ? this.renderIcon() : ''}
-          <div class="mdc-banner__text">${this.labelText}</div>
+          <div class="mdc-banner__text">
+            <span class="mdc-typography--body2">${this.titleText}</span>
+            <div class="mdc-typography--body1">
+              ${this.descriptionText}
+            </div>
+          </div>
+          
         </div>
         <div class="mdc-banner__actions">
-          <slot name="action-items"></slot>
+            <slot name="action-items"></slot>
         </div>
       </div>
     </div>`;
   }
 
+  /** @soyTemplate */
   protected renderIcon(): TemplateResult {
     return html`
     <div class="mdc-banner__graphic" role="img" alt="">
@@ -85,14 +92,36 @@ export class ActionRibbonBase extends BaseElement {
   protected createAdapter(): MDCBannerAdapter {
     return {
       ...addHasRemoveClass(this.mdcRoot),
-      getContentHeight: () => this.mdcContent.offsetHeight,
-      setStyleProperty: (property: any, value: string) => this.mdcRoot.style.setProperty(property, value),
-      trapFocus: () => this.primaryActionEl?.focus(),
-      releaseFocus: () => this.primaryActionEl?.blur(),
-      notifyClosed: (reason: CloseReason) => this.dispatchEvent(new CustomEvent(events.CLOSED, {bubbles: true, cancelable: true, detail: {reason: reason}})),
-      notifyClosing: (reason: CloseReason) => this.dispatchEvent(new CustomEvent(events.CLOSING, {bubbles: true, cancelable: true, detail: {reason: reason}})),
-      notifyOpened: () => this.dispatchEvent(new CustomEvent(events.OPENED, {bubbles: true, cancelable: true})),
-      notifyOpening: () => this.dispatchEvent(new CustomEvent(events.OPENING, {bubbles: true, cancelable: true})),
+      getContentHeight: () => {
+        return this.mdcContent.offsetHeight;
+      },
+      setStyleProperty: (property: any, value: string) => {
+        this.mdcRoot.style.setProperty(property, value);
+      },
+      trapFocus: () => {
+      },
+      releaseFocus: () => {
+      },
+      notifyClosed: (reason: CloseReason) => {
+        // this.dispatchEvent(new CustomEvent<MDCSnackbarCloseEventDetail>(
+        //     CLOSED_EVENT,
+        //     {bubbles: true, cancelable: true, detail: {reason: reason}}));
+      },
+      notifyClosing: (reason: CloseReason) => {
+        this.open = false;
+        // this.dispatchEvent(new CustomEvent(
+        //     CLOSING_EVENT,
+        //     {bubbles: true, cancelable: true, detail: {reason: reason}}));
+      },
+      notifyOpened: () => {
+        // this.dispatchEvent(
+        //     new CustomEvent(OPENED_EVENT, {bubbles: true, cancelable: true}));
+      },
+      notifyOpening: () => {
+        this.open = true;
+        // this.dispatchEvent(
+        //     new CustomEvent(OPENING_EVENT, {bubbles: true, cancelable: true}));
+      },
     };
   }
 
