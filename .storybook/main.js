@@ -21,7 +21,7 @@ module.exports = {
   ],
   webpackFinal: (config) => {
     return Object.assign({}, config, {
-      entry: Object.assign(config.entry, covalentWebpack.entry),
+      entry: [...config.entry, ...Object.values(covalentWebpack.entry)],
       module: {
         rules: [...config.module.rules, ...covalentWebpack.module.rules] 
       }, 

@@ -1,4 +1,3 @@
-const path = require('path');
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
@@ -9,7 +8,7 @@ module.exports = {
       theme: './lib/components/styles/theme/theme.scss',
 
       actionRibbon: './lib/components/src/action-ribbon/action-ribbon.ts',
-      alert: './lib/components/src/alert/alert.ts',
+      //alert: './lib/components/src/alert/alert.ts',
       appShell: './lib/components/src/app-shell/app-shell.ts',
       button: './lib/components/src/button/button.ts',
       checkbox: './lib/components/src/checkbox/checkbox.ts',
