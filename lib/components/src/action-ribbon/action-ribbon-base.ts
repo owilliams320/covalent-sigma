@@ -41,7 +41,7 @@ export class ActionRibbonBase extends BaseElement {
    * The state representation active|negative|positive|caution
    */
   @property()
-  state = '';
+  state?: 'active'|'negative'|'positive'|'caution';
   
   protected reason: CloseReason = CloseReason.UNSPECIFIED;
 
@@ -57,8 +57,8 @@ export class ActionRibbonBase extends BaseElement {
     return html`
       <div class="${classMap(classes)}" role="banner">
       <div class="mdc-banner__content"
-          role="alertdialog"
-          aria-live="assertive">
+           role="alertdialog"
+           aria-live="assertive">
 
         <div class="mdc-banner__graphic-text-wrapper">
           ${this.icon ? this.renderIcon() : ''}
@@ -67,13 +67,12 @@ export class ActionRibbonBase extends BaseElement {
           </div>
         </div>
         <div class="mdc-banner__actions">
-            <slot name="action-items"></slot>
+          <slot name="action-items"></slot>
         </div>
       </div>
     </div>`;
   }
 
-  /** @soyTemplate */
   protected renderIcon(): TemplateResult {
     return html`
     <div class="mdc-banner__graphic" role="img" alt="">
