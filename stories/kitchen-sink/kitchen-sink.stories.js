@@ -19,7 +19,6 @@ import { MDCTextFieldHelperText } from '@material/textfield/helper-text';
 import { MDCTopAppBar } from '@material/top-app-bar';
 import { MDCDataTable } from '@material/data-table';
 
-
 import * as kitchenSinkContent from '../demos/material-web.content.html';
 
 export default {

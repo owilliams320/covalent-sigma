@@ -4,5 +4,4 @@
     $icon: map-get($theme, text-primary-on-light);
 
     @include chips.icon-color($icon);
-
 }
