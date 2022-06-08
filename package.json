@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lib:build": "webpack -p",
+    "start": "wds --node-resolve --open --app-index index.html --watch",
     "storybook": "start-storybook -p 6006 -s lib/icons",
     "storybook:build": "build-storybook",
     "chromatic": "npx chromatic",
@@ -22,6 +23,7 @@
     "@storybook/addons": "^6.5.5",
     "@storybook/html": "^6.5.5",
     "@storybook/theming": "^6.5.5",
+    "@web/dev-server": "^0.1.31",
     "@webpack-cli/serve": "^1.5.1",
     "babel-loader": "^8.2.2",
     "chromatic": "^6.5.4",
@@ -63,6 +65,7 @@
     "@material/mwc-top-app-bar": "^0.25.1",
     "@material/mwc-top-app-bar-fixed": "^0.25.1",
     "@material/theme": "^13.0.0",
+    "@vaadin/router": "^1.7.4",
     "@webcomponents/webcomponentsjs": "^2.6.0",
     "anysort": "^2.0.0",
     "lit": "^2.0.0",
