@@ -2,7 +2,8 @@
 
 ## Installing
 
-`npm ci`
+`npm ci` (if running npm 6 or earlier)
+`npm ci --legacy-peer-deps` (if running npm 7 or later)
 
 ## Running Storybook
 
