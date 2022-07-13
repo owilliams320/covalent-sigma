@@ -14,11 +14,12 @@ export class StatusHeaderBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;
   protected readonly mdcFoundationClass = MDCBannerFoundation;
 
-  @query('.mdc-banner') protected mdcRoot!: HTMLElement;
+  @query('.status-header') protected mdcRoot!: HTMLElement;
   @query(selectors.CONTENT) protected mdcContent!: HTMLElement;
   @query(selectors.PRIMARY_ACTION) protected primaryActionEl!: HTMLElement;
 
   @property({type: Boolean, reflect: true})
+  /*
   @observer(function(this: StatusHeaderBase, value: boolean) {
     if (this.mdcFoundation) {
       if (value) {
@@ -29,11 +30,14 @@ export class StatusHeaderBase extends BaseElement {
       }
     }
   })
+  */
   open = true;
 
   @property({type: String}) labelText = '';
 
   @property({type: String}) icon = '';
+
+  @property({type: String}) headerText = '';
 
   @property({type: Boolean}) centered = true;
    
@@ -47,25 +51,25 @@ export class StatusHeaderBase extends BaseElement {
 
   protected override render() {
     const classes = {
-      'mdc-banner': true,
+      //'mdc-banner': true,
       'negative': this.state === 'negative',
       'caution': this.state === 'caution',
       'active': this.state === 'active',
-      'mdc-banner--centered': this.centered,
+      //'mdc-banner--centered': this.centered,
     };
     return html`
-      <div class="${classMap(classes)}" role="banner">
-      <div class="mdc-banner__content"
-           role="alertdialog"
-           aria-live="assertive">
-
-        <div class="mdc-banner__graphic-text-wrapper">
-          ${this.icon ? this.renderIcon() : ''}
-          <div class="mdc-banner__text">${this.labelText}</div>
+    <div class="${classMap(classes)}">
+      <div class="status-header" role="alertdialog" aria-live="assertive">
+        <div class="status-header-title">Title</div>
+        <div class="status-header-status">
+          <div class="status-header-text" style="float:left">${this.icon ? this.renderIcon() : ''} </div>
+          <div class="status-header-text" style="float:left">&nbsp${this.headerText}</div>
+          <div class="status-header-text" style="float:left;font-size:small;">${this.labelText}</div>
         </div>
-        <div class="mdc-banner__actions">
-          <slot name="action-items"></slot>
+        <div class="status-header-slot">
+          <slot name="status-header-text"></slot>
         </div>
+        <slot name="td-tab-bar"></slot>
       </div>
     </div>`;
   }
@@ -106,10 +110,40 @@ export class StatusHeaderBase extends BaseElement {
     this.open = false;
   }
 
-  protected override firstUpdated() {
-    super.firstUpdated();
-    if (this.open) {
-      this.mdcFoundation.open();
-    }
-  }
+  // protected override firstUpdated() {
+  //   super.firstUpdated();
+  //   if (this.open) {
+  //     this.mdcFoundation.open();
+  //   }
+  // }
 }
+
+//This was the original HTML for the status header with tabs with tabs
+/* 
+return html`
+    <div class="${classMap(classes)}" role="banner">
+      <div class="mdc-banner__content"
+           role="alertdialog"
+           aria-live="assertive">
+
+        <div class="mdc-banner__graphic-text-wrapper">
+          ${this.icon ? this.renderIcon() : ''}
+          <div class="mdc-banner__text">${this.headerText}<br>${this.labelText}</div>
+        </div>
+        
+        <div class="mdc-banner__graphic-text-wrapper" id='tabs'>
+          <td-tab-bar activeIndex="0">
+            <td-tab null
+                    label="Tab one">
+            </td-tab>
+            <td-tab null
+                    label="Tab two">
+            </td-tab>
+            <td-tab null
+                    label="Tab three">
+            </td-tab>
+          </td-tab-bar>
+        </div>
+      </div>
+    </div>`;
+*/
