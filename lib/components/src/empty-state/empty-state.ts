@@ -16,9 +16,10 @@ export class CovalentEmptyStateBase extends LitElement {
   @property({type: String}) headline = '';
   @property({type: String}) subtitle = '';
   @property({type: String}) icon = '';
+  @property({type: Boolean}) card = false;
   override render() {
     return html`
-      <div class="content mdc-typography">
+      <div class="content mdc-typography" style=${this.card ? 'width: 632px; height: 300px;' : ''}>
         ${this.icon ? html`
         <div class="icon-background">
           <td-icon class='covalent-icon'>${this.icon}</td-icon>
