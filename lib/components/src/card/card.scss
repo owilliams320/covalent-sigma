@@ -3,11 +3,7 @@
 
 @include card.core-styles;
 
-hr {
-    opacity: 0.12;
-    width: 100%;
-    margin: 0;
-  }
-  .mdc-typography--headline5 {
-    color: var(--mdc-theme-text-primary-on-background);
-  }
+.mdc-typography--headline5 {
+  border-bottom: 1px solid var(--mdc-theme-border);
+  color: var(--mdc-theme-text-primary-on-background);
+}

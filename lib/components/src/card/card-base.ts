@@ -32,7 +32,6 @@ export class CardBase extends LitElement {
       ${this.cardTitle ? 
         html`
           <div class="mdc-card__actions mdc-typography--headline5">${this.cardTitle}</div>
-          <hr>
         ` : ''}
         <div class="mdc-card__primary-action">
           <slot name="card-content"></slot>
