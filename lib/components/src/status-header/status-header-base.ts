@@ -39,39 +39,43 @@ export class StatusHeaderBase extends BaseElement {
 
   @property({type: String}) headerText = '';
 
+  @property({type: String}) titleText = '';
+
   @property({type: Boolean}) centered = true;
    
   /**
    * The state representation active|negative|caution
    */
   @property()
-  state?: 'active'|'negative'|'caution';
+  state?: 'active'|'error'|'caution';
   
   protected reason: CloseReason = CloseReason.UNSPECIFIED;
 
   protected override render() {
     const classes = {
       //'mdc-banner': true,
-      'negative': this.state === 'negative',
+      'error': this.state === 'error',
       'caution': this.state === 'caution',
       'active': this.state === 'active',
       //'mdc-banner--centered': this.centered,
     };
     return html`
-    <div class="${classMap(classes)}">
-      <div class="status-header" role="alertdialog" aria-live="assertive">
-        <div class="status-header-title">Title</div>
+    
+      <div class="status-header ${classMap(classes)}" role="alertdialog" aria-live="assertive">
+        <div class="status-header-title">
+          <div class="status-header-title-text">${this.titleText}</div>
+        </div>
         <div class="status-header-status">
           <div class="status-header-text" style="float:left">${this.icon ? this.renderIcon() : ''} </div>
-          <div class="status-header-text" style="float:left">&nbsp${this.headerText}</div>
-          <div class="status-header-text" style="float:left;font-size:small;">${this.labelText}</div>
+          <div class="status-header-text">&nbsp${this.headerText}</div>
+          <div class="status-header-text" style="overflow:auto;font-size: var(--mdc-typography-caption-font-size);">${this.labelText}</div>
         </div>
         <div class="status-header-slot">
           <slot name="status-header-text"></slot>
         </div>
         <slot name="td-tab-bar"></slot>
       </div>
-    </div>`;
+    `;
   }
 
   protected renderIcon(): TemplateResult {

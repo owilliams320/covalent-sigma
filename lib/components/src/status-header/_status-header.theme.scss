@@ -66,19 +66,19 @@
 */
 
 //start of custom td-status-header scss
-@mixin status-header-theme {
+@mixin theme {
   .status-header {
-    //--td-status-header-background: transparent;
-    //background-color: var(--td-status-header-background);
+    --td-status-header-background: transparent;
+    background-color: var(--td-status-header-background);
     padding-bottom: 16px;
-    display: flex;
+    //display: flex;
     //background-color: green;
   
     .status-header-content {
       max-width: inherit;
       flex-direction: column;
-      padding-bottom: 16px;
-      display: flex;
+      // padding-bottom: 16px;
+      // display: flex;
       //color: green;
     }
 
@@ -92,10 +92,10 @@
       --mdc-theme-on-surface: var(--mdc-theme-text-disabled-on-background);
       margin-left: 16px;
       font-family: var(--mdc-typography-caption-font-family);
-      font-size: var(--mdc-typography-caption-font-size);
+      font-size: var(--mdc-typography-subtitle1-font-size);
       font-weight: var(--mdc-typography-caption-font-weight);
       line-height:  var(--mdc-typography-caption-line-height);
-      word-break: break-word;
+      //word-break: break-word;
       //overflow: hidden;
       //vertical-align:top; 
       //max-width: 100%;
@@ -110,7 +110,7 @@
         --mdc-theme-on-surface: var(--mdc-theme-caution);
       }
     }
-    &.negative {
+    &.error {
       --td-status-header-background: var(--mdc-theme-surface-negative-highlight);
 
       .status-header-graphic, .status-header-text  {

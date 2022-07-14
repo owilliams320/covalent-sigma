@@ -21,22 +21,34 @@
 }
 */
 @use  './status-header.theme';
-//@include status-header.theme();
+@include status-header.theme();
 
 
 .status-header-title {
     padding-top: 16px;
     padding-left: 16px;
+    height: fit-content;
+}
+
+.status-header-title-text {
+    padding-top: 16px;
+    padding-left: 16px;
+    font-family: var(--mdc-typography-headline6-font-family);
+    font-size: var(--mdc-typography-headline6-font-size);
+    font-weight: var(--mdc-typography-headline6-font-weight);
+    line-height:  var(--mdc-typography-headline6-line-height);
+    color: black;
 }
 
 .status-header-status {
     padding-top: 44px;
     padding-left: 32px;
     display: inline-block;
-    width: 20%;
+    width: 30%;
     //background-color: #c7dcfc;
     vertical-align: middle;
 }
+
 .status-header-slot {
     //padding-bottom: 44px;
     padding-left: 56px;
@@ -45,7 +57,7 @@
     display: inline-block;
     overflow: auto;
     //max-width: 670px;
-    width:65%;
+    width:55%;
     //background-color: #c1f5d1;
     vertical-align: middle;
 }
