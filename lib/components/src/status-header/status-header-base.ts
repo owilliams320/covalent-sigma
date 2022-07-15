@@ -73,7 +73,7 @@ export class StatusHeaderBase extends BaseElement {
         <div class="status-header-slot">
           <slot name="status-header-text"></slot>
         </div>
-        <slot name="td-tab-bar"></slot>
+        <slot name="td-tab-bar" style="visibility:visible"></slot>
       </div>
     `;
   }
