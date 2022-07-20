@@ -41,6 +41,8 @@ export class StatusHeaderBase extends BaseElement {
 
   @property({type: String}) titleText = '';
 
+  @property({type: String}) slotText = '';
+
   @property({type: Boolean}) centered = true;
    
   /**
