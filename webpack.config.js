@@ -1,14 +1,14 @@
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
+    mode: 'production',
     entry: {
       index: './lib/components/src/index.ts',
-      vendor: './lib/components/styles/vendor.scss',
       styles: './lib/components/styles/styles.scss',
       theme: './lib/components/styles/theme/theme.scss',
 
       actionRibbon: './lib/components/src/action-ribbon/action-ribbon.ts',
-      //alert: './lib/components/src/alert/alert.ts',
+      alert: './lib/components/src/alert/alert.ts',
       appShell: './lib/components/src/app-shell/app-shell.ts',
       button: './lib/components/src/button/button.ts',
       checkbox: './lib/components/src/checkbox/checkbox.ts',
@@ -62,16 +62,7 @@ module.exports = {
             { loader: 'extract-loader' },
             { loader: 'css-loader' },
             {
-              loader: 'sass-loader',
-              options: {
-                // Prefer Dart Sass
-                implementation: require('sass'),
-                // See https://github.com/webpack-contrib/sass-loader/issues/804
-                webpackImporter: false,
-                sassOptions: {
-                  includePaths: ['./node_modules']
-                }
-              }
+              loader: 'sass-loader'
             }
           ]
         },
@@ -88,29 +79,22 @@ module.exports = {
             },
             'extract-loader',
             'css-loader',
-            {
-              loader: 'sass-loader',
-              options: {
-                // Prefer Dart Sass
-                implementation: require('sass'),
-                sassOptions: {
-                  includePaths: ['./node_modules']
-                }
-              }
-            }
+            'sass-loader',
           ]
         }
       ]
     },
     plugins: [
-      new CopyPlugin([
-        './lib/components/package.json',
-        { from: './lib/icons/covalent-icons.css', to: './icons' },
-        { from: './lib/icons/covalent-icons.eot', to: './icons' },
-        { from: './lib/icons/covalent-icons.svg', to: './icons' },
-        { from: './lib/icons/covalent-icons.ttf', to: './icons' },
-        { from: './lib/icons/covalent-icons.woff', to: './icons' },
-        { from: './lib/icons/favicon.ico', to: './icons' },
-      ]),
+      new CopyPlugin({
+        patterns:[
+          './lib/components/package.json',
+          { from: './lib/icons/covalent-icons.css', to: './icons' },
+          { from: './lib/icons/covalent-icons.eot', to: './icons' },
+          { from: './lib/icons/covalent-icons.svg', to: './icons' },
+          { from: './lib/icons/covalent-icons.ttf', to: './icons' },
+          { from: './lib/icons/covalent-icons.woff', to: './icons' },
+          { from: './lib/icons/favicon.ico', to: './icons' },
+        ]
+      }),
     ],
   };

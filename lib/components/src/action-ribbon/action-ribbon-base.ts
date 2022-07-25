@@ -7,8 +7,8 @@ import { CloseReason, events, selectors } from '@material/banner/constants';
 import MDCBannerFoundation from './foundation';
 
 import { html, TemplateResult } from 'lit';
-import { classMap } from 'lit/directives/class-map';
-import { property, query } from 'lit/decorators';
+import { classMap } from 'lit/directives/class-map.js';
+import { property, query } from 'lit/decorators.js';
 
 export class ActionRibbonBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;

@@ -1,6 +1,6 @@
 import { LinearProgressBase } from '@material/mwc-linear-progress/mwc-linear-progress-base';
 import { styles } from '@material/mwc-linear-progress/mwc-linear-progress.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {

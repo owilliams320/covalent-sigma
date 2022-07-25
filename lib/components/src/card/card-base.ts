@@ -1,6 +1,6 @@
 import { html, LitElement } from 'lit';
-import { classMap } from 'lit/directives/class-map';
-import { property } from 'lit/decorators';
+import { classMap } from 'lit/directives/class-map.js';
+import { property } from 'lit/decorators.js';
 
 export class CardBase extends LitElement {
   /**

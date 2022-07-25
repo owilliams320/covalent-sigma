@@ -3,9 +3,9 @@ import { observer } from '@material/mwc-base/observer';
 import { styles as listBaseStyles } from '@material/mwc-list/mwc-list.css';
 import styles from './list-expansion.scss';
 import { html } from 'lit';
-import { customElement, property } from 'lit/decorators';
-import { ifDefined } from 'lit/directives/if-defined';
-import { classMap } from 'lit/directives/class-map';
+import { customElement, property } from 'lit/decorators.js';
+import { ifDefined } from 'lit/directives/if-defined.js';
+import { classMap } from 'lit/directives/class-map.js';
 
 
 declare global {

@@ -1,7 +1,7 @@
 import { DrawerBase } from '@material/mwc-drawer/mwc-drawer-base';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-import { classMap } from 'lit/directives/class-map';
+import { classMap } from 'lit/directives/class-map.js';
 
 import styles from './app-shell.scss';
 
