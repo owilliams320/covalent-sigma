@@ -1,6 +1,6 @@
 import { DialogBase } from '@material/mwc-dialog/mwc-dialog-base';
 import { styles } from '@material/mwc-dialog/mwc-dialog.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {

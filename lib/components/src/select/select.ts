@@ -1,6 +1,6 @@
 import { SelectBase } from '@material/mwc-select/mwc-select-base';
 import { styles } from '@material/mwc-select/mwc-select.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {

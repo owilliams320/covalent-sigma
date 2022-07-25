@@ -1,7 +1,7 @@
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 
 import { html } from 'lit';
-import { customElement, property } from 'lit/decorators';
+import { customElement, property } from 'lit/decorators.js';
 
 import { styles as controlStyle } from '@material/mwc-list/mwc-control-list-item.css';
 import { styles as listItemStyle } from '@material/mwc-list/mwc-list-item.css';

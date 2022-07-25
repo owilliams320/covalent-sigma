@@ -1,6 +1,6 @@
 import { IconButtonBase } from '@material/mwc-icon-button/mwc-icon-button-base';
 import { styles } from '@material/mwc-icon-button/mwc-icon-button.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {
