@@ -1,4 +1,4 @@
-import { customElement, property } from "lit/decorators";
+import { customElement, property } from "lit/decorators.js";
 import styles from './toolbar.scss';
 import { TopAppBarBase } from '@material/mwc-top-app-bar/mwc-top-app-bar-base';
 import { html } from "lit";
