@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit';
 import { classMap } from 'lit/directives/class-map.js';
 import { property } from 'lit/decorators.js';
-
+import '../icon/icon';
 export class CardBase extends LitElement {
   /**
    * The title of the card
@@ -43,20 +43,22 @@ export class CardBase extends LitElement {
     }
     return html`
       <div class="${classMap(classes)}">
-      <div class="mdc-card__primary-action">
-          <div class="categoryContainer">
-            <div class="category ${classMap(sourceType)}">
-              <td-icon>
-                ${this.sourceType == 'project' ? 'folder' : 
-                  this.sourceType == 'dataset' ? 'database' :
-                  this.sourceType == 'file' ? 'description' :
-                  'bookmark'
-                }
-              </td-icon>
-              <div>${this.sourceType.charAt(0).toUpperCase() + this.sourceType.slice(1)}</div>
-            </div>
-            <div class="sourceCreator">${this.sourceCreator}</div>
-          </div>
+        <div class="mdc-card__primary-action">
+          ${this.sourceType && this.sourceCreator ? 
+            html`<div class="categoryContainer">
+              <div class="category ${classMap(sourceType)}">
+                <td-icon> 
+                  ${this.sourceType == 'project' ? 'folder' : 
+                    this.sourceType == 'dataset' ? 'storage' :
+                    this.sourceType == 'file' ? 'description' :
+                    this.sourceType == 'article' ? 'bookmark' : ''
+                  }
+                </td-icon>
+                <div>${this.sourceType.charAt(0).toUpperCase() + this.sourceType.slice(1)}</div>
+              </div>
+              <div class="sourceCreator">${this.sourceCreator}</div>
+            </div>` : ''
+          }
           ${this.cardTitle ? 
             html`
               <div class="mdc-card__actions mdc-typography--headline5 ${classMap(divider)}">${this.cardTitle}</div>
