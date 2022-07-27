@@ -1,5 +1,5 @@
 import { html, LitElement } from "lit";
-import { customElement } from "lit/decorators";
+import { customElement } from "lit/decorators.js";
 import styles from './tree-list.scss';
 
 declare global {
