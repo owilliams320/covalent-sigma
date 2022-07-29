@@ -33,7 +33,7 @@ export class StatusHeaderBase extends BaseElement {
   */
   open = true;
 
-  @property({type: String}) labelText = '';
+  //@property({type: String}) labelText = '';
 
   @property({type: String}) icon = '';
 
@@ -70,7 +70,7 @@ export class StatusHeaderBase extends BaseElement {
         <div class="status-header-status">
           <div class="status-header-text" style="float:left">${this.icon ? this.renderIcon() : ''} </div>
           <div class="status-header-text">&nbsp${this.headerText}</div>
-          <div class="status-header-text" style="overflow:auto;font-size: var(--mdc-typography-caption-font-size);">${this.labelText}</div>
+          <div class="status-header-text" style="overflow:auto;font-size: var(--mdc-typography-caption-font-size);">Status</div>
         </div>
         <div class="status-header-slot">
           <slot name="status-header-text"></slot>
@@ -80,15 +80,31 @@ export class StatusHeaderBase extends BaseElement {
     `;
   }
 
+
+
   protected renderIcon(): TemplateResult {
+    if(this.state != 'active'){
     return html`
     <div class="mdc-banner__graphic" role="img" alt="">
       <slot name="icon">
-        <td-icon class="mdc-banner__icon">
+        <td-icon class="covalent-icon">
         ${this.icon}
         </td-icon>
       </slot>
     </div>`;
+    } else if (this.state == 'active') {
+      return html`
+        <div>
+        <td-circular-progress></td-circular-progress>
+        </div>
+      `;
+    } else {
+      return html`
+        <div>
+        <p>help</p>
+        </div>
+      `;
+    }
   }
 
   protected createAdapter(): MDCBannerAdapter {
