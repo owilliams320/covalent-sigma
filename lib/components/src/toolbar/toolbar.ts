@@ -2,6 +2,7 @@ import { customElement, property } from "lit/decorators.js";
 import styles from './toolbar.scss';
 import { TopAppBarBase } from '@material/mwc-top-app-bar/mwc-top-app-bar-base';
 import { html } from "lit";
+import { classMap } from "lit/directives/class-map.js";
 
 declare global {
   interface HTMLElementTagNameMap {
@@ -31,27 +32,22 @@ export class CovalentToolbarBase extends TopAppBarBase {
         }
       }
     }
+    const divider = {
+      'divider': this.breadcrumbs,
+    };
     return html`
       <header class="mdc-top-app-bar">
-        <div class="mdc-top-app-bar__row">      
+        <div class="mdc-top-app-bar__row ${classMap(divider)}">
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
             <slot name="title" slot="title"></slot>
           </section>
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
             <slot name="iconActions" slot="actionItems"></slot>
-            <slot name="buttonActions" slot="actionItems"></slot>
-          </section
-        </div>
-      </header>
-      ${this.breadcrumbs ? html`
-      <header class="mdc-top-app-bar">
-        <div class="mdc-top-app-bar__row">      
-          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <div class="path">${path}</div>
+            <slot name="buttonActions" slot="actionItems" class="desktop"></slot>
           </section>
         </div>
-      </header>` 
-      : ''}
+        ${this.breadcrumbs ? html`<div class="path">${path}</div>` : ''}
+      </header>
     `
   }
 }

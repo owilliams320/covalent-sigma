@@ -2,7 +2,7 @@
 @use "@material/top-app-bar/mdc-top-app-bar";
 
 header {
-  border-bottom: solid 2px var(--mdc-theme-border);
+  border-bottom: solid 1px var(--mdc-theme-border);
   font-family: var(--mdc-typography-headline6-font-family);
   font-size: var(--mdc-typography-headline6-font-size);
   font-weight: var(--mdc-typography-headline6-font-weight);
@@ -14,10 +14,27 @@ header {
   color: var(--mdc-theme-text-primary-on-background);
 }
 [name="buttonActions"]::slotted(*) {
-  margin: 8px;
+  margin: 0 8px;
 }
 span {
   display: inline-flex;
   align-items: center;
   color: var(--mdc-theme-text-secondary-on-background);
+}
+.divider {
+  border-bottom: solid 1px var(--mdc-theme-border);
+  width: 100%;
+}
+.path {
+  padding: 32px 8px 16px;
+}
+
+.desktop {
+  display: inline-flex;
+}
+
+@media screen and (max-width: 565px) {
+  .desktop {
+    display: none;
+  }
 }
