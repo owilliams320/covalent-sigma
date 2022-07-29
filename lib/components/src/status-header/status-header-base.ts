@@ -7,8 +7,8 @@ import { CloseReason, events, selectors } from '@material/banner/constants';
 import MDCBannerFoundation from './foundation';
 
 import { html, TemplateResult } from 'lit';
-import { classMap } from 'lit/directives/class-map';
-import { property, query } from 'lit/decorators';
+import { classMap } from 'lit/directives/class-map.js';
+import { property, query } from 'lit/decorators.js';
 
 export class StatusHeaderBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;
@@ -33,77 +33,47 @@ export class StatusHeaderBase extends BaseElement {
   */
   open = true;
 
-  //@property({type: String}) labelText = '';
-
-  @property({type: String}) icon = '';
-
-  @property({type: String}) headerText = '';
-
+  @property()state?: 'active'|'positive'|'caution'|'error'|'pending'|'paused';
+  @property({type: String}) statusText = '';
   @property({type: String}) titleText = '';
-
-  @property({type: String}) slotText = '';
-
-  @property({type: Boolean}) centered = true;
-   
-  /**
-   * The state representation active|negative|caution
-   */
-  @property()
-  state?: 'active'|'error'|'caution';
   
   protected reason: CloseReason = CloseReason.UNSPECIFIED;
 
   protected override render() {
     const classes = {
-      //'mdc-banner': true,
-      'error': this.state === 'error',
-      'caution': this.state === 'caution',
       'active': this.state === 'active',
-      //'mdc-banner--centered': this.centered,
+      'caution': this.state === 'caution',
+      'error': this.state === 'error',
+      'positive': this.state === 'positive',
     };
+
     return html`
-    
       <div class="status-header ${classMap(classes)}" role="alertdialog" aria-live="assertive">
         <div class="status-header-title">
           <div class="status-header-title-text">${this.titleText}</div>
         </div>
         <div class="status-header-status">
-          <div class="status-header-text" style="float:left">${this.icon ? this.renderIcon() : ''} </div>
-          <div class="status-header-text">&nbsp${this.headerText}</div>
-          <div class="status-header-text" style="overflow:auto;font-size: var(--mdc-typography-caption-font-size);">Status</div>
+          <div class="status-header-icon">${this.renderIcon()}</div>
+          <div class="status-header-text-block">
+            <div class="status-header-text">${this.statusText}</div>
+            <div class="status-header-helper">Status</div>
+          </div>
+          <div class="status-header-slot">
+            <slot name="status-header-text"></slot>
+          </div>
         </div>
-        <div class="status-header-slot">
-          <slot name="status-header-text"></slot>
-        </div>
-        <slot name="td-tab-bar" style="visibility:visible"></slot>
+        <slot name="td-tab-bar"></slot>
       </div>
     `;
   }
 
-
-
   protected renderIcon(): TemplateResult {
-    if(this.state != 'active'){
-    return html`
-    <div class="mdc-banner__graphic" role="img" alt="">
-      <slot name="icon">
-        <td-icon class="covalent-icon">
-        ${this.icon}
-        </td-icon>
-      </slot>
-    </div>`;
-    } else if (this.state == 'active') {
-      return html`
-        <div>
-        <td-circular-progress></td-circular-progress>
-        </div>
-      `;
+    if (this.state === 'active') {
+      return html`<td-circular-progress indeterminate density="-2"></td-circular-progress>`;
+    } else if (this.state === 'pending') {
+      return html`<td-icon class="covalent-icon">loader_dots</td-icon>`;
     } else {
-      return html`
-        <div>
-        <p>help</p>
-        </div>
-      `;
+      return html`<td-icon>${this.getMaterialIcon(this.state)}</td-icon>`;
     }
   }
 
@@ -138,34 +108,31 @@ export class StatusHeaderBase extends BaseElement {
   //     this.mdcFoundation.open();
   //   }
   // }
+  protected getMaterialIcon(state: string|undefined): string {
+    let icon: string = 'question_mark';
+
+    switch (state) {
+      case 'caution':
+        icon = 'warning';
+        break;
+
+      case 'error':
+        icon = 'error';
+        break;
+
+      case 'positive':
+        icon = 'done';
+        break;
+
+      case 'paused':
+        icon = 'pause';
+        break;
+
+      default:
+        icon = 'question_mark';
+        break;
+    }
+
+    return icon;
+  }
 }
-
-//This was the original HTML for the status header with tabs with tabs
-/* 
-return html`
-    <div class="${classMap(classes)}" role="banner">
-      <div class="mdc-banner__content"
-           role="alertdialog"
-           aria-live="assertive">
-
-        <div class="mdc-banner__graphic-text-wrapper">
-          ${this.icon ? this.renderIcon() : ''}
-          <div class="mdc-banner__text">${this.headerText}<br>${this.labelText}</div>
-        </div>
-        
-        <div class="mdc-banner__graphic-text-wrapper" id='tabs'>
-          <td-tab-bar activeIndex="0">
-            <td-tab null
-                    label="Tab one">
-            </td-tab>
-            <td-tab null
-                    label="Tab two">
-            </td-tab>
-            <td-tab null
-                    label="Tab three">
-            </td-tab>
-          </td-tab-bar>
-        </div>
-      </div>
-    </div>`;
-*/
