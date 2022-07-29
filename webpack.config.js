@@ -29,6 +29,7 @@ module.exports = {
       slider: './lib/components/src/slider/slider.ts',
       sliderRange: './lib/components/src/slider/slider-range.ts',
       snackBar: './lib/components/src/snackbar/snackbar.ts',
+      statusHeader: './lib/components/src/status-header/status-header.ts',
       switch: './lib/components/src/switch/switch.ts',
       tab: './lib/components/src/tab/tab.ts',
       tabBar: './lib/components/src/tab/tab-bar.ts',

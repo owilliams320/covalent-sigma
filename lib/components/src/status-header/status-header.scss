@@ -1,68 +1,50 @@
-/*
-@use '@material/banner/banner' as banner-core;
-@use  './status-header.theme';
-
-@include banner-core.core-styles();
-@include status-header.theme();
-
-.mdc-banner__content {
-    min-height: 56px;
-    height:auto;
-}
-
-.mdc-banner__graphic {
-    background-color: transparent;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.mdc-banner__actions {
-    align-self: center;
-}
-*/
 @use  './status-header.theme';
 @include status-header.theme();
 
 
 .status-header-title {
-    padding-top: 16px;
-    padding-left: 16px;
+    padding: 16px;
     height: fit-content;
 }
 
 .status-header-title-text {
-    padding-top: 16px;
-    padding-left: 16px;
     font-family: var(--mdc-typography-headline6-font-family);
     font-size: var(--mdc-typography-headline6-font-size);
     font-weight: var(--mdc-typography-headline6-font-weight);
     line-height:  var(--mdc-typography-headline6-line-height);
-    color: black;
+}
+
+.status-header-icon {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    td-icon {
+        font-size: 36px;
+    }
 }
 
 .status-header-status {
-    padding-top: 44px;
     padding-left: 32px;
-    display: inline-block;
-    width: 30%;
-    //background-color: #c7dcfc;
-    vertical-align: middle;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.status-header-slot {
-    //padding-bottom: 44px;
-    padding-left: 56px;
-    padding-right: 32px;
-    //padding-top: 64px;
-    display: inline-block;
-    overflow: auto;
-    //max-width: 670px;
-    width:55%;
-    //background-color: #c1f5d1;
-    vertical-align: middle;
-}
+.status-header-text-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-right: 56px;
 
-.status-header-tabs {
-    padding-top: 216px;
-    //background-color: purple;
+    .status-header-helper {
+        font-family: var(--mdc-typography-caption-font-family);
+        font-size: var(--mdc-typography-caption-font-size);
+        font-weight: var(--mdc-typography-caption-font-weight);
+        line-height:  var(--mdc-typography-caption-line-height);
+    }
 }
