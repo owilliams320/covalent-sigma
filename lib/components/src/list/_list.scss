@@ -40,7 +40,7 @@
             .home-item:hover .home-icon {display: block;}
             .home-item:hover .covalent-icon {display: none;}
 
-            td-app-shell:not([open]) & {
+            td-gallery:not([open]) &, td-app-shell:not([open]) & {
                 td-list-item:not(.beta-list-item) {
                     border-radius: 100%;
                     margin: 0 auto 8px;
@@ -78,7 +78,7 @@
             }
 
 
-            td-app-shell[open] & {
+            td-gallery[open] &, td-app-shell[open] & {
                 .home-item .covalent-icon {display: none;}
                 .home-item .covalent-icon.teradata-circle {display: block;}
                 .home-item:hover .covalent-icon.teradata-circle {display: none;}

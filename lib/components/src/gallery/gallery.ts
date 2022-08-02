@@ -75,10 +75,11 @@ declare global {
 
     return html`
       <div class="app-shell">
-        <span class="header" ><td-top-app-bar-fixed centerTitle>
-          <td-icon-button class="toggle-drawer" @click=${this._toggleOpen} slot="navigationIcon" icon="menu"></td-icon-button>
-          <span slot="title">${this.appName}</span>
-        </td-top-app-bar-fixed>
+        <span class="header">
+          <td-top-app-bar-fixed centerTitle>
+            <td-icon-button class="toggle-drawer" @click=${this._toggleOpen} slot="navigationIcon" icon="menu"></td-icon-button>
+            <span slot="title">${this.appName}</span>
+          </td-top-app-bar-fixed>
         </span>
         <nav class="navigation mdc-drawer ${classMap(classes)}">
           <div class="navigation-toolbar">
