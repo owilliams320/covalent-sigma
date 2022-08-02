@@ -13,7 +13,7 @@ declare global {
 @customElement('td-toolbar')
 export class CovalentToolbarBase extends TopAppBarBase {
   @property({type: Number}) breadcrumbs = 0;
-  
+  @property({type: String}) label = '';
   static override styles = [styles];
   override render() {
     // Create dummy data for the toolbar breadcrumbs.
@@ -32,21 +32,19 @@ export class CovalentToolbarBase extends TopAppBarBase {
         }
       }
     }
-    const divider = {
-      'divider': this.breadcrumbs,
-    };
     return html`
       <header class="mdc-top-app-bar">
-        <div class="mdc-top-app-bar__row ${classMap(divider)}">
+        <div class="mdc-top-app-bar__row">
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <slot name="title" slot="title"></slot>
+            <div>
+              ${this.breadcrumbs ? path : this.label}
+            </div>
           </section>
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
             <slot name="iconActions" slot="actionItems"></slot>
             <slot name="buttonActions" slot="actionItems" class="desktop"></slot>
           </section>
         </div>
-        ${this.breadcrumbs ? html`<div class="path">${path}</div>` : ''}
       </header>
     `
   }
