@@ -5,7 +5,7 @@
     .project {
       color: #58BADB;
     }
-    .container {
+    .assetContainer {
       display: flex;
       flex-direction: column;
       padding: 32px 160px;
@@ -24,13 +24,6 @@
         justify-content: space-between;
         align-items: center;
     }
-    .content {
-        display: grid;
-        grid-template-columns: 80% 20%;
-        width: 100%;
-        padding: 32px 0;
-        column-gap: 24px;
-    }
     .category td-icon {
         font-size: 14px;
     }
@@ -47,83 +40,38 @@
     td-tab-bar {
         border-bottom: solid var(--mdc-theme-border) 1px;
     }
-    .tags, .description {
-        font-family: var(--mdc-typography-subtitle2-font-family);
-        font-size: var(--mdc-typography-subtitle2-font-size);
-        font-weight: var(--mdc-typography-subtitle2-font-weight);
-        line-height: var(--mdc-typography-subtitle2-line-height);
-        color: var(--mdc-theme-text-primary-on-background);
+    .assetContainer td-list-item {
+        border-bottom: solid var(--mdc-theme-border) 1px;
     }
-    p {
-        font-family: var(--mdc-typography-body1-font-family);
-        font-size: var(--mdc-typography-body1-font-size);
-        font-weight: var(--mdc-typography-body1-font-weight);
-        line-height: var(--mdc-typography-body1-line-height);
-        color: var(--mdc-theme-text-secondary-on-background);
-        display: block;
-        margin: 8px 0 4px 0;
-    }
-    .commentors td-list-item {
-        padding-left: 0;
-        margin-top: 24px;
-    }
-    .commentors td-list-item:first-of-type {
-        margin-top: 36px;
-    }
-    .feedback {
-        display: flex;
-        align-items: flex-end;
-        gap: 8px;
-        margin-top: 56px;
-        margin-left: 56px;
-    }
-    td-textarea {
-        width: 100%;
-        max-width: 563px;
-        height: 160px;
-    }
-    .sidebar td-list-item {
-        margin: 0;
-        padding-left: 0;
+    .assetContainer td-list-item :last-child {
+        position: absolute;
+        right: 0;
+        top: 15px;
     }
     @media only screen and (max-width: 1024px) {
         .hidden-large {
             display:block;
         }
+        .hidden-small {
+            display: none;
+        }
         .topBar {
             flex-direction: column;
             align-items: flex-start;
         }
-        .hidden-small {
-            display: none;
-        }
-        .content {
-            grid-template-columns: 100%;
-        }
-        .sidebar {
-            margin-top: 24px;
-        }
-        .feedback {
-            margin-left: 0;
-        }
     }
     @media only screen and (max-width: 800px) {
-        .container {
+        .assetContainer {
             padding: 32px 80px;
-        }
-        .feedback {
-            flex-direction: column;
-        }
-        td-textarea {
-            max-width: none;
         }
     }
     @media only screen and (max-width: 375px) {
-        .container {
+        .assetContainer {
             padding: 32px 40px;
         }
     }
 </style>
+
 
 <td-gallery>
     <svg slot="logo" class="logo logo-light" style="width:100px;" viewBox="0 0 696 133" fit=""  preserveAspectRatio="xMidYMid meet" focusable="false">
@@ -188,7 +136,7 @@
         </td-list-item>
     </td-list>
 
-    <div class="container">
+    <div class="assetContainer">
         <div class="category project">
             <td-icon>folder</td-icon>
             <div>Project</div>
@@ -200,101 +148,47 @@
                 <td-icon-button icon="more_vert"></td-icon-button>
             </div>
         </div>
-        <td-tab-bar>
+        <td-tab-bar activeIndex="1">
             <td-tab label="Overview"></td-tab>
             <td-tab label="Assets"></td-tab>
         </td-tab-bar>
-        <div class="content">
-            <div>
-                <div class="description">
-                    Description
-                </div>
-                <p>
-                    FWA accounts for 5-10% of healthcare costs. 
-                    Undetected billing and practice deficiencies cause large fines; penalties can be severe to a reputation as well. 
-                    Multi-party participation over time creates difficulty in finding true-positive insights.
-                </p>
-                <p>
-                    This project analytically discovers practice or pricing inefficiencies, dispensing errors or inconsistencies between orders and actual stock. 
-                    Predict fraud, increase visibility into waste and abuse, promote information-driven best practice policies and procedures.
-                </p>
-
-                <td-list class="commentors">
-                    <td-list-item graphic="avatar">
-                        <span>Nancy Elmwood</span>
-                        <td-icon slot="graphic">person</td-icon>
-                        <div class="skeleton-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                    </td-list-item>
-                    <td-list-item graphic="avatar">
-                        <span>Susan Murphy</span>
-                        <td-icon slot="graphic">person</td-icon>
-                        <div class="skeleton-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                    </td-list-item>
-                    <td-list-item graphic="avatar">
-                        <span>Tom Coleman</span>
-                        <td-icon slot="graphic">person</td-icon>
-                        <div class="skeleton-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                    </td-list-item>
-                </td-list>
-                <div class="feedback">
-                    <td-textarea outlined label="Leave a comment"></td-textarea>
-                    <td-button outlined label="SUBMIT"></td-button>
-                </div>
-            </div>
-            <div>
-                <td-list class="sidebar">
-                    <td-list-item graphic="avatar" twoline>
-                        <span>Usage</span>
-                        <span slot="secondary">Appears in 1 project</span>
-                        <td-icon slot="graphic">widgets</td-icon>
-                    </td-list-item>
-                    <td-list-item graphic="avatar" twoline>
-                        <span>Type</span>
-                        <span slot="secondary">Project</span>
-                        <td-icon slot="graphic">folder</td-icon>
-                    </td-list-item>
-                    <td-list-item graphic="avatar" twoline>
-                        <span>Created by</span>
-                        <span slot="secondary">Josh Williams</span>
-                        <td-icon slot="graphic">edit</td-icon>
-                    </td-list-item>
-                    <td-list-item graphic="avatar" twoline>
-                        <span>Last altered on</span>
-                        <span slot="secondary">Sept 2, 2021 by Josh Williams</span>
-                        <td-icon slot="graphic">edit_document</td-icon>
-                    </td-list-item>
-                    <td-list-item graphic="avatar" twoline>
-                        <span>Created on</span>
-                        <span slot="secondary">Aug 1, 2021 at 1:30pm</span>
-                        <td-icon slot="graphic">schedule</td-icon>
-                    </td-list-item>
-                </td-list>
-                <div class="tags">
-                    Tags
-                </div>
-                <td-chip-set>
-                    <td-chip label="Practice compliance"></td-chip>
-                    <td-chip label="Risk reduction"></td-chip>
-                    <td-chip label="FWA"></td-chip>
-                    <td-chip label="Risk reduction"></td-chip>
-                </td-chip-set>
-            </div>
-        </div>
+        <td-list>
+            <td-list-item graphic="avatar" twoline>
+                <span>FWA Predictions</span>
+                <span slot="secondary">93 KB</span>
+                <td-icon slot="graphic">assignment</td-icon>
+                <td-icon-button icon="download"></td-icon-button>
+            </td-list-item>
+            <td-list-item graphic="avatar" twoline>
+                <span class="skeleton-text">Filler text</span>
+                <span slot="secondary" class="skeleton-text">More filler text</span>
+                <td-icon slot="graphic">description</td-icon>
+                <td-icon-button icon="download"></td-icon-button>
+            </td-list-item>
+            <td-list-item graphic="avatar" twoline>
+                <span class="skeleton-text">Filler text</span>
+                <span slot="secondary" class="skeleton-text">More filler text</span>
+                <td-icon slot="graphic">video_library</td-icon>
+                <td-icon-button icon="open_in_new"></td-icon-button>
+            </td-list-item>
+            <td-list-item graphic="avatar" twoline>
+                <span class="skeleton-text">Filler text</span>
+                <span slot="secondary" class="skeleton-text">More filler text</span>
+                <td-icon slot="graphic">folder</td-icon>
+                <td-icon-button icon="open_in_new"></td-icon-button>
+            </td-list-item>
+            <td-list-item graphic="avatar" twoline>
+                <span class="skeleton-text">Filler text</span>
+                <span slot="secondary" class="skeleton-text">More filler text</span>
+                <td-icon slot="graphic">table_view</td-icon>
+                <td-icon-button icon="download"></td-icon-button>
+            </td-list-item>
+            <td-list-item graphic="avatar" twoline>
+                <span class="skeleton-text">Filler text</span>
+                <span slot="secondary" class="skeleton-text">More filler text</span>
+                <td-icon slot="graphic">table_view</td-icon>
+                <td-icon-button icon="download"></td-icon-button>
+            </td-list-item>
+        </td-list>
     </div>
-
 </td-gallery>

@@ -13,7 +13,7 @@
     td-textfield {
         width: 100%;
     }
-    .container {
+    .contentContainer {
         padding: 0 24px 16px;
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -34,7 +34,7 @@
         .hidden-small {
             display: none;
         }
-        .container {
+        .contentContainer {
             grid-template-columns: 1fr;
         }
     }
@@ -121,7 +121,7 @@
     <td-textfield label="Search shared data and connected catalogs" outlined icon="search"></td-textfield>
 </div>
 <h2> Recommended for you </h2>
-<div class="container">
+<div class="contentContainer">
     <td-card outlined ripple sourceType="project" sourceCreator="Josh Williams" cardTitle="Cellular Wifi Network Performance">
         <div slot="card-content">Data collected from device related to cellular network telemetry.</div>
     </td-card>
