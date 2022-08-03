@@ -3,7 +3,70 @@
 
 @include card.core-styles;
 
-.mdc-card__actions {
+.project {
+  color: #58badb;
+}
+.dataset {
+  color: #59cecd;
+}
+.article {
+  color: #ceccbb;
+}
+.file {
+  color: #bdade2;
+}
+.categoryContainer {
+  padding: 8px 16px 0 16px;
+  font-family: var(--mdc-typography-subtitle1-font-family);
+  font-size: var(--mdc-typography-subtitle1-font-size);
+  line-height: var(--mdc-typography-subtitle1-line-height);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+
+  td-icon {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .category {
+    display: flex;
+    align-items: center;
+  }
+  .sourceCreator {
+    color: var(--mdc-theme-text-secondary-on-background);
+    white-space: nowrap;
+  }
+  .sourceCreator::before {
+    content: "•";
+    color: var(--mdc-theme-text-secondary-on-background);
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+.mdc-card,
+.mdc-card__primary-action {
+  flex: 1;
+}
+
+.mdc-typography--headline5 {
   color: var(--mdc-theme-text-primary-on-background);
   border-bottom: 1px solid var(--mdc-theme-border);
+}
+[name="card-content"]::slotted(*) {
+  min-height: 150px;
+  padding: 0 16px 8px 16px;
+  line-height: 20px;
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-body2-font-family);
+  font-size: var(--mdc-typography-body2-font-size);
+  line-height: var(--mdc-typography-body2-line-height);
+  font-weight: var(--mdc-typography-body2-font-weight);
+}
+
+.mdc-card {
+  background-color: transparent;
+}
+
+.mdc-card--outlined {
+  border-color: var(--mdc-theme-border);
 }
