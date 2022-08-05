@@ -1,0 +1,71 @@
+@use "@material/ripple";
+
+:host {
+  .mdc-toggle__background {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    color: #045c5c;
+  }
+  .mdc-toggle__checkmark-path {
+    transition: stroke-dashoffset 180ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    stroke: currentcolor;
+    stroke-width: 3.12px;
+    stroke-dashoffset: 29.7833;
+    stroke-dasharray: 29.7833;
+  }
+  .showCheck {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+:host([width="fill"]) {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 8px;
+  width: var(--width);
+  height: var(--height);
+  border: solid 2px var(--mdc-theme-border);
+  border-radius: 8px;
+  color: var(--mdc-theme-text-primary-on-background);
+  @include ripple.surface;
+  @include ripple.radius-unbounded;
+  @include ripple.states;
+}
+.container::after,
+.container::before {
+  border-radius: 8px;
+}
+.container:hover {
+  cursor: pointer;
+}
+.checked {
+  --mdc-theme-border: #59cecd;
+  border: solid 2px var(--mdc-theme-border);
+  background: linear-gradient(
+    225deg,
+    var(--mdc-theme-border) 28px,
+    transparent 0
+  );
+  background-color: var(--mdc-theme-surface-primary-highlight);
+}
+[name="icon"]::slotted(*) {
+  font-size: 32px;
+}
+[name="text"]::slotted(*) {
+  color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-subtitle1-font-family);
+  font-size: var(--mdc-typography-subtitle1-font-size);
+  font-weight: 400;
+  line-height: var(--mdc-typography-subtitle1-line-height);
+  letter-spacing: 0.4px;
+}
