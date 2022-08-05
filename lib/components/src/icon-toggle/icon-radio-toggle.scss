@@ -1,0 +1,85 @@
+@use "@material/ripple";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 24px;
+  width: var(--width);
+  height: var(--height);
+  border: solid 1px var(--mdc-theme-border);
+  border-radius: 8px;
+  position: relative;
+  color: var(--mdc-theme-text-primary-on-background);
+  @include ripple.surface;
+  @include ripple.radius-unbounded;
+  @include ripple.states;
+}
+:host {
+  input.mdc-radio__native-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .mdc-radio__native-control {
+    top: 4px;
+    right: 4px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: #285c5c66;
+  }
+  //   .mdc-radio__native-control:checked
+  //     ~ .mdc-radio__background
+  //     .mdc-radio__checkmark {
+  //     position: absolute;
+  //     inset: 0px;
+  //     width: 100%;
+  //     opacity: 0;
+  //     transition: opacity 180ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  //   }
+  //   .mdc-radio__checkmark-path {
+  //     transition: stroke-dashoffset 180ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  //     stroke: currentcolor;
+  //     stroke-width: 3.12px;
+  //     stroke-dashoffset: 29.7833;
+  //     stroke-dasharray: 29.7833;
+  //   }
+}
+:host([width="fill"]) {
+  width: 100%;
+}
+.container::after,
+.container::before {
+  border-radius: 8px;
+}
+.container:hover {
+  cursor: pointer;
+}
+.checked {
+  background-color: #285c5c66;
+  border: #59cecd solid 1px;
+  background: linear-gradient(225deg, #59cecd 48px, transparent 0);
+}
+[name="icon"]::slotted(*) {
+  font-size: 40px;
+}
+[name="text"]::slotted(*) {
+  color: var(--mdc-theme-text-secondary-on-background);
+}
+.fill::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 30px 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
