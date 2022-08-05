@@ -21,16 +21,14 @@ export class CovalentIconRadioToggleBase extends RadioBase {
   override render() {
   const classes = {
       'checked': this.checked,
-      // 'mdc-radio': true,
-      // 'mdc-radio--touch': true,
   };
   return html`
       <div @click="${() => {this.checked = true}}" class="${classMap(classes)} container mdc-ripple-surface--primary" style="--width:${this.width == 'fill' ? `100%` : `${this.width}px`}; --height:${this.height}px;">
-          <input type="radio" class="mdc-radio__native-control"></input>
-          <div class=".mdc-radio__background">
-              <svg class="mdc-radio__checkmark ${this.checked ? 'fill' : ''}" viewBox="0 0 24 24">
-                  <path class="mdc-radio__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
-              </svg>
+        <input type="radio" class="mdc-radio__native-control"></input>
+          <div class="mdc-radio__background">
+            <svg class="mdc-radio__checkmark ${this.checked ? 'showCheck' : ''}" viewBox="0 0 24 24">
+              <path class="mdc-radio__checkmark-path ${this.checked ? 'showCheck' : ''}" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+            </svg>
           </div>
           <slot name="icon"></slot>
           <div>
