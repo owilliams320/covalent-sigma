@@ -36,7 +36,6 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  position: relative;
   row-gap: 8px;
   width: var(--width);
   height: var(--height);
@@ -54,17 +53,17 @@
 .container:hover {
   cursor: pointer;
 }
-.checked {
-  --mdc-theme-border: #59cecd;
-  border: solid 2px var(--mdc-theme-border);
-  background-color: var(--mdc-theme-surface-primary-highlight);
-}
 .cornerFill {
   background: linear-gradient(
     225deg,
     var(--mdc-theme-border) 28px,
     transparent 0
   );
+}
+.checked {
+  --mdc-theme-border: #59cecd;
+  border: solid 2px var(--mdc-theme-border);
+  background-color: var(--mdc-theme-surface-primary-highlight);
 }
 [name="icon"]::slotted(*) {
   font-size: 32px;
