@@ -1,6 +1,6 @@
 import { RadioBase } from '@material/mwc-radio/mwc-radio-base';
 import { styles as radioStyle } from '@material/mwc-radio/mwc-radio.css';
-import styles from './icon-toggle.scss';
+import styles from './icon-radio.scss';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
@@ -11,11 +11,11 @@ declare global {
     }
 }
 
-@customElement('td-icon-radio-item')
+@customElement('td-radio-icon')
 export class CovalentIconRadioToggleBase extends RadioBase {
     static override styles = [styles, radioStyle];  
-    @property({type:String}) width = "204";
-    @property({type:String}) height = "162";
+    @property({type:String}) width = "200";
+    @property({type:String}) height = "160";
     @property({type:Boolean}) iconOnly = false;
     override render() {
     const classes = {

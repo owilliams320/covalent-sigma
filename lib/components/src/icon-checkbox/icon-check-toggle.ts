@@ -1,6 +1,6 @@
 import { CheckboxBase } from '@material/mwc-checkbox/mwc-checkbox-base';
 import { styles as checkboxStyle } from '@material/mwc-checkbox/mwc-checkbox.css';
-import styles from './icon-toggle.scss';
+import styles from './icon-checkbox.scss';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
@@ -11,11 +11,11 @@ declare global {
     }
 }
 
-@customElement('td-icon-check-item')
+@customElement('td-checkbox-icon')
 export class CovalentIconCheckToggleBase extends CheckboxBase {
     static override styles = [styles, checkboxStyle];
-    @property({type:String}) width = "204";
-    @property({type:String}) height = "162";
+    @property({type:String}) width = "200";
+    @property({type:String}) height = "160";
     @property({type:Boolean}) iconOnly = false;
     override render() {
     const classes = {

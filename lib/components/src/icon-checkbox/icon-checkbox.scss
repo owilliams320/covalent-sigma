@@ -21,11 +21,6 @@
     stroke-dashoffset: 0;
     opacity: 1;
   }
-  .mdc-radio__background {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-  }
 }
 :host([width="fill"]) {
   width: 100%;
@@ -75,11 +70,4 @@
   font-weight: 400;
   line-height: var(--mdc-typography-subtitle1-line-height);
   letter-spacing: 0.4px;
-}
-
-.mdc-radio__native-control:enabled:checked
-  + .mdc-radio__background
-  .mdc-radio__outer-circle,
-.mdc-radio__inner-circle {
-  border-color: var(--mdc-theme-secondary, #018786);
 }
