@@ -30,7 +30,7 @@ export class CovalentIconCheckToggleBase extends CheckboxBase {
                 </svg>
             </div>
             <slot name="icon"></slot>
-            ${!this.iconOnly ? html`<div><slot name="text"></slot></div>` : ''}
+            ${this.iconOnly ? '' : html`<div><slot name="text"></slot></div>` }
         </div>
     `
   }
