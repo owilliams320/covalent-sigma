@@ -4,6 +4,7 @@ import styles from './icon-checkbox.scss';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
+import { styleMap } from 'lit/directives/style-map.js';
 
 declare global {
     interface HTMLElementTagNameMap {
@@ -22,12 +23,19 @@ export class CovalentIconCheckToggleBase extends CheckboxBase {
         'checked': this.checked,
         'cornerFill': this.checked,
     };
+    const checkmark = {
+        'showCheck': this.checked,
+    }
+    const styles = {
+        '--width': this.width == 'fill' ? '100%' : `${this.width}px`,
+        '--height': `${this.height}px`,
+    }
     return html`
-        <div class="${classMap(classes)} container" style="--width:${this.width == 'fill' ? `100%` : `${this.width}px`}; --height:${this.height}px;" @click="${this._handleClick}">
+        <div class="${classMap(classes)} container" style="${styleMap(styles)}" @click="${this._handleClick}">
             <input type="checkbox" class="mdc-checkbox__native-control"></input>
             <div class="mdc-toggle__background">
-                <svg class="mdc-toggle__checkmark ${this.checked ? 'showCheck' : ''}" viewBox="0 0 24 24">
-                    <path class="mdc-toggle__checkmark-path ${this.checked ? 'showCheck' : ''}" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                <svg class="mdc-toggle__checkmark ${classMap(checkmark)}" viewBox="0 0 24 24">
+                    <path class="mdc-toggle__checkmark-path ${classMap(checkmark)}" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
                 </svg>
             </div>
             <slot name="icon"></slot>

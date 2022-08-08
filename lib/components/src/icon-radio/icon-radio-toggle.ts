@@ -4,6 +4,7 @@ import styles from './icon-radio.scss';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
+import { styleMap } from 'lit/directives/style-map.js';
 
 declare global {
     interface HTMLElementTagNameMap {
@@ -21,8 +22,12 @@ export class CovalentIconRadioToggleBase extends RadioBase {
     const classes = {
         'checked': this.checked,
     };
+    const styles = {
+        '--width': this.width == 'fill' ? '100%' : `${this.width}px`,
+        '--height': `${this.height}px`,
+    }
     return html`
-        <div class="${classMap(classes)} container" style="--width:${this.width == 'fill' ? `100%` : `${this.width}px`}; --height:${this.height}px;" @click="${() => {this.checked = true}}">
+        <div class="${classMap(classes)} container" style="${styleMap(styles)}" @click="${() => {this.checked = true}}">
             <input type="radio" class="mdc-radio__native-control"></input>
             <div class="mdc-radio__background">
                 <div class="mdc-radio__outer-circle"></div>
