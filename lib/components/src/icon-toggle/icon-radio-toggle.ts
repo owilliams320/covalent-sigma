@@ -24,10 +24,9 @@ export class CovalentIconRadioToggleBase extends RadioBase {
     return html`
         <div class="${classMap(classes)} container" style="--width:${this.width == 'fill' ? `100%` : `${this.width}px`}; --height:${this.height}px;" @click="${() => {this.checked = true}}">
             <input type="radio" class="mdc-radio__native-control"></input>
-            <div class="mdc-toggle__background">
-                <svg class="mdc-toggle__checkmark ${this.checked ? 'showCheck' : ''}" viewBox="0 0 24 24">
-                    <path class="mdc-toggle__checkmark-path ${this.checked ? 'showCheck' : ''}" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
-                </svg>
+            <div class="mdc-radio__background">
+                <div class="mdc-radio__outer-circle"></div>
+                <div class="mdc-radio__inner-circle"></div>
             </div>
             <slot name="icon"></slot>
             ${this.iconOnly ? '' : html`<div><slot name="text"></slot></div>` }

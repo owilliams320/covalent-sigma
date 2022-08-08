@@ -20,6 +20,7 @@ export class CovalentIconCheckToggleBase extends CheckboxBase {
     override render() {
     const classes = {
         'checked': this.checked,
+        'cornerFill': this.checked,
     };
     return html`
         <div class="${classMap(classes)} container" style="--width:${this.width == 'fill' ? `100%` : `${this.width}px`}; --height:${this.height}px;" @click="${this._handleClick}">
