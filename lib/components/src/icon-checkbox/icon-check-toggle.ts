@@ -15,8 +15,8 @@ declare global {
 @customElement('td-checkbox-icon')
 export class CovalentIconCheckToggleBase extends CheckboxBase {
     static override styles = [styles, checkboxStyle];
-    @property({type:String}) width = "200";
-    @property({type:String}) height = "160";
+    @property() width: number | string = "200";
+    @property() height: number | string = "160";
     @property({type:Boolean}) iconOnly = false;
     override render() {
     const classes = {
