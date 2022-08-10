@@ -37,7 +37,7 @@ class CovalentTreeListItem extends LitElement {
 
         // The nest slot should only take td-tree-list-item components. Otherwise use default value and display "No results".
         return html`
-            <div class="itemContent" @click="${this._handleClick}" style="--indent:${this.indentLevel*this.indentMultiple+this.indentMultiple}px">
+            <div class="itemContent mdc-ripple-surface" @click="${this._handleClick}" style="--indent:${this.indentLevel*this.indentMultiple+8}px">
                 <div class="mainContent">
                     ${arrow}
                     ${icon}

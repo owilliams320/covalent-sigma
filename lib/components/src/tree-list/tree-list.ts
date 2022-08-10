@@ -25,10 +25,10 @@ class CovalentTreeList extends LitElement {
 document.addEventListener('select', (e: Event) => {handleSelect(e)});
 const handleSelect = (e: Event): void => {
     // All td-tree-list-item components.
-    const items = Array.from(document.querySelectorAll('td-tree-list-item'));
+    const items: any[] = Array.from(document.querySelectorAll('td-tree-list-item'));
     
     // Currently selected item.
-    const target = e.target as HTMLElement;
+    const target: HTMLElement = e.target as HTMLElement;
     const current = target.shadowRoot!.querySelector('div.itemContent');
     
     // Find previously selected element and remove the styling.
