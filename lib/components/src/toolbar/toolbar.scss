@@ -21,7 +21,7 @@ header {
   height: 40px;
 }
 [name="buttonActions"]::slotted(*) {
-  margin: 0 8px;
+  margin-left: 8px;
 }
 span {
   display: inline-flex;
