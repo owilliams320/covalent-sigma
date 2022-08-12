@@ -8,7 +8,7 @@
     width: 15px;
     height: 15px;
     border: none;
-    color: #045c5c;
+    color: var(--mdc-theme-text-icon-on-dark);
   }
   .mdc-toggle__checkmark-path {
     transition: stroke-dashoffset 180ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
@@ -51,23 +51,29 @@
 .cornerFill {
   background: linear-gradient(
     225deg,
-    var(--mdc-theme-border) 28px,
+    var(--mdc-theme-secondary) 28px,
     transparent 0
   );
 }
 .checked {
-  --mdc-theme-border: #59cecd;
-  border: solid 2px var(--mdc-theme-border);
+  border: solid 2px var(--mdc-theme-primary);
   background-color: var(--mdc-theme-surface-primary-highlight);
+}
+.checked:hover {
+  background-color: var(--mdc-theme-surface-primary-highlight-hover);
 }
 [name="icon"]::slotted(*) {
   font-size: 32px;
+  color: var(--mdc-theme-text-icon-on-background);
 }
 [name="text"]::slotted(*) {
-  color: var(--mdc-theme-text-secondary-on-background);
+  color: var(--mdc-theme-text-primary-on-background);
   font-family: var(--mdc-typography-subtitle1-font-family);
   font-size: var(--mdc-typography-subtitle1-font-size);
   font-weight: 400;
   line-height: var(--mdc-typography-subtitle1-line-height);
   letter-spacing: 0.4px;
+}
+[name="text"]::slotted(*:last-child) {
+  color: var(--mdc-theme-text-secondary-on-background);
 }

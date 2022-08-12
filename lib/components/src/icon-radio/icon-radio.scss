@@ -33,24 +33,32 @@
 .container:hover {
   cursor: pointer;
 }
-
 .checked {
-  --mdc-theme-border: #59cecd;
-  border: solid 2px var(--mdc-theme-border);
+  border: solid 2px var(--mdc-theme-primary);
   background-color: var(--mdc-theme-surface-primary-highlight);
+}
+.checked:hover {
+  background-color: var(--mdc-theme-surface-primary-highlight-hover);
 }
 [name="icon"]::slotted(*) {
   font-size: 32px;
+  color: var(--mdc-theme-text-icon-on-background);
 }
 [name="text"]::slotted(*) {
-  color: var(--mdc-theme-text-secondary-on-background);
+  color: var(--mdc-theme-text-primary-on-background);
   font-family: var(--mdc-typography-subtitle1-font-family);
   font-size: var(--mdc-typography-subtitle1-font-size);
   font-weight: 400;
   line-height: var(--mdc-typography-subtitle1-line-height);
   letter-spacing: 0.4px;
 }
+[name="text"]::slotted(*:last-child) {
+  color: var(--mdc-theme-text-secondary-on-background);
+}
 
+.mdc-radio__outer-circle {
+  border-color: var(--mdc-theme-text-icon-on-background);
+}
 .mdc-radio__native-control:enabled:checked
   + .mdc-radio__background
   .mdc-radio__outer-circle,
