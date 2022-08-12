@@ -41,19 +41,23 @@
   background-color: var(--mdc-theme-surface-primary-highlight-hover);
 }
 [name="icon"]::slotted(*) {
-  font-size: 32px;
+  font-size: 40px;
   color: var(--mdc-theme-text-icon-on-background);
 }
 [name="text"]::slotted(*) {
   color: var(--mdc-theme-text-primary-on-background);
-  font-family: var(--mdc-typography-subtitle1-font-family);
-  font-size: var(--mdc-typography-subtitle1-font-size);
-  font-weight: 400;
-  line-height: var(--mdc-typography-subtitle1-line-height);
+  font-family: var(--mdc-typography-body1-font-family);
+  font-size: var(--mdc-typography-body1-font-size);
+  font-weight: var(--mdc-typography-body1-font-weight);
+  line-height: var(--mdc-typography-body1-line-height);
   letter-spacing: 0.4px;
 }
 [name="text"]::slotted(*:last-child) {
   color: var(--mdc-theme-text-secondary-on-background);
+  font-family: var(--mdc-typography-body2-font-family);
+  font-size: var(--mdc-typography-body2-font-size);
+  font-weight: var(--mdc-typography-body2-font-weight);
+  line-height: var(--mdc-typography-body2-line-height);
 }
 
 .mdc-radio__outer-circle {
