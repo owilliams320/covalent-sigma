@@ -14,6 +14,8 @@ declare global {
 export class CovalentToolbarBase extends TopAppBarBase {
   @property({type: Number}) breadcrumbs = 0;
   @property({type: String}) label = '';
+  @property({type: Boolean}) mini = false;
+
   static override styles = [styles];
   override render() {
     // Create dummy data for the toolbar breadcrumbs.
@@ -33,7 +35,7 @@ export class CovalentToolbarBase extends TopAppBarBase {
       }
     }
     return html`
-      <header class="mdc-top-app-bar">
+      <header class="mdc-top-app-bar ${this.mini ? 'mini' : ''}">
         <div class="mdc-top-app-bar__row">
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
             <div>
@@ -42,7 +44,7 @@ export class CovalentToolbarBase extends TopAppBarBase {
           </section>
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
             <slot name="iconActions" slot="actionItems"></slot>
-            <slot name="buttonActions" slot="actionItems" class="desktop"></slot>
+            <slot name="buttonActions" slot="actionItems"></slot>
           </section>
         </div>
       </header>

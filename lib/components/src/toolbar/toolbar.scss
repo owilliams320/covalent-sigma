@@ -1,6 +1,14 @@
 @use '@material/typography/mdc-typography';
 @use "@material/top-app-bar/mdc-top-app-bar";
 
+:host {
+  .mdc-top-app-bar__section--align-start {
+    padding-left: 16px;
+  }
+  .mdc-top-app-bar__section--align-end {
+    padding-right: 8px;
+  }
+}
 header {
   border-bottom: solid 1px var(--mdc-theme-border);
   font-family: var(--mdc-typography-headline6-font-family);
@@ -21,19 +29,45 @@ header {
   height: 40px;
 }
 [name="buttonActions"]::slotted(*) {
-  margin-left: 8px;
+  padding-left: 8px;
+}
+[name="buttonActions"]::slotted(*:last-child) {
+  padding-right: 8px;
 }
 span {
   display: inline-flex;
   align-items: center;
   color: var(--mdc-theme-text-secondary-on-background);
+  & > td-icon {
+    margin: auto 4px;
+  }
 }
-.desktop {
+.mini {
+  [name="buttonActions"]::slotted(*) {
+    display: none;
+  }
+  height: 56px;
+  font-family: var(--mdc-typography-subtitle2-font-family);
+  font-size: var(--mdc-typography-subtitle2-font-size);
+  font-weight: var(--mdc-typography-subtitle2-font-weight);
+  line-height: var(--mdc-typography-subtitle2-line-height);
+}
+
+[name="buttonActions"]::slotted(*) {
   display: inline-flex;
 }
 
-@media screen and (max-width: 565px) {
-  .desktop {
+@media screen and (max-width: 768px) {
+  [name="buttonActions"]::slotted(*) {
     display: none;
+  }
+  header {
+    font-family: var(--mdc-typography-subtitle2-font-family);
+    font-size: var(--mdc-typography-subtitle2-font-size);
+    font-weight: var(--mdc-typography-subtitle2-font-weight);
+    line-height: var(--mdc-typography-subtitle2-line-height);
+  }
+  :host {
+    height: 56px;
   }
 }
