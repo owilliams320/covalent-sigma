@@ -12,16 +12,8 @@
 .itemContent {
   // .itemContent is a div so its width will be the width of its parent.
   padding: 0px 32px 0px var(--indent);
-  margin-right: 16px;
+  // margin-right: 16px;
 }
-// Attempting to add a hoverable region to the blankspace.
-// .itemContent::after {
-//   content: "";
-//   width: 16px;
-//   position: absolute;
-//   inset: 0 0 0 100%;
-//   border-radius: 0;
-// }
 .itemContent:hover {
   cursor: pointer;
   background-color: var(--mdc-theme-surface-neutral-highlight-hover);
@@ -69,7 +61,7 @@
 }
 .endOfNest {
   padding: 8px;
-  padding-left: calc(var(--indent) + 28px);
+  padding-left: calc(var(--indent) + 20px);
   letter-spacing: 0.4px;
   user-select: none;
   color: var(--mdc-theme-text-disabled-on-background);
@@ -78,7 +70,6 @@
   font-weight: var(--mdc-typography-caption-font-weight);
   line-height: var(--mdc-typography-caption-line-height);
 }
-// Arrow icon should always be this color.
 .arrowIcon {
   color: var(--mdc-theme-text-primary-on-background);
 }
