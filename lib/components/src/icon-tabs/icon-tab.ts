@@ -12,13 +12,16 @@ declare global {
 @customElement('td-icon-tab')
 export class CovalentIconTabBase extends TabBase {
   static override styles = [styles, tabBarStyles];
-  @property({type: String}) secondLine = '';
-  // Trying to figure out how to append text to a shadow DOM element
-  // override connectedCallback() {
-  //   super.connectedCallback();
-  //   let span = document.createElement('span');
-  //   span.textContent = this.secondLine;
-  //   const button = this.shadowRoot!.querySelector(".mdc-tab")
-  //   console.log(button);
-  // }
+  @property({type: String}) secondLine = 'Label';
+  
+  override firstUpdated() {
+    super.firstUpdated();
+    let contentContainer = this.shadowRoot!.querySelector('span.mdc-tab__content');
+    
+    let span = document.createElement('div');
+    span.textContent = this.secondLine;
+    span.classList.add('secondLine');
+    
+    contentContainer?.appendChild(span);
+  }
 }

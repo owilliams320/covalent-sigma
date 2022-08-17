@@ -1,10 +1,19 @@
 :host {
-  button {
+  width: 200px;
+  height: 160px;
+  button.mdc-tab {
     display: flex;
-    width: 200px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     align-items: center;
-    padding: 50px;
+    white-space: normal;
+    padding: 0;
+  }
+  span.mdc-tab__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label {
     padding: 0;
@@ -15,17 +24,26 @@
     width: 40px;
     height: 40px;
   }
-  span.mdc-tab__content {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  span.mdc-tab__text-label {
+    display: inline-block;
+    overflow-wrap: anywhere;
   }
 }
+:host(:not([active])) {
+  span.mdc-tab__icon {
+    color: var(--mdc-theme-text-disabled-on-background);
+  }
+  span.mdc-tab__text-label {
+    color: var(--mdc-theme-text-secondary-on-background);
+  }
+  .secondLine {
+    color: var(--mdc-theme-text-disabled-on-background);
+  }
+}
+
 :host([active]) {
   .mdc-tab {
     background-color: var(--mdc-theme-surface-primary-highlight);
-    // border-bottom: solid 1px var(--mdc-theme-primary);
   }
   .mdc-tab:hover {
     background-color: var(--mdc-theme-surface-primary-highlight-hover);
@@ -36,12 +54,21 @@
   span.mdc-tab__text-label {
     color: var(--mdc-theme-text-primary-on-background);
   }
+  .secondLine {
+    color: var(--mdc-theme-text-secondary-on-background);
+  }
 }
-:host(:not([active])) {
-  span.mdc-tab__icon {
-    color: var(--mdc-theme-text-disabled-on-background);
-  }
-  span.mdc-tab__text-label {
-    color: var(--mdc-theme-text-primary-on-background);
-  }
+
+.secondLine {
+  letter-spacing: 0.25px;
+  color: var(--mdc-theme-text-disabled-on-background);
+  font-family: var(--mdc-typography-body2-font-family);
+  font-size: var(--mdc-typography-body2-font-size);
+  font-weight: var(--mdc-typography-body2-font-weight);
+  line-height: var(--mdc-typography-body2-line-height);
+  text-transform: lowercase;
+  margin-top: 4px;
+}
+.secondLine::first-letter {
+  text-transform: capitalize;
 }

@@ -1,6 +1,6 @@
-import { html } from 'lit';
 import { TabBarBase } from '@material/mwc-tab-bar/mwc-tab-bar-base';
 import {styles as tabBarStyles} from '@material/mwc-tab-bar/mwc-tab-bar.css';
+import styles from "./icon-tab-bar.scss";
 import { customElement } from 'lit/decorators.js';
 
 declare global {
@@ -11,6 +11,5 @@ declare global {
 
 @customElement('td-icon-tab-bar')
 export class CovalentIconTabBarBase extends TabBarBase {
-  static override styles = [tabBarStyles];
-
+  static override styles = [tabBarStyles, styles];
 }
