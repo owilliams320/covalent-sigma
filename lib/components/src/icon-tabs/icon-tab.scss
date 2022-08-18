@@ -7,7 +7,8 @@
     height: 100%;
     align-items: center;
     white-space: normal;
-    padding: 0;
+    overflow-wrap: anywhere;
+    padding: 16px;
   }
   span.mdc-tab__content {
     flex-direction: column;
@@ -24,9 +25,8 @@
     width: 40px;
     height: 40px;
   }
-  span.mdc-tab__text-label {
-    display: inline-block;
-    overflow-wrap: anywhere;
+  .secondLine {
+    line-height: 16px;
   }
 }
 :host(:not([active])) {
