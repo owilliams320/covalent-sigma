@@ -66,9 +66,6 @@
   font-size: var(--mdc-typography-body2-font-size);
   font-weight: var(--mdc-typography-body2-font-weight);
   line-height: var(--mdc-typography-body2-line-height);
-  text-transform: lowercase;
+  text-transform: none;
   margin-top: 4px;
-}
-.secondLine::first-letter {
-  text-transform: capitalize;
 }
