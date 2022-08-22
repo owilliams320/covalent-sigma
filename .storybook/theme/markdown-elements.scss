@@ -79,12 +79,16 @@
     font-weight: var(--mdc-typography-body1-font-weight);
     line-height: var(--mdc-typography-body1-line-height);
 
+    a {
+        color: var(--mdc-theme-secondary);
+        text-decoration: underline;
+    }
+
     .link-list {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         row-gap: 1.5rem;
-        margin-top: 4rem;
     }
     @media (min-width: 620px) {
         .link-list {
@@ -97,7 +101,7 @@
         .link-list {
             display: -ms-grid;
             -ms-grid-columns: 1fr 1fr;
-            -ms-grid-rows: 1fr 1fr;
+            -ms-grid-rows: 1fr;
         }
     }
 
@@ -110,7 +114,6 @@
         color: var(--mdc-theme-text-secondary-on-background);
         display: flex;
         align-items: flex-start;
-        min-height: 4rem;
         text-decoration: none;
     
         &:hover {
@@ -123,6 +126,28 @@
 
             strong {
                 color: var(--mdc-theme-primary);
+            }
+        }
+        &.link-article {
+            padding-right: 40px;
+            padding-top: 30px;
+            position: relative;
+
+            &::before {
+                content: 'Article';
+                color: var(--mdc-theme-text-secondary-on-background);
+                display: inline-block;
+                font-size: var(--mdc-typography-caption-font-size);
+                position: absolute;
+                top: 8px;
+                text-decoration: none;
+            }
+            &::after {
+                content: 'launch';
+                font-family: var(--mdc-icon-font, "Material Icons");
+                position: absolute;
+                top: 23px;
+                right: 16px;
             }
         }
 

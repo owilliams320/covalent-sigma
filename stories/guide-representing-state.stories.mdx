@@ -1,4 +1,4 @@
-<!-- guide-representing-state.stories.mdx -->
+<!-- representing-state.stories.mdx -->
 
 import { Canvas, Meta, DocsContainer, Story } from '@storybook/addon-docs';
 
@@ -25,11 +25,11 @@ import { Canvas, Meta, DocsContainer, Story } from '@storybook/addon-docs';
   .status_lockup {
     display: flex;
   }
-  .status_lockup mwc-icon {
+  .status_lockup td-icon {
     margin-right: 8px;
   }
 
-  .docs-story mwc-list {
+  .docs-story td-list {
     margin: 0 auto;
     max-width: 30rem;
   }
@@ -115,17 +115,17 @@ Try to put the status column last (or nearly last).
     <tr class="mdc-data-table__row" data-row-id="u0">
       <td class="mdc-data-table__cell" id="r0">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_positive"><div class="status_lockup"><td-icon class="positive">check</td-icon> Successful</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_positive"><div class="status_lockup positive"><td-icon class="positive">check</td-icon> Successful</div></td>
     </tr>
     <tr class="mdc-data-table__row" data-row-id="u1">
       <td class="mdc-data-table__cell" id="r1">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_caution"><div class="status_lockup"><td-icon class="caution">warning</td-icon> Some things didn't work</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_caution"><div class="status_lockup caution"><td-icon class="caution">warning</td-icon> Some things didn't work</div></td>
     </tr>
     <tr class="mdc-data-table__row" data-row-id="u1">
       <td class="mdc-data-table__cell" id="r1">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_negative"><div class="status_lockup"><td-icon class="negative">error</td-icon> Failed</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_negative"><div class="status_lockup negative"><td-icon class="negative">error</td-icon> Failed</div></td>
     </tr>
   </tbody>
 </table>
@@ -147,17 +147,17 @@ This is often too heavy-handed. Be careful.
     <tr class="mdc-data-table__row highlight_positive" data-row-id="u0">
       <td class="mdc-data-table__cell" id="r0">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_positive"><div class="status_lockup"><td-icon class="positive">check</td-icon> Successful</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_positive"><div class="status_lockup positive"><td-icon class="positive">check</td-icon> Successful</div></td>
     </tr>
     <tr class="mdc-data-table__row highlight_caution" data-row-id="u1">
       <td class="mdc-data-table__cell" id="r1">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_caution"><div class="status_lockup"><td-icon class="caution">warning</td-icon> Some things didn't work</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_caution"><div class="status_lockup caution"><td-icon class="caution">warning</td-icon> Some things didn't work</div></td>
     </tr>
     <tr class="mdc-data-table__row highlight_negative" data-row-id="u1">
       <td class="mdc-data-table__cell" id="r1">Title</td>
       <td class="mdc-data-table__cell mdc-data-table__cell">Lorem ipsum dolor sit amet, consecte...</td>
-      <td class="mdc-data-table__cell mdc-data-table__cell state_negative"><div class="status_lockup"><td-icon class="negative">error</td-icon> Failed</div></td>
+      <td class="mdc-data-table__cell mdc-data-table__cell state_negative"><div class="status_lockup negative"><td-icon class="negative">error</td-icon> Failed</div></td>
     </tr>
   </tbody>
 </table>
