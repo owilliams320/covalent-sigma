@@ -12,7 +12,7 @@ declare global {
 @customElement('td-icon-tab')
 export class CovalentIconTabBase extends TabBase {
   static override styles = [styles, tabBarStyles];
-  @property({type: String}) secondLine = 'Label';
+  @property({type: String}) secondLine = '';
   
   override firstUpdated() {
     super.firstUpdated();
