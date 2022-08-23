@@ -68,6 +68,7 @@
     "@material/mwc-textfield": "^0.25.1",
     "@material/mwc-top-app-bar": "^0.25.1",
     "@material/mwc-top-app-bar-fixed": "^0.25.1",
+    "@material/theme": "^13.0.0",
     "@webcomponents/webcomponentsjs": "^2.6.0",
     "lit": "^2.2.8",
     "material-components-web": "^13.0.0",
