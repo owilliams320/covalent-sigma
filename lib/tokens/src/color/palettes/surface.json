@@ -62,6 +62,15 @@
     "surface-neutral-highlight-hover": {
       "value": "rgba({material.grey-400}, 0.08)",
       "type": "color"
+    },
+    "surface-emphasis": { "value": "{teradata.slate-200}", "type": "color" },
+    "surface-emphasis-highlight": {
+      "value": "rgba({teradata.slate-200}, 0.1)",
+      "type": "color"
+    },
+    "surface-emphasis-highlight-hover": {
+      "value": "rgba({teradata.slate-200}, 0.2)",
+      "type": "color"
     }
   },
   "dark": {
@@ -125,6 +134,15 @@
       "type": "color"
     },
     "surface-neutral-highlight-hover": {
+      "value": "rgba({teradata.slate-800}, 0.6)",
+      "type": "color"
+    },
+    "surface-emphasis": { "value": "{teradata.slate-800}", "type": "color" },
+    "surface-emphasis-highlight": {
+      "value": "rgba({teradata.slate-800}, 0.4)",
+      "type": "color"
+    },
+    "surface-emphasis-highlight-hover": {
       "value": "rgba({teradata.slate-800}, 0.6)",
       "type": "color"
     }

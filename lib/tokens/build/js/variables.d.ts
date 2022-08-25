@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 May 2022 16:21:08 GMT
+ * Generated on Wed, 24 Aug 2022 17:47:02 GMT
  */
 
 export const TdLightPrimary : string;
@@ -15,6 +15,7 @@ export const TdLightOnBackground : string;
 export const TdLightOnSurface : string;
 export const TdLightOnError : string;
 export const TdLightDivider : string;
+export const TdLightEmphasis : string;
 export const TdLightBackground : string;
 export const TdLightSurface : string;
 export const TdLightSurfaceCanvas : string;
@@ -36,6 +37,9 @@ export const TdLightSurfaceNegativeHighlightHover : string;
 export const TdLightSurfaceNeutral : string;
 export const TdLightSurfaceNeutralHighlight : string;
 export const TdLightSurfaceNeutralHighlightHover : string;
+export const TdLightSurfaceEmphasis : string;
+export const TdLightSurfaceEmphasisHighlight : string;
+export const TdLightSurfaceEmphasisHighlightHover : string;
 export const TdLightTextPrimaryOnBackground : string;
 export const TdLightTextSecondaryOnBackground : string;
 export const TdLightTextHintOnBackground : string;
@@ -64,6 +68,7 @@ export const TdDarkOnBackground : string;
 export const TdDarkOnSurface : string;
 export const TdDarkOnError : string;
 export const TdDarkDivider : string;
+export const TdDarkEmphasis : string;
 export const TdDarkBackground : string;
 export const TdDarkSurface : string;
 export const TdDarkSurfaceCanvas : string;
@@ -85,6 +90,9 @@ export const TdDarkSurfaceNegativeHighlightHover : string;
 export const TdDarkSurfaceNeutral : string;
 export const TdDarkSurfaceNeutralHighlight : string;
 export const TdDarkSurfaceNeutralHighlightHover : string;
+export const TdDarkSurfaceEmphasis : string;
+export const TdDarkSurfaceEmphasisHighlight : string;
+export const TdDarkSurfaceEmphasisHighlightHover : string;
 export const TdDarkTextPrimaryOnBackground : string;
 export const TdDarkTextSecondaryOnBackground : string;
 export const TdDarkTextHintOnBackground : string;

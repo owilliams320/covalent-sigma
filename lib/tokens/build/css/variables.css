@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 May 2022 16:21:08 GMT
+ * Generated on Wed, 24 Aug 2022 17:47:02 GMT
  */
 
 :root {
@@ -16,6 +16,7 @@
   --td-light-on-surface: rgba(0, 0, 0, 0.87);
   --td-light-on-error: white;
   --td-light-divider: rgba(0, 0, 0, 0.12);
+  --td-light-emphasis: #546e7a;
   --td-light-background: #f5f5f5;
   --td-light-surface: white;
   --td-light-surface-canvas: #eee;
@@ -37,6 +38,9 @@
   --td-light-surface-neutral: #bdbdbd;
   --td-light-surface-neutral-highlight: rgba(#bdbdbd, 0.04);
   --td-light-surface-neutral-highlight-hover: rgba(#bdbdbd, 0.08);
+  --td-light-surface-emphasis: #afb6b9;
+  --td-light-surface-emphasis-highlight: rgba(#afb6b9, 0.1);
+  --td-light-surface-emphasis-highlight-hover: rgba(#afb6b9, 0.2);
   --td-light-text-primary-on-background: rgba(0, 0, 0, 0.87);
   --td-light-text-secondary-on-background: rgba(0, 0, 0, 0.54);
   --td-light-text-hint-on-background: rgba(0, 0, 0, 0.38);
@@ -65,6 +69,7 @@
   --td-dark-on-surface: white;
   --td-dark-on-error: rgba(0, 0, 0, 0.87);
   --td-dark-divider: rgba(255, 255, 255, 0.2);
+  --td-dark-emphasis: #b0bec5;
   --td-dark-background: #161c1f;
   --td-dark-surface: #28353b;
   --td-dark-surface-canvas: #101314;
@@ -86,6 +91,9 @@
   --td-dark-surface-neutral: #43515a;
   --td-dark-surface-neutral-highlight: rgba(#43515a, 0.4);
   --td-dark-surface-neutral-highlight-hover: rgba(#43515a, 0.6);
+  --td-dark-surface-emphasis: #43515a;
+  --td-dark-surface-emphasis-highlight: rgba(#43515a, 0.4);
+  --td-dark-surface-emphasis-highlight-hover: rgba(#43515a, 0.6);
   --td-dark-text-primary-on-background: white;
   --td-dark-text-secondary-on-background: rgba(255, 255, 255, 0.7);
   --td-dark-text-hint-on-background: rgba(255, 255, 255, 0.5);

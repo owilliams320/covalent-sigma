@@ -228,6 +228,25 @@
         "divider"
       ]
     },
+    "emphasis": {
+      "value": "#546e7a",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "#546e7a",
+        "type": "color"
+      },
+      "name": "emphasis",
+      "attributes": {
+        "category": "light",
+        "type": "emphasis"
+      },
+      "path": [
+        "light",
+        "emphasis"
+      ]
+    },
     "background": {
       "value": "#f5f5f5",
       "type": "color",
@@ -625,6 +644,63 @@
       "path": [
         "light",
         "surface-neutral-highlight-hover"
+      ]
+    },
+    "surface-emphasis": {
+      "value": "#afb6b9",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata.slate-200}",
+        "type": "color"
+      },
+      "name": "surface-emphasis",
+      "attributes": {
+        "category": "light",
+        "type": "surface-emphasis"
+      },
+      "path": [
+        "light",
+        "surface-emphasis"
+      ]
+    },
+    "surface-emphasis-highlight": {
+      "value": "rgba(#afb6b9, 0.1)",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata.slate-200}, 0.1)",
+        "type": "color"
+      },
+      "name": "surface-emphasis-highlight",
+      "attributes": {
+        "category": "light",
+        "type": "surface-emphasis-highlight"
+      },
+      "path": [
+        "light",
+        "surface-emphasis-highlight"
+      ]
+    },
+    "surface-emphasis-highlight-hover": {
+      "value": "rgba(#afb6b9, 0.2)",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata.slate-200}, 0.2)",
+        "type": "color"
+      },
+      "name": "surface-emphasis-highlight-hover",
+      "attributes": {
+        "category": "light",
+        "type": "surface-emphasis-highlight-hover"
+      },
+      "path": [
+        "light",
+        "surface-emphasis-highlight-hover"
       ]
     },
     "text-primary-on-background": {
@@ -1161,6 +1237,25 @@
         "divider"
       ]
     },
+    "emphasis": {
+      "value": "#b0bec5",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "#b0bec5",
+        "type": "color"
+      },
+      "name": "emphasis",
+      "attributes": {
+        "category": "dark",
+        "type": "emphasis"
+      },
+      "path": [
+        "dark",
+        "emphasis"
+      ]
+    },
     "background": {
       "value": "#161c1f",
       "type": "color",
@@ -1558,6 +1653,63 @@
       "path": [
         "dark",
         "surface-neutral-highlight-hover"
+      ]
+    },
+    "surface-emphasis": {
+      "value": "#43515a",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata.slate-800}",
+        "type": "color"
+      },
+      "name": "surface-emphasis",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-emphasis"
+      },
+      "path": [
+        "dark",
+        "surface-emphasis"
+      ]
+    },
+    "surface-emphasis-highlight": {
+      "value": "rgba(#43515a, 0.4)",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata.slate-800}, 0.4)",
+        "type": "color"
+      },
+      "name": "surface-emphasis-highlight",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-emphasis-highlight"
+      },
+      "path": [
+        "dark",
+        "surface-emphasis-highlight"
+      ]
+    },
+    "surface-emphasis-highlight-hover": {
+      "value": "rgba(#43515a, 0.6)",
+      "type": "color",
+      "filePath": "src/color/palettes/surface.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba({teradata.slate-800}, 0.6)",
+        "type": "color"
+      },
+      "name": "surface-emphasis-highlight-hover",
+      "attributes": {
+        "category": "dark",
+        "type": "surface-emphasis-highlight-hover"
+      },
+      "path": [
+        "dark",
+        "surface-emphasis-highlight-hover"
       ]
     },
     "text-primary-on-background": {

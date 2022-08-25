@@ -13,10 +13,53 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
 />
 
 <style>{`
+    {/* EXAMPLE */}
+    td-button {
+        border-radius: 8px;
+    }
+    .exampleContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .cardContent {
+        padding: 16px 8px 8px;
+        display: flex;
+        justify-content: center;
+        column-gap: 8px;
+    }
+    .mdc-layout-grid {
+        padding-left: 0;
+    }
+    .cardContainer {
+        display: flex;
+        column-gap: 16px;
+    }
+    div.cardContainer div {
+        padding: 16px 16px 32px;
+    }
+    .mdc-dialog__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dark {
+        background-color: #161C1F;
+        max-width: none;
+        padding: 40px;
+        justify-self: center;
+        margin-top: 40px;
+    }
+    .light {
+        background-color: #F5F5F5;
+        max-width: none;
+        padding: 40px;
+        justify-self: center;
+    }
+
     {/* FOREGROUND */}
     
     .primaryText {
-        
         color: var(--mdc-theme-text-primary-on-background);
     }    
     .secondary {
@@ -29,22 +72,22 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
         width: 200px;
         border-bottom: solid 1px var(--mdc-theme-border);
     }
-    .positiveFG {
+    .positiveFg {
         color: var(--mdc-theme-positive);
     }
-    .cautionFG {
+    .cautionFg {
         color: var(--mdc-theme-caution);
     }
-    .negativeFG {
+    .negativeFg {
         color: var(--mdc-theme-negative);
     }
-    .primaryFG {
+    .primaryFg {
         color: var(--mdc-theme-primary);
     }
-    .accentFG {
+    .accentFg {
         color: var(--mdc-theme-accent);
     }
-    .emphasisFG {
+    .emphasisFg {
         color: var(--mdc-theme-emphasis);
     }
     
@@ -109,14 +152,76 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
     .primaryHighlightHover {
         background-color: var(--mdc-theme-surface-primary-highlight-hover);
     }
+    .emphasis {
+        background-color: var(--mdc-theme-surface-emphasis);
+    }
+    .emphasisHighlight {
+        background-color: var(--mdc-theme-surface-emphasis-highlight);
+    }
+    .emphasisHighlightHover {
+        background-color: var(--mdc-theme-surface-emphasis-highlight-hover);
+    }
 
     {/* CONFIG COLORS */}
-    .configExample {
+    
+    .config {
         width: 324px;
         height: 56px;
         border-radius: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        color: #FFFFFFDE;
+    }
+    .td-teal-500 {
         background-color: #00B2B1;
     }
+    .accent-background-light {
+        color: var(--mdc-theme-text-primary-on-light);
+        background-color: #85DDDC;
+    }
+    .accent-foreground-light {
+        color: var(--mdc-theme-text-primary-on-light);
+        background-color: #59CECD;
+    }
+    .accent-background-dark {
+        background-color: #007373;
+    }
+    .accent-foreground-dark {
+        background-color: #045C5C;
+    }
+    .td-slate-500 {
+        background-color: #616d73;
+    }
+    .primary-foreground-dark {
+        background-color: #43515A;
+    }
+    .primary-background-dark {
+        background-color: #394851;
+    }
+    .primary-light {
+        color: var(--mdc-theme-text-primary-on-light);
+        background-color: #AFB6B9;
+    }
+    .darkBg {
+        background-color: #28353B;
+    }
+    .sbdocs .sbdocs-table tr th {
+        font-family: var(--mdc-typography-caption-font-family);
+        font-size: var(--mdc-typography-caption-font-size);
+        font-weight: var(--mdc-typography-caption-font-weight);
+        line-height: var(--mdc-typography-caption-line-height);
+        color: var(--mdc-theme-text-secondary-on-background);
+    }
+    table:last-of-type tr td {
+        width: 300px;
+    }
+    table:last-of-type tr td:last-of-type, 
+    table:last-of-type tr th:last-of-type {
+        background: #28353B;
+        color: var(--mdc-theme-text-secondary-on-dark);
+    }
+    
 `}</style>
 
 # Color use
@@ -138,66 +243,237 @@ Colors are named based on function. This prevents errors from accumulating when 
 
 Each color is defined in both a light and dark version. These are designed to work together, and should not be changed. For example, when using the “emphasis” background color in light mode, you cannot use “accent” color in dark mode for the same element.
 
-#### Examples TODO
+#### Examples
+
+<div class="light">
+  <div class="exampleContainer">
+    <td-card cardTitle="Title" class="card">
+      <div slot="card-content" class="cardContent">
+        <td-button class="primary" label="BUTTON"></td-button>
+        <td-button class="positive" label="BUTTON"></td-button>
+        <td-button class="negative" label="BUTTON"></td-button>
+        <td-button class="caution" label="BUTTON"></td-button>
+        <td-button class="emphasis" label="BUTTON"></td-button>
+        {/* <div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+          </div>
+        </div> */}
+      </div>
+    </td-card>
+    <div class="cardContainer">
+      <td-card cardTitle="Title">
+        <div slot="card-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+      </td-card>
+      <td-card cardTitle="Title">
+        <div slot="card-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+      </td-card>
+    </div>
+  </div>
+</div>
+
+<!-- <td-dialog id="dialog1" heading="Dialog header" open>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.
+  <td-button slot="primaryAction">Button text</td-button>
+  <td-button slot="secondaryAction">Button text</td-button>
+</td-dialog> -->
+
+<!-- 
+<div class="mdc-dialog mdc-dialog--open">
+  <div class="mdc-dialog__container">
+    <div
+      class="mdc-dialog__surface"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="my-dialog-title"
+      aria-describedby="my-dialog-content"
+    >
+      <div class="mdc-dialog__header">
+        <div class="mdc-dialog__title" id="my-dialog-title">
+          Full-Screen Dialog Title
+        </div>
+        <button
+          class="mdc-icon-button material-icons mdc-dialog__close"
+          data-mdc-dialog-action="close"
+        >
+          close
+        </button>
+      </div>
+      <div class="mdc-dialog__content" id="my-dialog-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="mdc-dialog__actions">
+        <button
+          type="button"
+          class="mdc-button mdc-dialog__button"
+          data-mdc-dialog-action="ok"
+        >
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">OK</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="mdc-dialog__scrim"></div>
+</div> -->
+
+<div class="dark">
+  <div class="exampleContainer">
+    <td-card cardTitle="Title" class="card">
+      <div slot="card-content" class="cardContent">
+        <td-button class="primary" label="BUTTON"></td-button>
+        <td-button class="positive" label="BUTTON"></td-button>
+        <td-button class="negative" label="BUTTON"></td-button>
+        <td-button class="caution" label="BUTTON"></td-button>
+        <td-button class="emphasis" label="BUTTON"></td-button>
+        {/* <div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              outlined
+              class="mdc-layout-grid__cell--span-6"
+            ></td-textfield>
+          </div>
+        </div> */}
+      </div>
+    </td-card>
+    <div class="cardContainer">
+      <td-card cardTitle="Title">
+        <div slot="card-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+      </td-card>
+      <td-card cardTitle="Title">
+        <div slot="card-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        </div>
+      </td-card>
+    </div>
+  </div>
+</div>
 
 ## Color list
 
 #### Foreground colors
 
-| Name                                                                          | Example                                                                                                         | Lightmode Hexadecimal color | Darkmode Hexadecimal color | Covalent Variable Name                   |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------- | -------------------------- | ---------------------------------------- |
-| <div class="primaryText">Text</div> <div>Default text color</div>             | <div class="primaryText">Lorem ipsum dolor sit amet</div>                                                       | #000000 <br/> 0.87 opacity  | #ffffff <br/> 0.87 opacity | --mdc-theme-text-primary-on-background   |
-| <div class="primaryText">Secondary text</div> <div>Less emphasized text</div> | <div class="secondary">Lorem ipsum dolor sit amet</div>                                                         | #000000 <br/> 0.6 opacity   | #ffffff <br/> 0.6 opacity  | --mdc-theme-text-secondary-on-background |
-| <div class="primaryText">Disabled text</div>                                  | <div class="disabled">Lorem ipsum dolor sit amet</div>                                                          | #000000 <br/> 0.38 opacity  | #ffffff <br/> 0.38 opacity | --mdc-theme-text-disabled-on-background  |
-| <div class="primaryText">Icon</div><div>Default icon color</div>              | <td-icon>directions_boat</td-icon>                                                                              | #000000 <br/> 0.6 opacity   | #ffffff <br/> 0.6 opacity  | --mdc-theme-text-secondary-on-background |
-| <div class="primaryText">Disabled icon</div>                                  | <td-icon class="disabled">directions_boat</td-icon>                                                             | #000000 <br/> 0.38 opacity  | #ffffff <br/> 0.38 opacity | --mdc-theme-text-disabled-on-background  |
-| <div class="primaryText">Divider </div>                                       | <div class="divider"></div>                                                                                     | #000000 <br/> 0.12 opacity  | #ffffff <br/> 0.12 opacity | --mdc-theme-border                       |
-| <div class="primaryText">Positive </div>                                      | <div class="positiveFG"> Lorem ipsum dolor sit amet</div> <td-icon class="positiveFG">directions_boat</td-icon> | #0a7e07                     | #42bd41                    | --mdc-theme-positive                     |
-| <div class="primaryText">Caution </div>                                       | <div class="cautionFG"> Lorem ipsum dolor sit amet</div> <td-icon class="cautionFG">directions_boat</td-icon>   | #ff8f00                     | #ffb74d                    | --mdc-theme-caution                      |
-| <div class="primaryText">Negative </div>                                      | <div class="negativeFG"> Lorem ipsum dolor sit amet</div> <td-icon class="negativeFG">directions_boat</td-icon> | #b11d00                     | #f46f5a                    | --mdc-theme-negative                     |
-| <div class="primaryText">Primary </div>                                       | <div class="primaryFG"> Lorem ipsum dolor sit amet</div> <td-icon class="primaryFG">directions_boat</td-icon>   | #43515a                     | #afb6b9                    | --mdc-theme-primary                      |
-| <div class="primaryText">Accent </div>                                        | <div class="accentFG"> Lorem ipsum dolor sit amet</div> <td-icon class="accentFG">directions_boat</td-icon>     | #007373                     | #59cecd                    | --mdc-theme-accent                       |
-| <div class="primaryText">Emphasis </div>                                      | <div class="emphasisFG"> Lorem ipsum dolor sit amet</div> <td-icon class="emphasisFG">directions_boat</td-icon> | #546e7a                     | #b0bec5                    | --mdc-theme-emphasis                     |
+| Name                                                                          | Example                                                                                                         | Light mode hexadecimal color | Dark mode hexadecimal color | Covalent variable name                   |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------- | ---------------------------------------- |
+| <div class="primaryText">Text</div> <div>Default text color</div>             | <div class="primaryText">Lorem ipsum dolor sit amet</div>                                                       | #000000 <br/> 0.87 opacity   | #ffffff <br/> 0.87 opacity  | --mdc-theme-text-primary-on-background   |
+| <div class="primaryText">Secondary text</div> <div>Less emphasized text</div> | <div class="secondary">Lorem ipsum dolor sit amet</div>                                                         | #000000 <br/> 0.6 opacity    | #ffffff <br/> 0.6 opacity   | --mdc-theme-text-secondary-on-background |
+| <div class="primaryText">Disabled text</div>                                  | <div class="disabled">Lorem ipsum dolor sit amet</div>                                                          | #000000 <br/> 0.38 opacity   | #ffffff <br/> 0.38 opacity  | --mdc-theme-text-disabled-on-background  |
+| <div class="primaryText">Icon</div><div>Default icon color</div>              | <td-icon>directions_boat</td-icon>                                                                              | #000000 <br/> 0.6 opacity    | #ffffff <br/> 0.6 opacity   | --mdc-theme-text-secondary-on-background |
+| <div class="primaryText">Disabled icon</div>                                  | <td-icon class="disabled">directions_boat</td-icon>                                                             | #000000 <br/> 0.38 opacity   | #ffffff <br/> 0.38 opacity  | --mdc-theme-text-disabled-on-background  |
+| <div class="primaryText">Divider </div>                                       | <div class="divider"></div>                                                                                     | #000000 <br/> 0.12 opacity   | #ffffff <br/> 0.12 opacity  | --mdc-theme-border                       |
+| <div class="primaryText">Positive </div>                                      | <div class="positiveFg"> Lorem ipsum dolor sit amet</div> <td-icon class="positiveFg">directions_boat</td-icon> | #0a7e07                      | #42bd41                     | --mdc-theme-positive                     |
+| <div class="primaryText">Caution </div>                                       | <div class="cautionFg"> Lorem ipsum dolor sit amet</div> <td-icon class="cautionFg">directions_boat</td-icon>   | #ff8f00                      | #ffb74d                     | --mdc-theme-caution                      |
+| <div class="primaryText">Negative </div>                                      | <div class="negativeFg"> Lorem ipsum dolor sit amet</div> <td-icon class="negativeFg">directions_boat</td-icon> | #b11d00                      | #f46f5a                     | --mdc-theme-negative                     |
+| <div class="primaryText">Primary </div>                                       | <div class="primaryFg"> Lorem ipsum dolor sit amet</div> <td-icon class="primaryFg">directions_boat</td-icon>   | #43515a                      | #afb6b9                     | --mdc-theme-primary                      |
+| <div class="primaryText">Accent </div>                                        | <div class="accentFg"> Lorem ipsum dolor sit amet</div> <td-icon class="accentFg">directions_boat</td-icon>     | #007373                      | #59cecd                     | --mdc-theme-accent                       |
+| <div class="primaryText">Emphasis </div>                                      | <div class="emphasisFg"> Lorem ipsum dolor sit amet</div> <td-icon class="emphasisFg">directions_boat</td-icon> | #546e7a                      | #b0bec5                     | --mdc-theme-emphasis                     |
 
 #### Background colors
 
-| Name                                                                                   | Example                                                | Material color        | Lightmode Hexadecimal color | Darkmode Hexadecimal Color | Covalent variable name |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------- | --------------------------- | -------------------------- | ---------------------- |
-| <div class="primaryText">Background</div> <div>The page background</div>               | <div class="colorSample background"></div>             | Mat Grey 100          | #f5f5f5                     | #161c1f                    |
-| <div class="primaryText">App bar</div> <div>The primary app toolbar or rail</div>      | <div class="colorSample appbar"></div>                 | Mat Grey 50           | #fafafa                     | #1f282e                    |
-| <div class="primaryText">Card</div> <div>Cards or other raised surfaces</div>          | <div class="colorSample"></div>                        | Mat White             | #ffffff                     | #28353b                    |
-| <div class="primaryText">Canvas</div> <div>Editable workspaces like code windows</div> | <div class="colorSample canvas"></div>                 | Mat Grey 200          | #eeeeee                     | #101314                    |
-| <div class="primaryText">Positive</div>                                                | <div class="colorSample positive"></div>               | Mat Green 200         | #72d572                     | #336033                    |
-| <div class="primaryText">Positive (highlight)</div>                                    | <div class="colorSample positiveHighlight"></div>      | Positive (10% opaque) | #72d572<br/> 0.1 opacity    | #336033 <br/> 0.4 opacity  |
-| <div class="primaryText">Primary (highlight hover)</div>                               | <div class="colorSample positiveHighlightHover"></div> | Positive (20% opaque) | #72d572<br/> 0.2 opacity    | #336033 <br/> 0.6 opacity  |
-| <div class="primaryText">Caution</div>                                                 | <div class="colorSample caution"></div>                | Mat Orange 300        | #ffb74d                     | #704C16                    |
-| <div class="primaryText">Caution (highlight)</div>                                     | <div class="colorSample cautionHighlight"></div>       | Caution (10% opaque)  | #ffb74d<br/> 0.1 opacity    | #704C16 <br/> 0.4 opacity  |
-| <div class="primaryText">Caution (highlight hover)</div>                               | <div class="colorSample cautionHighlightHover"></div>  | Caution (20% opaque)  | #ffb74d <br/> 0.2 opacity   | #704C16 <br/> 0.6 opacity  |
-| <div class="primaryText">Negative</div>                                                | <div class="colorSample negative"></div>               | Mat Red 300           | #f46f5a                     | #883E32                    |
-| <div class="primaryText">Negative (highlight)</div>                                    | <div class="colorSample negativeHighlight"></div>      | Negative (10% opaque) | #f46f5a <br/> 0.1 opacity   | #883E32 <br/> 0.4 opacity  |
-| <div class="primaryText">Negative (highlight hover)</div>                              | <div class="colorSample negativeHighlightHover"></div> | Negative (20% opaque) | #f46f5a<br/> 0.2 opacity    | #883E32 <br/> 0.6 opacity  |
-| <div class="primaryText">Neutral</div>                                                 | <div class="colorSample neutral"></div>                | Mat Grey 400          | #e0e0e0                     | #43515a                    |
-| <div class="primaryText">Neutral (highlight)</div>                                     | <div class="colorSample neutralHighlight"></div>       | Neutral (4% opaque)   | #e0e0e0<br/> 0.04 opacity   | #43515a <br/> 0.4 opacity  |
-| <div class="primaryText">Neutral (highlight hover)</div>                               | <div class="colorSample neutralHighlightHover"></div>  | Neutral (8% opaque)   | #e0e0e0 <br/> 0.08 opacity  | #43515a <br/> 0.6 opacity  |
-| <div class="primaryText">Primary</div>                                                 | <div class="colorSample primary"></div>                | TD Slate 200          | #afb689                     | #394851                    |
-| <div class="primaryText">Primary (highlight)</div>                                     | <div class="colorSample primaryHighlight"></div>       | Primary (4% opaque)   | #afb689 <br/> 0.04 opacity  | #394851 <br/> 0.4 opacity  |
-| <div class="primaryText">Primary (highlight hover)</div>                               | <div class="colorSample primaryHighlightHover"></div>  | Primary (8% opaque)   | #afb689<br/> 0.08 opacity   | #394851 <br/> 0.6 opacity  |
-| <div class="primaryText">Accent</div>                                                  | <div class="colorSample"></div>                        | TD Teal 200           | #85dddc                     | #045c5c                    |
-| <div class="primaryText">Accent (highlight)</div>                                      | <div class="colorSample"></div>                        | Accent (10% opaque)   | #85dddc <br/> 0.1 opacity   | #045c5c <br/> 0.4 opacity  |
-| <div class="primaryText">Accent (highlight hover)</div>                                | <div class="colorSample"></div>                        | Accent (20% opaque)   | #85dddc <br/> 0.2 opacity   | #045c5c <br/> 0.6 opacity  |
-| <div class="primaryText">Emphasis</div>                                                | <div class="colorSample"></div>                        | TD Slate 200          | #b0bec5                     | #4f5558                    |
-| <div class="primaryText">Emphasis (highlight)</div>                                    | <div class="colorSample"></div>                        | Emphasis (10% opaque) | #b0bec5 <br/> 0.1 opacity   | #4f5558 <br/> 0.4 opacity  |
-| <div class="primaryText">Emphasis (highlight hover)</div>                              | <div class="colorSample"></div>                        | Emphasis (20% opaque) | #b0bec5 <br/> 0.2 opacity   | #4f5558 <br/> 0.6 opacity  |
+| Name                                                                                   | Example                                                | Material color        | Light mode hexadecimal color | Dark mode hexadecimal Color | Covalent variable name                       |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------- | ---------------------------- | --------------------------- | -------------------------------------------- |
+| <div class="primaryText">Background</div> <div>The page background</div>               | <div class="colorSample background"></div>             | Mat Grey 100          | #f5f5f5                      | #161c1f                     | --mdc-theme-background                       |
+| <div class="primaryText">App bar</div> <div>The primary app toolbar or rail</div>      | <div class="colorSample appbar"></div>                 | Mat Grey 50           | #fafafa                      | #1f282e                     |
+| <div class="primaryText">Card</div> <div>Cards or other raised surfaces</div>          | <div class="colorSample"></div>                        | Mat White             | #ffffff                      | #28353b                     |
+| <div class="primaryText">Canvas</div> <div>Editable workspaces like code windows</div> | <div class="colorSample canvas"></div>                 | Mat Grey 200          | #eeeeee                      | #101314                     | --mdc-theme-surface-canvas                   |
+| <div class="primaryText">Positive</div>                                                | <div class="colorSample positive"></div>               | Mat Green 200         | #a5d6a7                      | #336033                     | --mdc-theme-surface-positive                 |
+| <div class="primaryText">Positive (highlight)</div>                                    | <div class="colorSample positiveHighlight"></div>      | Positive (10% opaque) | #a5d6a7<br/> 0.1 opacity     | #336033 <br/> 0.4 opacity   | --mdc-theme-surface-positive-highlight       |
+| <div class="primaryText">Primary (highlight hover)</div>                               | <div class="colorSample positiveHighlightHover"></div> | Positive (20% opaque) | #a5d6a7<br/> 0.2 opacity     | #336033 <br/> 0.6 opacity   | --mdc-theme-surface-positive-highlight-hover |
+| <div class="primaryText">Caution</div>                                                 | <div class="colorSample caution"></div>                | Mat Orange 300        | #ffb74d                      | #704c16                     | --mdc-theme-surface-caution                  |
+| <div class="primaryText">Caution (highlight)</div>                                     | <div class="colorSample cautionHighlight"></div>       | Caution (10% opaque)  | #ffb74d<br/> 0.1 opacity     | #704c16 <br/> 0.4 opacity   | --mdc-theme-surface-caution-highlight        |
+| <div class="primaryText">Caution (highlight hover)</div>                               | <div class="colorSample cautionHighlightHover"></div>  | Caution (20% opaque)  | #ffb74d <br/> 0.2 opacity    | #704c16 <br/> 0.6 opacity   | --mdc-theme-surface-caution-highlight-hover  |
+| <div class="primaryText">Negative</div>                                                | <div class="colorSample negative"></div>               | Mat Red 300           | #e57373                      | #883e32                     | --mdc-theme-surface-negative                 |
+| <div class="primaryText">Negative (highlight)</div>                                    | <div class="colorSample negativeHighlight"></div>      | Negative (10% opaque) | #e57373<br/> 0.1 opacity     | #883e32 <br/> 0.4 opacity   | --mdc-theme-surface-negative-highlight       |
+| <div class="primaryText">Negative (highlight hover)</div>                              | <div class="colorSample negativeHighlightHover"></div> | Negative (20% opaque) | #e57373<br/> 0.2 opacity     | #883e32 <br/> 0.6 opacity   | --mdc-theme-surface-negative-highlight-hover |
+| <div class="primaryText">Neutral</div>                                                 | <div class="colorSample neutral"></div>                | Mat Grey 400          | #bdbdbd                      | #43515a                     | --mdc-theme-surface-neutral                  |
+| <div class="primaryText">Neutral (highlight)</div>                                     | <div class="colorSample neutralHighlight"></div>       | Neutral (4% opaque)   | #bdbdbd<br/> 0.04 opacity    | #43515a <br/> 0.4 opacity   | --mdc-theme-surface-neutral-highlight        |
+| <div class="primaryText">Neutral (highlight hover)</div>                               | <div class="colorSample neutralHighlightHover"></div>  | Neutral (8% opaque)   | #bdbdbd<br/> 0.08 opacity    | #43515a <br/> 0.6 opacity   | --mdc-theme-surface-neutral-highlight-hover  |
+| <div class="primaryText">Primary</div>                                                 | <div class="colorSample primary"></div>                | TD Slate 200          | #85dddc                      | #045c5c                     | --mdc-theme-surface-primary                  |
+| <div class="primaryText">Primary (highlight)</div>                                     | <div class="colorSample primaryHighlight"></div>       | Primary (4% opaque)   | #85dddc<br/> 0.04 opacity    | #045c5c <br/> 0.4 opacity   | --mdc-theme-surface-primary-highlight        |
+| <div class="primaryText">Primary (highlight hover)</div>                               | <div class="colorSample primaryHighlightHover"></div>  | Primary (8% opaque)   | #85dddc<br/> 0.08 opacity    | #045c5c <br/> 0.6 opacity   | --mdc-theme-surface-primary-highlight-hover  |
+| <div class="primaryText">Accent</div>                                                  | <div class="colorSample"></div>                        | TD Teal 200           | #85dddc                      | #045c5c                     | --mdc-theme-surface-accent                   |
+| <div class="primaryText">Accent (highlight)</div>                                      | <div class="colorSample"></div>                        | Accent (10% opaque)   | #85dddc <br/> 0.1 opacity    | #045c5c <br/> 0.4 opacity   | --mdc-theme-surface-accent-highlight         |
+| <div class="primaryText">Accent (highlight hover)</div>                                | <div class="colorSample"></div>                        | Accent (20% opaque)   | #85dddc <br/> 0.2 opacity    | #045c5c <br/> 0.6 opacity   | --mdc-theme-surface-accent-highlight-hover   |
+| <div class="primaryText">Emphasis</div>                                                | <div class="colorSample emphasis"></div>               | TD Slate 200          | #afb6b9                      | #43515a                     | --mdc-theme-surface-emphasis                 |
+| <div class="primaryText">Emphasis (highlight)</div>                                    | <div class="colorSample emphasisHighlight"></div>      | Emphasis (10% opaque) | #afb6b9 <br/> 0.1 opacity    | #43515a <br/> 0.4 opacity   | --mdc-theme-surface-emphasis-highlight       |
+| <div class="primaryText">Emphasis (highlight hover)</div>                              | <div class="colorSample emphasisHighlightHover"></div> | Emphasis (20% opaque) | #afb6b9 <br/> 0.2 opacity    | #43515a <br/> 0.6 opacity   | --mdc-theme-surface-emphasis-highlight-hover |
 
 ## Config colors for Material Design
 
-You should almost never use these. They'are here to explain the initial theme setup in Angular Material. Instead, use the colors above.
+You should almost never use these. They're here to explain the initial theme setup in Angular Material. Instead, use the colors above.
 
-| Name                                            | Example                           |
-| ----------------------------------------------- | --------------------------------- |
-| <div class="primaryText">Accent </div>          | <div class="configExample"></div> |
-| <div class="primaryText">Accent (light) </div>  | <div class="configExample"></div> |
-| <div class="primaryText">Accent (dark) </div>   | <div class="configExample"></div> |
-| <div class="primaryText">Primary </div>         | <div class="configExample"></div> |
-| <div class="primaryText">Primary (dark) </div>  | <div class="configExample"></div> |
-| <div class="primaryText">Primary (light) </div> | <div class="configExample"></div> |
+| Name                                            | Light mode example                                                     | Dark mode example                                                      |
+| ----------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| <div class="primaryText">Accent </div>          | <div class="config td-teal-500">TD Teal 500</div>                      | <div class="config td-teal-500">TD Teal 500</div>                      |
+| <div class="primaryText">Accent (light) </div>  | <div class="config accent-background-light">Background - Accent</div>  | <div class="config accent-foreground-light">Foreground - Accent</div>  |
+| <div class="primaryText">Accent (dark) </div>   | <div class="config accent-background-dark">Foreground - Accent</div>   | <div class="config accent-foreground-dark">Background - Accent</div>   |
+| <div class="primaryText">Primary </div>         | <div class="config td-slate-500">TD Slate 500</div>                    | <div class="config td-slate-500">TD Slate 500</div>                    |
+| <div class="primaryText">Primary (dark) </div>  | <div class="config primary-foreground-dark">Foreground - Primary</div> | <div class="config primary-background-dark">Background - Primary</div> |
+| <div class="primaryText">Primary (light) </div> | <div class="config primary-light">Background - Primary</div>           | <div class="config primary-light">Foreground - Primary</div>           |

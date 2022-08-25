@@ -26,6 +26,7 @@
   --mdc-theme-negative: #{map-get($theme, error)};
   --mdc-theme-positive: #{map-get($theme, positive)};
   --mdc-theme-caution: #{map-get($theme, caution)};
+  --mdc-theme-emphasis: #{map-get($theme, emphasis)};
 
   // Background colors
   --mdc-theme-background: #{map-get($theme, background)};
@@ -49,6 +50,9 @@
   --mdc-theme-surface-neutral: #{map-get($theme, surface-neutral)};
   --mdc-theme-surface-neutral-highlight: #{map-get($theme, surface-neutral-highlight)};
   --mdc-theme-surface-neutral-highlight-hover: #{map-get($theme, surface-neutral-highlight-hover)};
+  --mdc-theme-surface-emphasis: #{map-get($theme, surface-emphasis)};
+  --mdc-theme-surface-emphasis-highlight: #{map-get($theme, surface-emphasis-highlight)};
+  --mdc-theme-surface-emphasis-highlight-hover: #{map-get($theme, surface-emphasis-highlight-hover)};
   --mdc-theme-on-primary: #{map-get($theme, on-primary)};
   --mdc-theme-on-secondary: #{map-get($theme, on-secondary)};
   --mdc-theme-on-surface: #{map-get($theme, on-surface)};
