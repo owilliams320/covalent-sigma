@@ -15,19 +15,27 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
 <style>{`
     {/* EXAMPLE */}
     td-button {
-        border-radius: 8px;
-    }
-    td-textfield {
-        border-radius: 8px;
+      border-radius: 8px;
     }
     .textfield-primary {
-        border: solid 2px var(--mdc-theme-primary);
+      --mdc-text-field-outlined-hover-border-color: var(--mdc-theme-primary);
+      --mdc-text-field-label-ink-color: var(--mdc-theme-primary);
+      --mdc-text-field-fill-color: var(--mdc-theme-primary);
+      --mdc-text-field-idle-line-color: var(--mdc-theme-primary);
+      --mdc-text-field-hover-line-color: var(--mdc-theme-primary);
+      --mdc-text-field-outlined-idle-border-color: var(--mdc-theme-primary);
+      --mdc-notched-outline-stroke-width: 2px;
     }
     .textfield-negative {
-        border: solid 2px var(--mdc-theme-negative);
-    }
-    .whiteOutline {
-        border: solid white 1px;
+      --mdc-text-field-outlined-hover-border-color: var(--mdc-theme-negative);
+      --mdc-text-field-fill-color: var(--mdc-theme-negative);
+      --mdc-text-field-label-ink-color: var(--mdc-theme-negative);
+      --mdc-text-field-idle-line-color: var(--mdc-theme-negative);
+      --mdc-text-field-hover-line-color: var(--mdc-theme-negative);
+      --mdc-text-field-outlined-idle-border-color: var(--mdc-theme-negative);
+      --mdc-text-field-focused-label-color: var(--mdc-theme-negative);
+      --mdc-notched-outline-stroke-width: 2px;
+      --mdc-theme-primary: var(--mdc-theme-negative);
     }
     .exampleContainer {
         display: flex;
@@ -66,12 +74,16 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
     }
     .darkText td-button {
         --mdc-theme-primary: var(--mdc-theme-text-primary-on-dark);
+        --mdc-button-outline-color: white;
+        margin-right: 8px;
     }
     .light {
         background-color: #F5F5F5;
     }
     .lightText td-button {
         --mdc-theme-primary: var(--mdc-theme-text-primary-on-light);
+        --mdc-button-outline-color: black;
+        margin-right: 8px;
     }
 
     {/* FOREGROUND */}
@@ -109,6 +121,7 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
     }
     
     {/* BACKGROUND */}
+
     table tr td:first-of-type div:first-of-type {
       color: var(--mdc-theme-text-primary-on-background);
     }
@@ -225,7 +238,6 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
     .darkBg {
       background-color: #28353B;
     }
-
     .sbdocs .sbdocs-table tr th {
       font-family: var(--mdc-typography-caption-font-family);
       font-size: var(--mdc-typography-caption-font-size);
@@ -240,9 +252,6 @@ import { Canvas, Meta, DocsContainer, Story } from "@storybook/addon-docs";
     table:last-of-type tr th:last-of-type {
       background: #28353B;
       color: var(--mdc-theme-text-secondary-on-dark);
-    }
-    .wrapTest {
-      --mdc-notched-outline-border-color: red;
     }
 `}</style>
 
@@ -271,11 +280,6 @@ Each color is defined in both a light and dark version. These are designed to wo
   <div class="exampleContainer">
     <td-card cardTitle="Title" class="card" actionBar>
       <div slot="card-content" class="cardContent">
-        {/* <td-button class="primary" label="BUTTON"></td-button>
-        <td-button class="positive" label="BUTTON"></td-button>
-        <td-button class="negative" label="BUTTON"></td-button>
-        <td-button class="caution" label="BUTTON"></td-button>
-        <td-button class="emphasis" label="BUTTON"></td-button> */}
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -286,22 +290,25 @@ Each color is defined in both a light and dark version. These are designed to wo
           <div class="mdc-layout-grid__inner">
             <td-textfield
               label="Label"
+              value="Value"
               outlined
               class="mdc-layout-grid__cell--span-6"
             ></td-textfield>
             <td-textfield
               label="Label"
+              value="Value"
               outlined
-              disabled
-              class="mdc-layout-grid__cell--span-6 textfield-primary"
+              class="mdc-layout-grid__cell--span-6 textfield-negative"
             ></td-textfield>
             <td-textfield
               label="Label"
+              value="Value"
               outlined
-              class="mdc-layout-grid__cell--span-6  textfield-negative"
+              class="mdc-layout-grid__cell--span-6  textfield-primary"
             ></td-textfield>
             <td-textfield
               label="Label"
+              value="Value"
               outlined
               class="mdc-layout-grid__cell--span-6"
             ></td-textfield>
@@ -339,11 +346,6 @@ Each color is defined in both a light and dark version. These are designed to wo
   <div class="dark darkText exampleContainer">
     <td-card cardTitle="Title" class="card" actionBar>
       <div slot="card-content" class="cardContent">
-        {/* <td-button class="primary" label="BUTTON"></td-button>
-        <td-button class="positive" label="BUTTON"></td-button>
-        <td-button class="negative" label="BUTTON"></td-button>
-        <td-button class="caution" label="BUTTON"></td-button>
-        <td-button class="emphasis" label="BUTTON"></td-button> */}
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -354,23 +356,25 @@ Each color is defined in both a light and dark version. These are designed to wo
           <div class="mdc-layout-grid__inner">
             <td-textfield
               label="Label"
+              value="Value"
               outlined
               class="mdc-layout-grid__cell--span-6"
             ></td-textfield>
             <td-textfield
               label="Label"
+              value="Value"
               outlined
-              disabled
-              class="mdc-layout-grid__cell--span-6 textfield-primary"
-            ></td-textfield>
-            <td-textfield
-              label="Label"
-              outlined
-              disabled
               class="mdc-layout-grid__cell--span-6 textfield-negative"
             ></td-textfield>
             <td-textfield
               label="Label"
+              value="Value"
+              outlined
+              class="mdc-layout-grid__cell--span-6 textfield-primary"
+            ></td-textfield>
+            <td-textfield
+              label="Label"
+              value="Value"
               outlined
               class="mdc-layout-grid__cell--span-6"
             ></td-textfield>
