@@ -50,8 +50,14 @@
 
 .mdc-typography--headline5 {
   color: var(--mdc-theme-text-primary-on-background);
+  font-size: 20px;
+  line-height: 28px;
+  padding: 8px 16px;
+}
+.divider {
   border-bottom: 1px solid var(--mdc-theme-border);
 }
+
 [name="card-content"]::slotted(*) {
   min-height: 150px;
   padding: 0 16px 8px 16px;
