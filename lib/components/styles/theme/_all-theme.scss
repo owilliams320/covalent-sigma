@@ -28,6 +28,9 @@
   --mdc-theme-caution: #{map-get($theme, caution)};
   --mdc-theme-emphasis: #{map-get($theme, emphasis)};
 
+  // Alias for primary
+  --mdc-theme-accent: #{map-get($theme, accent)};
+
   // Background colors
   --mdc-theme-background: #{map-get($theme, background)};
   --mdc-theme-surface: #{map-get($theme, surface)};

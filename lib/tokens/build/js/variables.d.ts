@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Sep 2022 16:29:01 GMT
+ * Generated on Thu, 01 Sep 2022 17:52:28 GMT
  */
 
 export const TdLightPrimary : string;
@@ -16,6 +16,7 @@ export const TdLightOnSurface : string;
 export const TdLightOnError : string;
 export const TdLightDivider : string;
 export const TdLightEmphasis : string;
+export const TdLightAccent : string;
 export const TdLightBackground : string;
 export const TdLightSurface : string;
 export const TdLightSurfaceCanvas : string;
@@ -72,6 +73,7 @@ export const TdDarkOnSurface : string;
 export const TdDarkOnError : string;
 export const TdDarkDivider : string;
 export const TdDarkEmphasis : string;
+export const TdDarkAccent : string;
 export const TdDarkBackground : string;
 export const TdDarkSurface : string;
 export const TdDarkSurfaceCanvas : string;

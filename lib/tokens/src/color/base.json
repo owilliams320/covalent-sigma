@@ -12,7 +12,8 @@
     "on-surface": { "value": "rgba(0, 0, 0, 0.87)", "type": "color" },
     "on-error": { "value": "white", "type": "color" },
     "divider": { "value": "rgba(0, 0, 0, 0.12)", "type": "color" },
-    "emphasis": { "value": "#546e7a", "type": "color" }
+    "emphasis": { "value": "#546e7a", "type": "color" },
+    "accent": { "value": "{teradata.teal-900}", "type": "color" }
   },
   "dark": {
     "primary": { "value": "{teradata.teal-300}", "type": "color" },
@@ -27,6 +28,7 @@
     "on-surface": { "value": "white", "type": "color" },
     "on-error": { "value": "rgba(0, 0, 0, 0.87)", "type": "color" },
     "divider": { "value": "rgba(255, 255, 255, 0.2)", "type": "color" },
-    "emphasis": { "value": "#b0bec5", "type": "color" }
+    "emphasis": { "value": "#b0bec5", "type": "color" },
+    "accent": { "value": "{teradata.teal-300}", "type": "color" }
   }
 }

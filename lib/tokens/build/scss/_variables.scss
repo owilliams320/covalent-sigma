@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 01 Sep 2022 16:29:01 GMT
+ * Generated on Thu, 01 Sep 2022 17:52:28 GMT
  */
 
 $light-primary: #007373 !default;
@@ -17,6 +17,7 @@ $light-on-surface: rgba(0, 0, 0, 0.87) !default;
 $light-on-error: white !default;
 $light-divider: rgba(0, 0, 0, 0.12) !default;
 $light-emphasis: #546e7a !default;
+$light-accent: #007373 !default;
 $light-background: #f5f5f5 !default;
 $light-surface: white !default;
 $light-surface-canvas: #eee !default;
@@ -73,6 +74,7 @@ $dark-on-surface: white !default;
 $dark-on-error: rgba(0, 0, 0, 0.87) !default;
 $dark-divider: rgba(255, 255, 255, 0.2) !default;
 $dark-emphasis: #b0bec5 !default;
+$dark-accent: #59cecd !default;
 $dark-background: #161c1f !default;
 $dark-surface: #28353b !default;
 $dark-surface-canvas: #101314 !default;
@@ -477,6 +479,7 @@ $tokens: (
     'on-error': $light-on-error,
     'divider': $light-divider,
     'emphasis': $light-emphasis,
+    'accent': $light-accent,
     'background': $light-background,
     'surface': $light-surface,
     'surface-canvas': $light-surface-canvas,
@@ -535,6 +538,7 @@ $tokens: (
     'on-error': $dark-on-error,
     'divider': $dark-divider,
     'emphasis': $dark-emphasis,
+    'accent': $dark-accent,
     'background': $dark-background,
     'surface': $dark-surface,
     'surface-canvas': $dark-surface-canvas,

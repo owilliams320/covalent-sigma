@@ -247,6 +247,25 @@
         "emphasis"
       ]
     },
+    "accent": {
+      "value": "#007373",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata.teal-900}",
+        "type": "color"
+      },
+      "name": "accent",
+      "attributes": {
+        "category": "light",
+        "type": "accent"
+      },
+      "path": [
+        "light",
+        "accent"
+      ]
+    },
     "background": {
       "value": "#f5f5f5",
       "type": "color",
@@ -1311,6 +1330,25 @@
       "path": [
         "dark",
         "emphasis"
+      ]
+    },
+    "accent": {
+      "value": "#59cecd",
+      "type": "color",
+      "filePath": "src/color/base.json",
+      "isSource": true,
+      "original": {
+        "value": "{teradata.teal-300}",
+        "type": "color"
+      },
+      "name": "accent",
+      "attributes": {
+        "category": "dark",
+        "type": "accent"
+      },
+      "path": [
+        "dark",
+        "accent"
       ]
     },
     "background": {
