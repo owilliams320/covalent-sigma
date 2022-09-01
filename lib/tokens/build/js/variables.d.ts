@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 17:47:02 GMT
+ * Generated on Thu, 01 Sep 2022 16:29:01 GMT
  */
 
 export const TdLightPrimary : string;
@@ -22,6 +22,9 @@ export const TdLightSurfaceCanvas : string;
 export const TdLightSurfacePrimary : string;
 export const TdLightSurfacePrimaryHighlight : string;
 export const TdLightSurfacePrimaryHighlightHover : string;
+export const TdLightSurfaceAccent : string;
+export const TdLightSurfaceAccentHighlight : string;
+export const TdLightSurfaceAccentHighlightHover : string;
 export const TdLightSurfaceSecondary : string;
 export const TdLightSurfaceSecondaryHighlight : string;
 export const TdLightSurfaceSecondaryHighlightHover : string;
@@ -75,6 +78,9 @@ export const TdDarkSurfaceCanvas : string;
 export const TdDarkSurfacePrimary : string;
 export const TdDarkSurfacePrimaryHighlight : string;
 export const TdDarkSurfacePrimaryHighlightHover : string;
+export const TdDarkSurfaceAccent : string;
+export const TdDarkSurfaceAccentHighlight : string;
+export const TdDarkSurfaceAccentHighlightHover : string;
 export const TdDarkSurfaceSecondary : string;
 export const TdDarkSurfaceSecondaryHighlight : string;
 export const TdDarkSurfaceSecondaryHighlightHover : string;

@@ -13,6 +13,15 @@
       "value": "rgba({teradata.teal-200}, 0.2)",
       "type": "color"
     },
+    "surface-accent": { "value": "{teradata.teal-200}", "type": "color" },
+    "surface-accent-highlight": {
+      "value": "rgba({teradata.teal-200}, 0.1)",
+      "type": "color"
+    },
+    "surface-accent-highlight-hover": {
+      "value": "rgba({teradata.teal-200}, 0.2)",
+      "type": "color"
+    },
 
     "surface-secondary": { "value": "{teradata.teal-200}", "type": "color" },
     "surface-secondary-highlight": {
@@ -84,6 +93,15 @@
       "type": "color"
     },
     "surface-primary-highlight-hover": {
+      "value": "rgba({teradata.teal-1200}, 0.6)",
+      "type": "color"
+    },
+    "surface-accent": { "value": "{teradata.teal-1200}", "type": "color" },
+    "surface-accent-highlight": {
+      "value": "rgba({teradata.teal-1200}, 0.4)",
+      "type": "color"
+    },
+    "surface-accent-highlight-hover": {
       "value": "rgba({teradata.teal-1200}, 0.6)",
       "type": "color"
     },

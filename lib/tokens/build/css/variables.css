@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 17:47:02 GMT
+ * Generated on Thu, 01 Sep 2022 16:29:01 GMT
  */
 
 :root {
@@ -23,6 +23,9 @@
   --td-light-surface-primary: #85dddc;
   --td-light-surface-primary-highlight: rgba(#85dddc, 0.1);
   --td-light-surface-primary-highlight-hover: rgba(#85dddc, 0.2);
+  --td-light-surface-accent: #85dddc;
+  --td-light-surface-accent-highlight: rgba(#85dddc, 0.1);
+  --td-light-surface-accent-highlight-hover: rgba(#85dddc, 0.2);
   --td-light-surface-secondary: #85dddc;
   --td-light-surface-secondary-highlight: rgba(#85dddc, 0.1);
   --td-light-surface-secondary-highlight-hover: rgba(#85dddc, 0.2);
@@ -76,6 +79,9 @@
   --td-dark-surface-primary: #045c5c;
   --td-dark-surface-primary-highlight: rgba(#045c5c, 0.4);
   --td-dark-surface-primary-highlight-hover: rgba(#045c5c, 0.6);
+  --td-dark-surface-accent: #045c5c;
+  --td-dark-surface-accent-highlight: rgba(#045c5c, 0.4);
+  --td-dark-surface-accent-highlight-hover: rgba(#045c5c, 0.6);
   --td-dark-surface-secondary: #045c5c;
   --td-dark-surface-secondary-highlight: rgba(#045c5c, 0.4);
   --td-dark-surface-secondary-highlight-hover: rgba(#045c5c, 0.6);

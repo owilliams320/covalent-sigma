@@ -58,6 +58,11 @@
   --mdc-theme-on-surface: #{map-get($theme, on-surface)};
   --mdc-theme-border: #{map-get($theme, divider)};
 
+  // Alias for primary
+  --mdc-theme-surface-accent: #{map-get($theme, surface-primary)};
+  --mdc-theme-surface-accent-highlight: #{map-get($theme, surface-primary-highlight)};
+  --mdc-theme-surface-accent-highlight-hover: #{map-get($theme, surface-primary-highlight-hover)};
+  
   // Surfaces
   --mdc-theme-background: #{map-get($theme, background)};
   --mdc-theme-surface: #{map-get($theme, surface)};

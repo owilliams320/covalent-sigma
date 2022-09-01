@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 17:47:02 GMT
+ * Generated on Thu, 01 Sep 2022 16:29:01 GMT
  */
 
 $light-primary: #007373 !default;
@@ -23,6 +23,9 @@ $light-surface-canvas: #eee !default;
 $light-surface-primary: #85dddc !default;
 $light-surface-primary-highlight: rgba(#85dddc, 0.1) !default;
 $light-surface-primary-highlight-hover: rgba(#85dddc, 0.2) !default;
+$light-surface-accent: #85dddc !default;
+$light-surface-accent-highlight: rgba(#85dddc, 0.1) !default;
+$light-surface-accent-highlight-hover: rgba(#85dddc, 0.2) !default;
 $light-surface-secondary: #85dddc !default;
 $light-surface-secondary-highlight: rgba(#85dddc, 0.1) !default;
 $light-surface-secondary-highlight-hover: rgba(#85dddc, 0.2) !default;
@@ -76,6 +79,9 @@ $dark-surface-canvas: #101314 !default;
 $dark-surface-primary: #045c5c !default;
 $dark-surface-primary-highlight: rgba(#045c5c, 0.4) !default;
 $dark-surface-primary-highlight-hover: rgba(#045c5c, 0.6) !default;
+$dark-surface-accent: #045c5c !default;
+$dark-surface-accent-highlight: rgba(#045c5c, 0.4) !default;
+$dark-surface-accent-highlight-hover: rgba(#045c5c, 0.6) !default;
 $dark-surface-secondary: #045c5c !default;
 $dark-surface-secondary-highlight: rgba(#045c5c, 0.4) !default;
 $dark-surface-secondary-highlight-hover: rgba(#045c5c, 0.6) !default;
@@ -477,6 +483,9 @@ $tokens: (
     'surface-primary': $light-surface-primary,
     'surface-primary-highlight': $light-surface-primary-highlight,
     'surface-primary-highlight-hover': $light-surface-primary-highlight-hover,
+    'surface-accent': $light-surface-accent,
+    'surface-accent-highlight': $light-surface-accent-highlight,
+    'surface-accent-highlight-hover': $light-surface-accent-highlight-hover,
     'surface-secondary': $light-surface-secondary,
     'surface-secondary-highlight': $light-surface-secondary-highlight,
     'surface-secondary-highlight-hover': $light-surface-secondary-highlight-hover,
@@ -532,6 +541,9 @@ $tokens: (
     'surface-primary': $dark-surface-primary,
     'surface-primary-highlight': $dark-surface-primary-highlight,
     'surface-primary-highlight-hover': $dark-surface-primary-highlight-hover,
+    'surface-accent': $dark-surface-accent,
+    'surface-accent-highlight': $dark-surface-accent-highlight,
+    'surface-accent-highlight-hover': $dark-surface-accent-highlight-hover,
     'surface-secondary': $dark-surface-secondary,
     'surface-secondary-highlight': $dark-surface-secondary-highlight,
     'surface-secondary-highlight-hover': $dark-surface-secondary-highlight-hover,
