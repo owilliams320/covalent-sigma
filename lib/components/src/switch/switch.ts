@@ -1,6 +1,6 @@
 import { SwitchBase } from '@material/mwc-switch/mwc-switch-base';
 import { styles } from '@material/mwc-switch/styles.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {

@@ -7,8 +7,8 @@ import { CloseReason } from '@material/banner/constants';
 import MDCBannerFoundation from '../action-ribbon/foundation';
 
 import { html, TemplateResult } from 'lit';
-import { classMap } from 'lit/directives/class-map';
-import { property, query } from 'lit/decorators';
+import { classMap } from 'lit/directives/class-map.js';
+import { property, query } from 'lit/decorators.js';
 
 export class AlertBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;

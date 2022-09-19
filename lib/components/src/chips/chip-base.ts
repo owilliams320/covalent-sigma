@@ -4,9 +4,9 @@ import { MDCChipAttributes, MDCChipCssClasses,  MDCChipEvents, MDCChipAnimation 
 import { MDCChipAction, MDCChipActionEvents } from '@material/chips/action';
 import { MDCChipActionFocusBehavior, MDCChipActionType } from '@material/chips/action/constants';
 import { MDCChipAdapter } from '@material/chips/chip/adapter';
-import { property, query } from 'lit/decorators';
+import { property, query } from 'lit/decorators.js';
 import { html } from 'lit';
-import { classMap } from 'lit/directives/class-map';
+import { classMap } from 'lit/directives/class-map.js';
 
 let tdChipsId = 0;
 

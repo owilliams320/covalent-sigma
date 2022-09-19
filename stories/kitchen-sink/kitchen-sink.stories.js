@@ -20,6 +20,8 @@ import { MDCTopAppBar } from '@material/top-app-bar';
 import { MDCDataTable } from '@material/data-table';
 
 import * as kitchenSinkContent from '../demos/material-web.content.html';
+import '!style-loader!css-loader!sass-loader!./image-list.scss';
+import '!style-loader!css-loader!sass-loader!./chips.scss';
 
 export default {
   title: 'Patterns/Kitchen Sink',
@@ -28,9 +30,7 @@ export default {
   }
 };
 
-
 export const Basic = ({}) => {
-
 
   document.addEventListener('DOMContentLoaded', () => {
       //

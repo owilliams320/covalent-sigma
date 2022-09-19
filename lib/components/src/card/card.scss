@@ -1,3 +1,9 @@
 @use "@material/card";
+@use '@material/typography/mdc-typography';
 
 @include card.core-styles;
+
+.mdc-typography--headline5 {
+  border-bottom: 1px solid var(--mdc-theme-border);
+  color: var(--mdc-theme-text-primary-on-background);
+}

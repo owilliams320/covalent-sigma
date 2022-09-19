@@ -7,8 +7,13 @@ import { CloseReason, events, selectors } from '@material/banner/constants';
 import MDCBannerFoundation from './foundation';
 
 import { html, TemplateResult } from 'lit';
+<<<<<<< HEAD
 import { classMap } from 'lit/directives/class-map';
 import { property, query } from 'lit/decorators';
+=======
+import { classMap } from 'lit/directives/class-map.js';
+import { property, query } from 'lit/decorators.js';
+>>>>>>> cdecd4cfcfea19291ad6f81f1b934d63897e0ba5
 
 export class StatusHeaderBase extends BaseElement {
   protected mdcFoundation!: MDCBannerFoundation;

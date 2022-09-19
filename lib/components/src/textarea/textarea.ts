@@ -1,7 +1,7 @@
 import { TextAreaBase } from '@material/mwc-textarea/mwc-textarea-base';
 import { styles } from '@material/mwc-textarea/mwc-textarea.css';
 import { styles as textfieldStyles } from '@material/mwc-textfield/mwc-textfield.css.js';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {

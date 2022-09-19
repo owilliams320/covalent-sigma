@@ -1,6 +1,6 @@
 import { DrawerBase } from '@material/mwc-drawer/mwc-drawer-base';
 import { styles } from '@material/mwc-drawer/mwc-drawer.css';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 
 declare global {
     interface HTMLElementTagNameMap {
